@@ -1,1044 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="3a7527b1-b173-46a0-a090-b7a3eb8a2190" activeEnvironment="Default" name="STA LA passive server" resourceRoot="" soapui-version="5.7.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="457c7691-7cef-4650-99c7-0bc5d0292f81" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://efa.sta.bz.it" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>https://efa.sta.bz.it</con:endpoint></con:endpoints><con:resource name="STA LA" path="/ojp/ojp" id="8ab2fb0f-3654-485b-bd88-d61285278331"><con:settings/><con:parameters/><con:method name="OJP" id="3fe50e2c-1683-49fb-8a3f-2b8f1fb1d98e" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/xml</con:mediaType><con:params/><con:element xmlns:siri="http://www.siri.org.uk/siri">siri:OJP</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>text/xml</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:siri="http://www.siri.org.uk/siri">siri:OJP</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>503</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html</con:mediaType><con:status>400 404</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>503</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>503</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>503</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>503</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>503</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>503</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>503</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>503</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>503</con:status><con:params/><con:element>html</con:element></con:representation></con:method></con:resource></con:interface><con:testSuite id="2efa0e6a-922c-48c2-b1f2-fad7a1f08bac" name="Postman STA examples from DR"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="0dfe463f-dfe7-4e59-9797-9604fa28b818" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="OJP AT LIR" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="01a_OJP-LIR.II.LN_leer_type-stop" id="a2952997-824c-4a94-bcc1-c81096d3c92e"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="01a_OJP-LIR.II.LN_leer_type-stop" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
-	<OJPRequest>
-		<ServiceRequest>
-			<RequestTimestamp>2020-05-07T12:00:00Z</RequestTimestamp>
-			<RequestorRef>SBB-SoapUI-Tests</RequestorRef>
-			<ojp:OJPLocationInformationRequest>
-				<RequestTimestamp>2020-05-07T12:00:00Z</RequestTimestamp>
-				<MessageIdentifier>4711</MessageIdentifier>
-				<ojp:InitialInput>
-					<ojp:LocationName/>
-				</ojp:InitialInput>
-				<ojp:Restrictions>
-					<ojp:Type>stop</ojp:Type>
-					<ojp:NumberOfResults>500</ojp:NumberOfResults>
-					<ojp:ContinueAt>0</ojp:ContinueAt>
-					<ojp:IncludePtModes>true</ojp:IncludePtModes>
-				</ojp:Restrictions>
-			</ojp:OJPLocationInformationRequest>
-		</ServiceRequest>
-	</OJPRequest>
-</OJP>
-]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="01a_OJP-LIR.II.LN_Boz_type-stop" id="c8bcaf69-c50c-4faf-aa2b-08e2fecf3cd5"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="01a_OJP-LIR.II.LN_Boz_type-stop" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
-	<OJPRequest>
-		<ServiceRequest>
-			<ServiceRequestContext>
-				<Language>de</Language>
-			</ServiceRequestContext>
-			<RequestTimestamp>2020-05-07T12:00:00Z</RequestTimestamp>
-			<RequestorRef>SBB-SoapUI-Tests</RequestorRef>
-			<ojp:OJPLocationInformationRequest>
-				<RequestTimestamp>2020-05-07T12:00:00Z</RequestTimestamp>
-				<MessageIdentifier>4711</MessageIdentifier>
-				<ojp:InitialInput>
-					<ojp:LocationName>Naturns</ojp:LocationName>
-				</ojp:InitialInput>
-				<ojp:Restrictions>
-					<ojp:Type>stop</ojp:Type>
-					<ojp:NumberOfResults>20</ojp:NumberOfResults>
-					<ojp:IncludePtModes>true</ojp:IncludePtModes>
-				</ojp:Restrictions>
-			</ojp:OJPLocationInformationRequest>
-		</ServiceRequest>
-	</OJPRequest>
-</OJP>
-]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="01a_OJP-LIR.II.LN_Boz_type-stop-inkl-language" id="82456865-f17a-4863-b50f-ba9e9395374c"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="01a_OJP-LIR.II.LN_Boz_type-stop-inkl-language" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
-	<OJPRequest>
-		<ServiceRequest>
-			<RequestTimestamp>2020-05-07T12:00:00Z</RequestTimestamp>
-			<RequestorRef>SBB-SoapUI-Tests</RequestorRef>
-			<ojp:OJPLocationInformationRequest>
-				<RequestTimestamp>2020-05-07T12:00:00Z</RequestTimestamp>
-				<MessageIdentifier>4711</MessageIdentifier>
-				<ojp:InitialInput>
-					<ojp:LocationName/>
-				</ojp:InitialInput>
-				<ojp:Restrictions>
-					<ojp:Type>stop</ojp:Type>
-					<ojp:NumberOfResults>500</ojp:NumberOfResults>
-					<ojp:ContinueAt>0</ojp:ContinueAt>
-					<ojp:IncludePtModes>true</ojp:IncludePtModes>
-				</ojp:Restrictions>
-			</ojp:OJPLocationInformationRequest>
-		</ServiceRequest>
-	</OJPRequest>
-</OJP>
-]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="21a_OJP-SER.PR.SPoR_Mals" id="5908911f-4316-4b81-b641-b34eefaa8106"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="21a_OJP-SER.PR.SPoR_Mals" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
-	<OJPRequest>
-		<ServiceRequest>
-			<RequestTimestamp>2020-06-24T12:00:00Z</RequestTimestamp>
-			<RequestorRef>SBB-SoapUI-Tests</RequestorRef>
-			<ojp:OJPStopEventRequest>
-				<RequestTimestamp>2020-06-24T12:00:00Z</RequestTimestamp>
-				<MessageIdentifier>756</MessageIdentifier>
-				<ojp:Location>
-					<ojp:PlaceRef>
-						<StopPointRef>it:22021:36</StopPointRef>
-						<ojp:LocationName>
-							<ojp:Text>Mals, Bahnhof Mals</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-				</ojp:Location>
-				<ojp:Params>
-					<ojp:NumberOfResults>1</ojp:NumberOfResults>
+<con:soapui-project id="3a7527b1-b173-46a0-a090-b7a3eb8a2190" activeEnvironment="Default" name="STA OJP LA-beta passives System" resourceRoot="" soapui-version="5.7.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:description>EN:
+*Project purpose:*
+Cross-border travellers often face the problem that travel information for the entire route is not visible at a glance.
+In most cases, travellers have to switch between the information systems of different providers, regions or countries,
+to plan their entire journey. The LinkingAlps project addresses this problem in the Alpine region.
+The aim is to create a standardised exchange of travel information between the individual providers.
+In this way, information can be exchanged between the individual information systems and become an end-to-end travel chain.
+be put together. Travellers can thus make the entire journey from start to finish on a single
+View service.
+----------------------------------------------------------------------------
+*REST EndPoint:*
+URL for OJP service:
+https://efa.sta.bz.it/ojp/ojp
 
-					<ojp:StopEventType>departure</ojp:StopEventType>
-					<ojp:IncludeRealtimeData>true</ojp:IncludeRealtimeData>
-				</ojp:Params>
-			</ojp:OJPStopEventRequest>
-		</ServiceRequest>
-	</OJPRequest>
-</OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="41a_OJP-TR.PR.SPRef_Innsbruck-Brenner" id="007b9032-4c50-4f37-a13d-e18a0aeba3c8"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="41a_OJP-TR.PR.SPRef_Innsbruck-Brenner" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
-	<OJPRequest>
-		<ServiceRequest>
-			<RequestTimestamp>2020-06-24T12:00:00Z</RequestTimestamp>
-			<RequestorRef>SBB-SoapUI-Tests</RequestorRef>
-			<ojp:OJPStopEventRequest>
-				<RequestTimestamp>2020-06-24T12:00:00Z</RequestTimestamp>
-				<MessageIdentifier>756</MessageIdentifier>
-				<ojp:Location>
-					<ojp:PlaceRef>
-						<StopPointRef>it:22021:36</StopPointRef>
-						<ojp:LocationName>
-							<ojp:Text>Mals, Bahnhof Mals</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-				</ojp:Location>
-				<ojp:Params>
-					<ojp:NumberOfResults>1</ojp:NumberOfResults>
+*How do I get access?
+OJP requests via active system currently possible without authentication.
+However, should any difficulties or uncertainties arise, you can contact us here at any time:
+Link: https://efa.sta.bz.it/apb/XSLT_TRIP_REQUEST2
+----------------------------------------------------------------------------
+*Test Suitse*
+- STA LA IT LIR (Italy, South Tyrol Region)
+Content-Type: application/xml;charset=UTF-8
+- STA LA IT LIR with TR (Italy, South Tyrol Region)
+Content-Type: application/xml;charset=UTF-8
+**************************************************************************************************************************************************************
+DE:
+*Projektzweck:*
+Grenzüberschreitende Reisen stehen oft vor dem Problem, dass die Reiseinformationen für die gesamte Strecke nicht auf einen Blick sichtbar sind. 
+In den meisten Fällen müssen die Reisenden zwischen den Informationssystemen der verschiedenen Anbieter, Regionen oder Länder wechseln,
+um ihre gesamte Reise zu planen. Das Projekt LinkingAlps befasst sich mit diesem Problem im Alpenraum. 
+Ziel ist es, einen standardisierten Austausch von Reiseinformationen zwischen den einzelnen Anbietern zu schaffen. 
+Auf diese Weise können Informationen zwischen den einzelnen Informationssystemen ausgetauscht und zu einer durchgängigen Reisekette 
+zusammengestellt werden. Die Reisenden können so die gesamte Reise vom Start bis zum Ziel auf einem einzigen
+Dienst einsehen. 
+----------------------------------------------------------------------------
+*REST EndPoint:*
+URL for OJP-Service:
+https://efa.sta.bz.it/ojp/ojp
 
-					<ojp:StopEventType>departure</ojp:StopEventType>
-					<ojp:IncludeRealtimeData>true</ojp:IncludeRealtimeData>
-				</ojp:Params>
-			</ojp:OJPStopEventRequest>
-		</ServiceRequest>
-	</OJPRequest>
-</OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="41a_OJP-TR.PR.SPRef_BolzanoPiazzettaBersaglio-Brennero" id="a9b836b2-83a3-4c22-80de-ac59eea5dba9"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="41a_OJP-TR.PR.SPRef_BolzanoPiazzettaBersaglio-Brennero" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
-	<OJPRequest>
-		<ServiceRequest>
-			<RequestTimestamp>2020-06-16T10:00:00Z</RequestTimestamp>
-			<RequestorRef>SBB-SoapUI-Tests</RequestorRef>
-			<ojp:OJPTripRequest>
-				<RequestTimestamp>2020-06-16T10:00:00Z</RequestTimestamp>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<StopPointRef>it:22021:632</StopPointRef>
-						<ojp:LocationName>
-							<ojp:Text>Bolzano, Piazzetta Bersaglio</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-				</ojp:Origin>
-				<ojp:Destination>
-					<ojp:PlaceRef>
-						<StopPointRef>it:22021:1389</StopPointRef>
-						<ojp:LocationName>
-							<ojp:Text>Brenner, Bahnhof Brenner</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-				</ojp:Destination>
-				<ojp:Params>
-					<ojp:NumberOfResults>1</ojp:NumberOfResults>
-					<ojp:IncludeTrackSections>true</ojp:IncludeTrackSections>
-					<ojp:IncludeLegProjection>true</ojp:IncludeLegProjection>
-					<ojp:IncludeTurnDescription>true</ojp:IncludeTurnDescription>
-					<ojp:IncludeIntermediateStops>true</ojp:IncludeIntermediateStops>
-				</ojp:Params>
-			</ojp:OJPTripRequest>
-		</ServiceRequest>
-	</OJPRequest>
-</OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="41a_OJP-TR.PR.SPRef_Brenner-Sterzing" id="11d50edd-a03d-40e4-9ef0-32a9a497033e"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="41a_OJP-TR.PR.SPRef_Brenner-Sterzing" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
-	<OJPRequest>
-		<ServiceRequest>
-			<RequestTimestamp>2020-06-16T10:00:00Z</RequestTimestamp>
-			<RequestorRef>SBB-SoapUI-Tests</RequestorRef>
-			<ojp:OJPTripRequest>
-				<RequestTimestamp>2020-06-16T10:00:00Z</RequestTimestamp>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<StopPointRef>it:22021:1389</StopPointRef>
-						<ojp:LocationName>
-							<ojp:Text>Brenner, Bahnhof Brenner</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2021-06-01T04:08:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Destination>
-					<ojp:PlaceRef>
-						<StopPointRef>it:22021:1393</StopPointRef>
-						<ojp:LocationName>
-							<ojp:Text>Pfitsch, Bahnhof Sterzing - Pfitsch</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-				</ojp:Destination>
-				<ojp:Params>
-					<ojp:NumberOfResults>1</ojp:NumberOfResults>
-					<ojp:IncludeIntermediateStops>true</ojp:IncludeIntermediateStops>
-				</ojp:Params>
-			</ojp:OJPTripRequest>
-		</ServiceRequest>
-	</OJPRequest>
-</OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="41a_OJP-TR.PR.SPRef_Mals-Sluderno" id="8458faac-f9ca-46e7-912a-47dbcb791b8d"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="41a_OJP-TR.PR.SPRef_Mals-Sluderno" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
-	<OJPRequest>
-		<ServiceRequest>
-			<RequestTimestamp>2020-06-16T10:00:00Z</RequestTimestamp>
-			<RequestorRef>SBB-SoapUI-Tests</RequestorRef>
-			<ojp:OJPTripRequest>
-				<RequestTimestamp>2020-06-16T10:00:00Z</RequestTimestamp>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<StopPointRef>it:22021:1389</StopPointRef>
-						<ojp:LocationName>
-							<ojp:Text>Brenner, Bahnhof Brenner</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2021-06-01T04:08:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Destination>
-					<ojp:PlaceRef>
-						<StopPointRef>it:22021:1393</StopPointRef>
-						<ojp:LocationName>
-							<ojp:Text>Pfitsch, Bahnhof Sterzing - Pfitsch</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-				</ojp:Destination>
-				<ojp:Params>
-					<ojp:NumberOfResults>1</ojp:NumberOfResults>
-					<ojp:IncludeIntermediateStops>true</ojp:IncludeIntermediateStops>
-				</ojp:Params>
-			</ojp:OJPTripRequest>
-		</ServiceRequest>
-	</OJPRequest>
-</OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="41a_OJP-TR.PR.SPRef_Malles-Fortezza" id="2f3daf27-309e-4dc9-9c56-fde82230fda9"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="41a_OJP-TR.PR.SPRef_Malles-Fortezza" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<siri:OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns:ojp="http://www.vdv.de/ojp" version="1.0">
-	<siri:OJPRequest>
-		<siri:ServiceRequest>
-			<siri:RequestTimestamp>2022-03-18T13:55:53Z</siri:RequestTimestamp>
-			<siri:RequestorRef>SBB-SoapUI-Tests</siri:RequestorRef>
-			<siri:MessageIdentifier>7EB2C476-432E-4412-AE04-E5CFF65DE510</siri:MessageIdentifier>
-			<ojp:OJPTripRequest>
-				<siri:RequestTimestamp>2022-03-18T13:55:53Z</siri:RequestTimestamp>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:36</ojp:StopPlaceRef>
-						<ojp:LocationName>
-							<ojp:Text xml:lang="de">Malles Venosta, Stazione di Malles</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2022-03-18T13:55:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Destination>
-					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:1498</ojp:StopPlaceRef>
-						<ojp:LocationName>
-							<ojp:Text xml:lang="de">Fortezza, Sams</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-				</ojp:Destination>
-				<ojp:Params>
-					<ojp:NumberOfResults>1</ojp:NumberOfResults>
-					<ojp:OptimisationMethod>fastest</ojp:OptimisationMethod>
-					<ojp:IncludeTrackSections>true</ojp:IncludeTrackSections>
-					<ojp:IncludeLegProjection>true</ojp:IncludeLegProjection>
-					<ojp:IncludeTurnDescription>false</ojp:IncludeTurnDescription>
-					<ojp:IncludeAccessibility>false</ojp:IncludeAccessibility>
-					<ojp:IncludeIntermediateStops>true</ojp:IncludeIntermediateStops>
-					<ojp:IncludeFare>false</ojp:IncludeFare>
-					<ojp:IncludeOperatingDays>false</ojp:IncludeOperatingDays>
-				</ojp:Params>
-			</ojp:OJPTripRequest>
-		</siri:ServiceRequest>
-	</siri:OJPRequest>
-</siri:OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="41a_OJP-TR.PR.SPRef_Sluderno-Mals" id="3a550c53-34ae-4886-96da-177f8af63347"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="41a_OJP-TR.PR.SPRef_Sluderno-Mals" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
-	<OJPRequest>
-		<ServiceRequest>
-			<RequestTimestamp>2020-06-16T10:00:00Z</RequestTimestamp>
-			<RequestorRef>SBB-SoapUI-Tests</RequestorRef>
-			<ojp:OJPTripRequest>
-				<RequestTimestamp>2020-06-16T10:00:00Z</RequestTimestamp>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<StopPointRef>it:22021:47</StopPointRef>
-						<ojp:LocationName>
-							<ojp:Text>Sluderno, Bus di Sluderno - Glorenza</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2022-12-09T11:00:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Destination>
-					<ojp:PlaceRef>
-						<StopPointRef>it:22021:36:1:40020</StopPointRef>
-						<ojp:LocationName>
-							<ojp:Text>Mals, Bus Mals</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-				</ojp:Destination>
-				<ojp:Params>
-					<ojp:NumberOfResults>1</ojp:NumberOfResults>
-					<ojp:IncludeTrackSections>false</ojp:IncludeTrackSections>
-					<ojp:IncludeLegProjection>false</ojp:IncludeLegProjection>
-					<ojp:IncludeTurnDescription>false</ojp:IncludeTurnDescription>
-					<ojp:IncludeIntermediateStops>true</ojp:IncludeIntermediateStops>
-				</ojp:Params>
-			</ojp:OJPTripRequest>
-		</ServiceRequest>
-	</OJPRequest>
-</OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="41a_OJP-TR.PR.SPRef_Mals1-Mals50 NOK" id="55792de4-f9df-4805-a03f-eb13a9bd0394"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="41a_OJP-TR.PR.SPRef_Mals1-Mals50 NOK" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
-	<OJPRequest>
-		<ServiceRequest>
-			<RequestTimestamp>2020-06-16T10:00:00Z</RequestTimestamp>
-			<RequestorRef>SBB-SoapUI-Tests</RequestorRef>
-			<ojp:OJPTripRequest>
-				<RequestTimestamp>2020-06-16T10:00:00Z</RequestTimestamp>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<StopPointRef>it:22021:36:1</StopPointRef>
-						<ojp:LocationName>
-							<ojp:Text>Mals, Bus Mals</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2021-12-10T11:00:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Destination>
-					<ojp:PlaceRef>
-						<StopPointRef>it:22021:36:50</StopPointRef>
-						<ojp:LocationName>
-							<ojp:Text>Mals, Bus Mals</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-				</ojp:Destination>
-				<ojp:Params>
-					<ojp:NumberOfResults>1</ojp:NumberOfResults>
-					<ojp:IncludeTrackSections>true</ojp:IncludeTrackSections>
-					<ojp:IncludeLegProjection>true</ojp:IncludeLegProjection>
-					<ojp:IncludeTurnDescription>true</ojp:IncludeTurnDescription>
-					<ojp:IncludeIntermediateStops>true</ojp:IncludeIntermediateStops>
-				</ojp:Params>
-			</ojp:OJPTripRequest>
-		</ServiceRequest>
-	</OJPRequest>
-</OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="41a_OJP-TR.PR.SPRef_Brenner1-Brenner50 NOK" id="02bd97b9-8a70-4b02-8566-12c25e3c6fa7"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="41a_OJP-TR.PR.SPRef_Brenner1-Brenner50 NOK" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
-	<OJPRequest>
-		<ServiceRequest>
-			<RequestTimestamp>2020-06-16T10:00:00Z</RequestTimestamp>
-			<RequestorRef>SBB-SoapUI-Tests</RequestorRef>
-			<ojp:OJPTripRequest>
-				<RequestTimestamp>2020-06-16T10:00:00Z</RequestTimestamp>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<StopPointRef>it:22021:36:1</StopPointRef>
-						<ojp:LocationName>
-							<ojp:Text>Mals, Bus Mals</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2021-12-10T11:00:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Destination>
-					<ojp:PlaceRef>
-						<StopPointRef>it:22021:36:50</StopPointRef>
-						<ojp:LocationName>
-							<ojp:Text>Mals, Bus Mals</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-				</ojp:Destination>
-				<ojp:Params>
-					<ojp:NumberOfResults>1</ojp:NumberOfResults>
-					<ojp:IncludeTrackSections>true</ojp:IncludeTrackSections>
-					<ojp:IncludeLegProjection>true</ojp:IncludeLegProjection>
-					<ojp:IncludeTurnDescription>true</ojp:IncludeTurnDescription>
-					<ojp:IncludeIntermediateStops>true</ojp:IncludeIntermediateStops>
-				</ojp:Params>
-			</ojp:OJPTripRequest>
-		</ServiceRequest>
-	</OJPRequest>
-</OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="41a_OJP-TR.PR.SPRef_Brennero-Bolzano NOK" id="d141c07c-fe9e-48de-ac9e-230cac9a36df"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="41a_OJP-TR.PR.SPRef_Brennero-Bolzano NOK" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
-	<OJPRequest>
-		<ServiceRequest>
-			<RequestTimestamp>2020-06-16T10:00:00Z</RequestTimestamp>
-			<RequestorRef>SBB-SoapUI-Tests</RequestorRef>
-			<ojp:OJPTripRequest>
-				<RequestTimestamp>2020-06-16T10:00:00Z</RequestTimestamp>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<StopPointRef>it:22021:36:1</StopPointRef>
-						<ojp:LocationName>
-							<ojp:Text>Mals, Bus Mals</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2021-12-10T11:00:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Destination>
-					<ojp:PlaceRef>
-						<StopPointRef>it:22021:36:50</StopPointRef>
-						<ojp:LocationName>
-							<ojp:Text>Mals, Bus Mals</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-				</ojp:Destination>
-				<ojp:Params>
-					<ojp:NumberOfResults>1</ojp:NumberOfResults>
-					<ojp:IncludeTrackSections>true</ojp:IncludeTrackSections>
-					<ojp:IncludeLegProjection>true</ojp:IncludeLegProjection>
-					<ojp:IncludeTurnDescription>true</ojp:IncludeTurnDescription>
-					<ojp:IncludeIntermediateStops>true</ojp:IncludeIntermediateStops>
-				</ojp:Params>
-			</ojp:OJPTripRequest>
-		</ServiceRequest>
-	</OJPRequest>
-</OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="41a_OJP-TR.PR.SPRef_BrenneroBus-Vintl" id="7d81406d-26c4-4315-b49c-ff3a16e5f606"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="41a_OJP-TR.PR.SPRef_BrenneroBus-Vintl" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
-	<OJPRequest>
-		<ServiceRequest>
-			<RequestTimestamp>2020-06-16T10:00:00Z</RequestTimestamp>
-			<RequestorRef>SBB-SoapUI-Tests</RequestorRef>
-			<ojp:OJPTripRequest>
-				<RequestTimestamp>2020-06-16T10:00:00Z</RequestTimestamp>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<StopPointRef>it:22021:1389:1:7950</StopPointRef>
-						<ojp:LocationName>
-							<ojp:Text xml:lang="de">Brennero, Stazione di Brennero</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2022-05-27T16:28:00+02:00</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Destination>
-					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:1179</ojp:StopPlaceRef>
-						<ojp:LocationName>
-							<ojp:Text xml:lang="de">Stazione di Vandoies (DRU:Vintl)</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-				</ojp:Destination>
-				<ojp:Params>
-					<ojp:NumberOfResults>1</ojp:NumberOfResults>
-					<ojp:IncludeTrackSections>true</ojp:IncludeTrackSections>
-					<ojp:IncludeLegProjection>true</ojp:IncludeLegProjection>
-					<ojp:IncludeTurnDescription>true</ojp:IncludeTurnDescription>
-					<ojp:IncludeIntermediateStops>true</ojp:IncludeIntermediateStops>
-				</ojp:Params>
-			</ojp:OJPTripRequest>
-		</ServiceRequest>
-	</OJPRequest>
-</OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="41a_OJP-TR.PR.SPRef_Mals-Bus-Sluderno-Bus" id="bc84fc42-3306-4a7d-913d-92db9bbad30c"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="41a_OJP-TR.PR.SPRef_Mals-Bus-Sluderno-Bus" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
-	<OJPRequest>
-		<ServiceRequest>
-			<RequestTimestamp>2020-06-16T10:00:00Z</RequestTimestamp>
-			<RequestorRef>SBB-SoapUI-Tests</RequestorRef>
-			<ojp:OJPTripRequest>
-				<RequestTimestamp>2020-06-16T10:00:00Z</RequestTimestamp>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<StopPointRef>it:22021:36:1</StopPointRef>
-						<ojp:LocationName>
-							<ojp:Text>Mals, Bus Mals</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2021-12-10T11:00:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Destination>
-					<ojp:PlaceRef>
-						<StopPointRef>it:22021:47:1</StopPointRef>
-						<ojp:LocationName>
-							<ojp:Text>Sluderno, Bus di Sluderno - Glorenza</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-				</ojp:Destination>
-				<ojp:Params>
-					<ojp:NumberOfResults>1</ojp:NumberOfResults>
-					<ojp:IncludeIntermediateStops>true</ojp:IncludeIntermediateStops>
-				</ojp:Params>
-			</ojp:OJPTripRequest>
-		</ServiceRequest>
-	</OJPRequest>
-</OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="41a_OJP-TR.PR.SPRef_Mals-Meran" id="42a1225c-5526-449d-ae51-e8958cc220d4"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="41a_OJP-TR.PR.SPRef_Mals-Meran" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
-	<OJPRequest>
-		<ServiceRequest>
-			<RequestTimestamp>2020-06-16T10:00:00Z</RequestTimestamp>
-			<RequestorRef>SBB-SoapUI-Tests</RequestorRef>
-			<ojp:OJPTripRequest>
-				<RequestTimestamp>2020-06-16T10:00:00Z</RequestTimestamp>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<StopPointRef>it:22021:36</StopPointRef>
-						<ojp:LocationName>
-							<ojp:Text>Mals, Bahnhof Mals</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2021-12-10T06:20:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Destination>
-					<ojp:PlaceRef>
-						<StopPointRef>it:22021:210</StopPointRef>
-						<ojp:LocationName>
-							<ojp:Text>Meran, Bahnhof Meran</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-				</ojp:Destination>
-				<ojp:Params>
-					<ojp:NumberOfResults>3</ojp:NumberOfResults>
-					<ojp:IncludeIntermediateStops>true</ojp:IncludeIntermediateStops>
-				</ojp:Params>
-			</ojp:OJPTripRequest>
-		</ServiceRequest>
-	</OJPRequest>
-</OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="43a_OJP-TR.PR.GeoPos_Brenner-Bozen NOK" id="60b99d69-f0c6-471f-a388-e3ad5afbfe03"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="43a_OJP-TR.PR.GeoPos_Brenner-Bozen NOK" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
-	<OJPRequest>
-		<ServiceRequest>
-			<RequestTimestamp>2020-05-06T12:00:00Z</RequestTimestamp>
-			<RequestorRef>SBB-SoapUI-Tests</RequestorRef>
-			<ojp:OJPTripRequest>
-				<RequestTimestamp>2020-05-06T12:00:00Z</RequestTimestamp>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<ojp:GeoPosition>
-							<Longitude>11.505518</Longitude>
-							<Latitude>47.002397</Latitude>
-						</ojp:GeoPosition>
-						<ojp:LocationName>
-							<ojp:Text>Brenner</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2021-06-30T12:00:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Destination>
-					<ojp:PlaceRef>
-						<ojp:GeoPosition>
-							<Longitude>11.356602</Longitude>
-							<Latitude>46.500047</Latitude>
-						</ojp:GeoPosition>
-						<ojp:LocationName>
-							<ojp:Text>Bozen</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-				</ojp:Destination>
-				<ojp:Params>
-					<ojp:NumberOfResults>1</ojp:NumberOfResults>
-					<ojp:IncludeIntermediateStops>true</ojp:IncludeIntermediateStops>
-				</ojp:Params>
-			</ojp:OJPTripRequest>
-		</ServiceRequest>
-	</OJPRequest>
-</OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="43a_OJP-TR.PR.GeoPos_Innsbruck-Bozen" id="163547b8-99ff-437d-be81-7eed92df9d5c"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="43a_OJP-TR.PR.GeoPos_Innsbruck-Bozen" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
-	<OJPRequest>
-		<ServiceRequest>
-			<RequestTimestamp>2020-05-06T12:00:00Z</RequestTimestamp>
-			<RequestorRef>SBB-SoapUI-Tests</RequestorRef>
-			<ojp:OJPTripRequest>
-				<RequestTimestamp>2020-05-06T12:00:00Z</RequestTimestamp>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<ojp:GeoPosition>
-							<Longitude>11.392479</Longitude>
-							<Latitude>47.268980</Latitude>
-						</ojp:GeoPosition>
-						<ojp:LocationName>
-							<ojp:Text>Innsbruck</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2022-12-09T11:00:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Destination>
-					<ojp:PlaceRef>
-						<ojp:GeoPosition>
-							<Longitude>11.356602</Longitude>
-							<Latitude>46.500047</Latitude>
-						</ojp:GeoPosition>
-						<ojp:LocationName>
-							<ojp:Text>Bozen</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-				</ojp:Destination>
-				<ojp:Params>
-					<ojp:NumberOfResults>1</ojp:NumberOfResults>
-					<ojp:IncludeIntermediateStops>true</ojp:IncludeIntermediateStops>
-				</ojp:Params>
-			</ojp:OJPTripRequest>
-		</ServiceRequest>
-	</OJPRequest>
-</OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="43a_OJP-TR.PR.GeoPos_Mals-Meran NOK" id="e3f5b81e-3772-4005-bfd4-d4b5d0b66055"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="43a_OJP-TR.PR.GeoPos_Mals-Meran NOK" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
-	<OJPRequest>
-		<ServiceRequest>
-			<RequestTimestamp>2020-05-06T12:00:00Z</RequestTimestamp>
-			<RequestorRef>SBB-SoapUI-Tests</RequestorRef>
-			<ojp:OJPTripRequest>
-				<RequestTimestamp>2020-05-06T12:00:00Z</RequestTimestamp>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<ojp:GeoPosition>
-							<Longitude>10.547476</Longitude>
-							<Latitude>46.688368</Latitude>
-						</ojp:GeoPosition>
-						<ojp:LocationName>
-							<ojp:Text>Mals</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2021-05-31T06:15:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Destination>
-					<ojp:PlaceRef>
-						<ojp:GeoPosition>
-							<Longitude>11.157990</Longitude>
-							<Latitude>46.670172</Latitude>
-						</ojp:GeoPosition>
-						<ojp:LocationName>
-							<ojp:Text>Meran</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-				</ojp:Destination>
-				<ojp:Params>
-					<ojp:NumberOfResults>1</ojp:NumberOfResults>
+*Wie erhalte ich Zugang?*
+OJP-Anfragen über aktives System aktuell ohne Authentifizierung möglich.
+Sollten jedoch schwierigkeiten oder unklarheiten auftauchen können Sie sich jederzeit hier melden: 
+Link: https://efa.sta.bz.it/apb/XSLT_TRIP_REQUEST2
+----------------------------------------------------------------------------
+*Test Suitse*
+- STA LA IT LIR		(Italy, Region Süd Tirol)
+		Content-Type: application/xml;charset=UTF-8
+- STA LA IT LIR with TR	(Italy, Region Süd Tirol)
+		Content-Type: application/xml;charset=UTF-8</con:description><con:settings/><con:interface xsi:type="con:RestService" id="457c7691-7cef-4650-99c7-0bc5d0292f81" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://efa.sta.bz.it" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>https://efa.sta.bz.it</con:endpoint></con:endpoints><con:resource name="STA LA" path="/ojp/ojp" id="8ab2fb0f-3654-485b-bd88-d61285278331"><con:settings/><con:parameters/><con:method name="OJP" id="3fe50e2c-1683-49fb-8a3f-2b8f1fb1d98e" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/xml</con:mediaType><con:params/><con:element xmlns:siri="http://www.siri.org.uk/siri">siri:OJP</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>text/xml</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:siri="http://www.siri.org.uk/siri">siri:OJP</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>503</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html</con:mediaType><con:status>400 404</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>503</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>503</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>503</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>503</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>503</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>503</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>503</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>503</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>503</con:status><con:params/><con:element>html</con:element></con:representation></con:method></con:resource></con:interface><con:testSuite id="a2abcaa1-6b92-46d6-9839-ad2c2d1d9138" name="STA LA IT LIR"><con:description>EN:
+Description*: 
+All in all, a test case for the area STA LA IT LIR.
+(Italy, South Tyrol Region)
 
-					<ojp:IncludeIntermediateStops>true</ojp:IncludeIntermediateStops>
-				</ojp:Params>
-			</ojp:OJPTripRequest>
-		</ServiceRequest>
-	</OJPRequest>
-</OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="43a_OJP-TR.PR.GeoPos_Müstair-Mals NOK" id="81eb05aa-e3ae-424b-ab46-ed876c35f2c4"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="43a_OJP-TR.PR.GeoPos_Müstair-Mals NOK" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
-	<OJPRequest>
-		<ServiceRequest>
-			<RequestTimestamp>2020-05-06T12:00:00Z</RequestTimestamp>
-			<RequestorRef>SBB-SoapUI-Tests</RequestorRef>
-			<ojp:OJPTripRequest>
-				<RequestTimestamp>2020-05-06T12:00:00Z</RequestTimestamp>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<ojp:GeoPosition>
-							<Longitude>10.445917</Longitude>
-							<Latitude>46.626084</Latitude>
-						</ojp:GeoPosition>
-						<ojp:LocationName>
-							<ojp:Text>Müstair</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2021-05-31T10:15:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Destination>
-					<ojp:PlaceRef>
-						<ojp:GeoPosition>
-							<Longitude>10.547476</Longitude>
-							<Latitude>46.688368</Latitude>
-						</ojp:GeoPosition>
-						<ojp:LocationName>
-							<ojp:Text>Mals</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-				</ojp:Destination>
-				<ojp:Params>
-					<ojp:NumberOfResults>1</ojp:NumberOfResults>
+*Test Cases:*
+- OJP IT LIR 	50 LIR,	 (OJP LocationInformationRequest)
 
-					<ojp:IncludeIntermediateStops>true</ojp:IncludeIntermediateStops>
-				</ojp:Params>
-			</ojp:OJPTripRequest>
-		</ServiceRequest>
-	</OJPRequest>
-</OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="43a_OJP-TR.PR.GeoPos_Mals-Graun/Curon NOK" id="b7814caf-a0dc-49d8-b5d3-54a3f8796019"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="43a_OJP-TR.PR.GeoPos_Mals-Graun/Curon NOK" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
-	<OJPRequest>
-		<ServiceRequest>
-			<RequestTimestamp>2020-05-06T12:00:00Z</RequestTimestamp>
-			<RequestorRef>SBB-SoapUI-Tests</RequestorRef>
-			<ojp:OJPTripRequest>
-				<RequestTimestamp>2020-05-06T12:00:00Z</RequestTimestamp>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<ojp:GeoPosition>
-							<Longitude>10.548275</Longitude>
-							<Latitude>46.684278</Latitude>
-						</ojp:GeoPosition>
-						<ojp:LocationName>
-							<ojp:Text>Mals</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2021-05-31T06:15:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Destination>
-					<ojp:PlaceRef>
-						<ojp:GeoPosition>
-							<Longitude>10.541039</Longitude>
-							<Latitude>46.807462</Latitude>
-						</ojp:GeoPosition>
-						<ojp:LocationName>
-							<ojp:Text>Graun/Curon</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-				</ojp:Destination>
-				<ojp:Params>
-					<ojp:NumberOfResults>1</ojp:NumberOfResults>
+*Expected results for all Test Cases and their Test Steps:*
+Checks are carried out at every step:
+- Not Contains error - VALID
+- VALID HTTP Status Codes - VALID
+********************************************************************
+DE:
+*Beschreibung*
+Insgesammt ist ein Test Cases für den Bereich STA LA IT LIR.
+(Italy, Region Süd Tirol)
 
-					<ojp:IncludeIntermediateStops>true</ojp:IncludeIntermediateStops>
-				</ojp:Params>
-			</ojp:OJPTripRequest>
-		</ServiceRequest>
-	</OJPRequest>
-</OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="71a_OJPExchangePointRequest" id="035d3e80-2f3f-468e-a75b-54e3e8138f65"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="71a_OJPExchangePointRequest" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
-	<OJPRequest>
-		<ServiceRequest>
-			<RequestTimestamp>2020-05-07T12:00:00Z</RequestTimestamp>
-			<RequestorRef>SBB-SoapUI-Tests</RequestorRef>
-			<ojp:OJPExchangePointsRequest>
-				<RequestTimestamp>2020-05-07T12:00:00Z</RequestTimestamp>
-				<MessageIdentifier>4711</MessageIdentifier>
-				<ojp:Params>
-					<ojp:NumberOfResults>500</ojp:NumberOfResults>
-					<ojp:ContinueAt>0</ojp:ContinueAt>
-				</ojp:Params>
-			</ojp:OJPExchangePointsRequest>
-		</ServiceRequest>
-	</OJPRequest>
-</OJP>
-]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="81a_OJP-MPTR.n-Origin_1-dest_Castello-di-Cornedo_NumberOfResults-1 NOK" id="a1350b6f-a0c6-4c9d-a714-c6e1ce1ac775"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="81a_OJP-MPTR.n-Origin_1-dest_Castello-di-Cornedo_NumberOfResults-1 NOK" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<siri:OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns:ojp="http://www.vdv.de/ojp" version="1.0">
-	<siri:OJPRequest>
-		<siri:ServiceRequest>
-			<siri:RequestTimestamp>2021-05-18T13:10:14Z</siri:RequestTimestamp>
-			<siri:RequestorRef>EFAController10.5.0.0-STR-DB-20</siri:RequestorRef>
-			<siri:MessageIdentifier>D7E409B7-3819-4061-BFB6-F03E864F84AE</siri:MessageIdentifier>
-			<ojp:OJPMultiPointTripRequest>
-				<siri:RequestTimestamp>2021-05-18T13:10:14Z</siri:RequestTimestamp>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>at:47:1187</ojp:StopPlaceRef>
-						<ojp:LocationName>
-							<ojp:Text xml:lang="de">Innsbruck</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2021-04-30T06:14:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>ch:23011:2481</ojp:StopPlaceRef>
-						<ojp:LocationName>
-							<ojp:Text xml:lang="de">Müstair</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2021-04-30T06:17:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:36</ojp:StopPlaceRef>
-						<ojp:LocationName>
-							<ojp:Text xml:lang="de">Malles Venosta</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2021-04-30T05:53:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Destination>
-					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:2241</ojp:StopPlaceRef>
-						<ojp:LocationName>
-							<ojp:Text xml:lang="de">Castello di Cornedo</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-				</ojp:Destination>
-				<ojp:Params>
-					<ojp:NumberOfResults>1</ojp:NumberOfResults>
-					<ojp:OptimisationMethod>fastest</ojp:OptimisationMethod>
-					<ojp:MultiPointType>eachOrigin</ojp:MultiPointType>
-					<ojp:IncludeIntermediateStops>true</ojp:IncludeIntermediateStops>
-				</ojp:Params>
-			</ojp:OJPMultiPointTripRequest>
-		</siri:ServiceRequest>
-	</siri:OJPRequest>
-</siri:OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="81a_OJP-MPTR.n-Origin_1-dest_Brenner-Bolzano" id="912c68f8-84e2-4a5a-806a-054625bbd706"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="81a_OJP-MPTR.n-Origin_1-dest_Brenner-Bolzano" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<siri:OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns:ojp="http://www.vdv.de/ojp" version="1.0">
-	<siri:OJPRequest>
-		<siri:ServiceRequest>
-			<siri:RequestTimestamp>2021-05-18T13:10:14Z</siri:RequestTimestamp>
-			<siri:RequestorRef>EFAController10.5.0.0-STR-DB-20</siri:RequestorRef>
-			<siri:MessageIdentifier>D7E409B7-3819-4061-BFB6-F03E864F84AE</siri:MessageIdentifier>
-			<ojp:OJPMultiPointTripRequest>
-				<siri:RequestTimestamp>2021-05-18T13:10:14Z</siri:RequestTimestamp>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:1389:50:33000</ojp:StopPlaceRef>
-						<ojp:LocationName>
-							<ojp:Text xml:lang="de">Brennero, Stazione di Brennero</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2021-12-10T11:00:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:1389:50:31089</ojp:StopPlaceRef>
-						<ojp:LocationName>
-							<ojp:Text xml:lang="de">Brennero, Stazione di Brennero</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2021-12-10T11:00:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:1389:50:31090</ojp:StopPlaceRef>
-						<ojp:LocationName>
-							<ojp:Text xml:lang="de">Brennero, Stazione di Brennero</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2021-12-10T11:00:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:1389:50:31091</ojp:StopPlaceRef>
-						<ojp:LocationName>
-							<ojp:Text xml:lang="de">Brennero, Stazione di Brennero</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2021-12-10T11:00:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:1389:50:31092</ojp:StopPlaceRef>
-						<ojp:LocationName>
-							<ojp:Text xml:lang="de">Brennero, Stazione di Brennero</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2021-12-10T11:00:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:1389:50:31093</ojp:StopPlaceRef>
-						<ojp:LocationName>
-							<ojp:Text xml:lang="de">Brennero, Stazione di Brennero</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2021-12-10T11:00:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:1389:50:31094</ojp:StopPlaceRef>
-						<ojp:LocationName>
-							<ojp:Text xml:lang="de">Brennero, Stazione di Brennero</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2021-12-10T11:00:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:1389:50:31095</ojp:StopPlaceRef>
-						<ojp:LocationName>
-							<ojp:Text xml:lang="de">Brennero, Stazione di Brennero</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2021-12-10T11:00:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Destination>
-					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:468:50:31066</ojp:StopPlaceRef>
-						<ojp:LocationName>
-							<ojp:Text xml:lang="de">Bolzano, Stazione di Bolzan</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-				</ojp:Destination>
-				<ojp:Params>
-					<ojp:NumberOfResults>1</ojp:NumberOfResults>
-					<ojp:OptimisationMethod>fastest</ojp:OptimisationMethod>
-					<ojp:MultiPointType>eachOrigin</ojp:MultiPointType>
-					<ojp:IncludeIntermediateStops>true</ojp:IncludeIntermediateStops>
-				</ojp:Params>
-			</ojp:OJPMultiPointTripRequest>
-		</siri:ServiceRequest>
-	</siri:OJPRequest>
-</siri:OJP>
-]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="81a_OJP-MPTR.2-O-Mals_1-D-Sluderno" id="2472f077-1dfb-41ea-b1a4-563fc9896e13"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="81a_OJP-MPTR.2-O-Mals_1-D-Sluderno" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
-	<OJPRequest>
-		<ServiceRequest>
-			<RequestTimestamp>2020-06-16T10:00:00Z</RequestTimestamp>
-			<RequestorRef>EFAController10.5.0.0-STR-DB-20</RequestorRef>
-			<MessageIdentifier>756</MessageIdentifier>
-			<ojp:OJPMultiPointTripRequest>
-				<siri:RequestTimestamp>2021-05-18T13:10:14Z</siri:RequestTimestamp>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:47</ojp:StopPlaceRef>
-						<ojp:LocationName>
-							<ojp:Text xml:lang="de">Sluderno, Bus di Sluderno - Glorenza</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2021-12-10T11:00:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Destination>
-					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:36:1:40020</ojp:StopPlaceRef>
-						<ojp:LocationName>
-							<ojp:Text xml:lang="de">Mals, Bus Mals</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-				</ojp:Destination>
-				<ojp:Params>
-					<ojp:NumberOfResults>1</ojp:NumberOfResults>
-					<ojp:OptimisationMethod>fastest</ojp:OptimisationMethod>
-					<ojp:MultiPointType>eachOrigin</ojp:MultiPointType>
-					<ojp:IncludeTrackSections>false</ojp:IncludeTrackSections>
-					<ojp:IncludeLegProjection>false</ojp:IncludeLegProjection>
-					<ojp:IncludeTurnDescription>false</ojp:IncludeTurnDescription>
-					<ojp:IncludeIntermediateStops>true</ojp:IncludeIntermediateStops>
-				</ojp:Params>
-			</ojp:OJPMultiPointTripRequest>
-		</siri:ServiceRequest>
-	</siri:OJPRequest>
-</siri:OJP>
-]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="81a_OJP-MPTR.1-O-Sluderno_1-D-Mals" id="3ea80af2-043e-4133-8c1f-727d4b23bb5d"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="81a_OJP-MPTR.1-O-Sluderno_1-D-Mals" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
-	<OJPRequest>
-		<ServiceRequest>
-			<RequestTimestamp>2020-06-16T10:00:00Z</RequestTimestamp>
-			<RequestorRef>EFAController10.5.0.0-STR-DB-20</RequestorRef>
-			<MessageIdentifier>756</MessageIdentifier>
-			<ojp:OJPMultiPointTripRequest>
-				<siri:RequestTimestamp>2021-05-18T13:10:14Z</siri:RequestTimestamp>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:36:1:40020</ojp:StopPlaceRef>
-						<ojp:LocationName>
-							<ojp:Text xml:lang="de">Mals, Bus Mals</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2022-12-09T11:00:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:36:50</ojp:StopPlaceRef>
-						<ojp:LocationName>
-							<ojp:Text xml:lang="de">Mals, Bus Mals</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2022-12-09T11:00:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Destination>
-					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:47</ojp:StopPlaceRef>
-						<ojp:LocationName>
-							<ojp:Text xml:lang="de">Sluderno, Bus di Sluderno - Glorenza</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-				</ojp:Destination>
-				<ojp:Params>
-					<ojp:NumberOfResults>1</ojp:NumberOfResults>
-					<ojp:OptimisationMethod>fastest</ojp:OptimisationMethod>
-					<ojp:MultiPointType>eachOrigin</ojp:MultiPointType>
-					<ojp:IncludeTrackSections>false</ojp:IncludeTrackSections>
-					<ojp:IncludeLegProjection>false</ojp:IncludeLegProjection>
-					<ojp:IncludeTurnDescription>false</ojp:IncludeTurnDescription>
-					<ojp:IncludeIntermediateStops>true</ojp:IncludeIntermediateStops>
-				</ojp:Params>
-			</ojp:OJPMultiPointTripRequest>
-		</siri:ServiceRequest>
-	</siri:OJPRequest>
-</siri:OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="81a_OJP-MPTR.1-Origin_n-Dest_Bolzano-Innsbruck/Brennero NOK" id="8d90fe0d-7356-4a1b-9d34-3c6b53c5b6d3"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="81a_OJP-MPTR.1-Origin_n-Dest_Bolzano-Innsbruck/Brennero NOK" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[POST https://efa.sta.bz.it/ojp/ojp HTTP/1.1Content-Type: application/xml
-<?xml version="1.0" encoding="UTF-8"?>
-<siri:OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns:ojp="http://www.vdv.de/ojp" version="1.0">
-	<siri:OJPRequest>
-		<siri:ServiceRequest>
-			<siri:RequestTimestamp>2022-02-02T21:59:08Z</siri:RequestTimestamp>
-			<siri:RequestorRef>EFAController10.4.21.16-OJP-EFA01-I</siri:RequestorRef>
-			<siri:MessageIdentifier>041FF51C-F176-4333-BD6D-75FC398AF093</siri:MessageIdentifier>
-			<ojp:OJPMultiPointTripRequest>
-				<siri:RequestTimestamp>2022-02-02T21:59:08Z</siri:RequestTimestamp>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:468</ojp:StopPlaceRef>
-						<ojp:LocationName>
-							<ojp:Text xml:lang="de">Bolzano, Stazione di Bolzano</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2022-12-09T13:34:00Z</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Destination>
-					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>at:47:1187</ojp:StopPlaceRef>
-						<ojp:LocationName>
-							<ojp:Text xml:lang="de">Innsbruck</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-				</ojp:Destination>
-				<ojp:Destination>
-					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:1389</ojp:StopPlaceRef>
-						<ojp:LocationName>
-							<ojp:Text xml:lang="de">Brennero</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-				</ojp:Destination>
-				<ojp:Params>
-					<ojp:NumberOfResultsAfter>1</ojp:NumberOfResultsAfter>
-					<ojp:OptimisationMethod>fastest</ojp:OptimisationMethod>
-					<ojp:MultiPointType>eachDestination</ojp:MultiPointType>
-					<ojp:IncludeTrackSections>false</ojp:IncludeTrackSections>
-					<ojp:IncludeLegProjection>false</ojp:IncludeLegProjection>
-					<ojp:IncludeTurnDescription>false</ojp:IncludeTurnDescription>
-					<ojp:IncludeAccessibility>false</ojp:IncludeAccessibility>
-					<ojp:IncludeIntermediateStops>true</ojp:IncludeIntermediateStops>
-					<ojp:IncludeFare>false</ojp:IncludeFare>
-					<ojp:IncludeOperatingDays>false</ojp:IncludeOperatingDays>
-				</ojp:Params>
-			</ojp:OJPMultiPointTripRequest>
-		</siri:ServiceRequest>
-	</siri:OJPRequest>
-</siri:OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="81a_OJP-MPTR.n-O-Brennero-SanCandido-1-D-Vandoies" id="8911daa9-2103-4298-9d63-eea413be0ef0"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="81a_OJP-MPTR.n-O-Brennero-SanCandido-1-D-Vandoies" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<siri:OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns:ojp="http://www.vdv.de/ojp" version="1.0">
-	<siri:OJPRequest>
-		<siri:ServiceRequest>
-			<siri:RequestTimestamp>2021-05-18T13:10:14Z</siri:RequestTimestamp>
-			<siri:RequestorRef>EFAController10.5.0.0-STR-DB-20</siri:RequestorRef>
-			<siri:MessageIdentifier>D7E409B7-3819-4061-BFB6-F03E864F84AE</siri:MessageIdentifier>
-			<ojp:OJPMultiPointTripRequest>
-				<siri:RequestTimestamp>2021-05-18T13:10:14Z</siri:RequestTimestamp>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:1389:50:31090</ojp:StopPlaceRef>
-						<ojp:LocationName>
-							<ojp:Text xml:lang="de">Brennero, Stazione di Brennero</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2022-05-27T16:28:00+02:00</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Origin>
-					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:1980</ojp:StopPlaceRef>
-						<ojp:LocationName>
-							<ojp:Text xml:lang="de">San Candido, Stazione di San Candido (DRU:Innichen)</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-					<ojp:DepArrTime>2022-05-27T17:43:00+02:00</ojp:DepArrTime>
-				</ojp:Origin>
-				<ojp:Destination>
-					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:1179</ojp:StopPlaceRef>
-						<ojp:LocationName>
-							<ojp:Text xml:lang="de">Stazione di Vandoies (DRU:Vintl)</ojp:Text>
-						</ojp:LocationName>
-					</ojp:PlaceRef>
-				</ojp:Destination>
-				<ojp:Params>
-					<ojp:NumberOfResults>1</ojp:NumberOfResults>
-					<ojp:OptimisationMethod>fastest</ojp:OptimisationMethod>
-					<ojp:MultiPointType>eachOrigin</ojp:MultiPointType>
-					<ojp:IncludeIntermediateStops>true</ojp:IncludeIntermediateStops>
-				</ojp:Params>
-			</ojp:OJPMultiPointTripRequest>
-		</siri:ServiceRequest>
-	</siri:OJPRequest>
-</siri:OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:testSuite id="a2abcaa1-6b92-46d6-9839-ad2c2d1d9138" name="STA LA IT LIR"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="1b700660-cbf6-4232-9294-84b08e3b7768" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="OJP IT LIR" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="LIR Arabba" id="ff9d24f7-7be6-4da6-83d5-b14c66401ae6"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="LIR Arabba" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+*Test Cases:*
+- OJP IT LIR	50 LIR     (OJP LocationInformationRequest)
+
+*Erwartete Ergebnisse bei allen Test Cases und ihre Test Steps:*
+Überprüft wird bei allen Schritten:
+- Not Contains error - VALID
+- VALID HTTP Status Codes - VALID</con:description><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="1b700660-cbf6-4232-9294-84b08e3b7768" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="OJP IT LIR" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="LIR Arabba" id="ff9d24f7-7be6-4da6-83d5-b14c66401ae6"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="LIR Arabba" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
 	<OJPRequest>
 		<ServiceRequest>
@@ -1248,7 +281,7 @@
 		</ServiceRequest>
 	</OJPRequest>
 </OJP>
-]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9c5a9c84-b2bc-4ebe-8d97-caaba5ef4a5e" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="LIR Eppan/Appiano" id="ebcbbd18-8d74-4f52-ac0c-ed39cc9e5f54"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="LIR Eppan/Appiano" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9c5a9c84-b2bc-4ebe-8d97-caaba5ef4a5e" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="LIR Eppan/Appiano" id="ebcbbd18-8d74-4f52-ac0c-ed39cc9e5f54" disabled="true"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="LIR Eppan/Appiano" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
 	<OJPRequest>
 		<ServiceRequest>
@@ -1416,7 +449,7 @@
 		</ServiceRequest>
 	</OJPRequest>
 </OJP>
-]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="6259ffe6-6fc6-4117-8ae2-0120e505c04a" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="LIR Kastelruth Castelrotto" id="c5c93166-f807-46f6-b331-dcb6ed335a31"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="LIR Kastelruth Castelrotto" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="6259ffe6-6fc6-4117-8ae2-0120e505c04a" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="LIR Kastelruth Castelrotto" id="c5c93166-f807-46f6-b331-dcb6ed335a31" disabled="true"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="LIR Kastelruth Castelrotto" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
 	<OJPRequest>
 		<ServiceRequest>
@@ -2088,7 +1121,33 @@
 		</ServiceRequest>
 	</OJPRequest>
 </OJP>
-]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="8ad6748d-d8a5-4c3d-a89a-3e048b9ee5b1" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:testSuite id="3207026f-a2aa-4167-ac62-276e704a4528" name="STA LA IT LIR with TR"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="8c41586b-2718-46f7-9233-921a27230233" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="STA IT to IT LIR with TR" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="LIR Arabba" id="703a4829-4981-4d7c-bd3e-557bf892e398"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="LIR Arabba" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="8ad6748d-d8a5-4c3d-a89a-3e048b9ee5b1" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:testSuite id="3207026f-a2aa-4167-ac62-276e704a4528" name="STA LA IT LIR with TR"><con:description>EN:
+Description*: 
+All in all, a test case for the area STA LA IT LIR with TR.
+(Italy, South Tyrol Region)
+
+*Test Cases:*
+- STA IT to IT LIR with TR 50 LIR, 51 TR (OJP LocationInformationRequest + OJPTripRequest )
+The property ojp:StopPlaceRef is transferred from the LIR to the TR.
+
+*Expected results for all Test Cases and their Test Steps:*
+Checks are carried out at every step:
+- Not Contains error - VALID
+- VALID HTTP Status Codes - VALID
+*****************************************************************************************
+DE:
+*Beschreibung*
+Insgesammt ist ein Test Cases für den Bereich STA LA IT LIR with TR.
+(Italy, Region Süd Tirol)
+
+*Test Cases:*
+- STA IT to IT LIR with TR   	50 LIR, 51 TR	    (OJP LocationInformationRequest + OJPTripRequest )
+Von den LIR werden die Property ojp:StopPlaceRef zu den TR transferiert.
+
+*Erwartete Ergebnisse bei allen Test Cases und ihre Test Steps:*
+Überprüft wird bei allen Schritten:
+- Not Contains error - VALID
+- VALID HTTP Status Codes - VALID</con:description><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="8c41586b-2718-46f7-9233-921a27230233" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="STA IT to IT LIR with TR" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="LIR Arabba" id="703a4829-4981-4d7c-bd3e-557bf892e398"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="LIR Arabba" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
 	<OJPRequest>
 		<ServiceRequest>
@@ -3294,7 +2353,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
 				<ojp:Origin>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:900</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>it:22021:901</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Origin</ojp:Text>
                        		</ojp:LocationName>
@@ -3655,7 +2714,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				</ojp:Origin>
 				<ojp:Destination>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:238</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>it:22021:288</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Desitination</ojp:Text>
                        		</ojp:LocationName>
@@ -3705,7 +2764,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 			</ojp:OJPTripRequest>
 		</ServiceRequest>
 	</OJPRequest>
-</OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="7949be0f-dda2-45f2-955c-64db64e5cf28" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="TR Gomagoi St. Martin" id="c2953966-142a-4edc-87e8-6d3cd3693718" disabled="true"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="TR Gomagoi St. Martin" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<OJP xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd" version="1.0" xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ojp="http://www.vdv.de/ojp">
+</OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="7949be0f-dda2-45f2-955c-64db64e5cf28" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="TR Gomagoi St. Martin" id="c2953966-142a-4edc-87e8-6d3cd3693718"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="TR Gomagoi St. Martin" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<OJP xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd" version="1.0" xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ojp="http://www.vdv.de/ojp">
 	<OJPRequest>
 		<ServiceRequest>
 			<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
@@ -3773,7 +2832,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 			</ojp:OJPTripRequest>
 		</ServiceRequest>
 	</OJPRequest>
-</OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="7949be0f-dda2-45f2-955c-64db64e5cf28" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="TR Grödnerjoch Stern" id="9e907e4f-b066-4809-878a-9d811bdd03e3"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="TR Grödnerjoch Stern" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<OJP xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd" version="1.0" xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ojp="http://www.vdv.de/ojp">
+</OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="7949be0f-dda2-45f2-955c-64db64e5cf28" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="TR Grödnerjoch Stern" id="9e907e4f-b066-4809-878a-9d811bdd03e3" disabled="true"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="TR Grödnerjoch Stern" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<OJP xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd" version="1.0" xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ojp="http://www.vdv.de/ojp">
 	<OJPRequest>
 		<ServiceRequest>
 			<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
@@ -3841,7 +2900,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 			</ojp:OJPTripRequest>
 		</ServiceRequest>
 	</OJPRequest>
-</OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="7949be0f-dda2-45f2-955c-64db64e5cf28" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="TR Innichen Terenten" id="7dba3b93-5f55-42c1-9e73-94bdee8fa1be" disabled="true"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="TR Innichen Terenten" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<OJP xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd" version="1.0" xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ojp="http://www.vdv.de/ojp">
+</OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="7949be0f-dda2-45f2-955c-64db64e5cf28" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="TR Innichen Terenten" id="7dba3b93-5f55-42c1-9e73-94bdee8fa1be"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="TR Innichen Terenten" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<OJP xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd" version="1.0" xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ojp="http://www.vdv.de/ojp">
 	<OJPRequest>
 		<ServiceRequest>
 			<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
@@ -4486,7 +3545,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
 				<ojp:Origin>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:657</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>it:22021:663</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Origin</ojp:Text>
                        		</ojp:LocationName>
@@ -4529,7 +3588,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				</ojp:Origin>
 				<ojp:Destination>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:867</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef/>
 						<ojp:LocationName>
                        			<ojp:Text>Desitination</ojp:Text>
                        		</ojp:LocationName>
@@ -4631,7 +3690,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				</ojp:Origin>
 				<ojp:Destination>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:398</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>it:22021:406</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Desitination</ojp:Text>
                        		</ojp:LocationName>
@@ -4647,7 +3706,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 			</ojp:OJPTripRequest>
 		</ServiceRequest>
 	</OJPRequest>
-</OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="7949be0f-dda2-45f2-955c-64db64e5cf28" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="TR St.Leonard Grödnerjoch" id="ac545fb5-3084-4f9f-964d-36f92bbe1775"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="TR St.Leonard Grödnerjoch" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<OJP xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd" version="1.0" xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ojp="http://www.vdv.de/ojp">
+</OJP>]]></con:request><con:originalUri>https://efa.sta.bz.it/ojp/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="7949be0f-dda2-45f2-955c-64db64e5cf28" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="TR St.Leonard Grödnerjoch" id="ac545fb5-3084-4f9f-964d-36f92bbe1775" disabled="true"><con:settings/><con:config service="https://efa.sta.bz.it" methodName="OJP" resourcePath="/ojp/ojp" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="TR St.Leonard Grödnerjoch" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://efa.sta.bz.it</con:endpoint><con:request><![CDATA[<OJP xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd" version="1.0" xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ojp="http://www.vdv.de/ojp">
 	<OJPRequest>
 		<ServiceRequest>
 			<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
@@ -4665,7 +3724,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				</ojp:Origin>
 				<ojp:Destination>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:1334</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>it:22021:1328</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Desitination</ojp:Text>
                        		</ojp:LocationName>
@@ -4699,7 +3758,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				</ojp:Origin>
 				<ojp:Destination>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:26</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>it:22021:9</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Desitination</ojp:Text>
                        		</ojp:LocationName>
@@ -4724,7 +3783,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
 				<ojp:Origin>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:1050</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>it:22021:1270</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Origin</ojp:Text>
                        		</ojp:LocationName>
@@ -4767,7 +3826,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				</ojp:Origin>
 				<ojp:Destination>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:45</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>it:22021:47</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Desitination</ojp:Text>
                        		</ojp:LocationName>
@@ -4792,7 +3851,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
 				<ojp:Origin>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:1324</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>it:22021:1801</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Origin</ojp:Text>
                        		</ojp:LocationName>
@@ -4801,7 +3860,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				</ojp:Origin>
 				<ojp:Destination>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:771</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef/>
 						<ojp:LocationName>
                        			<ojp:Text>Desitination</ojp:Text>
                        		</ojp:LocationName>
@@ -4940,7 +3999,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
 				<ojp:Origin>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22022:96813</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>it:22022:95699</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Origin</ojp:Text>
                        		</ojp:LocationName>
@@ -5008,7 +4067,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
 				<ojp:Origin>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:2424</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>it:22021:205</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Origin</ojp:Text>
                        		</ojp:LocationName>
@@ -5051,7 +4110,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				</ojp:Origin>
 				<ojp:Destination>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:1385</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>it:22021:1389</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Desitination</ojp:Text>
                        		</ojp:LocationName>
@@ -5076,7 +4135,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
 				<ojp:Origin>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:409</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>it:22021:412</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Origin</ojp:Text>
                        		</ojp:LocationName>
@@ -5153,7 +4212,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				</ojp:Origin>
 				<ojp:Destination>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:912</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>it:22021:901</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Desitination</ojp:Text>
                        		</ojp:LocationName>
@@ -5178,7 +4237,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
 				<ojp:Origin>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:1092</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>it:22021:1093</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Origin</ojp:Text>
                        		</ojp:LocationName>
@@ -5187,7 +4246,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				</ojp:Origin>
 				<ojp:Destination>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22021:1899</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>it:22021:647</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Desitination</ojp:Text>
                        		</ojp:LocationName>
@@ -5221,7 +4280,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				</ojp:Origin>
 				<ojp:Destination>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>it:22025:95536</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>it:22025:95537</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Desitination</ojp:Text>
                        		</ojp:LocationName>

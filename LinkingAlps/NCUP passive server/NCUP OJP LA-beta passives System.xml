@@ -1,5 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="3a7527b1-b173-46a0-a090-b7a3eb8a2190" activeEnvironment="Default" name="LUR LA passive system" resourceRoot="" soapui-version="5.7.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="16d5d23b-1e6c-47dc-9ade-ac9ccfc3036b" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://dev.atob.si" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>https://dev.atob.si</con:endpoint></con:endpoints><con:resource name="LUR LA" path="/OpenAPI/LinkingAlps/OJP" id="52932088-e363-409f-89f7-34d2d6836c3d"><con:settings/><con:parameters/><con:method name="OJP" id="ddb808e3-8c50-4922-bc8e-b33754d72fd6" method="POST"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/xml</con:mediaType><con:params/><con:element xmlns:siri="http://www.siri.org.uk/siri">siri:OJP</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/xml</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:siri="http://www.siri.org.uk/siri">siri:OJP</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation></con:method></con:resource></con:interface><con:testSuite id="3d24725b-7e36-48fb-ae63-8337bc015fa0" name="LUR Tests"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="9e5b3608-a836-4d70-9c89-9af226fc25b4" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="LUR LIR" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="LIR empty name 0 100" id="b4715816-39ce-4afc-9482-f926022353f5"><con:settings/><con:config service="https://dev.atob.si" methodName="OJP" resourcePath="/OpenAPI/LinkingAlps/OJP" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="LIR empty name 0 100" id="828e9fb9-14d4-49a0-84bd-067c4293ea11" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://dev.atob.si</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="3a7527b1-b173-46a0-a090-b7a3eb8a2190" activeEnvironment="Default" name="NCUP OJP LA-beat passives System" resourceRoot="" soapui-version="5.7.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:description>EN:
+*Project purpose:*
+Cross-border travellers often face the problem that travel information for the entire route is not visible at a glance.
+In most cases, travellers have to switch between the information systems of different providers, regions or countries,
+to plan their entire journey. The LinkingAlps project addresses this problem in the Alpine region.
+The aim is to create a standardised exchange of travel information between the individual providers.
+In this way, information can be exchanged between the individual information systems and become an end-to-end travel chain.
+be put together. Travellers can thus make the entire journey from start to finish on a single
+View service.
+----------------------------------------------------------------------------
+*REST EndPoint:*
+URL for OJP service:
+https://dev.atob.si/OpenAPI/LinkingAlps/OJP
+
+*How do I get access?
+Link: https://rralur.si/en/agency/about-us/
+Does not require authentication.
+----------------------------------------------------------------------------
+*Test Suitse*
+- LUR Tests  	  	LUR = (Slovenia, Region Zahodna Slovenia)
+	  	Content-Type: application/xml;charset=UTF-8
+- LUR LA SI to SI LIR wih TR 	LUR = (Slovenia, Region Zahodna Slovenia)
+		Content-Type: application/xml;charset=UTF-8
+**************************************************************************************************************************************************************
+DE:
+*Projektzweck:*
+Grenzüberschreitende Reisen stehen oft vor dem Problem, dass die Reiseinformationen für die gesamte Strecke nicht auf einen Blick sichtbar sind. 
+In den meisten Fällen müssen die Reisenden zwischen den Informationssystemen der verschiedenen Anbieter, Regionen oder Länder wechseln,
+um ihre gesamte Reise zu planen. Das Projekt LinkingAlps befasst sich mit diesem Problem im Alpenraum. 
+Ziel ist es, einen standardisierten Austausch von Reiseinformationen zwischen den einzelnen Anbietern zu schaffen. 
+Auf diese Weise können Informationen zwischen den einzelnen Informationssystemen ausgetauscht und zu einer durchgängigen Reisekette 
+zusammengestellt werden. Die Reisenden können so die gesamte Reise vom Start bis zum Ziel auf einem einzigen
+Dienst einsehen. 
+----------------------------------------------------------------------------
+*REST EndPoint:*
+URL for OJP-Service:
+https://dev.atob.si/OpenAPI/LinkingAlps/OJP
+ 
+*Wie erhalte ich Zugang?*
+Link: https://rralur.si/en/agency/about-us/
+Benötigt keine Authentifizierung.
+----------------------------------------------------------------------------
+*Test Suitse*
+- LUR Tests		LUR  = (Slovenia, Region Zahodna Slovenia)	
+		Content-Type: application/xml;charset=UTF-8
+- LUR LA SI to SI LIR wih TR	LUR  = (Slovenia, Region Zahodna Slovenia)
+		Content-Type: application/xml;charset=UTF-8
+</con:description><con:settings/><con:interface xsi:type="con:RestService" id="16d5d23b-1e6c-47dc-9ade-ac9ccfc3036b" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://dev.atob.si" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>https://dev.atob.si</con:endpoint></con:endpoints><con:resource name="LUR LA" path="/OpenAPI/LinkingAlps/OJP" id="52932088-e363-409f-89f7-34d2d6836c3d"><con:settings/><con:parameters/><con:method name="OJP" id="ddb808e3-8c50-4922-bc8e-b33754d72fd6" method="POST"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/xml</con:mediaType><con:params/><con:element xmlns:siri="http://www.siri.org.uk/siri">siri:OJP</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/xml</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:siri="http://www.siri.org.uk/siri">siri:OJP</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation></con:method></con:resource></con:interface><con:testSuite id="3d24725b-7e36-48fb-ae63-8337bc015fa0" name="NCUP Tests"><con:description>EN:
+Description*: 
+In total, there are two test cases for the LUR tests.
+LUR = (Slovenia, Region Zahodna Slovenia)
+
+*Test Cases:*
+- LUR LIR 3 LIR (OJPLocationInformationRequest)
+- LUR EPR 1 EPR (OJP ExchangPointRequest)
+
+*Expected results for all Test Cases and their Test Steps:*
+Checks are carried out at every step:
+- Not Contains error - VALID
+- VALID HTTP Status Codes - VALID
+- ojp:GeoPosition not empty - VALID
+
+*******************************************************************************
+DE:
+*Beschreibung*
+Insgesammt gibt es zwei Test Cases für den Bereich LUR Tests.
+LUR  = (Slovenia, Region Zahodna Slovenia)
+
+*Test Cases:*
+- LUR LIR  	3 LIR 	(OJPLocationInformationRequest)
+- LUR EPR	1 EPR	(OJP ExchangPointRequest)
+
+*Erwartete Ergebnisse bei allen Test Cases und ihre Test Steps:*
+Überprüft wird bei allen Schritten:
+- Not Contains error - VALID
+- VALID HTTP Status Codes - VALID
+- ojp:GeoPosition not empty - VALID</con:description><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="9e5b3608-a836-4d70-9c89-9af226fc25b4" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="NCUP LIR" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="LIR empty name 0 100" id="b4715816-39ce-4afc-9482-f926022353f5"><con:settings/><con:config service="https://dev.atob.si" methodName="OJP" resourcePath="/OpenAPI/LinkingAlps/OJP" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="LIR empty name 0 100" id="828e9fb9-14d4-49a0-84bd-067c4293ea11" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://dev.atob.si</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
     <OJPRequest>
         <ServiceRequest>
@@ -67,7 +143,7 @@ empty(//ojp:GeoPosition)</path><content>false</content><allowWildcards>false</al
 </OJP>
 ]]></con:request><con:originalUri>https://dev.atob.si/OpenAPI/LinkingAlps/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8e134db6-98ec-4cd7-81ba-8f35b96ac8a2" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="XPath Match" id="2e6e3f35-2dd0-47f7-9836-5dd6bb710780" name="ojp:GeoPosition not empty"><con:configuration><path>declare namespace ns1='http://www.siri.org.uk/siri';
 declare namespace ojp='http://www.vdv.de/ojp';
-empty(//ojp:GeoPosition)</path><content>false</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="a2c28abf-7a7a-4016-bf5d-46e0e4612212" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="LUR EPR" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="EPR no input 0 100" id="036aed42-c564-4bf4-817c-bda3f6350081"><con:settings/><con:config service="https://dev.atob.si" methodName="OJP" resourcePath="/OpenAPI/LinkingAlps/OJP" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="EPR no input 0 100" id="828e9fb9-14d4-49a0-84bd-067c4293ea11" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://dev.atob.si</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+empty(//ojp:GeoPosition)</path><content>false</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="a2c28abf-7a7a-4016-bf5d-46e0e4612212" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="NCUP EPR" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="EPR no input 0 100" id="036aed42-c564-4bf4-817c-bda3f6350081"><con:settings/><con:config service="https://dev.atob.si" methodName="OJP" resourcePath="/OpenAPI/LinkingAlps/OJP" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="EPR no input 0 100" id="828e9fb9-14d4-49a0-84bd-067c4293ea11" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://dev.atob.si</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
     <OJPRequest>
         <ServiceRequest>
@@ -85,7 +161,38 @@ empty(//ojp:GeoPosition)</path><content>false</content><allowWildcards>false</al
 </OJP>
 ]]></con:request><con:originalUri>https://dev.atob.si/OpenAPI/LinkingAlps/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8e134db6-98ec-4cd7-81ba-8f35b96ac8a2" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="XPath Match" id="2e6e3f35-2dd0-47f7-9836-5dd6bb710780" name="ojp:GeoPosition not empty"><con:configuration><path>declare namespace ns1='http://www.siri.org.uk/siri';
 declare namespace ojp='http://www.vdv.de/ojp';
-empty(//ojp:GeoPosition)</path><content>false</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:testSuite id="9396d528-de3c-44ef-8624-de2cea560229" name="LUR LA SI to SI LIR wih TR"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="cb1a2047-c6e4-41db-b47f-8bcf81363bb1" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="LUR SL LIR" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="LIR Borovnica" id="5df4ca64-2749-412b-9c72-b881f9d340c4"><con:settings/><con:config service="https://dev.atob.si" methodName="OJP" resourcePath="/OpenAPI/LinkingAlps/OJP" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="LIR Borovnica" id="828e9fb9-14d4-49a0-84bd-067c4293ea11" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://dev.atob.si</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+empty(//ojp:GeoPosition)</path><content>false</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:testSuite id="9396d528-de3c-44ef-8624-de2cea560229" name="NCUP LA SI to SI LIR wih TR"><con:description>EN:
+Description*: 
+In total, there are two test cases for the range LUR LA SI to SI LIR wih TR.
+LUR = (Slovenia, Region Zahodna Slovenia)
+
+*Test Cases:*
+- LUR SL LIR, 29 LIR (OJPLocationInformationRequest)
+-LUR SL to SL LIR with TR 29 LIR, 15 TR (OJPLocationInformationRequest + OJPTripRequest)
+The property ojp:StopPlaceRef is transferred from the LIR to the TR.
+
+*Expected results for all Test Cases and their Test Steps:*
+Checks are carried out at every step:
+- Not Contains error - VALID
+- VALID HTTP Status Codes - VALID
+- ojp:GeoPosition not empty - VALID
+
+*******************************************************************************
+DE:
+*Beschreibung*
+Insgesammt gibt es zwei Test Cases für den Bereich LUR LA SI to SI LIR wih TR.
+LUR  = (Slovenia, Region Zahodna Slovenia)
+
+*Test Cases:*
+- LUR SL LIR, 29 LIR (OJPLocationInformationRequest)
+-LUR SL to SL LIR with TR, 29 LIR, 15 TR (OJPLocationInformationRequest + OJPTripRequest)
+Von den LIR werden die Property ojp:StopPlaceRef zu den TR transferiert.
+
+*Erwartete Ergebnisse bei allen Test Cases und ihre Test Steps:*
+Überprüft wird bei allen Schritten:
+- Not Contains error - VALID
+- VALID HTTP Status Codes - VALID
+- ojp:GeoPosition not empty - VALID</con:description><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="cb1a2047-c6e4-41db-b47f-8bcf81363bb1" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="NCUP SL LIR" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="LIR Borovnica" id="5df4ca64-2749-412b-9c72-b881f9d340c4"><con:settings/><con:config service="https://dev.atob.si" methodName="OJP" resourcePath="/OpenAPI/LinkingAlps/OJP" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="LIR Borovnica" id="828e9fb9-14d4-49a0-84bd-067c4293ea11" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://dev.atob.si</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
     <OJPRequest>
         <ServiceRequest>
@@ -723,7 +830,7 @@ empty(//ojp:GeoPosition)</path><content>false</content><allowWildcards>false</al
 </OJP>
 ]]></con:request><con:originalUri>https://dev.atob.si/OpenAPI/LinkingAlps/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8e134db6-98ec-4cd7-81ba-8f35b96ac8a2" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="XPath Match" id="2e6e3f35-2dd0-47f7-9836-5dd6bb710780" name="ojp:GeoPosition not empty"><con:configuration><path>declare namespace ns1='http://www.siri.org.uk/siri';
 declare namespace ojp='http://www.vdv.de/ojp';
-empty(//ojp:GeoPosition)</path><content>false</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="0ff20bf4-2362-4b6c-a758-7d83f597ef94" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="LUR SL to SL LIR with TR" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="LIR Borovnica" id="420f4b2d-c123-4013-9029-6d5dca3b89db"><con:settings/><con:config service="https://dev.atob.si" methodName="OJP" resourcePath="/OpenAPI/LinkingAlps/OJP" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="LIR Borovnica" id="828e9fb9-14d4-49a0-84bd-067c4293ea11" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://dev.atob.si</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+empty(//ojp:GeoPosition)</path><content>false</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="0ff20bf4-2362-4b6c-a758-7d83f597ef94" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="NCUP SL to SL LIR with TR" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="LIR Borovnica" id="420f4b2d-c123-4013-9029-6d5dca3b89db"><con:settings/><con:config service="https://dev.atob.si" methodName="OJP" resourcePath="/OpenAPI/LinkingAlps/OJP" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="LIR Borovnica" id="828e9fb9-14d4-49a0-84bd-067c4293ea11" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://dev.atob.si</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
     <OJPRequest>
         <ServiceRequest>
@@ -1185,7 +1292,7 @@ empty(//ojp:GeoPosition)</path><content>false</content><allowWildcards>false</al
 </OJP>
 ]]></con:request><con:originalUri>https://dev.atob.si/OpenAPI/LinkingAlps/ojp</con:originalUri><con:assertion type="Simple NotContains" id="8e134db6-98ec-4cd7-81ba-8f35b96ac8a2" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="9fe5cd60-8ca4-40a6-b829-87fbeb5f3416" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="XPath Match" id="2e6e3f35-2dd0-47f7-9836-5dd6bb710780" name="ojp:GeoPosition not empty"><con:configuration><path>declare namespace ns1='http://www.siri.org.uk/siri';
 declare namespace ojp='http://www.vdv.de/ojp';
-empty(//ojp:GeoPosition)</path><content>false</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="LIR EP Holmec" id="9b15b220-7475-4042-add6-8dc241af5a81" disabled="true"><con:settings/><con:config service="https://dev.atob.si" methodName="OJP" resourcePath="/OpenAPI/LinkingAlps/OJP" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="LIR EP Holmec" id="828e9fb9-14d4-49a0-84bd-067c4293ea11" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://dev.atob.si</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+empty(//ojp:GeoPosition)</path><content>false</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="LIR EP Holmec" id="9b15b220-7475-4042-add6-8dc241af5a81"><con:settings/><con:config service="https://dev.atob.si" methodName="OJP" resourcePath="/OpenAPI/LinkingAlps/OJP" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="LIR EP Holmec" id="828e9fb9-14d4-49a0-84bd-067c4293ea11" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://dev.atob.si</con:endpoint><con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
     <OJPRequest>
         <ServiceRequest>
@@ -1490,7 +1597,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
 				<ojp:Origin>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>SI:01:1_LDRG460_sp</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>SI:01:1_1122993_sp</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Origin</ojp:Text>
                        		</ojp:LocationName>
@@ -1499,7 +1606,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				</ojp:Origin>
 				<ojp:Destination>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>SI:01:1_1128680_sp</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>SI:01:1_1122894_sp</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Desitination</ojp:Text>
                        		</ojp:LocationName>
@@ -1524,7 +1631,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
 				<ojp:Origin>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>SI:01:1_1123913_sp</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>SI:01:1_1122888_sp</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Origin</ojp:Text>
                        		</ojp:LocationName>
@@ -1533,7 +1640,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				</ojp:Origin>
 				<ojp:Destination>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>SI:01:1_LDRG533_sp</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>SI:01:1_1122788_sp</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Desitination</ojp:Text>
                        		</ojp:LocationName>
@@ -1558,7 +1665,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
 				<ojp:Origin>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>SI:01:1_1124399_sp</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>SI:01:1_1124400_sp</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Origin</ojp:Text>
                        		</ojp:LocationName>
@@ -1567,7 +1674,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				</ojp:Origin>
 				<ojp:Destination>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>SI:01:1_1151499_sp</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>SI:01:1_1122794_sp</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Desitination</ojp:Text>
                        		</ojp:LocationName>
@@ -1592,7 +1699,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
 				<ojp:Origin>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>SI:01:1_LDRG934_sp</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>SI:01:1_1122782_sp</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Origin</ojp:Text>
                        		</ojp:LocationName>
@@ -1601,7 +1708,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				</ojp:Origin>
 				<ojp:Destination>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>SI:01:1_1131922_sp</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>SI:01:1_1122795_sp</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Desitination</ojp:Text>
                        		</ojp:LocationName>
@@ -1617,7 +1724,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 			</ojp:OJPTripRequest>
 		</ServiceRequest>
 	</OJPRequest>
-</OJP>]]></con:request><con:originalUri>https://vao.demo.hafas.de/la_test_active_server</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="7949be0f-dda2-45f2-955c-64db64e5cf28" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="TR Jesenice Zidani Most" id="7761d759-dc6e-4cea-86b8-348ca9fef3f2" disabled="true"><con:settings/><con:config service="https://dev.atob.si" methodName="OJP" resourcePath="/OpenAPI/LinkingAlps/OJP" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="TR Jesenice Zidani Most" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://dev.atob.si</con:endpoint><con:request><![CDATA[<OJP version="1.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" xmlns:ojp="http://www.vdv.de/ojp">
+</OJP>]]></con:request><con:originalUri>https://vao.demo.hafas.de/la_test_active_server</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="7949be0f-dda2-45f2-955c-64db64e5cf28" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="TR Jesenice Zidani Most" id="7761d759-dc6e-4cea-86b8-348ca9fef3f2"><con:settings/><con:config service="https://dev.atob.si" methodName="OJP" resourcePath="/OpenAPI/LinkingAlps/OJP" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="TR Jesenice Zidani Most" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://dev.atob.si</con:endpoint><con:request><![CDATA[<OJP version="1.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" xmlns:ojp="http://www.vdv.de/ojp">
 	<OJPRequest>
 		<ServiceRequest>
 			<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
@@ -1626,7 +1733,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
 				<ojp:Origin>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>SI:01:1_LDRG1219_sp</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>SI:01:1_1122836_sp</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Origin</ojp:Text>
                        		</ojp:LocationName>
@@ -1635,7 +1742,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				</ojp:Origin>
 				<ojp:Destination>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>SI:01:1_LDRG71_sp</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>SI:01:1_1122792_sp</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Desitination</ojp:Text>
                        		</ojp:LocationName>
@@ -1660,7 +1767,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
 				<ojp:Origin>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>SI:01:1_1121365_sp</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>SI:01:1_1122785_sp</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Origin</ojp:Text>
                        		</ojp:LocationName>
@@ -1669,7 +1776,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				</ojp:Origin>
 				<ojp:Destination>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>SI:01:1_1124735_sp</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>SI:01:1_1122937_sp</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Desitination</ojp:Text>
                        		</ojp:LocationName>
@@ -1694,7 +1801,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
 				<ojp:Origin>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>SI:01:1_LDRG859_sp</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>SI:01:1_1122811_sp</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Origin</ojp:Text>
                        		</ojp:LocationName>
@@ -1703,7 +1810,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				</ojp:Origin>
 				<ojp:Destination>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef/>
+						<ojp:StopPlaceRef>SI:01:1_1122940_sp</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Desitination</ojp:Text>
                        		</ojp:LocationName>
@@ -1728,7 +1835,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
 				<ojp:Origin>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>SI:01:1_1126727_sp</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>SI:01:1_1122887_sp</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Origin</ojp:Text>
                        		</ojp:LocationName>
@@ -1753,7 +1860,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 			</ojp:OJPTripRequest>
 		</ServiceRequest>
 	</OJPRequest>
-</OJP>]]></con:request><con:originalUri>https://vao.demo.hafas.de/la_test_active_server</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="7949be0f-dda2-45f2-955c-64db64e5cf28" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="TR Lesce-Bled Ljubljana AP" id="4045699a-9eb9-424f-b42e-a9328609adc4" disabled="true"><con:settings/><con:config service="https://dev.atob.si" methodName="OJP" resourcePath="/OpenAPI/LinkingAlps/OJP" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="TR Lesce-Bled Ljubljana AP" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://dev.atob.si</con:endpoint><con:request><![CDATA[<OJP version="1.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" xmlns:ojp="http://www.vdv.de/ojp">
+</OJP>]]></con:request><con:originalUri>https://vao.demo.hafas.de/la_test_active_server</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="7949be0f-dda2-45f2-955c-64db64e5cf28" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="TR Lesce-Bled Ljubljana AP" id="4045699a-9eb9-424f-b42e-a9328609adc4"><con:settings/><con:config service="https://dev.atob.si" methodName="OJP" resourcePath="/OpenAPI/LinkingAlps/OJP" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="TR Lesce-Bled Ljubljana AP" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://dev.atob.si</con:endpoint><con:request><![CDATA[<OJP version="1.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" xmlns:ojp="http://www.vdv.de/ojp">
 	<OJPRequest>
 		<ServiceRequest>
 			<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
@@ -1762,7 +1869,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
 				<ojp:Origin>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>SI:01:1_LDRG1006_sp</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>SI:01:1_1122816_sp</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Origin</ojp:Text>
                        		</ojp:LocationName>
@@ -1796,7 +1903,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
 				<ojp:Origin>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>SI:01:1_1126915_sp</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>SI:01:1_1122797_sp</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Origin</ojp:Text>
                        		</ojp:LocationName>
@@ -1830,7 +1937,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
 				<ojp:Origin>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>SI:01:1_LDRG644_sp</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>SI:01:1_1122804_sp</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Origin</ojp:Text>
                        		</ojp:LocationName>
@@ -1839,7 +1946,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				</ojp:Origin>
 				<ojp:Destination>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>SI:01:1_1127863_sp</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>SI:01:1_1123032_sp</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Desitination</ojp:Text>
                        		</ojp:LocationName>
@@ -1855,7 +1962,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 			</ojp:OJPTripRequest>
 		</ServiceRequest>
 	</OJPRequest>
-</OJP>]]></con:request><con:originalUri>https://vao.demo.hafas.de/la_test_active_server</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="7949be0f-dda2-45f2-955c-64db64e5cf28" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="TR Maribor Rogatec" id="16a48cbf-efbc-4da7-b1ad-ddb77d4f2486"><con:settings/><con:config service="https://dev.atob.si" methodName="OJP" resourcePath="/OpenAPI/LinkingAlps/OJP" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="TR Maribor Rogatec" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://dev.atob.si</con:endpoint><con:request><![CDATA[<OJP version="1.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" xmlns:ojp="http://www.vdv.de/ojp">
+</OJP>]]></con:request><con:originalUri>https://vao.demo.hafas.de/la_test_active_server</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="7949be0f-dda2-45f2-955c-64db64e5cf28" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="TR Maribor Rogatec" id="16a48cbf-efbc-4da7-b1ad-ddb77d4f2486" disabled="true"><con:settings/><con:config service="https://dev.atob.si" methodName="OJP" resourcePath="/OpenAPI/LinkingAlps/OJP" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="TR Maribor Rogatec" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://dev.atob.si</con:endpoint><con:request><![CDATA[<OJP version="1.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" xmlns:ojp="http://www.vdv.de/ojp">
 	<OJPRequest>
 		<ServiceRequest>
 			<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
@@ -1864,7 +1971,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
 				<ojp:Origin>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>SI:01:1_1122261_sp</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>SI:01:1_1122913_sp</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Origin</ojp:Text>
                        		</ojp:LocationName>
@@ -1873,7 +1980,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				</ojp:Origin>
 				<ojp:Destination>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>SI:01:1_1129453_sp</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>SI:01:1_1122967_sp</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Desitination</ojp:Text>
                        		</ojp:LocationName>
@@ -1889,7 +1996,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 			</ojp:OJPTripRequest>
 		</ServiceRequest>
 	</OJPRequest>
-</OJP>]]></con:request><con:originalUri>https://vao.demo.hafas.de/la_test_active_server</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="7949be0f-dda2-45f2-955c-64db64e5cf28" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="TR Ormoz Sezana" id="6b6c028f-785a-4ecf-a813-dfd63260c6ee"><con:settings/><con:config service="https://dev.atob.si" methodName="OJP" resourcePath="/OpenAPI/LinkingAlps/OJP" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="TR Ormoz Sezana" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://dev.atob.si</con:endpoint><con:request><![CDATA[<OJP version="1.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" xmlns:ojp="http://www.vdv.de/ojp">
+</OJP>]]></con:request><con:originalUri>https://vao.demo.hafas.de/la_test_active_server</con:originalUri><con:assertion type="Simple NotContains" id="8d298d8b-b792-442d-8794-3268e0857548" name="Not Contains error"><con:configuration><token>error</token><ignoreCase>true</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="7949be0f-dda2-45f2-955c-64db64e5cf28" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Authorization" value="Bearer 57c5dadd5e6307000100005e0e0520340d05419b8c1f13c17a20a8ab" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="TR Ormoz Sezana" id="6b6c028f-785a-4ecf-a813-dfd63260c6ee" disabled="true"><con:settings/><con:config service="https://dev.atob.si" methodName="OJP" resourcePath="/OpenAPI/LinkingAlps/OJP" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="TR Ormoz Sezana" id="122a8dcf-e769-4fa6-9472-073f608077c1" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://dev.atob.si</con:endpoint><con:request><![CDATA[<OJP version="1.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" xmlns:ojp="http://www.vdv.de/ojp">
 	<OJPRequest>
 		<ServiceRequest>
 			<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
@@ -1898,7 +2005,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
 				<ojp:Origin>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>SI:01:1_1128020_sp</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>SI:01:1_1122943_sp</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Origin</ojp:Text>
                        		</ojp:LocationName>
@@ -1907,7 +2014,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				</ojp:Origin>
 				<ojp:Destination>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>SI:01:1_1129913_sp</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>SI:01:1_1129916_sp</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Desitination</ojp:Text>
                        		</ojp:LocationName>
@@ -1932,7 +2039,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
 				<ojp:Origin>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>SI:01:1_LDRG999_sp</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>SI:01:1_1128269_sp</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Origin</ojp:Text>
                        		</ojp:LocationName>
@@ -1941,7 +2048,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				</ojp:Origin>
 				<ojp:Destination>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>SI:01:1_1130574_sp</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>SI:01:1_1122950_sp</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Desitination</ojp:Text>
                        		</ojp:LocationName>
@@ -1966,7 +2073,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				<RequestTimestamp>${=def now = new Date();now.format("yyyy-MM-dd'T'HH:mm:ss")}</RequestTimestamp>
 				<ojp:Origin>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>SI:01:1_1128777_sp</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>SI:01:1_1122899_sp</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Origin</ojp:Text>
                        		</ojp:LocationName>
@@ -1975,7 +2082,7 @@ declare namespace siri="http://www.siri.org.uk/siri";
 				</ojp:Origin>
 				<ojp:Destination>
 					<ojp:PlaceRef>
-						<ojp:StopPlaceRef>SI:01:1_LDRG460_sp</ojp:StopPlaceRef>
+						<ojp:StopPlaceRef>SI:01:1_1122993_sp</ojp:StopPlaceRef>
 						<ojp:LocationName>
                        			<ojp:Text>Desitination</ojp:Text>
                        		</ojp:LocationName>
