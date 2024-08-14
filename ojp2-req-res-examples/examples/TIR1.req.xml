@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+                    <OJP version="2.0" xsi:schemaLocation="http://www.vdv.de/ojp OJP_changes_for_v1.1/OJP.xsd" xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                        <OJPRequest>
+                            <siri:ServiceRequest>
+                                <siri:RequestTimestamp>2024-06-01T11:16:59.475Z</siri:RequestTimestamp>
+                                <siri:RequestorRef>MENTZRegTest</siri:RequestorRef>
+                                <OJPTripInfoRequest>
+                                    <siri:RequestTimestamp>2024-06-01T11:16:59.475Z</siri:RequestTimestamp>
+                                    <siri:MessageIdentifier>TIR-1a</siri:MessageIdentifier>
+                                    <JourneyRef>ojp-91-3-J-j24-1-3107-TA</JourneyRef>
+                                    <OperatingDayRef>2024-08-14</OperatingDayRef>
+                                </OJPTripInfoRequest>
+                            </siri:ServiceRequest>
+                        </OJPRequest>
+                        </OJP>       

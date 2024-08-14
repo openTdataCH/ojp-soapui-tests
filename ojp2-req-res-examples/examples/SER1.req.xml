@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vdv.de/ojp ../../../../OJP4/OJP.xsd">
+	<OJPRequest>
+		<siri:ServiceRequest>
+			<siri:RequestTimestamp>2024-06-01T11:24:34.598Z</siri:RequestTimestamp>
+			<siri:RequestorRef>MENTZRegTest</siri:RequestorRef>
+			<OJPStopEventRequest>
+				<siri:RequestTimestamp>2024-06-01T11:24:34.598Z</siri:RequestTimestamp>
+				<siri:MessageIdentifier>SER</siri:MessageIdentifier>
+				<Location>
+					<PlaceRef>
+						<siri:StopPointRef>8530813</siri:StopPointRef>
+						<Name>
+							<Text>Zürich Kreuzplatz</Text>
+						</Name>
+					</PlaceRef>
+					<!-- <DepArrTime>2024-06-01T11:24:34.598Z</DepArrTime> -->
+				</Location>
+				<Params>
+					<NumberOfResults>5</NumberOfResults>
+					<StopEventType>departure</StopEventType>
+					<IncludePreviousCalls>false</IncludePreviousCalls>
+					<IncludeOnwardCalls>false</IncludeOnwardCalls>
+					<UseRealtimeData>full</UseRealtimeData>
+					<IncludeStopHierarchy>all</IncludeStopHierarchy>
+				</Params>
+			</OJPStopEventRequest>
+		</siri:ServiceRequest>
+	</OJPRequest>
+</OJP>                
+Example Description
