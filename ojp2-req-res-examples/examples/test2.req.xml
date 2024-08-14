@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vdv.de/ojp ../../../../OJP4/OJP.xsd">
+	<OJPRequest>
+		<siri:ServiceRequest>
+			<siri:RequestTimestamp>2024-06-01T11:24:34.598Z</siri:RequestTimestamp>
+			<siri:RequestorRef>MENTZRegTest</siri:RequestorRef>
+			<OJPTripRequest>
+				<siri:RequestTimestamp>2024-06-01T11:24:34.598Z</siri:RequestTimestamp>
+				<siri:MessageIdentifier>TR-1g</siri:MessageIdentifier>
+				<Origin>
+					<PlaceRef>
+						<siri:StopPointRef>8503016</siri:StopPointRef>
+						<Name>
+							<Text>Zürich Flughafen</Text>
+						</Name>
+					</PlaceRef>
+					<!-- <DepArrTime>2024-06-01T11:24:34.598Z</DepArrTime> -->
+				</Origin>
+				<Destination>
+					<PlaceRef>
+						<siri:StopPointRef>8503424</siri:StopPointRef>
+						<Name>
+							<Text>Schaffhausen</Text>
+						</Name>
+					</PlaceRef>
+					<!-- <DepArrTime>2024-06-01T11:24:34.598Z</DepArrTime> -->
+                    				</Destination>
+				<NoChangeAt>
+					<StopPlaceRef>8506000</StopPlaceRef>
+				</NoChangeAt>
+				<Params>
+					<NoSingleStep>false</NoSingleStep>
+					<NoStairs>true</NoStairs>
+					<NoEscalator>false</NoEscalator>
+					<NoElevator>false</NoElevator>
+					<NoRamp>false</NoRamp>
+					<NoSight>false</NoSight>
+					<NoTravelator>false</NoTravelator>
+					<LevelEntrance>true</LevelEntrance>
+					<LevelEntranceOrBoardingAid>false</LevelEntranceOrBoardingAid>
+					<BikeTransport>false</BikeTransport>
+					<WalkSpeed>150</WalkSpeed>
+					<HikingProfile>easy</HikingProfile>
+					<CyclingProfile>comfortable</CyclingProfile>
+					<NumberOfResults>1</NumberOfResults>
+					<UseRealtimeData>explanatory</UseRealtimeData>
+					<OptimisationMethod>fastest</OptimisationMethod>
+					<IncludeAlternativeOptions>true</IncludeAlternativeOptions>
+					<IncludeLegProjection>false</IncludeLegProjection>
+					<IncludeTurnDescription>false</IncludeTurnDescription>
+					<IncludeAccessFeatures>true</IncludeAccessFeatures>
+					<IncludeSituationsContext>false</IncludeSituationsContext>
+					<IncludeIntermediateStops>false</IncludeIntermediateStops>
+					<IncludeOperatingDays>true</IncludeOperatingDays>
+				</Params>
+			</OJPTripRequest>
+		</siri:ServiceRequest>
+	</OJPRequest>
+</OJP>
