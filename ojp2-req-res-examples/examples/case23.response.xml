@@ -1,1 +1,313 @@
-<?xml version="1.0" encoding="utf-8"?><OJP xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns="http://www.vdv.de/ojp"><OJPResponse><siri:ServiceDelivery><siri:ResponseTimestamp>2024-08-16T19:05:11.780116+02:00</siri:ResponseTimestamp><siri:ProducerRef>MENTZ</siri:ProducerRef><OJPLocationInformationDelivery><siri:ResponseTimestamp>2024-08-16T19:05:11.780251+02:00</siri:ResponseTimestamp><siri:RequestMessageRef>344bd33b-0c36-4468-83fe-796d3b6ed8dd</siri:RequestMessageRef><siri:DefaultLanguage>de</siri:DefaultLanguage><CalcTime>2</CalcTime><PlaceResult><Place><Address><PublicCode>streetID:1500000015::23016311:-1:Tafeli:Amden:Tafeli::Tafeli: 8872:ANY:DIVA_STREET:1014343:6034924:MRCV</PublicCode><Name><Text xml:lang="de">Amden, Tafeli</Text></Name><PostCode> 8872</PostCode><TopographicPlaceName>Amden</TopographicPlaceName><TopographicPlaceRef>23016311:-1</TopographicPlaceRef><Street>Tafeli</Street></Address><Name><Text xml:lang="de">Tafeli (Amden)</Text></Name><GeoPosition><siri:Longitude>9.112</siri:Longitude><siri:Latitude>47.14074</siri:Latitude></GeoPosition></Place><Complete>true</Complete><Probability>0.967</Probability></PlaceResult><PlaceResult><Place><Address><PublicCode>streetID:1500000096::23016315:-1:Taflet:Schänis:Taflet::Taflet: 8723:ANY:DIVA_STREET:1008600:6027845:MRCV</PublicCode><Name><Text xml:lang="de">Schänis, Taflet</Text></Name><PostCode> 8723</PostCode><TopographicPlaceName>Schänis</TopographicPlaceName><TopographicPlaceRef>23016315:-1</TopographicPlaceRef><Street>Taflet</Street></Address><Name><Text xml:lang="de">Taflet (Schänis)</Text></Name><GeoPosition><siri:Longitude>9.06041</siri:Longitude><siri:Latitude>47.18397</siri:Latitude></GeoPosition></Place><Complete>true</Complete><Probability>0.967</Probability></PlaceResult><PlaceResult><Place><Address><PublicCode>streetID:1500000438::23016273:-1:Tafanuf:Grabs:Tafanuf::Tafanuf: 9472:ANY:DIVA_STREET:1045860:6029608:MRCV</PublicCode><Name><Text xml:lang="de">Grabs, Tafanuf</Text></Name><PostCode> 9472</PostCode><TopographicPlaceName>Grabs</TopographicPlaceName><TopographicPlaceRef>23016273:-1</TopographicPlaceRef><Street>Tafanuf</Street></Address><Name><Text xml:lang="de">Tafanuf (Grabs)</Text></Name><GeoPosition><siri:Longitude>9.39512</siri:Longitude><siri:Latitude>47.17321</siri:Latitude></GeoPosition></Place><Complete>true</Complete><Probability>0.96</Probability></PlaceResult><PlaceResult><Place><Address><PublicCode>streetID:1500000147::23026002:-1:Tannhof:Affoltern am Albis:Tannhof::Tannhof: 8910:ANY:DIVA_STREET:941375:6013696:MRCV</PublicCode><Name><Text xml:lang="de">Affoltern am Albis, Tannhof</Text></Name><PostCode> 8910</PostCode><TopographicPlaceName>Affoltern am Albis</TopographicPlaceName><TopographicPlaceRef>23026002:-1</TopographicPlaceRef><Street>Tannhof</Street></Address><Name><Text xml:lang="de">Tannhof (Affoltern am Albis)</Text></Name><GeoPosition><siri:Longitude>8.45652</siri:Longitude><siri:Latitude>47.27029</siri:Latitude></GeoPosition></Place><Complete>true</Complete><Probability>0.96</Probability></PlaceResult><PlaceResult><Place><Address><PublicCode>streetID:1500000265::23006567:-1:Tafelen:Reichenbach im Kandertal:Tafelen::Tafelen: 3714:ANY:DIVA_STREET:851483:6121432:MRCV</PublicCode><Name><Text xml:lang="de">Reichenbach im Kandertal, Tafelen</Text></Name><PostCode> 3714</PostCode><TopographicPlaceName>Reichenbach im Kandertal</TopographicPlaceName><TopographicPlaceRef>23006567:-1</TopographicPlaceRef><Street>Tafelen</Street></Address><Name><Text xml:lang="de">Tafelen (Reichenbach im Kandertal)</Text></Name><GeoPosition><siri:Longitude>7.649</siri:Longitude><siri:Latitude>46.60951</siri:Latitude></GeoPosition></Place><Complete>true</Complete><Probability>0.96</Probability></PlaceResult><PlaceResult><Place><Address><PublicCode>streetID:1500000406::23016273:-1:Tafadils:Grabs:Tafadils::Tafadils: 9472:ANY:DIVA_STREET:1047597:6027947:MRCV</PublicCode><Name><Text xml:lang="de">Grabs, Tafadils</Text></Name><PostCode> 9472</PostCode><TopographicPlaceName>Grabs</TopographicPlaceName><TopographicPlaceRef>23016273:-1</TopographicPlaceRef><Street>Tafadils</Street></Address><Name><Text xml:lang="de">Tafadils (Grabs)</Text></Name><GeoPosition><siri:Longitude>9.41072</siri:Longitude><siri:Latitude>47.18335</siri:Latitude></GeoPosition></Place><Complete>true</Complete><Probability>0.955</Probability></PlaceResult><PlaceResult><Place><Address><PublicCode>streetID:1500000060::23022203:-1:Tafleten:Attinghausen:Tafleten::Tafleten: 6468:ANY:DIVA_STREET:959662:6082959:MRCV</PublicCode><Name><Text xml:lang="de">Attinghausen, Tafleten</Text></Name><PostCode> 6468</PostCode><TopographicPlaceName>Attinghausen</TopographicPlaceName><TopographicPlaceRef>23022203:-1</TopographicPlaceRef><Street>Tafleten</Street></Address><Name><Text xml:lang="de">Tafleten (Attinghausen)</Text></Name><GeoPosition><siri:Longitude>8.62079</siri:Longitude><siri:Latitude>46.84641</siri:Latitude></GeoPosition></Place><Complete>true</Complete><Probability>0.955</Probability></PlaceResult><PlaceResult><Place><Address><PublicCode>streetID:1500000009::23026112:-1:Tafletenweg:Bubikon:Tafletenweg::Tafletenweg: 8608:ANY:DIVA_STREET:982052:6013053:MRCV</PublicCode><Name><Text xml:lang="de">Bubikon, Tafletenweg</Text></Name><PostCode> 8608</PostCode><TopographicPlaceName>Bubikon</TopographicPlaceName><TopographicPlaceRef>23026112:-1</TopographicPlaceRef><Street>Tafletenweg</Street></Address><Name><Text xml:lang="de">Tafletenweg (Bubikon)</Text></Name><GeoPosition><siri:Longitude>8.82192</siri:Longitude><siri:Latitude>47.27421</siri:Latitude></GeoPosition></Place><Complete>true</Complete><Probability>0.943</Probability></PlaceResult><PlaceResult><Place><Address><PublicCode>streetID:1500000110::23018346:-1:Tafletenhof:Schübelbach:Tafletenhof::Tafletenhof: 8863:ANY:DIVA_STREET:996896:6029614:MRCV</PublicCode><Name><Text xml:lang="de">Schübelbach, Tafletenhof</Text></Name><PostCode> 8863</PostCode><TopographicPlaceName>Schübelbach</TopographicPlaceName><TopographicPlaceRef>23018346:-1</TopographicPlaceRef><Street>Tafletenhof</Street></Address><Name><Text xml:lang="de">Tafletenhof (Schübelbach)</Text></Name><GeoPosition><siri:Longitude>8.95527</siri:Longitude><siri:Latitude>47.17317</siri:Latitude></GeoPosition></Place><Complete>true</Complete><Probability>0.943</Probability></PlaceResult><PlaceResult><Place><Address><PublicCode>streetID:1500000002::23001072:-1:Tafelackerweg:Niederwil AG:Tafelackerweg::Tafelackerweg: 5524:ANY:DIVA_STREET:923688:5996412:MRCV</PublicCode><Name><Text xml:lang="de">Niederwil AG, Tafelackerweg</Text></Name><PostCode> 5524</PostCode><TopographicPlaceName>Niederwil AG</TopographicPlaceName><TopographicPlaceRef>23001072:-1</TopographicPlaceRef><Street>Tafelackerweg</Street></Address><Name><Text xml:lang="de">Tafelackerweg (Niederwil AG)</Text></Name><GeoPosition><siri:Longitude>8.29763</siri:Longitude><siri:Latitude>47.37554</siri:Latitude></GeoPosition></Place><Complete>true</Complete><Probability>0.938</Probability></PlaceResult><PlaceResult><Place><Address><PublicCode>streetID:1500000131::23018362:-1:Tafelstattweg:Arth (CH):Tafelstattweg::Tafelstattweg: 6415:ANY:DIVA_STREET:949390:6046492:MRCV</PublicCode><Name><Text xml:lang="de">Arth (CH), Tafelstattweg</Text></Name><PostCode> 6415</PostCode><TopographicPlaceName>Arth (CH)</TopographicPlaceName><TopographicPlaceRef>23018362:-1</TopographicPlaceRef><Street>Tafelstattweg</Street></Address><Name><Text xml:lang="de">Tafelstattweg (Arth (CH))</Text></Name><GeoPosition><siri:Longitude>8.52852</siri:Longitude><siri:Latitude>47.07</siri:Latitude></GeoPosition></Place><Complete>true</Complete><Probability>0.938</Probability></PlaceResult><PlaceResult><Place><Address><PublicCode>streetID:1500000086::23019500:-1:Tafelackerweg:Trimbach:Tafelackerweg::Tafelackerweg: 4632:ANY:DIVA_STREET:880063:5998347:MRCV</PublicCode><Name><Text xml:lang="de">Trimbach, Tafelackerweg</Text></Name><PostCode> 4632</PostCode><TopographicPlaceName>Trimbach</TopographicPlaceName><TopographicPlaceRef>23019500:-1</TopographicPlaceRef><Street>Tafelackerweg</Street></Address><Name><Text xml:lang="de">Tafelackerweg (Trimbach)</Text></Name><GeoPosition><siri:Longitude>7.90574</siri:Longitude><siri:Latitude>47.36376</siri:Latitude></GeoPosition></Place><Complete>true</Complete><Probability>0.938</Probability></PlaceResult><PlaceResult><Place><Address><PublicCode>streetID:1500000113::23008293:-1:Tafersstrasse:Düdingen:Tafersstrasse::Tafersstrasse: 1700:ANY:DIVA_STREET:799764:6088751:MRCV</PublicCode><Name><Text xml:lang="de">Düdingen, Tafersstrasse</Text></Name><PostCode> 1700</PostCode><TopographicPlaceName>Düdingen</TopographicPlaceName><TopographicPlaceRef>23008293:-1</TopographicPlaceRef><Street>Tafersstrasse</Street></Address><Name><Text xml:lang="de">Tafersstrasse (Düdingen)</Text></Name><GeoPosition><siri:Longitude>7.1844</siri:Longitude><siri:Latitude>46.81082</siri:Latitude></GeoPosition></Place><Complete>true</Complete><Probability>0.938</Probability></PlaceResult></OJPLocationInformationDelivery></siri:ServiceDelivery></OJPResponse></OJP>
+<OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
+  <OJPResponse>
+    <siri:ServiceDelivery>
+      <siri:ResponseTimestamp>2024-08-16T19:30:46.69105+02:00</siri:ResponseTimestamp>
+      <siri:ProducerRef>MENTZ</siri:ProducerRef>
+      <OJPLocationInformationDelivery>
+        <siri:ResponseTimestamp>2024-08-16T19:30:46.6911843+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>6037244e-adac-4205-b172-7fad34de114a</siri:RequestMessageRef>
+        <siri:DefaultLanguage>de</siri:DefaultLanguage>
+        <CalcTime>2</CalcTime>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000015::23016311:-1:Tafeli:Amden:Tafeli::Tafeli: 8872:ANY:DIVA_STREET:1014343:6034924:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Amden, Tafeli</Text>
+              </Name>
+              <PostCode> 8872</PostCode>
+              <TopographicPlaceName>Amden</TopographicPlaceName>
+              <TopographicPlaceRef>23016311:-1</TopographicPlaceRef>
+              <Street>Tafeli</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Tafeli (Amden)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>9.112</siri:Longitude>
+              <siri:Latitude>47.14074</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.967</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000096::23016315:-1:Taflet:Schänis:Taflet::Taflet: 8723:ANY:DIVA_STREET:1008600:6027845:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Schänis, Taflet</Text>
+              </Name>
+              <PostCode> 8723</PostCode>
+              <TopographicPlaceName>Schänis</TopographicPlaceName>
+              <TopographicPlaceRef>23016315:-1</TopographicPlaceRef>
+              <Street>Taflet</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Taflet (Schänis)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>9.06041</siri:Longitude>
+              <siri:Latitude>47.18397</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.967</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000438::23016273:-1:Tafanuf:Grabs:Tafanuf::Tafanuf: 9472:ANY:DIVA_STREET:1045860:6029608:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Grabs, Tafanuf</Text>
+              </Name>
+              <PostCode> 9472</PostCode>
+              <TopographicPlaceName>Grabs</TopographicPlaceName>
+              <TopographicPlaceRef>23016273:-1</TopographicPlaceRef>
+              <Street>Tafanuf</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Tafanuf (Grabs)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>9.39512</siri:Longitude>
+              <siri:Latitude>47.17321</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.96</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000147::23026002:-1:Tannhof:Affoltern am Albis:Tannhof::Tannhof: 8910:ANY:DIVA_STREET:941375:6013696:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Affoltern am Albis, Tannhof</Text>
+              </Name>
+              <PostCode> 8910</PostCode>
+              <TopographicPlaceName>Affoltern am Albis</TopographicPlaceName>
+              <TopographicPlaceRef>23026002:-1</TopographicPlaceRef>
+              <Street>Tannhof</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Tannhof (Affoltern am Albis)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.45652</siri:Longitude>
+              <siri:Latitude>47.27029</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.96</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000265::23006567:-1:Tafelen:Reichenbach im Kandertal:Tafelen::Tafelen: 3714:ANY:DIVA_STREET:851483:6121432:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Reichenbach im Kandertal, Tafelen</Text>
+              </Name>
+              <PostCode> 3714</PostCode>
+              <TopographicPlaceName>Reichenbach im Kandertal</TopographicPlaceName>
+              <TopographicPlaceRef>23006567:-1</TopographicPlaceRef>
+              <Street>Tafelen</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Tafelen (Reichenbach im Kandertal)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>7.649</siri:Longitude>
+              <siri:Latitude>46.60951</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.96</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000406::23016273:-1:Tafadils:Grabs:Tafadils::Tafadils: 9472:ANY:DIVA_STREET:1047597:6027947:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Grabs, Tafadils</Text>
+              </Name>
+              <PostCode> 9472</PostCode>
+              <TopographicPlaceName>Grabs</TopographicPlaceName>
+              <TopographicPlaceRef>23016273:-1</TopographicPlaceRef>
+              <Street>Tafadils</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Tafadils (Grabs)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>9.41072</siri:Longitude>
+              <siri:Latitude>47.18335</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.955</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000060::23022203:-1:Tafleten:Attinghausen:Tafleten::Tafleten: 6468:ANY:DIVA_STREET:959662:6082959:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Attinghausen, Tafleten</Text>
+              </Name>
+              <PostCode> 6468</PostCode>
+              <TopographicPlaceName>Attinghausen</TopographicPlaceName>
+              <TopographicPlaceRef>23022203:-1</TopographicPlaceRef>
+              <Street>Tafleten</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Tafleten (Attinghausen)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.62079</siri:Longitude>
+              <siri:Latitude>46.84641</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.955</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000009::23026112:-1:Tafletenweg:Bubikon:Tafletenweg::Tafletenweg: 8608:ANY:DIVA_STREET:982052:6013053:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Bubikon, Tafletenweg</Text>
+              </Name>
+              <PostCode> 8608</PostCode>
+              <TopographicPlaceName>Bubikon</TopographicPlaceName>
+              <TopographicPlaceRef>23026112:-1</TopographicPlaceRef>
+              <Street>Tafletenweg</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Tafletenweg (Bubikon)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.82192</siri:Longitude>
+              <siri:Latitude>47.27421</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.943</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000110::23018346:-1:Tafletenhof:Schübelbach:Tafletenhof::Tafletenhof: 8863:ANY:DIVA_STREET:996896:6029614:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Schübelbach, Tafletenhof</Text>
+              </Name>
+              <PostCode> 8863</PostCode>
+              <TopographicPlaceName>Schübelbach</TopographicPlaceName>
+              <TopographicPlaceRef>23018346:-1</TopographicPlaceRef>
+              <Street>Tafletenhof</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Tafletenhof (Schübelbach)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.95527</siri:Longitude>
+              <siri:Latitude>47.17317</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.943</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000002::23001072:-1:Tafelackerweg:Niederwil AG:Tafelackerweg::Tafelackerweg: 5524:ANY:DIVA_STREET:923688:5996412:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Niederwil AG, Tafelackerweg</Text>
+              </Name>
+              <PostCode> 5524</PostCode>
+              <TopographicPlaceName>Niederwil AG</TopographicPlaceName>
+              <TopographicPlaceRef>23001072:-1</TopographicPlaceRef>
+              <Street>Tafelackerweg</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Tafelackerweg (Niederwil AG)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.29763</siri:Longitude>
+              <siri:Latitude>47.37554</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.938</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000131::23018362:-1:Tafelstattweg:Arth (CH):Tafelstattweg::Tafelstattweg: 6415:ANY:DIVA_STREET:949390:6046492:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Arth (CH), Tafelstattweg</Text>
+              </Name>
+              <PostCode> 6415</PostCode>
+              <TopographicPlaceName>Arth (CH)</TopographicPlaceName>
+              <TopographicPlaceRef>23018362:-1</TopographicPlaceRef>
+              <Street>Tafelstattweg</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Tafelstattweg (Arth (CH))</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.52852</siri:Longitude>
+              <siri:Latitude>47.07</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.938</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000086::23019500:-1:Tafelackerweg:Trimbach:Tafelackerweg::Tafelackerweg: 4632:ANY:DIVA_STREET:880063:5998347:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Trimbach, Tafelackerweg</Text>
+              </Name>
+              <PostCode> 4632</PostCode>
+              <TopographicPlaceName>Trimbach</TopographicPlaceName>
+              <TopographicPlaceRef>23019500:-1</TopographicPlaceRef>
+              <Street>Tafelackerweg</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Tafelackerweg (Trimbach)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>7.90574</siri:Longitude>
+              <siri:Latitude>47.36376</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.938</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000113::23008293:-1:Tafersstrasse:Düdingen:Tafersstrasse::Tafersstrasse: 1700:ANY:DIVA_STREET:799764:6088751:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Düdingen, Tafersstrasse</Text>
+              </Name>
+              <PostCode> 1700</PostCode>
+              <TopographicPlaceName>Düdingen</TopographicPlaceName>
+              <TopographicPlaceRef>23008293:-1</TopographicPlaceRef>
+              <Street>Tafersstrasse</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Tafersstrasse (Düdingen)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>7.1844</siri:Longitude>
+              <siri:Latitude>46.81082</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.938</Probability>
+        </PlaceResult>
+      </OJPLocationInformationDelivery>
+    </siri:ServiceDelivery>
+  </OJPResponse>
+</OJP>

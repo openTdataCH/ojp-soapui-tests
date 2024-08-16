@@ -1,1 +1,287 @@
-<?xml version="1.0" encoding="utf-8"?><OJP xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns="http://www.vdv.de/ojp"><OJPResponse><siri:ServiceDelivery><siri:ResponseTimestamp>2024-08-16T19:04:44.1620421+02:00</siri:ResponseTimestamp><siri:ProducerRef>MENTZ</siri:ProducerRef><OJPTripDelivery><siri:ResponseTimestamp>2024-08-16T19:04:44.1620435+02:00</siri:ResponseTimestamp><siri:RequestMessageRef>d1f545f1-fea4-46b5-8161-d684c0beb069</siri:RequestMessageRef><siri:DefaultLanguage>de</siri:DefaultLanguage><CalcTime>65</CalcTime><TripResponseContext><Places><Place><StopPlace><StopPlaceRef>8503000</StopPlaceRef><StopPlaceName><Text xml:lang="de">Zürich HB</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>108276:0:13</Value></PrivateCode><TopographicPlaceRef>23026261:27</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Zürich HB</Text></Name><GeoPosition><siri:Longitude>8.53923</siri:Longitude><siri:Latitude>47.37836</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>8507000</StopPlaceRef><StopPlaceName><Text xml:lang="de">Bern</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>111055:0:7</Value></PrivateCode><TopographicPlaceRef>23006351:1</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Bern</Text></Name><GeoPosition><siri:Longitude>7.4388</siri:Longitude><siri:Latitude>46.94928</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>8507100</StopPlaceRef><StopPlaceName><Text xml:lang="de">Thun</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>111104:0:5</Value></PrivateCode><TopographicPlaceRef>23006942:9</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Thun</Text></Name><GeoPosition><siri:Longitude>7.62884</siri:Longitude><siri:Latitude>46.7549</siri:Latitude></GeoPosition></Place></Places><Situations /></TripResponseContext><TripResult><Id>ID-AA556437-4E13-4946-94FE-1BD23C900995</Id><Trip><Id>ID-AA556437-4E13-4946-94FE-1BD23C900995</Id><Duration>PT5H48M</Duration><StartTime>2024-12-05T23:02:00Z</StartTime><EndTime>2024-12-06T04:50:00Z</EndTime><Transfers>1</Transfers><Leg><Id>1</Id><Duration>PT1H2M</Duration><TimedLeg><LegBoard><siri:StopPointRef>ch:1:sloid:3000:7:13</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich HB</Text></StopPointName><PlannedQuay><Text xml:lang="de">13</Text></PlannedQuay><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><ServiceDeparture><TimetabledTime>2024-12-05T23:02:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></LegBoard><LegAlight><siri:StopPointRef>ch:1:sloid:7000:4:7</siri:StopPointRef><StopPointName><Text xml:lang="de">Bern</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">7</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T00:04:00Z</TimetabledTime></ServiceArrival><Order>4</Order></LegAlight><Service><Mode><PtMode>rail</PtMode><siri:RailSubmode>interregionalRail</siri:RailSubmode><Name><Text xml:lang="de">Zug</Text></Name><ShortName><Text xml:lang="de">IC</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>842</TrainNumber><siri:LineRef>ojp:91008:E</siri:LineRef><siri:OperatorRef>11</siri:OperatorRef><PublicCode>InterCity</PublicCode><PublishedServiceName><Text xml:lang="de">IC8</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Zug</Text></Name><ShortName><Text xml:lang="de">IC</Text></ShortName><ProductCategoryRef>23</ProductCategoryRef></ProductCategory><siri:DirectionRef>R</siri:DirectionRef><OperatingDayRef>2024-12-05</OperatingDayRef><DestinationStopPointRef>8507000</DestinationStopPointRef><OriginText><Text xml:lang="de">n/a</Text></OriginText><DestinationText><Text xml:lang="de">Bern</Text></DestinationText><JourneyRef>ch:1:sjyid:100001:842-002</JourneyRef><Attribute><UserText><Text xml:lang="de">Gratis-Internet mit der App SBB FreeSurf</Text></UserText><Code>A__FS</Code></Attribute><Attribute><UserText><Text xml:lang="de">Ruhezone in 1. Klasse</Text></UserText><Code>A__RZ</Code></Attribute><Attribute><UserText><Text xml:lang="de">Businesszone in 1. Klasse</Text></UserText><Code>A__BZ</Code></Attribute><Attribute><UserText><Text xml:lang="de">Familienwagen mit Spielplatz</Text></UserText><Code>A__FA</Code></Attribute></Service></TimedLeg></Leg><Leg><Id>2</Id><Duration>PT6M</Duration><TransferLeg><TransferType>walk</TransferType><LegStart><siri:StopPointRef>8507000</siri:StopPointRef><Name><Text xml:lang="de">Bern</Text></Name></LegStart><LegEnd><siri:StopPointRef>8507000</siri:StopPointRef><Name><Text xml:lang="de">Bern</Text></Name></LegEnd><Duration>PT6M</Duration></TransferLeg></Leg><Leg><Id>3</Id><Duration>PT48M</Duration><TimedLeg><LegBoard><siri:StopPointRef>ch:1:sloid:7000:6:32</siri:StopPointRef><StopPointName><Text xml:lang="de">Bern</Text></StopPointName><PlannedQuay><Text xml:lang="de">12</Text></PlannedQuay><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><ServiceDeparture><TimetabledTime>2024-12-06T04:02:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></LegBoard><LegAlight><siri:StopPointRef>ch:1:sloid:7100:3:5</siri:StopPointRef><StopPointName><Text xml:lang="de">Thun</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">5</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T04:50:00Z</TimetabledTime></ServiceArrival><Order>16</Order></LegAlight><Service><Mode><PtMode>rail</PtMode><siri:RailSubmode>regionalRail</siri:RailSubmode><Name><Text xml:lang="de">Zug</Text></Name><ShortName><Text xml:lang="de">S</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>16412</TrainNumber><siri:LineRef>ojp:91044:_x0020_</siri:LineRef><siri:OperatorRef>33</siri:OperatorRef><PublicCode>S-Bahn</PublicCode><PublishedServiceName><Text xml:lang="de">S44</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Zug</Text></Name><ShortName><Text xml:lang="de">S</Text></ShortName><ProductCategoryRef>27</ProductCategoryRef></ProductCategory><siri:DirectionRef>R</siri:DirectionRef><OperatingDayRef>2024-12-06</OperatingDayRef><DestinationStopPointRef>8507100</DestinationStopPointRef><OriginText><Text xml:lang="de">n/a</Text></OriginText><DestinationText><Text xml:lang="de">Thun</Text></DestinationText><JourneyRef>ch:1:sjyid:100015:16412-001</JourneyRef></Service></TimedLeg></Leg></Trip></TripResult></OJPTripDelivery></siri:ServiceDelivery></OJPResponse></OJP>
+<OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
+  <OJPResponse>
+    <siri:ServiceDelivery>
+      <siri:ResponseTimestamp>2024-08-16T19:30:18.9994869+02:00</siri:ResponseTimestamp>
+      <siri:ProducerRef>MENTZ</siri:ProducerRef>
+      <OJPTripDelivery>
+        <siri:ResponseTimestamp>2024-08-16T19:30:18.9994881+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>0102ccb2-1d5f-488c-94ea-e2f545ac5f17</siri:RequestMessageRef>
+        <siri:DefaultLanguage>de</siri:DefaultLanguage>
+        <CalcTime>64</CalcTime>
+        <TripResponseContext>
+          <Places>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8503000</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Zürich HB</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108276:0:13</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23026261:27</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Zürich HB</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.53923</siri:Longitude>
+                <siri:Latitude>47.37836</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8507000</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Bern</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>111055:0:7</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23006351:1</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Bern</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>7.4388</siri:Longitude>
+                <siri:Latitude>46.94928</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8507100</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Thun</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>111104:0:5</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23006942:9</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Thun</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>7.62884</siri:Longitude>
+                <siri:Latitude>46.7549</siri:Latitude>
+              </GeoPosition>
+            </Place>
+          </Places>
+          <Situations/>
+        </TripResponseContext>
+        <TripResult>
+          <Id>ID-161C0BBA-06EF-40D1-BFD0-4499FCA2F515</Id>
+          <Trip>
+            <Id>ID-161C0BBA-06EF-40D1-BFD0-4499FCA2F515</Id>
+            <Duration>PT5H48M</Duration>
+            <StartTime>2024-12-05T23:02:00Z</StartTime>
+            <EndTime>2024-12-06T04:50:00Z</EndTime>
+            <Transfers>1</Transfers>
+            <Leg>
+              <Id>1</Id>
+              <Duration>PT1H2M</Duration>
+              <TimedLeg>
+                <LegBoard>
+                  <siri:StopPointRef>ch:1:sloid:3000:7:13</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Zürich HB</Text>
+                  </StopPointName>
+                  <PlannedQuay>
+                    <Text xml:lang="de">13</Text>
+                  </PlannedQuay>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-05T23:02:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>1</Order>
+                </LegBoard>
+                <LegAlight>
+                  <siri:StopPointRef>ch:1:sloid:7000:4:7</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Bern</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">7</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T00:04:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <Order>4</Order>
+                </LegAlight>
+                <Service>
+                  <Mode>
+                    <PtMode>rail</PtMode>
+                    <siri:RailSubmode>interregionalRail</siri:RailSubmode>
+                    <Name>
+                      <Text xml:lang="de">Zug</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">IC</Text>
+                    </ShortName>
+                  </Mode>
+                  <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+                  <TrainNumber>842</TrainNumber>
+                  <siri:LineRef>ojp:91008:E</siri:LineRef>
+                  <siri:OperatorRef>11</siri:OperatorRef>
+                  <PublicCode>InterCity</PublicCode>
+                  <PublishedServiceName>
+                    <Text xml:lang="de">IC8</Text>
+                  </PublishedServiceName>
+                  <ProductCategory>
+                    <Name>
+                      <Text xml:lang="de">Zug</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">IC</Text>
+                    </ShortName>
+                    <ProductCategoryRef>23</ProductCategoryRef>
+                  </ProductCategory>
+                  <siri:DirectionRef>R</siri:DirectionRef>
+                  <OperatingDayRef>2024-12-05</OperatingDayRef>
+                  <DestinationStopPointRef>8507000</DestinationStopPointRef>
+                  <OriginText>
+                    <Text xml:lang="de">n/a</Text>
+                  </OriginText>
+                  <DestinationText>
+                    <Text xml:lang="de">Bern</Text>
+                  </DestinationText>
+                  <JourneyRef>ch:1:sjyid:100001:842-002</JourneyRef>
+                  <Attribute>
+                    <UserText>
+                      <Text xml:lang="de">Gratis-Internet mit der App SBB FreeSurf</Text>
+                    </UserText>
+                    <Code>A__FS</Code>
+                  </Attribute>
+                  <Attribute>
+                    <UserText>
+                      <Text xml:lang="de">Ruhezone in 1. Klasse</Text>
+                    </UserText>
+                    <Code>A__RZ</Code>
+                  </Attribute>
+                  <Attribute>
+                    <UserText>
+                      <Text xml:lang="de">Businesszone in 1. Klasse</Text>
+                    </UserText>
+                    <Code>A__BZ</Code>
+                  </Attribute>
+                  <Attribute>
+                    <UserText>
+                      <Text xml:lang="de">Familienwagen mit Spielplatz</Text>
+                    </UserText>
+                    <Code>A__FA</Code>
+                  </Attribute>
+                </Service>
+              </TimedLeg>
+            </Leg>
+            <Leg>
+              <Id>2</Id>
+              <Duration>PT6M</Duration>
+              <TransferLeg>
+                <TransferType>walk</TransferType>
+                <LegStart>
+                  <siri:StopPointRef>8507000</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Bern</Text>
+                  </Name>
+                </LegStart>
+                <LegEnd>
+                  <siri:StopPointRef>8507000</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Bern</Text>
+                  </Name>
+                </LegEnd>
+                <Duration>PT6M</Duration>
+              </TransferLeg>
+            </Leg>
+            <Leg>
+              <Id>3</Id>
+              <Duration>PT48M</Duration>
+              <TimedLeg>
+                <LegBoard>
+                  <siri:StopPointRef>ch:1:sloid:7000:6:32</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Bern</Text>
+                  </StopPointName>
+                  <PlannedQuay>
+                    <Text xml:lang="de">12</Text>
+                  </PlannedQuay>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T04:02:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>1</Order>
+                </LegBoard>
+                <LegAlight>
+                  <siri:StopPointRef>ch:1:sloid:7100:3:5</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Thun</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">5</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T04:50:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <Order>16</Order>
+                </LegAlight>
+                <Service>
+                  <Mode>
+                    <PtMode>rail</PtMode>
+                    <siri:RailSubmode>regionalRail</siri:RailSubmode>
+                    <Name>
+                      <Text xml:lang="de">Zug</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">S</Text>
+                    </ShortName>
+                  </Mode>
+                  <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+                  <TrainNumber>16412</TrainNumber>
+                  <siri:LineRef>ojp:91044:_x0020_</siri:LineRef>
+                  <siri:OperatorRef>33</siri:OperatorRef>
+                  <PublicCode>S-Bahn</PublicCode>
+                  <PublishedServiceName>
+                    <Text xml:lang="de">S44</Text>
+                  </PublishedServiceName>
+                  <ProductCategory>
+                    <Name>
+                      <Text xml:lang="de">Zug</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">S</Text>
+                    </ShortName>
+                    <ProductCategoryRef>27</ProductCategoryRef>
+                  </ProductCategory>
+                  <siri:DirectionRef>R</siri:DirectionRef>
+                  <OperatingDayRef>2024-12-06</OperatingDayRef>
+                  <DestinationStopPointRef>8507100</DestinationStopPointRef>
+                  <OriginText>
+                    <Text xml:lang="de">n/a</Text>
+                  </OriginText>
+                  <DestinationText>
+                    <Text xml:lang="de">Thun</Text>
+                  </DestinationText>
+                  <JourneyRef>ch:1:sjyid:100015:16412-001</JourneyRef>
+                </Service>
+              </TimedLeg>
+            </Leg>
+          </Trip>
+        </TripResult>
+      </OJPTripDelivery>
+    </siri:ServiceDelivery>
+  </OJPResponse>
+</OJP>

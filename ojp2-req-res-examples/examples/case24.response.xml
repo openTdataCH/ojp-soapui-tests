@@ -1,1 +1,290 @@
-<?xml version="1.0" encoding="utf-8"?><OJP xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns="http://www.vdv.de/ojp"><OJPResponse><siri:ServiceDelivery><siri:ResponseTimestamp>2024-08-16T19:05:13.886742+02:00</siri:ResponseTimestamp><siri:ProducerRef>MENTZ</siri:ProducerRef><OJPLocationInformationDelivery><siri:ResponseTimestamp>2024-08-16T19:05:13.8868585+02:00</siri:ResponseTimestamp><siri:RequestMessageRef>8b5f10c7-a6e2-47d8-8d9e-5da5fd811dfe</siri:RequestMessageRef><siri:DefaultLanguage>de</siri:DefaultLanguage><CalcTime>2</CalcTime><PlaceResult><Place><Address><PublicCode>streetID:1500000004::23011668:-1:Stafel:Thusis:Stafel::Stafel: 7431:ANY:DIVA_STREET:1056393:6110963:MRCV</PublicCode><Name><Text xml:lang="de">Thusis, Stafel</Text></Name><PostCode> 7431</PostCode><TopographicPlaceName>Thusis</TopographicPlaceName><TopographicPlaceRef>23011668:-1</TopographicPlaceRef><Street>Stafel</Street></Address><Name><Text xml:lang="de">Stafel (Thusis)</Text></Name><GeoPosition><siri:Longitude>9.48974</siri:Longitude><siri:Latitude>46.67408</siri:Latitude></GeoPosition></Place><Complete>true</Complete><Probability>0.978</Probability></PlaceResult><PlaceResult><Place><Address><PublicCode>streetID:1500000060::23012007:-1:Stafel:Romoos:Stafel::Stafel: 6113:ANY:DIVA_STREET:891909:6057740:MRCV</PublicCode><Name><Text xml:lang="de">Romoos, Stafel</Text></Name><PostCode> 6113</PostCode><TopographicPlaceName>Romoos</TopographicPlaceName><TopographicPlaceRef>23012007:-1</TopographicPlaceRef><Street>Stafel</Street></Address><Name><Text xml:lang="de">Stafel (Romoos)</Text></Name><GeoPosition><siri:Longitude>8.01215</siri:Longitude><siri:Latitude>47.00114</siri:Latitude></GeoPosition></Place><Complete>true</Complete><Probability>0.978</Probability></PlaceResult><PlaceResult><Place><Address><PublicCode>streetID:1500000141::23012066:-1:Stafel:Schwarzenberg LU:Stafel::Stafel: 6013:ANY:DIVA_STREET:912855:6061607:MRCV</PublicCode><Name><Text xml:lang="de">Schwarzenberg LU, Stafel</Text></Name><PostCode> 6013</PostCode><TopographicPlaceName>Schwarzenberg LU</TopographicPlaceName><TopographicPlaceRef>23012066:-1</TopographicPlaceRef><Street>Stafel</Street></Address><Name><Text xml:lang="de">Stafel (Schwarzenberg LU)</Text></Name><GeoPosition><siri:Longitude>8.20032</siri:Longitude><siri:Latitude>46.97744</siri:Latitude></GeoPosition></Place><Complete>true</Complete><Probability>0.978</Probability></PlaceResult><PlaceResult><Place><Address><PublicCode>streetID:1500000100::23015501:-1:Stafel:Beckenried:Stafel::Stafel: 6375:ANY:DIVA_STREET:943953:6071723:MRCV</PublicCode><Name><Text xml:lang="de">Beckenried, Stafel</Text></Name><PostCode> 6375</PostCode><TopographicPlaceName>Beckenried</TopographicPlaceName><TopographicPlaceRef>23015501:-1</TopographicPlaceRef><Street>Stafel</Street></Address><Name><Text xml:lang="de">Stafel (Beckenried)</Text></Name><GeoPosition><siri:Longitude>8.47967</siri:Longitude><siri:Latitude>46.91541</siri:Latitude></GeoPosition></Place><Complete>true</Complete><Probability>0.978</Probability></PlaceResult><PlaceResult><Place><Address><PublicCode>streetID:1500000011::23018371:-1:Stafel:Sattel (CH):Stafel::Stafel: 6417:ANY:DIVA_STREET:962756:6042560:MRCV</PublicCode><Name><Text xml:lang="de">Sattel (CH), Stafel</Text></Name><PostCode> 6417</PostCode><TopographicPlaceName>Sattel (CH)</TopographicPlaceName><TopographicPlaceRef>23018371:-1</TopographicPlaceRef><Street>Stafel</Street></Address><Name><Text xml:lang="de">Stafel (Sattel (CH))</Text></Name><GeoPosition><siri:Longitude>8.64858</siri:Longitude><siri:Latitude>47.09406</siri:Latitude></GeoPosition></Place><Complete>true</Complete><Probability>0.978</Probability></PlaceResult><PlaceResult><Place><Address><PublicCode>streetID:1500000111::23022213:-1:Stafel:Schattdorf:Stafel::Stafel: 6469:ANY:DIVA_STREET:968959:6083596:MRCV</PublicCode><Name><Text xml:lang="de">Schattdorf, Stafel</Text></Name><PostCode> 6469</PostCode><TopographicPlaceName>Schattdorf</TopographicPlaceName><TopographicPlaceRef>23022213:-1</TopographicPlaceRef><Street>Stafel</Street></Address><Name><Text xml:lang="de">Stafel (Schattdorf)</Text></Name><GeoPosition><siri:Longitude>8.70431</siri:Longitude><siri:Latitude>46.8425</siri:Latitude></GeoPosition></Place><Complete>true</Complete><Probability>0.978</Probability></PlaceResult><PlaceResult><Place><Address><PublicCode>streetID:1500000399::23011901:-1:Stafels:Chur:Stafels::Stafels: 7026:ANY:DIVA_STREET:1066496:6082603:MRCV</PublicCode><Name><Text xml:lang="de">Chur, Stafels</Text></Name><PostCode> 7026</PostCode><TopographicPlaceName>Chur</TopographicPlaceName><TopographicPlaceRef>23011901:-1</TopographicPlaceRef><Street>Stafels</Street></Address><Name><Text xml:lang="de">Stafels (Chur)</Text></Name><GeoPosition><siri:Longitude>9.5805</siri:Longitude><siri:Latitude>46.8486</siri:Latitude></GeoPosition></Place><Complete>true</Complete><Probability>0.97</Probability></PlaceResult><PlaceResult><Place><Address><PublicCode>streetID:1500000047::23004868:-1:Staffel:Zeglingen:Staffel::Staffel: 4495:ANY:DIVA_STREET:881442:5991462:MRCV</PublicCode><Name><Text xml:lang="de">Zeglingen, Staffel</Text></Name><PostCode> 4495</PostCode><TopographicPlaceName>Zeglingen</TopographicPlaceName><TopographicPlaceRef>23004868:-1</TopographicPlaceRef><Street>Staffel</Street></Address><Name><Text xml:lang="de">Staffel (Zeglingen)</Text></Name><GeoPosition><siri:Longitude>7.91813</siri:Longitude><siri:Latitude>47.40564</siri:Latitude></GeoPosition></Place><Complete>true</Complete><Probability>0.97</Probability></PlaceResult><PlaceResult><Place><Address><PublicCode>streetID:1500000020::23026182:-1:Staffel:Wildberg (CH):Staffel::Staffel: 8489:ANY:DIVA_STREET:981152:5988574:MRCV</PublicCode><Name><Text xml:lang="de">Wildberg (CH), Staffel</Text></Name><PostCode> 8489</PostCode><TopographicPlaceName>Wildberg (CH)</TopographicPlaceName><TopographicPlaceRef>23026182:-1</TopographicPlaceRef><Street>Staffel</Street></Address><Name><Text xml:lang="de">Staffel (Wildberg (CH))</Text></Name><GeoPosition><siri:Longitude>8.81384</siri:Longitude><siri:Latitude>47.4232</siri:Latitude></GeoPosition></Place><Complete>true</Complete><Probability>0.97</Probability></PlaceResult><PlaceResult><Place><Address><PublicCode>streetID:1500000037::23008309:-1:Staffels:Wünnewil-Flamatt:Staffels::Staffels: 3184:ANY:DIVA_STREET:808508:6077633:MRCV</PublicCode><Name><Text xml:lang="de">Wünnewil-Flamatt, Staffels</Text></Name><PostCode> 3184</PostCode><TopographicPlaceName>Wünnewil-Flamatt</TopographicPlaceName><TopographicPlaceRef>23008309:-1</TopographicPlaceRef><Street>Staffels</Street></Address><Name><Text xml:lang="de">Staffels (Wünnewil-Flamatt)</Text></Name><GeoPosition><siri:Longitude>7.26295</siri:Longitude><siri:Latitude>46.87913</siri:Latitude></GeoPosition></Place><Complete>true</Complete><Probability>0.964</Probability></PlaceResult><PlaceResult><Place><Address><PublicCode>streetID:1500000158::23016340:-1:Staffeln:Rapperswil-Jona:Staffeln::Staffeln: 8715:ANY:DIVA_STREET:988710:6022477:MRCV</PublicCode><Name><Text xml:lang="de">Rapperswil-Jona, Staffeln</Text></Name><PostCode> 8715</PostCode><TopographicPlaceName>Rapperswil-Jona</TopographicPlaceName><TopographicPlaceRef>23016340:-1</TopographicPlaceRef><Street>Staffeln</Street></Address><Name><Text xml:lang="de">Staffeln (Rapperswil-Jona)</Text></Name><GeoPosition><siri:Longitude>8.88173</siri:Longitude><siri:Latitude>47.21674</siri:Latitude></GeoPosition></Place><Complete>true</Complete><Probability>0.964</Probability></PlaceResult><PlaceResult><Place><Address><PublicCode>streetID:1500000056::23026067:-1:Stadthof:Rafz:Stadthof::Stadthof: 8197:ANY:DIVA_STREET:950562:5957445:MRCV</PublicCode><Name><Text xml:lang="de">Rafz, Stadthof</Text></Name><PostCode> 8197</PostCode><TopographicPlaceName>Rafz</TopographicPlaceName><TopographicPlaceRef>23026067:-1</TopographicPlaceRef><Street>Stadthof</Street></Address><Name><Text xml:lang="de">Stadthof (Rafz)</Text></Name><GeoPosition><siri:Longitude>8.53904</siri:Longitude><siri:Latitude>47.61205</siri:Latitude></GeoPosition></Place><Complete>true</Complete><Probability>0.964</Probability></PlaceResult></OJPLocationInformationDelivery></siri:ServiceDelivery></OJPResponse></OJP>
+<OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
+  <OJPResponse>
+    <siri:ServiceDelivery>
+      <siri:ResponseTimestamp>2024-08-16T19:30:48.8050593+02:00</siri:ResponseTimestamp>
+      <siri:ProducerRef>MENTZ</siri:ProducerRef>
+      <OJPLocationInformationDelivery>
+        <siri:ResponseTimestamp>2024-08-16T19:30:48.8051743+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>60ac01e8-86c6-4a6c-b559-51226c3a496d</siri:RequestMessageRef>
+        <siri:DefaultLanguage>de</siri:DefaultLanguage>
+        <CalcTime>2</CalcTime>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000004::23011668:-1:Stafel:Thusis:Stafel::Stafel: 7431:ANY:DIVA_STREET:1056393:6110963:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Thusis, Stafel</Text>
+              </Name>
+              <PostCode> 7431</PostCode>
+              <TopographicPlaceName>Thusis</TopographicPlaceName>
+              <TopographicPlaceRef>23011668:-1</TopographicPlaceRef>
+              <Street>Stafel</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Stafel (Thusis)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>9.48974</siri:Longitude>
+              <siri:Latitude>46.67408</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.978</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000060::23012007:-1:Stafel:Romoos:Stafel::Stafel: 6113:ANY:DIVA_STREET:891909:6057740:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Romoos, Stafel</Text>
+              </Name>
+              <PostCode> 6113</PostCode>
+              <TopographicPlaceName>Romoos</TopographicPlaceName>
+              <TopographicPlaceRef>23012007:-1</TopographicPlaceRef>
+              <Street>Stafel</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Stafel (Romoos)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.01215</siri:Longitude>
+              <siri:Latitude>47.00114</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.978</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000141::23012066:-1:Stafel:Schwarzenberg LU:Stafel::Stafel: 6013:ANY:DIVA_STREET:912855:6061607:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Schwarzenberg LU, Stafel</Text>
+              </Name>
+              <PostCode> 6013</PostCode>
+              <TopographicPlaceName>Schwarzenberg LU</TopographicPlaceName>
+              <TopographicPlaceRef>23012066:-1</TopographicPlaceRef>
+              <Street>Stafel</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Stafel (Schwarzenberg LU)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.20032</siri:Longitude>
+              <siri:Latitude>46.97744</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.978</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000100::23015501:-1:Stafel:Beckenried:Stafel::Stafel: 6375:ANY:DIVA_STREET:943953:6071723:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Beckenried, Stafel</Text>
+              </Name>
+              <PostCode> 6375</PostCode>
+              <TopographicPlaceName>Beckenried</TopographicPlaceName>
+              <TopographicPlaceRef>23015501:-1</TopographicPlaceRef>
+              <Street>Stafel</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Stafel (Beckenried)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.47967</siri:Longitude>
+              <siri:Latitude>46.91541</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.978</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000011::23018371:-1:Stafel:Sattel (CH):Stafel::Stafel: 6417:ANY:DIVA_STREET:962756:6042560:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Sattel (CH), Stafel</Text>
+              </Name>
+              <PostCode> 6417</PostCode>
+              <TopographicPlaceName>Sattel (CH)</TopographicPlaceName>
+              <TopographicPlaceRef>23018371:-1</TopographicPlaceRef>
+              <Street>Stafel</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Stafel (Sattel (CH))</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.64858</siri:Longitude>
+              <siri:Latitude>47.09406</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.978</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000111::23022213:-1:Stafel:Schattdorf:Stafel::Stafel: 6469:ANY:DIVA_STREET:968959:6083596:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Schattdorf, Stafel</Text>
+              </Name>
+              <PostCode> 6469</PostCode>
+              <TopographicPlaceName>Schattdorf</TopographicPlaceName>
+              <TopographicPlaceRef>23022213:-1</TopographicPlaceRef>
+              <Street>Stafel</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Stafel (Schattdorf)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.70431</siri:Longitude>
+              <siri:Latitude>46.8425</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.978</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000399::23011901:-1:Stafels:Chur:Stafels::Stafels: 7026:ANY:DIVA_STREET:1066496:6082603:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Chur, Stafels</Text>
+              </Name>
+              <PostCode> 7026</PostCode>
+              <TopographicPlaceName>Chur</TopographicPlaceName>
+              <TopographicPlaceRef>23011901:-1</TopographicPlaceRef>
+              <Street>Stafels</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Stafels (Chur)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>9.5805</siri:Longitude>
+              <siri:Latitude>46.8486</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.97</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000047::23004868:-1:Staffel:Zeglingen:Staffel::Staffel: 4495:ANY:DIVA_STREET:881442:5991462:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Zeglingen, Staffel</Text>
+              </Name>
+              <PostCode> 4495</PostCode>
+              <TopographicPlaceName>Zeglingen</TopographicPlaceName>
+              <TopographicPlaceRef>23004868:-1</TopographicPlaceRef>
+              <Street>Staffel</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Staffel (Zeglingen)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>7.91813</siri:Longitude>
+              <siri:Latitude>47.40564</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.97</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000020::23026182:-1:Staffel:Wildberg (CH):Staffel::Staffel: 8489:ANY:DIVA_STREET:981152:5988574:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Wildberg (CH), Staffel</Text>
+              </Name>
+              <PostCode> 8489</PostCode>
+              <TopographicPlaceName>Wildberg (CH)</TopographicPlaceName>
+              <TopographicPlaceRef>23026182:-1</TopographicPlaceRef>
+              <Street>Staffel</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Staffel (Wildberg (CH))</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.81384</siri:Longitude>
+              <siri:Latitude>47.4232</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.97</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000037::23008309:-1:Staffels:Wünnewil-Flamatt:Staffels::Staffels: 3184:ANY:DIVA_STREET:808508:6077633:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Wünnewil-Flamatt, Staffels</Text>
+              </Name>
+              <PostCode> 3184</PostCode>
+              <TopographicPlaceName>Wünnewil-Flamatt</TopographicPlaceName>
+              <TopographicPlaceRef>23008309:-1</TopographicPlaceRef>
+              <Street>Staffels</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Staffels (Wünnewil-Flamatt)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>7.26295</siri:Longitude>
+              <siri:Latitude>46.87913</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.964</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000158::23016340:-1:Staffeln:Rapperswil-Jona:Staffeln::Staffeln: 8715:ANY:DIVA_STREET:988710:6022477:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Rapperswil-Jona, Staffeln</Text>
+              </Name>
+              <PostCode> 8715</PostCode>
+              <TopographicPlaceName>Rapperswil-Jona</TopographicPlaceName>
+              <TopographicPlaceRef>23016340:-1</TopographicPlaceRef>
+              <Street>Staffeln</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Staffeln (Rapperswil-Jona)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.88173</siri:Longitude>
+              <siri:Latitude>47.21674</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.964</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000056::23026067:-1:Stadthof:Rafz:Stadthof::Stadthof: 8197:ANY:DIVA_STREET:950562:5957445:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Rafz, Stadthof</Text>
+              </Name>
+              <PostCode> 8197</PostCode>
+              <TopographicPlaceName>Rafz</TopographicPlaceName>
+              <TopographicPlaceRef>23026067:-1</TopographicPlaceRef>
+              <Street>Stadthof</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Stadthof (Rafz)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.53904</siri:Longitude>
+              <siri:Latitude>47.61205</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.964</Probability>
+        </PlaceResult>
+      </OJPLocationInformationDelivery>
+    </siri:ServiceDelivery>
+  </OJPResponse>
+</OJP>

@@ -1,1 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><OJP xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns="http://www.vdv.de/ojp"><OJPResponse><siri:ServiceDelivery><siri:ResponseTimestamp>2024-08-16T19:05:18.1478063+02:00</siri:ResponseTimestamp><siri:ProducerRef>MENTZ</siri:ProducerRef><OJPLocationInformationDelivery><siri:ResponseTimestamp>2024-08-16T19:05:18.1478469+02:00</siri:ResponseTimestamp><siri:RequestMessageRef>b03bf9ec-0c05-41bd-a326-69dc465db163</siri:RequestMessageRef><siri:DefaultLanguage>de</siri:DefaultLanguage><CalcTime>5</CalcTime><PlaceResult><Place><Address><Name><Text xml:lang="de">Zürich, Staffelstrasse 13</Text></Name><PostCode /><TopographicPlaceName>Zürich</TopographicPlaceName><TopographicPlaceRef>23026261:1500000000</TopographicPlaceRef><Street>Staffelstrasse</Street><HouseNumber>13</HouseNumber></Address><Name><Text xml:lang="de">Staffelstrasse 13 (Zürich)</Text></Name><GeoPosition><siri:Longitude>8.52063</siri:Longitude><siri:Latitude>47.36084</siri:Latitude></GeoPosition></Place><Complete>true</Complete><Probability>1</Probability></PlaceResult></OJPLocationInformationDelivery></siri:ServiceDelivery></OJPResponse></OJP>
+<OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
+  <OJPResponse>
+    <siri:ServiceDelivery>
+      <siri:ResponseTimestamp>2024-08-16T19:30:53.0393764+02:00</siri:ResponseTimestamp>
+      <siri:ProducerRef>MENTZ</siri:ProducerRef>
+      <OJPLocationInformationDelivery>
+        <siri:ResponseTimestamp>2024-08-16T19:30:53.0394063+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>14b0adca-7272-4dcc-a38f-622bb5e23ace</siri:RequestMessageRef>
+        <siri:DefaultLanguage>de</siri:DefaultLanguage>
+        <CalcTime>5</CalcTime>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <Name>
+                <Text xml:lang="de">Zürich, Staffelstrasse 13</Text>
+              </Name>
+              <PostCode/>
+              <TopographicPlaceName>Zürich</TopographicPlaceName>
+              <TopographicPlaceRef>23026261:1500000000</TopographicPlaceRef>
+              <Street>Staffelstrasse</Street>
+              <HouseNumber>13</HouseNumber>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Staffelstrasse 13 (Zürich)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.52063</siri:Longitude>
+              <siri:Latitude>47.36084</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>1</Probability>
+        </PlaceResult>
+      </OJPLocationInformationDelivery>
+    </siri:ServiceDelivery>
+  </OJPResponse>
+</OJP>

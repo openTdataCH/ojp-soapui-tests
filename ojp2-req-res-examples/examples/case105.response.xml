@@ -1,1 +1,479 @@
-<?xml version="1.0" encoding="utf-8"?><OJP xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns="http://www.vdv.de/ojp"><OJPResponse><siri:ServiceDelivery><siri:ResponseTimestamp>2024-08-16T19:04:05.4308589+02:00</siri:ResponseTimestamp><siri:ProducerRef>MENTZ</siri:ProducerRef><OJPTripInfoDelivery><siri:ResponseTimestamp>2024-08-16T19:04:05.4309192+02:00</siri:ResponseTimestamp><siri:RequestMessageRef>d547d1d9-a3af-47a0-9f3a-f56da2e231fd</siri:RequestMessageRef><siri:DefaultLanguage>de</siri:DefaultLanguage><CalcTime>7</CalcTime><TripInfoResponseContext><Places><Place><StopPlace><StopPlaceRef>8591178</StopPlaceRef><StopPlaceName><Text xml:lang="de">Hardturm</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>128305</Value></PrivateCode><TopographicPlaceRef>23026261:27</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Hardturm</Text></Name><GeoPosition><siri:Longitude>8.5045</siri:Longitude><siri:Latitude>47.39417</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>8591233</StopPlaceRef><StopPlaceName><Text xml:lang="de">Klusplatz</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>128357:0:B</Value></PrivateCode><TopographicPlaceRef>23026261:27</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Klusplatz</Text></Name><GeoPosition><siri:Longitude>8.5665</siri:Longitude><siri:Latitude>47.36404</siri:Latitude></GeoPosition></Place></Places></TripInfoResponseContext><TripInfoResult><PreviousCall><siri:StopPointRef>8591178</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich, Hardturm</Text></StopPointName><NameSuffix><Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text></NameSuffix><ServiceDeparture><TimetabledTime>2024-08-15T14:31:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></PreviousCall><PreviousCall><siri:StopPointRef>8591074</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich, Bernoulli-Häuser</Text></StopPointName><NameSuffix><Text xml:lang="de">PLATFORM_ACCESS_WITHOUT_ASSISTANCE</Text></NameSuffix><ServiceArrival><TimetabledTime>2024-08-15T14:32:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-08-15T14:32:00Z</TimetabledTime></ServiceDeparture><Order>2</Order></PreviousCall><PreviousCall><siri:StopPointRef>8591131</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich, Fischerweg</Text></StopPointName><NameSuffix><Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text></NameSuffix><ServiceArrival><TimetabledTime>2024-08-15T14:33:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-08-15T14:33:00Z</TimetabledTime></ServiceDeparture><Order>3</Order></PreviousCall><PreviousCall><siri:StopPointRef>8591135</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich, Förrlibuckstrasse</Text></StopPointName><NameSuffix><Text xml:lang="de">PLATFORM_ACCESS_WITHOUT_ASSISTANCE</Text></NameSuffix><ServiceArrival><TimetabledTime>2024-08-15T14:34:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-08-15T14:34:00Z</TimetabledTime></ServiceDeparture><Order>4</Order></PreviousCall><PreviousCall><siri:StopPointRef>8580522</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich, Escher-Wyss-Platz</Text></StopPointName><NameSuffix><Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text></NameSuffix><ServiceArrival><TimetabledTime>2024-08-15T14:36:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-08-15T14:36:00Z</TimetabledTime></ServiceDeparture><Order>5</Order></PreviousCall><PreviousCall><siri:StopPointRef>8594239</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich, Schiffbau</Text></StopPointName><NameSuffix><Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text></NameSuffix><ServiceArrival><TimetabledTime>2024-08-15T14:37:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-08-15T14:37:00Z</TimetabledTime></ServiceDeparture><Order>6</Order></PreviousCall><PreviousCall><siri:StopPointRef>8591060</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich Hardbrücke, Bahnhof</Text></StopPointName><NameSuffix><Text xml:lang="de">PLATFORM_ACCESS_WITHOUT_ASSISTANCE</Text></NameSuffix><ServiceArrival><TimetabledTime>2024-08-15T14:39:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-08-15T14:39:00Z</TimetabledTime></ServiceDeparture><Order>7</Order></PreviousCall><PreviousCall><siri:StopPointRef>8591177</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich, Hardplatz</Text></StopPointName><NameSuffix><Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text></NameSuffix><ServiceArrival><TimetabledTime>2024-08-15T14:40:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-08-15T14:41:00Z</TimetabledTime></ServiceDeparture><Order>8</Order></PreviousCall><PreviousCall><siri:StopPointRef>8591169</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich, Güterbahnhof</Text></StopPointName><NameSuffix><Text xml:lang="de">PLATFORM_NOT_WHEELCHAIR_ACCESSIBLE</Text></NameSuffix><ServiceArrival><TimetabledTime>2024-08-15T14:42:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-08-15T14:42:00Z</TimetabledTime></ServiceDeparture><Order>9</Order></PreviousCall><PreviousCall><siri:StopPointRef>8591052</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich, Bäckeranlage</Text></StopPointName><NameSuffix><Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text></NameSuffix><ServiceArrival><TimetabledTime>2024-08-15T14:43:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-08-15T14:44:00Z</TimetabledTime></ServiceDeparture><Order>10</Order></PreviousCall><PreviousCall><siri:StopPointRef>8591184</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich, Helvetiaplatz</Text></StopPointName><NameSuffix><Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text></NameSuffix><ServiceArrival><TimetabledTime>2024-08-15T14:45:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-08-15T14:45:00Z</TimetabledTime></ServiceDeparture><Order>11</Order></PreviousCall><PreviousCall><siri:StopPointRef>8591381</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich, Stauffacher</Text></StopPointName><NameSuffix><Text xml:lang="de">PLATFORM_ACCESS_WITHOUT_ASSISTANCE</Text></NameSuffix><ServiceArrival><TimetabledTime>2024-08-15T14:46:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-08-15T14:47:00Z</TimetabledTime></ServiceDeparture><Order>12</Order></PreviousCall><PreviousCall><siri:StopPointRef>8591064</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich Selnau, Bahnhof</Text></StopPointName><NameSuffix><Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text></NameSuffix><ServiceArrival><TimetabledTime>2024-08-15T14:48:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-08-15T14:48:00Z</TimetabledTime></ServiceDeparture><Order>13</Order></PreviousCall><PreviousCall><siri:StopPointRef>8591384</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich, Stockerstrasse</Text></StopPointName><NameSuffix><Text xml:lang="de">PLATFORM_ACCESS_WITHOUT_ASSISTANCE</Text></NameSuffix><ServiceArrival><TimetabledTime>2024-08-15T14:50:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-08-15T14:50:00Z</TimetabledTime></ServiceDeparture><Order>14</Order></PreviousCall><PreviousCall><siri:StopPointRef>8591299</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich, Paradeplatz</Text></StopPointName><NameSuffix><Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text></NameSuffix><ServiceArrival><TimetabledTime>2024-08-15T14:52:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-08-15T14:52:00Z</TimetabledTime></ServiceDeparture><Order>15</Order></PreviousCall><PreviousCall><siri:StopPointRef>8591093</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich, Kantonalbank</Text></StopPointName><NameSuffix><Text xml:lang="de">PLATFORM_ACCESS_WITHOUT_ASSISTANCE</Text></NameSuffix><ServiceArrival><TimetabledTime>2024-08-15T14:53:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-08-15T14:53:00Z</TimetabledTime></ServiceDeparture><Order>16</Order></PreviousCall><PreviousCall><siri:StopPointRef>8591105</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich, Bürkliplatz</Text></StopPointName><NameSuffix><Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text></NameSuffix><ServiceArrival><TimetabledTime>2024-08-15T14:55:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-08-15T14:55:00Z</TimetabledTime></ServiceDeparture><Order>17</Order></PreviousCall><PreviousCall><siri:StopPointRef>8576193</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich, Bellevue</Text></StopPointName><NameSuffix><Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text></NameSuffix><ServiceArrival><TimetabledTime>2024-08-15T14:57:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-08-15T14:57:00Z</TimetabledTime></ServiceDeparture><Order>18</Order></PreviousCall><PreviousCall><siri:StopPointRef>8503059</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich Stadelhofen, Bahnhof</Text></StopPointName><NameSuffix><Text xml:lang="de">PLATFORM_ACCESS_WITHOUT_ASSISTANCE</Text></NameSuffix><ServiceArrival><TimetabledTime>2024-08-15T14:59:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-08-15T14:59:00Z</TimetabledTime></ServiceDeparture><Order>19</Order></PreviousCall><PreviousCall><siri:StopPointRef>8530813</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich, Kreuzplatz</Text></StopPointName><NameSuffix><Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text></NameSuffix><ServiceArrival><TimetabledTime>2024-08-15T15:00:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-08-15T15:01:00Z</TimetabledTime></ServiceDeparture><Order>20</Order></PreviousCall><PreviousCall><siri:StopPointRef>8591119</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich, Englischviertelstrasse</Text></StopPointName><NameSuffix><Text xml:lang="de">PLATFORM_ACCESS_WITHOUT_ASSISTANCE</Text></NameSuffix><ServiceArrival><TimetabledTime>2024-08-15T15:02:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-08-15T15:02:00Z</TimetabledTime></ServiceDeparture><Order>21</Order></PreviousCall><PreviousCall><siri:StopPointRef>8503083</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich, Römerhof</Text></StopPointName><NameSuffix><Text xml:lang="de">PLATFORM_ACCESS_WITHOUT_ASSISTANCE</Text></NameSuffix><ServiceArrival><TimetabledTime>2024-08-15T15:03:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-08-15T15:03:00Z</TimetabledTime></ServiceDeparture><Order>22</Order></PreviousCall><PreviousCall><siri:StopPointRef>8591199</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich, Hölderlinstrasse</Text></StopPointName><NameSuffix><Text xml:lang="de">PLATFORM_ACCESS_WITHOUT_ASSISTANCE</Text></NameSuffix><ServiceArrival><TimetabledTime>2024-08-15T15:04:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-08-15T15:04:00Z</TimetabledTime></ServiceDeparture><Order>23</Order></PreviousCall><PreviousCall><siri:StopPointRef>8591233</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich, Klusplatz</Text></StopPointName><NameSuffix><Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text></NameSuffix><PlannedQuay><Text xml:lang="de">B</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-08-15T15:06:00Z</TimetabledTime></ServiceArrival><Order>24</Order></PreviousCall><Service><Mode><PtMode>tram</PtMode><siri:TramSubmode>cityTram</siri:TramSubmode><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>26528</TrainNumber><siri:LineRef>ojp:91008:H</siri:LineRef><siri:OperatorRef>3849</siri:OperatorRef><PublishedServiceName><Text xml:lang="de">8</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName><ProductCategoryRef>2</ProductCategoryRef></ProductCategory><siri:DirectionRef>H</siri:DirectionRef><JourneyRef>ojp-91-8-H-j24-1-1336-TA</JourneyRef><OperatingDayRef>2024-08-15</OperatingDayRef><DestinationStopPointRef>8591233</DestinationStopPointRef><OriginText><Text xml:lang="de">n/a</Text></OriginText><DestinationText><Text xml:lang="de">Zürich, Klusplatz</Text></DestinationText></Service></TripInfoResult></OJPTripInfoDelivery></siri:ServiceDelivery></OJPResponse></OJP>
+<OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
+  <OJPResponse>
+    <siri:ServiceDelivery>
+      <siri:ResponseTimestamp>2024-08-16T19:29:40.3354481+02:00</siri:ResponseTimestamp>
+      <siri:ProducerRef>MENTZ</siri:ProducerRef>
+      <OJPTripInfoDelivery>
+        <siri:ResponseTimestamp>2024-08-16T19:29:40.3355175+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>d8f1315b-c2d2-45df-91b7-2ff80eab5c31</siri:RequestMessageRef>
+        <siri:DefaultLanguage>de</siri:DefaultLanguage>
+        <CalcTime>7</CalcTime>
+        <TripInfoResponseContext>
+          <Places>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8591178</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Hardturm</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>128305</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23026261:27</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Hardturm</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.5045</siri:Longitude>
+                <siri:Latitude>47.39417</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8591233</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Klusplatz</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>128357:0:B</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23026261:27</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Klusplatz</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.5665</siri:Longitude>
+                <siri:Latitude>47.36404</siri:Latitude>
+              </GeoPosition>
+            </Place>
+          </Places>
+        </TripInfoResponseContext>
+        <TripInfoResult>
+          <PreviousCall>
+            <siri:StopPointRef>8591178</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Zürich, Hardturm</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceDeparture>
+              <TimetabledTime>2024-08-15T14:31:00Z</TimetabledTime>
+            </ServiceDeparture>
+            <Order>1</Order>
+          </PreviousCall>
+          <PreviousCall>
+            <siri:StopPointRef>8591074</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Zürich, Bernoulli-Häuser</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITHOUT_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-08-15T14:32:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-08-15T14:32:00Z</TimetabledTime>
+            </ServiceDeparture>
+            <Order>2</Order>
+          </PreviousCall>
+          <PreviousCall>
+            <siri:StopPointRef>8591131</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Zürich, Fischerweg</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-08-15T14:33:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-08-15T14:33:00Z</TimetabledTime>
+            </ServiceDeparture>
+            <Order>3</Order>
+          </PreviousCall>
+          <PreviousCall>
+            <siri:StopPointRef>8591135</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Zürich, Förrlibuckstrasse</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITHOUT_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-08-15T14:34:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-08-15T14:34:00Z</TimetabledTime>
+            </ServiceDeparture>
+            <Order>4</Order>
+          </PreviousCall>
+          <PreviousCall>
+            <siri:StopPointRef>8580522</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Zürich, Escher-Wyss-Platz</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-08-15T14:36:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-08-15T14:36:00Z</TimetabledTime>
+            </ServiceDeparture>
+            <Order>5</Order>
+          </PreviousCall>
+          <PreviousCall>
+            <siri:StopPointRef>8594239</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Zürich, Schiffbau</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-08-15T14:37:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-08-15T14:37:00Z</TimetabledTime>
+            </ServiceDeparture>
+            <Order>6</Order>
+          </PreviousCall>
+          <PreviousCall>
+            <siri:StopPointRef>8591060</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Zürich Hardbrücke, Bahnhof</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITHOUT_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-08-15T14:39:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-08-15T14:39:00Z</TimetabledTime>
+            </ServiceDeparture>
+            <Order>7</Order>
+          </PreviousCall>
+          <PreviousCall>
+            <siri:StopPointRef>8591177</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Zürich, Hardplatz</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-08-15T14:40:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-08-15T14:41:00Z</TimetabledTime>
+            </ServiceDeparture>
+            <Order>8</Order>
+          </PreviousCall>
+          <PreviousCall>
+            <siri:StopPointRef>8591169</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Zürich, Güterbahnhof</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_NOT_WHEELCHAIR_ACCESSIBLE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-08-15T14:42:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-08-15T14:42:00Z</TimetabledTime>
+            </ServiceDeparture>
+            <Order>9</Order>
+          </PreviousCall>
+          <PreviousCall>
+            <siri:StopPointRef>8591052</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Zürich, Bäckeranlage</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-08-15T14:43:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-08-15T14:44:00Z</TimetabledTime>
+            </ServiceDeparture>
+            <Order>10</Order>
+          </PreviousCall>
+          <PreviousCall>
+            <siri:StopPointRef>8591184</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Zürich, Helvetiaplatz</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-08-15T14:45:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-08-15T14:45:00Z</TimetabledTime>
+            </ServiceDeparture>
+            <Order>11</Order>
+          </PreviousCall>
+          <PreviousCall>
+            <siri:StopPointRef>8591381</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Zürich, Stauffacher</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITHOUT_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-08-15T14:46:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-08-15T14:47:00Z</TimetabledTime>
+            </ServiceDeparture>
+            <Order>12</Order>
+          </PreviousCall>
+          <PreviousCall>
+            <siri:StopPointRef>8591064</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Zürich Selnau, Bahnhof</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-08-15T14:48:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-08-15T14:48:00Z</TimetabledTime>
+            </ServiceDeparture>
+            <Order>13</Order>
+          </PreviousCall>
+          <PreviousCall>
+            <siri:StopPointRef>8591384</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Zürich, Stockerstrasse</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITHOUT_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-08-15T14:50:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-08-15T14:50:00Z</TimetabledTime>
+            </ServiceDeparture>
+            <Order>14</Order>
+          </PreviousCall>
+          <PreviousCall>
+            <siri:StopPointRef>8591299</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Zürich, Paradeplatz</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-08-15T14:52:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-08-15T14:52:00Z</TimetabledTime>
+            </ServiceDeparture>
+            <Order>15</Order>
+          </PreviousCall>
+          <PreviousCall>
+            <siri:StopPointRef>8591093</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Zürich, Kantonalbank</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITHOUT_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-08-15T14:53:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-08-15T14:53:00Z</TimetabledTime>
+            </ServiceDeparture>
+            <Order>16</Order>
+          </PreviousCall>
+          <PreviousCall>
+            <siri:StopPointRef>8591105</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Zürich, Bürkliplatz</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-08-15T14:55:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-08-15T14:55:00Z</TimetabledTime>
+            </ServiceDeparture>
+            <Order>17</Order>
+          </PreviousCall>
+          <PreviousCall>
+            <siri:StopPointRef>8576193</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Zürich, Bellevue</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-08-15T14:57:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-08-15T14:57:00Z</TimetabledTime>
+            </ServiceDeparture>
+            <Order>18</Order>
+          </PreviousCall>
+          <PreviousCall>
+            <siri:StopPointRef>8503059</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Zürich Stadelhofen, Bahnhof</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITHOUT_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-08-15T14:59:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-08-15T14:59:00Z</TimetabledTime>
+            </ServiceDeparture>
+            <Order>19</Order>
+          </PreviousCall>
+          <PreviousCall>
+            <siri:StopPointRef>8530813</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Zürich, Kreuzplatz</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-08-15T15:00:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-08-15T15:01:00Z</TimetabledTime>
+            </ServiceDeparture>
+            <Order>20</Order>
+          </PreviousCall>
+          <PreviousCall>
+            <siri:StopPointRef>8591119</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Zürich, Englischviertelstrasse</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITHOUT_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-08-15T15:02:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-08-15T15:02:00Z</TimetabledTime>
+            </ServiceDeparture>
+            <Order>21</Order>
+          </PreviousCall>
+          <PreviousCall>
+            <siri:StopPointRef>8503083</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Zürich, Römerhof</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITHOUT_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-08-15T15:03:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-08-15T15:03:00Z</TimetabledTime>
+            </ServiceDeparture>
+            <Order>22</Order>
+          </PreviousCall>
+          <PreviousCall>
+            <siri:StopPointRef>8591199</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Zürich, Hölderlinstrasse</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITHOUT_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-08-15T15:04:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-08-15T15:04:00Z</TimetabledTime>
+            </ServiceDeparture>
+            <Order>23</Order>
+          </PreviousCall>
+          <PreviousCall>
+            <siri:StopPointRef>8591233</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Zürich, Klusplatz</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <PlannedQuay>
+              <Text xml:lang="de">B</Text>
+            </PlannedQuay>
+            <ServiceArrival>
+              <TimetabledTime>2024-08-15T15:06:00Z</TimetabledTime>
+            </ServiceArrival>
+            <Order>24</Order>
+          </PreviousCall>
+          <Service>
+            <Mode>
+              <PtMode>tram</PtMode>
+              <siri:TramSubmode>cityTram</siri:TramSubmode>
+              <Name>
+                <Text xml:lang="de">Tram</Text>
+              </Name>
+              <ShortName>
+                <Text xml:lang="de">T</Text>
+              </ShortName>
+            </Mode>
+            <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+            <TrainNumber>26528</TrainNumber>
+            <siri:LineRef>ojp:91008:H</siri:LineRef>
+            <siri:OperatorRef>3849</siri:OperatorRef>
+            <PublishedServiceName>
+              <Text xml:lang="de">8</Text>
+            </PublishedServiceName>
+            <ProductCategory>
+              <Name>
+                <Text xml:lang="de">Tram</Text>
+              </Name>
+              <ShortName>
+                <Text xml:lang="de">T</Text>
+              </ShortName>
+              <ProductCategoryRef>2</ProductCategoryRef>
+            </ProductCategory>
+            <siri:DirectionRef>H</siri:DirectionRef>
+            <JourneyRef>ojp-91-8-H-j24-1-1336-TA</JourneyRef>
+            <OperatingDayRef>2024-08-15</OperatingDayRef>
+            <DestinationStopPointRef>8591233</DestinationStopPointRef>
+            <OriginText>
+              <Text xml:lang="de">n/a</Text>
+            </OriginText>
+            <DestinationText>
+              <Text xml:lang="de">Zürich, Klusplatz</Text>
+            </DestinationText>
+          </Service>
+        </TripInfoResult>
+      </OJPTripInfoDelivery>
+    </siri:ServiceDelivery>
+  </OJPResponse>
+</OJP>

@@ -1,1 +1,704 @@
-<?xml version="1.0" encoding="utf-8"?><OJP xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns="http://www.vdv.de/ojp"><OJPResponse><siri:ServiceDelivery><siri:ResponseTimestamp>2024-08-16T19:06:09.9127524+02:00</siri:ResponseTimestamp><siri:ProducerRef>MENTZ</siri:ProducerRef><OJPTripDelivery><siri:ResponseTimestamp>2024-08-16T19:06:09.9127538+02:00</siri:ResponseTimestamp><siri:RequestMessageRef>5161373e-74bd-4128-8048-a130beb4e7ba</siri:RequestMessageRef><siri:DefaultLanguage>de</siri:DefaultLanguage><CalcTime>168</CalcTime><TripResponseContext><Places><Place><StopPlace><StopPlaceRef>8503481</StopPlaceRef><StopPlaceName><Text xml:lang="de">Kreuzstrasse</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>108615</Value></PrivateCode><TopographicPlaceRef>23017937:1</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Kreuzstrasse</Text></Name><GeoPosition><siri:Longitude>8.61255</siri:Longitude><siri:Latitude>47.68372</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>8014485</StopPlaceRef><StopPlaceName><Text xml:lang="de">Neuhausen Bad Bf</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>105894</Value></PrivateCode><TopographicPlaceRef>23017937:1</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Neuhausen Bad Bf</Text></Name><GeoPosition><siri:Longitude>8.61218</siri:Longitude><siri:Latitude>47.68262</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>8503424</StopPlaceRef><StopPlaceName><Text xml:lang="de">Schaffhausen</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>108594:0:6</Value></PrivateCode><TopographicPlaceRef>23017939:4</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Schaffhausen</Text></Name><GeoPosition><siri:Longitude>8.63203</siri:Longitude><siri:Latitude>47.69824</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>8503495</StopPlaceRef><StopPlaceName><Text xml:lang="de">Bahnhof</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>108627</Value></PrivateCode><TopographicPlaceRef>23017939:4</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Bahnhof</Text></Name><GeoPosition><siri:Longitude>8.63275</siri:Longitude><siri:Latitude>47.69786</siri:Latitude></GeoPosition></Place></Places><Situations /></TripResponseContext><TripResult><Id>ID-3982F429-89A3-42E3-8EA1-534D4832B168</Id><Trip><Id>ID-3982F429-89A3-42E3-8EA1-534D4832B168</Id><Duration>PT10M</Duration><StartTime>2024-12-06T04:32:00Z</StartTime><EndTime>2024-12-06T04:42:00Z</EndTime><Transfers>0</Transfers><Leg><Id>1</Id><Duration>PT3M</Duration><TransferLeg><TransferType>walk</TransferType><LegStart><siri:StopPointRef>8503481</siri:StopPointRef><Name><Text xml:lang="de">Neuhausen, Kreuzstrasse</Text></Name></LegStart><LegEnd><siri:StopPointRef>8014485</siri:StopPointRef><Name><Text xml:lang="de">Neuhausen Bad Bf</Text></Name></LegEnd><Duration>PT3M</Duration></TransferLeg></Leg><Leg><Id>2</Id><Duration>PT4M</Duration><TimedLeg><LegBoard><siri:StopPointRef>8014485</siri:StopPointRef><StopPointName><Text xml:lang="de">Neuhausen Bad Bf</Text></StopPointName><ServiceDeparture><TimetabledTime>2024-12-06T04:35:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></LegBoard><LegAlight><siri:StopPointRef>ch:1:sloid:3424:4:6</siri:StopPointRef><StopPointName><Text xml:lang="de">Schaffhausen</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">6</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T04:39:00Z</TimetabledTime></ServiceArrival><Order>2</Order></LegAlight><Service><Mode><PtMode>rail</PtMode><siri:RailSubmode>regionalRail</siri:RailSubmode><Name><Text xml:lang="de">Zug</Text></Name><ShortName><Text xml:lang="de">S</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>87951</TrainNumber><siri:LineRef>ojp:91064:A</siri:LineRef><siri:OperatorRef>351</siri:OperatorRef><PublicCode>S-Bahn</PublicCode><PublishedServiceName><Text xml:lang="de">S64</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Zug</Text></Name><ShortName><Text xml:lang="de">S</Text></ShortName><ProductCategoryRef>27</ProductCategoryRef></ProductCategory><siri:DirectionRef>H</siri:DirectionRef><OperatingDayRef>2024-12-06</OperatingDayRef><DestinationStopPointRef>8503424</DestinationStopPointRef><OriginText><Text xml:lang="de">n/a</Text></OriginText><DestinationText><Text xml:lang="de">Schaffhausen</Text></DestinationText><JourneyRef>ch:1:sjyid:100308:87951-001</JourneyRef></Service></TimedLeg></Leg><Leg><Id>3</Id><Duration>PT3M</Duration><TransferLeg><TransferType>walk</TransferType><LegStart><siri:StopPointRef>8503424</siri:StopPointRef><Name><Text xml:lang="de">Schaffhausen</Text></Name></LegStart><LegEnd><siri:StopPointRef>8503495</siri:StopPointRef><Name><Text xml:lang="de">Schaffhausen, Bahnhof</Text></Name></LegEnd><Duration>PT3M</Duration></TransferLeg></Leg></Trip></TripResult><TripResult><Id>ID-69A41ABA-9DC5-4CC6-9C66-3FB30322246A</Id><Trip><Id>ID-69A41ABA-9DC5-4CC6-9C66-3FB30322246A</Id><Duration>PT10M</Duration><StartTime>2024-12-06T05:02:00Z</StartTime><EndTime>2024-12-06T05:12:00Z</EndTime><Transfers>0</Transfers><Leg><Id>1</Id><Duration>PT3M</Duration><TransferLeg><TransferType>walk</TransferType><LegStart><siri:StopPointRef>8503481</siri:StopPointRef><Name><Text xml:lang="de">Neuhausen, Kreuzstrasse</Text></Name></LegStart><LegEnd><siri:StopPointRef>8014485</siri:StopPointRef><Name><Text xml:lang="de">Neuhausen Bad Bf</Text></Name></LegEnd><Duration>PT3M</Duration></TransferLeg></Leg><Leg><Id>2</Id><Duration>PT4M</Duration><TimedLeg><LegBoard><siri:StopPointRef>8014485</siri:StopPointRef><StopPointName><Text xml:lang="de">Neuhausen Bad Bf</Text></StopPointName><ServiceDeparture><TimetabledTime>2024-12-06T05:05:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></LegBoard><LegAlight><siri:StopPointRef>ch:1:sloid:3424:4:6</siri:StopPointRef><StopPointName><Text xml:lang="de">Schaffhausen</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">6</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T05:09:00Z</TimetabledTime></ServiceArrival><Order>2</Order></LegAlight><Service><Mode><PtMode>rail</PtMode><siri:RailSubmode>regionalRail</siri:RailSubmode><Name><Text xml:lang="de">Zug</Text></Name><ShortName><Text xml:lang="de">S</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>87733</TrainNumber><siri:LineRef>ojp:91064:A</siri:LineRef><siri:OperatorRef>351</siri:OperatorRef><PublicCode>S-Bahn</PublicCode><PublishedServiceName><Text xml:lang="de">S64</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Zug</Text></Name><ShortName><Text xml:lang="de">S</Text></ShortName><ProductCategoryRef>27</ProductCategoryRef></ProductCategory><siri:DirectionRef>H</siri:DirectionRef><OperatingDayRef>2024-12-06</OperatingDayRef><DestinationStopPointRef>8503424</DestinationStopPointRef><OriginText><Text xml:lang="de">n/a</Text></OriginText><DestinationText><Text xml:lang="de">Schaffhausen</Text></DestinationText><JourneyRef>ch:1:sjyid:100308:87733-001</JourneyRef></Service></TimedLeg></Leg><Leg><Id>3</Id><Duration>PT3M</Duration><TransferLeg><TransferType>walk</TransferType><LegStart><siri:StopPointRef>8503424</siri:StopPointRef><Name><Text xml:lang="de">Schaffhausen</Text></Name></LegStart><LegEnd><siri:StopPointRef>8503495</siri:StopPointRef><Name><Text xml:lang="de">Schaffhausen, Bahnhof</Text></Name></LegEnd><Duration>PT3M</Duration></TransferLeg></Leg></Trip></TripResult><TripResult><Id>ID-1D776449-370B-4E15-B430-808A8DF6AA66</Id><Trip><Id>ID-1D776449-370B-4E15-B430-808A8DF6AA66</Id><Duration>PT10M</Duration><StartTime>2024-12-06T05:17:00Z</StartTime><EndTime>2024-12-06T05:27:00Z</EndTime><Transfers>0</Transfers><Leg><Id>1</Id><Duration>PT3M</Duration><TransferLeg><TransferType>walk</TransferType><LegStart><siri:StopPointRef>8503481</siri:StopPointRef><Name><Text xml:lang="de">Neuhausen, Kreuzstrasse</Text></Name></LegStart><LegEnd><siri:StopPointRef>8014485</siri:StopPointRef><Name><Text xml:lang="de">Neuhausen Bad Bf</Text></Name></LegEnd><Duration>PT3M</Duration></TransferLeg></Leg><Leg><Id>2</Id><Duration>PT4M</Duration><TimedLeg><LegBoard><siri:StopPointRef>8014485</siri:StopPointRef><StopPointName><Text xml:lang="de">Neuhausen Bad Bf</Text></StopPointName><ServiceDeparture><TimetabledTime>2024-12-06T05:20:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></LegBoard><LegAlight><siri:StopPointRef>ch:1:sloid:3424:4:6</siri:StopPointRef><StopPointName><Text xml:lang="de">Schaffhausen</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">6</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T05:24:00Z</TimetabledTime></ServiceArrival><Order>2</Order></LegAlight><Service><Mode><PtMode>rail</PtMode><siri:RailSubmode>regionalRail</siri:RailSubmode><Name><Text xml:lang="de">Zug</Text></Name><ShortName><Text xml:lang="de">S</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>87735</TrainNumber><siri:LineRef>ojp:91064:A</siri:LineRef><siri:OperatorRef>351</siri:OperatorRef><PublicCode>S-Bahn</PublicCode><PublishedServiceName><Text xml:lang="de">S64</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Zug</Text></Name><ShortName><Text xml:lang="de">S</Text></ShortName><ProductCategoryRef>27</ProductCategoryRef></ProductCategory><siri:DirectionRef>H</siri:DirectionRef><OperatingDayRef>2024-12-06</OperatingDayRef><DestinationStopPointRef>8503424</DestinationStopPointRef><OriginText><Text xml:lang="de">n/a</Text></OriginText><DestinationText><Text xml:lang="de">Schaffhausen</Text></DestinationText><JourneyRef>ch:1:sjyid:100308:87735-001</JourneyRef></Service></TimedLeg></Leg><Leg><Id>3</Id><Duration>PT3M</Duration><TransferLeg><TransferType>walk</TransferType><LegStart><siri:StopPointRef>8503424</siri:StopPointRef><Name><Text xml:lang="de">Schaffhausen</Text></Name></LegStart><LegEnd><siri:StopPointRef>8503495</siri:StopPointRef><Name><Text xml:lang="de">Schaffhausen, Bahnhof</Text></Name></LegEnd><Duration>PT3M</Duration></TransferLeg></Leg></Trip></TripResult><TripResult><Id>ID-DD13A48D-3386-4A10-B52F-BBBB54383C33</Id><Trip><Id>ID-DD13A48D-3386-4A10-B52F-BBBB54383C33</Id><Duration>PT10M</Duration><StartTime>2024-12-06T05:32:00Z</StartTime><EndTime>2024-12-06T05:42:00Z</EndTime><Transfers>0</Transfers><Leg><Id>1</Id><Duration>PT3M</Duration><TransferLeg><TransferType>walk</TransferType><LegStart><siri:StopPointRef>8503481</siri:StopPointRef><Name><Text xml:lang="de">Neuhausen, Kreuzstrasse</Text></Name></LegStart><LegEnd><siri:StopPointRef>8014485</siri:StopPointRef><Name><Text xml:lang="de">Neuhausen Bad Bf</Text></Name></LegEnd><Duration>PT3M</Duration></TransferLeg></Leg><Leg><Id>2</Id><Duration>PT4M</Duration><TimedLeg><LegBoard><siri:StopPointRef>8014485</siri:StopPointRef><StopPointName><Text xml:lang="de">Neuhausen Bad Bf</Text></StopPointName><ServiceDeparture><TimetabledTime>2024-12-06T05:35:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></LegBoard><LegAlight><siri:StopPointRef>ch:1:sloid:3424:4:6</siri:StopPointRef><StopPointName><Text xml:lang="de">Schaffhausen</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">6</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T05:39:00Z</TimetabledTime></ServiceArrival><Order>2</Order></LegAlight><Service><Mode><PtMode>rail</PtMode><siri:RailSubmode>regionalRail</siri:RailSubmode><Name><Text xml:lang="de">Zug</Text></Name><ShortName><Text xml:lang="de">S</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>87953</TrainNumber><siri:LineRef>ojp:91064:A</siri:LineRef><siri:OperatorRef>351</siri:OperatorRef><PublicCode>S-Bahn</PublicCode><PublishedServiceName><Text xml:lang="de">S64</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Zug</Text></Name><ShortName><Text xml:lang="de">S</Text></ShortName><ProductCategoryRef>27</ProductCategoryRef></ProductCategory><siri:DirectionRef>H</siri:DirectionRef><OperatingDayRef>2024-12-06</OperatingDayRef><DestinationStopPointRef>8503424</DestinationStopPointRef><OriginText><Text xml:lang="de">n/a</Text></OriginText><DestinationText><Text xml:lang="de">Schaffhausen</Text></DestinationText><JourneyRef>ch:1:sjyid:100308:87953-001</JourneyRef></Service></TimedLeg></Leg><Leg><Id>3</Id><Duration>PT3M</Duration><TransferLeg><TransferType>walk</TransferType><LegStart><siri:StopPointRef>8503424</siri:StopPointRef><Name><Text xml:lang="de">Schaffhausen</Text></Name></LegStart><LegEnd><siri:StopPointRef>8503495</siri:StopPointRef><Name><Text xml:lang="de">Schaffhausen, Bahnhof</Text></Name></LegEnd><Duration>PT3M</Duration></TransferLeg></Leg></Trip></TripResult><TripResult><Id>ID-39407F56-4DC5-42CA-9CCA-78CEEE686259</Id><Trip><Id>ID-39407F56-4DC5-42CA-9CCA-78CEEE686259</Id><Duration>PT10M</Duration><StartTime>2024-12-06T05:47:00Z</StartTime><EndTime>2024-12-06T05:57:00Z</EndTime><Transfers>0</Transfers><Leg><Id>1</Id><Duration>PT3M</Duration><TransferLeg><TransferType>walk</TransferType><LegStart><siri:StopPointRef>8503481</siri:StopPointRef><Name><Text xml:lang="de">Neuhausen, Kreuzstrasse</Text></Name></LegStart><LegEnd><siri:StopPointRef>8014485</siri:StopPointRef><Name><Text xml:lang="de">Neuhausen Bad Bf</Text></Name></LegEnd><Duration>PT3M</Duration></TransferLeg></Leg><Leg><Id>2</Id><Duration>PT4M</Duration><TimedLeg><LegBoard><siri:StopPointRef>8014485</siri:StopPointRef><StopPointName><Text xml:lang="de">Neuhausen Bad Bf</Text></StopPointName><ServiceDeparture><TimetabledTime>2024-12-06T05:50:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></LegBoard><LegAlight><siri:StopPointRef>ch:1:sloid:3424:3:4</siri:StopPointRef><StopPointName><Text xml:lang="de">Schaffhausen</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">4</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T05:54:00Z</TimetabledTime></ServiceArrival><Order>2</Order></LegAlight><Service><Mode><PtMode>rail</PtMode><siri:RailSubmode>regionalRail</siri:RailSubmode><Name><Text xml:lang="de">Zug</Text></Name><ShortName><Text xml:lang="de">S</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>87737</TrainNumber><siri:LineRef>ojp:91064:A</siri:LineRef><siri:OperatorRef>351</siri:OperatorRef><PublicCode>S-Bahn</PublicCode><PublishedServiceName><Text xml:lang="de">S64</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Zug</Text></Name><ShortName><Text xml:lang="de">S</Text></ShortName><ProductCategoryRef>27</ProductCategoryRef></ProductCategory><siri:DirectionRef>H</siri:DirectionRef><OperatingDayRef>2024-12-06</OperatingDayRef><DestinationStopPointRef>8503424</DestinationStopPointRef><OriginText><Text xml:lang="de">n/a</Text></OriginText><DestinationText><Text xml:lang="de">Schaffhausen</Text></DestinationText><JourneyRef>ch:1:sjyid:100308:87737-001</JourneyRef></Service></TimedLeg></Leg><Leg><Id>3</Id><Duration>PT3M</Duration><TransferLeg><TransferType>walk</TransferType><LegStart><siri:StopPointRef>8503424</siri:StopPointRef><Name><Text xml:lang="de">Schaffhausen</Text></Name></LegStart><LegEnd><siri:StopPointRef>8503495</siri:StopPointRef><Name><Text xml:lang="de">Schaffhausen, Bahnhof</Text></Name></LegEnd><Duration>PT3M</Duration></TransferLeg></Leg></Trip></TripResult></OJPTripDelivery></siri:ServiceDelivery></OJPResponse></OJP>
+<OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
+  <OJPResponse>
+    <siri:ServiceDelivery>
+      <siri:ResponseTimestamp>2024-08-16T19:31:44.6866298+02:00</siri:ResponseTimestamp>
+      <siri:ProducerRef>MENTZ</siri:ProducerRef>
+      <OJPTripDelivery>
+        <siri:ResponseTimestamp>2024-08-16T19:31:44.6866313+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>968989f8-6680-4ca7-bb41-43747887ff25</siri:RequestMessageRef>
+        <siri:DefaultLanguage>de</siri:DefaultLanguage>
+        <CalcTime>184</CalcTime>
+        <TripResponseContext>
+          <Places>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8503481</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Kreuzstrasse</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108615</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23017937:1</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Kreuzstrasse</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.61255</siri:Longitude>
+                <siri:Latitude>47.68372</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8014485</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Neuhausen Bad Bf</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>105894</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23017937:1</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Neuhausen Bad Bf</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.61218</siri:Longitude>
+                <siri:Latitude>47.68262</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8503424</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Schaffhausen</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108594:0:6</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23017939:4</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Schaffhausen</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.63203</siri:Longitude>
+                <siri:Latitude>47.69824</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8503495</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Bahnhof</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108627</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23017939:4</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Bahnhof</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.63275</siri:Longitude>
+                <siri:Latitude>47.69786</siri:Latitude>
+              </GeoPosition>
+            </Place>
+          </Places>
+          <Situations/>
+        </TripResponseContext>
+        <TripResult>
+          <Id>ID-DC4CD353-0E95-41A9-83E5-F6C1B5615F93</Id>
+          <Trip>
+            <Id>ID-DC4CD353-0E95-41A9-83E5-F6C1B5615F93</Id>
+            <Duration>PT10M</Duration>
+            <StartTime>2024-12-06T04:32:00Z</StartTime>
+            <EndTime>2024-12-06T04:42:00Z</EndTime>
+            <Transfers>0</Transfers>
+            <Leg>
+              <Id>1</Id>
+              <Duration>PT3M</Duration>
+              <TransferLeg>
+                <TransferType>walk</TransferType>
+                <LegStart>
+                  <siri:StopPointRef>8503481</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Neuhausen, Kreuzstrasse</Text>
+                  </Name>
+                </LegStart>
+                <LegEnd>
+                  <siri:StopPointRef>8014485</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Neuhausen Bad Bf</Text>
+                  </Name>
+                </LegEnd>
+                <Duration>PT3M</Duration>
+              </TransferLeg>
+            </Leg>
+            <Leg>
+              <Id>2</Id>
+              <Duration>PT4M</Duration>
+              <TimedLeg>
+                <LegBoard>
+                  <siri:StopPointRef>8014485</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Neuhausen Bad Bf</Text>
+                  </StopPointName>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T04:35:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>1</Order>
+                </LegBoard>
+                <LegAlight>
+                  <siri:StopPointRef>ch:1:sloid:3424:4:6</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Schaffhausen</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">6</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T04:39:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <Order>2</Order>
+                </LegAlight>
+                <Service>
+                  <Mode>
+                    <PtMode>rail</PtMode>
+                    <siri:RailSubmode>regionalRail</siri:RailSubmode>
+                    <Name>
+                      <Text xml:lang="de">Zug</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">S</Text>
+                    </ShortName>
+                  </Mode>
+                  <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+                  <TrainNumber>87951</TrainNumber>
+                  <siri:LineRef>ojp:91064:A</siri:LineRef>
+                  <siri:OperatorRef>351</siri:OperatorRef>
+                  <PublicCode>S-Bahn</PublicCode>
+                  <PublishedServiceName>
+                    <Text xml:lang="de">S64</Text>
+                  </PublishedServiceName>
+                  <ProductCategory>
+                    <Name>
+                      <Text xml:lang="de">Zug</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">S</Text>
+                    </ShortName>
+                    <ProductCategoryRef>27</ProductCategoryRef>
+                  </ProductCategory>
+                  <siri:DirectionRef>H</siri:DirectionRef>
+                  <OperatingDayRef>2024-12-06</OperatingDayRef>
+                  <DestinationStopPointRef>8503424</DestinationStopPointRef>
+                  <OriginText>
+                    <Text xml:lang="de">n/a</Text>
+                  </OriginText>
+                  <DestinationText>
+                    <Text xml:lang="de">Schaffhausen</Text>
+                  </DestinationText>
+                  <JourneyRef>ch:1:sjyid:100308:87951-001</JourneyRef>
+                </Service>
+              </TimedLeg>
+            </Leg>
+            <Leg>
+              <Id>3</Id>
+              <Duration>PT3M</Duration>
+              <TransferLeg>
+                <TransferType>walk</TransferType>
+                <LegStart>
+                  <siri:StopPointRef>8503424</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Schaffhausen</Text>
+                  </Name>
+                </LegStart>
+                <LegEnd>
+                  <siri:StopPointRef>8503495</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
+                  </Name>
+                </LegEnd>
+                <Duration>PT3M</Duration>
+              </TransferLeg>
+            </Leg>
+          </Trip>
+        </TripResult>
+        <TripResult>
+          <Id>ID-1E30B64B-54E3-4C02-80A4-02DE6C72FF9E</Id>
+          <Trip>
+            <Id>ID-1E30B64B-54E3-4C02-80A4-02DE6C72FF9E</Id>
+            <Duration>PT10M</Duration>
+            <StartTime>2024-12-06T05:02:00Z</StartTime>
+            <EndTime>2024-12-06T05:12:00Z</EndTime>
+            <Transfers>0</Transfers>
+            <Leg>
+              <Id>1</Id>
+              <Duration>PT3M</Duration>
+              <TransferLeg>
+                <TransferType>walk</TransferType>
+                <LegStart>
+                  <siri:StopPointRef>8503481</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Neuhausen, Kreuzstrasse</Text>
+                  </Name>
+                </LegStart>
+                <LegEnd>
+                  <siri:StopPointRef>8014485</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Neuhausen Bad Bf</Text>
+                  </Name>
+                </LegEnd>
+                <Duration>PT3M</Duration>
+              </TransferLeg>
+            </Leg>
+            <Leg>
+              <Id>2</Id>
+              <Duration>PT4M</Duration>
+              <TimedLeg>
+                <LegBoard>
+                  <siri:StopPointRef>8014485</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Neuhausen Bad Bf</Text>
+                  </StopPointName>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T05:05:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>1</Order>
+                </LegBoard>
+                <LegAlight>
+                  <siri:StopPointRef>ch:1:sloid:3424:4:6</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Schaffhausen</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">6</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T05:09:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <Order>2</Order>
+                </LegAlight>
+                <Service>
+                  <Mode>
+                    <PtMode>rail</PtMode>
+                    <siri:RailSubmode>regionalRail</siri:RailSubmode>
+                    <Name>
+                      <Text xml:lang="de">Zug</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">S</Text>
+                    </ShortName>
+                  </Mode>
+                  <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+                  <TrainNumber>87733</TrainNumber>
+                  <siri:LineRef>ojp:91064:A</siri:LineRef>
+                  <siri:OperatorRef>351</siri:OperatorRef>
+                  <PublicCode>S-Bahn</PublicCode>
+                  <PublishedServiceName>
+                    <Text xml:lang="de">S64</Text>
+                  </PublishedServiceName>
+                  <ProductCategory>
+                    <Name>
+                      <Text xml:lang="de">Zug</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">S</Text>
+                    </ShortName>
+                    <ProductCategoryRef>27</ProductCategoryRef>
+                  </ProductCategory>
+                  <siri:DirectionRef>H</siri:DirectionRef>
+                  <OperatingDayRef>2024-12-06</OperatingDayRef>
+                  <DestinationStopPointRef>8503424</DestinationStopPointRef>
+                  <OriginText>
+                    <Text xml:lang="de">n/a</Text>
+                  </OriginText>
+                  <DestinationText>
+                    <Text xml:lang="de">Schaffhausen</Text>
+                  </DestinationText>
+                  <JourneyRef>ch:1:sjyid:100308:87733-001</JourneyRef>
+                </Service>
+              </TimedLeg>
+            </Leg>
+            <Leg>
+              <Id>3</Id>
+              <Duration>PT3M</Duration>
+              <TransferLeg>
+                <TransferType>walk</TransferType>
+                <LegStart>
+                  <siri:StopPointRef>8503424</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Schaffhausen</Text>
+                  </Name>
+                </LegStart>
+                <LegEnd>
+                  <siri:StopPointRef>8503495</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
+                  </Name>
+                </LegEnd>
+                <Duration>PT3M</Duration>
+              </TransferLeg>
+            </Leg>
+          </Trip>
+        </TripResult>
+        <TripResult>
+          <Id>ID-5A6E12BC-D43B-4811-BE6E-D4DDAE884779</Id>
+          <Trip>
+            <Id>ID-5A6E12BC-D43B-4811-BE6E-D4DDAE884779</Id>
+            <Duration>PT10M</Duration>
+            <StartTime>2024-12-06T05:17:00Z</StartTime>
+            <EndTime>2024-12-06T05:27:00Z</EndTime>
+            <Transfers>0</Transfers>
+            <Leg>
+              <Id>1</Id>
+              <Duration>PT3M</Duration>
+              <TransferLeg>
+                <TransferType>walk</TransferType>
+                <LegStart>
+                  <siri:StopPointRef>8503481</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Neuhausen, Kreuzstrasse</Text>
+                  </Name>
+                </LegStart>
+                <LegEnd>
+                  <siri:StopPointRef>8014485</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Neuhausen Bad Bf</Text>
+                  </Name>
+                </LegEnd>
+                <Duration>PT3M</Duration>
+              </TransferLeg>
+            </Leg>
+            <Leg>
+              <Id>2</Id>
+              <Duration>PT4M</Duration>
+              <TimedLeg>
+                <LegBoard>
+                  <siri:StopPointRef>8014485</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Neuhausen Bad Bf</Text>
+                  </StopPointName>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T05:20:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>1</Order>
+                </LegBoard>
+                <LegAlight>
+                  <siri:StopPointRef>ch:1:sloid:3424:4:6</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Schaffhausen</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">6</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T05:24:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <Order>2</Order>
+                </LegAlight>
+                <Service>
+                  <Mode>
+                    <PtMode>rail</PtMode>
+                    <siri:RailSubmode>regionalRail</siri:RailSubmode>
+                    <Name>
+                      <Text xml:lang="de">Zug</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">S</Text>
+                    </ShortName>
+                  </Mode>
+                  <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+                  <TrainNumber>87735</TrainNumber>
+                  <siri:LineRef>ojp:91064:A</siri:LineRef>
+                  <siri:OperatorRef>351</siri:OperatorRef>
+                  <PublicCode>S-Bahn</PublicCode>
+                  <PublishedServiceName>
+                    <Text xml:lang="de">S64</Text>
+                  </PublishedServiceName>
+                  <ProductCategory>
+                    <Name>
+                      <Text xml:lang="de">Zug</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">S</Text>
+                    </ShortName>
+                    <ProductCategoryRef>27</ProductCategoryRef>
+                  </ProductCategory>
+                  <siri:DirectionRef>H</siri:DirectionRef>
+                  <OperatingDayRef>2024-12-06</OperatingDayRef>
+                  <DestinationStopPointRef>8503424</DestinationStopPointRef>
+                  <OriginText>
+                    <Text xml:lang="de">n/a</Text>
+                  </OriginText>
+                  <DestinationText>
+                    <Text xml:lang="de">Schaffhausen</Text>
+                  </DestinationText>
+                  <JourneyRef>ch:1:sjyid:100308:87735-001</JourneyRef>
+                </Service>
+              </TimedLeg>
+            </Leg>
+            <Leg>
+              <Id>3</Id>
+              <Duration>PT3M</Duration>
+              <TransferLeg>
+                <TransferType>walk</TransferType>
+                <LegStart>
+                  <siri:StopPointRef>8503424</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Schaffhausen</Text>
+                  </Name>
+                </LegStart>
+                <LegEnd>
+                  <siri:StopPointRef>8503495</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
+                  </Name>
+                </LegEnd>
+                <Duration>PT3M</Duration>
+              </TransferLeg>
+            </Leg>
+          </Trip>
+        </TripResult>
+        <TripResult>
+          <Id>ID-1AD33787-58A9-4C3B-9F2F-0100D5C6357A</Id>
+          <Trip>
+            <Id>ID-1AD33787-58A9-4C3B-9F2F-0100D5C6357A</Id>
+            <Duration>PT10M</Duration>
+            <StartTime>2024-12-06T05:32:00Z</StartTime>
+            <EndTime>2024-12-06T05:42:00Z</EndTime>
+            <Transfers>0</Transfers>
+            <Leg>
+              <Id>1</Id>
+              <Duration>PT3M</Duration>
+              <TransferLeg>
+                <TransferType>walk</TransferType>
+                <LegStart>
+                  <siri:StopPointRef>8503481</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Neuhausen, Kreuzstrasse</Text>
+                  </Name>
+                </LegStart>
+                <LegEnd>
+                  <siri:StopPointRef>8014485</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Neuhausen Bad Bf</Text>
+                  </Name>
+                </LegEnd>
+                <Duration>PT3M</Duration>
+              </TransferLeg>
+            </Leg>
+            <Leg>
+              <Id>2</Id>
+              <Duration>PT4M</Duration>
+              <TimedLeg>
+                <LegBoard>
+                  <siri:StopPointRef>8014485</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Neuhausen Bad Bf</Text>
+                  </StopPointName>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T05:35:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>1</Order>
+                </LegBoard>
+                <LegAlight>
+                  <siri:StopPointRef>ch:1:sloid:3424:4:6</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Schaffhausen</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">6</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T05:39:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <Order>2</Order>
+                </LegAlight>
+                <Service>
+                  <Mode>
+                    <PtMode>rail</PtMode>
+                    <siri:RailSubmode>regionalRail</siri:RailSubmode>
+                    <Name>
+                      <Text xml:lang="de">Zug</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">S</Text>
+                    </ShortName>
+                  </Mode>
+                  <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+                  <TrainNumber>87953</TrainNumber>
+                  <siri:LineRef>ojp:91064:A</siri:LineRef>
+                  <siri:OperatorRef>351</siri:OperatorRef>
+                  <PublicCode>S-Bahn</PublicCode>
+                  <PublishedServiceName>
+                    <Text xml:lang="de">S64</Text>
+                  </PublishedServiceName>
+                  <ProductCategory>
+                    <Name>
+                      <Text xml:lang="de">Zug</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">S</Text>
+                    </ShortName>
+                    <ProductCategoryRef>27</ProductCategoryRef>
+                  </ProductCategory>
+                  <siri:DirectionRef>H</siri:DirectionRef>
+                  <OperatingDayRef>2024-12-06</OperatingDayRef>
+                  <DestinationStopPointRef>8503424</DestinationStopPointRef>
+                  <OriginText>
+                    <Text xml:lang="de">n/a</Text>
+                  </OriginText>
+                  <DestinationText>
+                    <Text xml:lang="de">Schaffhausen</Text>
+                  </DestinationText>
+                  <JourneyRef>ch:1:sjyid:100308:87953-001</JourneyRef>
+                </Service>
+              </TimedLeg>
+            </Leg>
+            <Leg>
+              <Id>3</Id>
+              <Duration>PT3M</Duration>
+              <TransferLeg>
+                <TransferType>walk</TransferType>
+                <LegStart>
+                  <siri:StopPointRef>8503424</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Schaffhausen</Text>
+                  </Name>
+                </LegStart>
+                <LegEnd>
+                  <siri:StopPointRef>8503495</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
+                  </Name>
+                </LegEnd>
+                <Duration>PT3M</Duration>
+              </TransferLeg>
+            </Leg>
+          </Trip>
+        </TripResult>
+        <TripResult>
+          <Id>ID-8EC69F14-1BB2-4500-84AB-6EC570CE4553</Id>
+          <Trip>
+            <Id>ID-8EC69F14-1BB2-4500-84AB-6EC570CE4553</Id>
+            <Duration>PT10M</Duration>
+            <StartTime>2024-12-06T05:47:00Z</StartTime>
+            <EndTime>2024-12-06T05:57:00Z</EndTime>
+            <Transfers>0</Transfers>
+            <Leg>
+              <Id>1</Id>
+              <Duration>PT3M</Duration>
+              <TransferLeg>
+                <TransferType>walk</TransferType>
+                <LegStart>
+                  <siri:StopPointRef>8503481</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Neuhausen, Kreuzstrasse</Text>
+                  </Name>
+                </LegStart>
+                <LegEnd>
+                  <siri:StopPointRef>8014485</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Neuhausen Bad Bf</Text>
+                  </Name>
+                </LegEnd>
+                <Duration>PT3M</Duration>
+              </TransferLeg>
+            </Leg>
+            <Leg>
+              <Id>2</Id>
+              <Duration>PT4M</Duration>
+              <TimedLeg>
+                <LegBoard>
+                  <siri:StopPointRef>8014485</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Neuhausen Bad Bf</Text>
+                  </StopPointName>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T05:50:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>1</Order>
+                </LegBoard>
+                <LegAlight>
+                  <siri:StopPointRef>ch:1:sloid:3424:3:4</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Schaffhausen</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">4</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T05:54:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <Order>2</Order>
+                </LegAlight>
+                <Service>
+                  <Mode>
+                    <PtMode>rail</PtMode>
+                    <siri:RailSubmode>regionalRail</siri:RailSubmode>
+                    <Name>
+                      <Text xml:lang="de">Zug</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">S</Text>
+                    </ShortName>
+                  </Mode>
+                  <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+                  <TrainNumber>87737</TrainNumber>
+                  <siri:LineRef>ojp:91064:A</siri:LineRef>
+                  <siri:OperatorRef>351</siri:OperatorRef>
+                  <PublicCode>S-Bahn</PublicCode>
+                  <PublishedServiceName>
+                    <Text xml:lang="de">S64</Text>
+                  </PublishedServiceName>
+                  <ProductCategory>
+                    <Name>
+                      <Text xml:lang="de">Zug</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">S</Text>
+                    </ShortName>
+                    <ProductCategoryRef>27</ProductCategoryRef>
+                  </ProductCategory>
+                  <siri:DirectionRef>H</siri:DirectionRef>
+                  <OperatingDayRef>2024-12-06</OperatingDayRef>
+                  <DestinationStopPointRef>8503424</DestinationStopPointRef>
+                  <OriginText>
+                    <Text xml:lang="de">n/a</Text>
+                  </OriginText>
+                  <DestinationText>
+                    <Text xml:lang="de">Schaffhausen</Text>
+                  </DestinationText>
+                  <JourneyRef>ch:1:sjyid:100308:87737-001</JourneyRef>
+                </Service>
+              </TimedLeg>
+            </Leg>
+            <Leg>
+              <Id>3</Id>
+              <Duration>PT3M</Duration>
+              <TransferLeg>
+                <TransferType>walk</TransferType>
+                <LegStart>
+                  <siri:StopPointRef>8503424</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Schaffhausen</Text>
+                  </Name>
+                </LegStart>
+                <LegEnd>
+                  <siri:StopPointRef>8503495</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
+                  </Name>
+                </LegEnd>
+                <Duration>PT3M</Duration>
+              </TransferLeg>
+            </Leg>
+          </Trip>
+        </TripResult>
+      </OJPTripDelivery>
+    </siri:ServiceDelivery>
+  </OJPResponse>
+</OJP>

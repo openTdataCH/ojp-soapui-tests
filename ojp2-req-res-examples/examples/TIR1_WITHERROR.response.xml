@@ -1,1 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><OJP xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns="http://www.vdv.de/ojp"><OJPResponse><siri:ServiceDelivery><siri:ResponseTimestamp>2024-08-16T19:08:26.96516+02:00</siri:ResponseTimestamp><siri:ProducerRef>MENTZ</siri:ProducerRef><OJPTripInfoDelivery><siri:ResponseTimestamp>2024-08-16T19:08:26.9651614+02:00</siri:ResponseTimestamp><siri:RequestMessageRef>b373bd2d-a1f4-4d29-9fd9-b76aa1feb3be</siri:RequestMessageRef><siri:DefaultLanguage>de</siri:DefaultLanguage><CalcTime>1</CalcTime><TripInfoResponseContext><Places /></TripInfoResponseContext><TripInfoResult /></OJPTripInfoDelivery></siri:ServiceDelivery></OJPResponse></OJP>
+<OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
+  <OJPResponse>
+    <siri:ServiceDelivery>
+      <siri:ResponseTimestamp>2024-08-16T19:34:01.6400677+02:00</siri:ResponseTimestamp>
+      <siri:ProducerRef>MENTZ</siri:ProducerRef>
+      <OJPTripInfoDelivery>
+        <siri:ResponseTimestamp>2024-08-16T19:34:01.6400693+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>31bc375b-4217-445f-bd0c-cc6d97b7dde2</siri:RequestMessageRef>
+        <siri:DefaultLanguage>de</siri:DefaultLanguage>
+        <CalcTime>1</CalcTime>
+        <TripInfoResponseContext>
+          <Places/>
+        </TripInfoResponseContext>
+        <TripInfoResult/>
+      </OJPTripInfoDelivery>
+    </siri:ServiceDelivery>
+  </OJPResponse>
+</OJP>

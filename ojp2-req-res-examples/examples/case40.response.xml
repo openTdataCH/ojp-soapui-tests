@@ -1,1 +1,1973 @@
-<?xml version="1.0" encoding="utf-8"?><OJP xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns="http://www.vdv.de/ojp"><OJPResponse><siri:ServiceDelivery><siri:ResponseTimestamp>2024-08-16T19:05:54.0506011+02:00</siri:ResponseTimestamp><siri:ProducerRef>MENTZ</siri:ProducerRef><OJPTripDelivery><siri:ResponseTimestamp>2024-08-16T19:05:54.0506027+02:00</siri:ResponseTimestamp><siri:RequestMessageRef>d2e95d88-3323-42dc-88de-7975d0baf07b</siri:RequestMessageRef><siri:DefaultLanguage>de</siri:DefaultLanguage><CalcTime>250</CalcTime><TripResponseContext><Places><Place><StopPlace><StopPlaceRef>8503000</StopPlaceRef><StopPlaceName><Text xml:lang="de">Zürich HB</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>108276:0:33</Value></PrivateCode><TopographicPlaceRef>23026261:27</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Zürich HB</Text></Name><GeoPosition><siri:Longitude>8.53723</siri:Longitude><siri:Latitude>47.37838</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>8503006</StopPlaceRef><StopPlaceName><Text xml:lang="de">Zürich Oerlikon</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>108280:0:2</Value></PrivateCode><TopographicPlaceRef>23026261:27</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Zürich Oerlikon</Text></Name><GeoPosition><siri:Longitude>8.54312</siri:Longitude><siri:Latitude>47.41134</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>8503424</StopPlaceRef><StopPlaceName><Text xml:lang="de">Schaffhausen</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>108594:0:4</Value></PrivateCode><TopographicPlaceRef>23017939:4</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Schaffhausen</Text></Name><GeoPosition><siri:Longitude>8.6315</siri:Longitude><siri:Latitude>47.69724</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>8503020</StopPlaceRef><StopPlaceName><Text xml:lang="de">Zürich Hardbrücke</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>108288:0:3</Value></PrivateCode><TopographicPlaceRef>23026261:27</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Zürich Hardbrücke</Text></Name><GeoPosition><siri:Longitude>8.51955</siri:Longitude><siri:Latitude>47.38456</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>8503310</StopPlaceRef><StopPlaceName><Text xml:lang="de">Glattbrugg</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>108513:0:3</Value></PrivateCode><TopographicPlaceRef>23026066:1</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Glattbrugg</Text></Name><GeoPosition><siri:Longitude>8.55937</siri:Longitude><siri:Latitude>47.4299</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>8503311</StopPlaceRef><StopPlaceName><Text xml:lang="de">Rümlang</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>108514:0:3</Value></PrivateCode><TopographicPlaceRef>23026097:2</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Rümlang</Text></Name><GeoPosition><siri:Longitude>8.53488</siri:Longitude><siri:Latitude>47.45258</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>8503312</StopPlaceRef><StopPlaceName><Text xml:lang="de">Oberglatt ZH</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>108515:0:2</Value></PrivateCode><TopographicPlaceRef>23026092:2</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Oberglatt ZH</Text></Name><GeoPosition><siri:Longitude>8.51141</siri:Longitude><siri:Latitude>47.46898</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>8503313</StopPlaceRef><StopPlaceName><Text xml:lang="de">Niederglatt ZH</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>108516:0:5</Value></PrivateCode><TopographicPlaceRef>23026089:1</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Niederglatt ZH</Text></Name><GeoPosition><siri:Longitude>8.50263</siri:Longitude><siri:Latitude>47.48577</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>8503400</StopPlaceRef><StopPlaceName><Text xml:lang="de">Bülach</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>108576:0:1</Value></PrivateCode><TopographicPlaceRef>23026053:1</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Bülach</Text></Name><GeoPosition><siri:Longitude>8.53726</siri:Longitude><siri:Latitude>47.52259</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>8503401</StopPlaceRef><StopPlaceName><Text xml:lang="de">Glattfelden</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>108577:0:1</Value></PrivateCode><TopographicPlaceRef>23026058:1</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Glattfelden</Text></Name><GeoPosition><siri:Longitude>8.52341</siri:Longitude><siri:Latitude>47.54762</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>8503402</StopPlaceRef><StopPlaceName><Text xml:lang="de">Eglisau</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>108578:0:2</Value></PrivateCode><TopographicPlaceRef>23026055:3</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Eglisau</Text></Name><GeoPosition><siri:Longitude>8.5173</siri:Longitude><siri:Latitude>47.57204</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>8503403</StopPlaceRef><StopPlaceName><Text xml:lang="de">Hüntwangen-Wil</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>108579:0:3</Value></PrivateCode><TopographicPlaceRef>23026061:1</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Hüntwangen-Wil</Text></Name><GeoPosition><siri:Longitude>8.51313</siri:Longitude><siri:Latitude>47.58134</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>8503404</StopPlaceRef><StopPlaceName><Text xml:lang="de">Rafz</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>108580:0:3</Value></PrivateCode><TopographicPlaceRef>23026067:1</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Rafz</Text></Name><GeoPosition><siri:Longitude>8.54115</siri:Longitude><siri:Latitude>47.60222</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>8573709</StopPlaceRef><StopPlaceName><Text xml:lang="de">Bahnhof</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>116629</Value></PrivateCode><TopographicPlaceRef>23026067:1</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Bahnhof</Text></Name><GeoPosition><siri:Longitude>8.54425</siri:Longitude><siri:Latitude>47.60444</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>1105017</StopPlaceRef><StopPlaceName><Text xml:lang="de">Bahnhofstrasse</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>135381</Value></PrivateCode><TopographicPlaceRef>32000000:1</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Bahnhofstrasse</Text></Name><GeoPosition><siri:Longitude>8.57015</siri:Longitude><siri:Latitude>47.62609</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>1104739</StopPlaceRef><StopPlaceName><Text xml:lang="de">Bahnhof</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>102545</Value></PrivateCode><TopographicPlaceRef>32000000:1</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Bahnhof</Text></Name><GeoPosition><siri:Longitude>8.57366</siri:Longitude><siri:Latitude>47.65437</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>8503481</StopPlaceRef><StopPlaceName><Text xml:lang="de">Kreuzstrasse</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>108615</Value></PrivateCode><TopographicPlaceRef>23017937:1</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Kreuzstrasse</Text></Name><GeoPosition><siri:Longitude>8.61255</siri:Longitude><siri:Latitude>47.68372</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>8578376</StopPlaceRef><StopPlaceName><Text xml:lang="de">Zentrum</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>120606:0:D</Value></PrivateCode><TopographicPlaceRef>23017937:1</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Zentrum</Text></Name><GeoPosition><siri:Longitude>8.61866</siri:Longitude><siri:Latitude>47.68036</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>8592499</StopPlaceRef><StopPlaceName><Text xml:lang="de">Bahnhofstr.</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>129471</Value></PrivateCode><TopographicPlaceRef>23017937:1</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Bahnhofstr.</Text></Name><GeoPosition><siri:Longitude>8.62073</siri:Longitude><siri:Latitude>47.68252</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>8503495</StopPlaceRef><StopPlaceName><Text xml:lang="de">Bahnhof</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>108627:0:F</Value></PrivateCode><TopographicPlaceRef>23017939:4</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Bahnhof</Text></Name><GeoPosition><siri:Longitude>8.63345</siri:Longitude><siri:Latitude>47.69885</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>8503420</StopPlaceRef><StopPlaceName><Text xml:lang="de">Lottstetten</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>108591:0:1</Value></PrivateCode><TopographicPlaceRef>8337070:2</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Lottstetten</Text></Name><GeoPosition><siri:Longitude>8.56456</siri:Longitude><siri:Latitude>47.62462</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>8503421</StopPlaceRef><StopPlaceName><Text xml:lang="de">Jestetten</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>108592:0:3</Value></PrivateCode><TopographicPlaceRef>8337060:2</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Jestetten</Text></Name><GeoPosition><siri:Longitude>8.57296</siri:Longitude><siri:Latitude>47.65452</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>8518924</StopPlaceRef><StopPlaceName><Text xml:lang="de">Neuhausen Rheinfall</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>112754:0:1</Value></PrivateCode><TopographicPlaceRef>23017937:1</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Neuhausen Rheinfall</Text></Name><GeoPosition><siri:Longitude>8.61399</siri:Longitude><siri:Latitude>47.68071</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>8503423</StopPlaceRef><StopPlaceName><Text xml:lang="de">Neuhausen</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>108593:0:2</Value></PrivateCode><TopographicPlaceRef>23017937:1</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Neuhausen</Text></Name><GeoPosition><siri:Longitude>8.62529</siri:Longitude><siri:Latitude>47.68243</siri:Latitude></GeoPosition></Place></Places><Situations /></TripResponseContext><TripResult><Id>ID-8F225026-4FDC-4399-B17F-39DD1B77FBDD</Id><Trip><Id>ID-8F225026-4FDC-4399-B17F-39DD1B77FBDD</Id><Duration>PT43M</Duration><StartTime>2024-12-05T23:04:00Z</StartTime><EndTime>2024-12-05T23:47:00Z</EndTime><Transfers>0</Transfers><Leg><Id>1</Id><Duration>PT43M</Duration><TimedLeg><LegBoard><siri:StopPointRef>ch:1:sloid:3000:501:33</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich HB</Text></StopPointName><PlannedQuay><Text xml:lang="de">33</Text></PlannedQuay><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><ServiceDeparture><TimetabledTime>2024-12-05T23:04:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></LegBoard><LegIntermediate><siri:StopPointRef>ch:1:sloid:3006:2:2</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich Oerlikon</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">2</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-05T23:10:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-05T23:11:00Z</TimetabledTime></ServiceDeparture><Order>2</Order></LegIntermediate><LegAlight><siri:StopPointRef>ch:1:sloid:3424:3:4</siri:StopPointRef><StopPointName><Text xml:lang="de">Schaffhausen</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">4</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-05T23:47:00Z</TimetabledTime></ServiceArrival><Order>3</Order></LegAlight><Service><Mode><PtMode>rail</PtMode><siri:RailSubmode>regionalRail</siri:RailSubmode><Name><Text xml:lang="de">Zug</Text></Name><ShortName><Text xml:lang="de">RE</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>4944</TrainNumber><siri:LineRef>ojp:91048:_x0020_</siri:LineRef><siri:OperatorRef>11</siri:OperatorRef><PublicCode>RegioExpress</PublicCode><PublishedServiceName><Text xml:lang="de">RE48</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Zug</Text></Name><ShortName><Text xml:lang="de">RE</Text></ShortName><ProductCategoryRef>24</ProductCategoryRef></ProductCategory><siri:DirectionRef>R</siri:DirectionRef><OperatingDayRef>2024-12-05</OperatingDayRef><DestinationStopPointRef>8503424</DestinationStopPointRef><OriginText><Text xml:lang="de">n/a</Text></OriginText><DestinationText><Text xml:lang="de">Schaffhausen</Text></DestinationText><JourneyRef>ch:1:sjyid:100001:4944-002</JourneyRef><Attribute><UserText><Text xml:lang="de">Fahrplanänderung</Text></UserText><Code>A__BA</Code></Attribute></Service></TimedLeg></Leg></Trip></TripResult><TripResult><Id>ID-5E53E781-C6EE-4BB7-962A-99042FE04EE1</Id><Trip><Id>ID-5E53E781-C6EE-4BB7-962A-99042FE04EE1</Id><Duration>PT1H14M</Duration><StartTime>2024-12-05T23:08:00Z</StartTime><EndTime>2024-12-06T00:22:00Z</EndTime><Transfers>1</Transfers><Leg><Id>1</Id><Duration>PT38M</Duration><TimedLeg><LegBoard><siri:StopPointRef>ch:1:sloid:3000:502:41</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich HB</Text></StopPointName><PlannedQuay><Text xml:lang="de">41/42</Text></PlannedQuay><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><ServiceDeparture><TimetabledTime>2024-12-05T23:08:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></LegBoard><LegIntermediate><siri:StopPointRef>ch:1:sloid:3020:2:3</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich Hardbrücke</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">3</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-05T23:10:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-05T23:10:00Z</TimetabledTime></ServiceDeparture><Order>2</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3006:5:8</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich Oerlikon</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">8</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-05T23:15:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-05T23:16:00Z</TimetabledTime></ServiceDeparture><Order>3</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3310:2:3</siri:StopPointRef><StopPointName><Text xml:lang="de">Glattbrugg</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">3</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-05T23:18:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-05T23:19:00Z</TimetabledTime></ServiceDeparture><Order>4</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3311:2:3</siri:StopPointRef><StopPointName><Text xml:lang="de">Rümlang</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">3</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-05T23:22:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-05T23:22:00Z</TimetabledTime></ServiceDeparture><Order>5</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3312:2:2</siri:StopPointRef><StopPointName><Text xml:lang="de">Oberglatt ZH</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">2</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-05T23:25:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-05T23:26:00Z</TimetabledTime></ServiceDeparture><Order>6</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3313:2:5</siri:StopPointRef><StopPointName><Text xml:lang="de">Niederglatt ZH</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">5</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-05T23:28:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-05T23:28:00Z</TimetabledTime></ServiceDeparture><Order>7</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3400:1:1</siri:StopPointRef><StopPointName><Text xml:lang="de">Bülach</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">1</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-05T23:33:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-05T23:33:00Z</TimetabledTime></ServiceDeparture><Order>8</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3401:1:1</siri:StopPointRef><StopPointName><Text xml:lang="de">Glattfelden</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">1</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-05T23:36:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-05T23:36:00Z</TimetabledTime></ServiceDeparture><Order>9</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3402:2:2</siri:StopPointRef><StopPointName><Text xml:lang="de">Eglisau</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">2</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-05T23:40:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-05T23:40:00Z</TimetabledTime></ServiceDeparture><Order>10</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3403:1:3</siri:StopPointRef><StopPointName><Text xml:lang="de">Hüntwangen-Wil</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">3</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-05T23:42:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-05T23:43:00Z</TimetabledTime></ServiceDeparture><Order>11</Order></LegIntermediate><LegAlight><siri:StopPointRef>ch:1:sloid:3404:2:3</siri:StopPointRef><StopPointName><Text xml:lang="de">Rafz</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">3</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-05T23:46:00Z</TimetabledTime></ServiceArrival><Order>12</Order></LegAlight><Service><Mode><PtMode>rail</PtMode><siri:RailSubmode>regionalRail</siri:RailSubmode><Name><Text xml:lang="de">Zug</Text></Name><ShortName><Text xml:lang="de">S</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>18992</TrainNumber><siri:LineRef>ojp:91009:D</siri:LineRef><siri:OperatorRef>11</siri:OperatorRef><PublicCode>S-Bahn</PublicCode><PublishedServiceName><Text xml:lang="de">S9</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Zug</Text></Name><ShortName><Text xml:lang="de">S</Text></ShortName><ProductCategoryRef>27</ProductCategoryRef></ProductCategory><siri:DirectionRef>R</siri:DirectionRef><OperatingDayRef>2024-12-05</OperatingDayRef><DestinationStopPointRef>8503404</DestinationStopPointRef><OriginText><Text xml:lang="de">n/a</Text></OriginText><DestinationText><Text xml:lang="de">Rafz</Text></DestinationText><JourneyRef>ch:1:sjyid:100001:18992-001</JourneyRef></Service></TimedLeg></Leg><Leg><Id>2</Id><Duration>PT3M</Duration><TransferLeg><TransferType>walk</TransferType><LegStart><siri:StopPointRef>8503404</siri:StopPointRef><Name><Text xml:lang="de">Rafz</Text></Name></LegStart><LegEnd><siri:StopPointRef>8573709</siri:StopPointRef><Name><Text xml:lang="de">Rafz, Bahnhof</Text></Name></LegEnd><Duration>PT3M</Duration></TransferLeg></Leg><Leg><Id>3</Id><Duration>PT30M</Duration><TimedLeg><LegBoard><siri:StopPointRef>8573709</siri:StopPointRef><StopPointName><Text xml:lang="de">Rafz, Bahnhof</Text></StopPointName><NameSuffix><Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text></NameSuffix><ServiceDeparture><TimetabledTime>2024-12-05T23:49:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></LegBoard><LegIntermediate><siri:StopPointRef>1105017</siri:StopPointRef><StopPointName><Text xml:lang="de">Lottstetten, Bahnhofstrasse</Text></StopPointName><ServiceArrival><TimetabledTime>2024-12-05T23:55:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-05T23:55:00Z</TimetabledTime></ServiceDeparture><Order>2</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>1104739</siri:StopPointRef><StopPointName><Text xml:lang="de">Jestetten, Bahnhof</Text></StopPointName><ServiceArrival><TimetabledTime>2024-12-06T00:03:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T00:03:00Z</TimetabledTime></ServiceDeparture><Order>3</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>8503481</siri:StopPointRef><StopPointName><Text xml:lang="de">Neuhausen, Kreuzstrasse</Text></StopPointName><NameSuffix><Text xml:lang="de">ALTERNATIVE_TRANSPORT</Text></NameSuffix><ServiceArrival><TimetabledTime>2024-12-06T00:10:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T00:10:00Z</TimetabledTime></ServiceDeparture><Order>4</Order><NoBoardingAtStop>true</NoBoardingAtStop></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:78376:0:230592</siri:StopPointRef><StopPointName><Text xml:lang="de">Neuhausen, Zentrum</Text></StopPointName><NameSuffix><Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text></NameSuffix><PlannedQuay><Text xml:lang="de">D</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T00:12:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T00:12:00Z</TimetabledTime></ServiceDeparture><Order>5</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>8592499</siri:StopPointRef><StopPointName><Text xml:lang="de">Neuhausen, Bahnhofstr.</Text></StopPointName><NameSuffix><Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text></NameSuffix><ServiceArrival><TimetabledTime>2024-12-06T00:14:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T00:14:00Z</TimetabledTime></ServiceDeparture><Order>6</Order></LegIntermediate><LegAlight><siri:StopPointRef>ch:1:sloid:3495:0:61662</siri:StopPointRef><StopPointName><Text xml:lang="de">Schaffhausen, Bahnhof</Text></StopPointName><NameSuffix><Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text></NameSuffix><PlannedQuay><Text xml:lang="de">F</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T00:19:00Z</TimetabledTime></ServiceArrival><Order>7</Order></LegAlight><Service><Mode><PtMode>bus</PtMode><siri:BusSubmode>localBus</siri:BusSubmode><Name><Text xml:lang="de">Bus</Text></Name><ShortName><Text xml:lang="de">EV</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>85242</TrainNumber><siri:LineRef>ojp:92A02:R</siri:LineRef><siri:OperatorRef>7231</siri:OperatorRef><PublicCode>Ersatzverkehr</PublicCode><PublishedServiceName><Text xml:lang="de">EV1</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Bus</Text></Name><ShortName><Text xml:lang="de">EV</Text></ShortName><ProductCategoryRef>5</ProductCategoryRef></ProductCategory><siri:DirectionRef>H</siri:DirectionRef><OperatingDayRef>2024-12-05</OperatingDayRef><DestinationStopPointRef>8503495</DestinationStopPointRef><OriginText><Text xml:lang="de">n/a</Text></OriginText><DestinationText><Text xml:lang="de">Schaffhausen, Bahnhof</Text></DestinationText><JourneyRef>ojp-92-A02-R-j24-1-41-TA</JourneyRef><Attribute><UserText><Text xml:lang="de">VELOS: Keine Beförderung möglich</Text></UserText><Code>A__VN</Code></Attribute><Attribute><UserText><Text xml:lang="de">Niederflureinstieg</Text></UserText><Code>A__NF</Code></Attribute></Service></TimedLeg></Leg><Leg><Id>4</Id><Duration>PT3M</Duration><TransferLeg><TransferType>walk</TransferType><LegStart><siri:StopPointRef>8503495</siri:StopPointRef><Name><Text xml:lang="de">Schaffhausen, Bahnhof</Text></Name></LegStart><LegEnd><siri:StopPointRef>8503424</siri:StopPointRef><Name><Text xml:lang="de">Schaffhausen</Text></Name></LegEnd><Duration>PT3M</Duration></TransferLeg></Leg></Trip></TripResult><TripResult><Id>ID-E5303EEB-9F41-4AF3-815D-4011C5C76BCB</Id><Trip><Id>ID-E5303EEB-9F41-4AF3-815D-4011C5C76BCB</Id><Duration>PT57M</Duration><StartTime>2024-12-06T04:07:00Z</StartTime><EndTime>2024-12-06T05:04:00Z</EndTime><Transfers>0</Transfers><Leg><Id>1</Id><Duration>PT57M</Duration><TimedLeg><LegBoard><siri:StopPointRef>ch:1:sloid:3000:10:18</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich HB</Text></StopPointName><PlannedQuay><Text xml:lang="de">18</Text></PlannedQuay><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><ServiceDeparture><TimetabledTime>2024-12-06T04:07:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></LegBoard><LegIntermediate><siri:StopPointRef>ch:1:sloid:3020:2:3</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich Hardbrücke</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">3</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T04:09:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T04:09:00Z</TimetabledTime></ServiceDeparture><Order>2</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3006:5:8</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich Oerlikon</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">8</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T04:14:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T04:15:00Z</TimetabledTime></ServiceDeparture><Order>3</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3310:2:3</siri:StopPointRef><StopPointName><Text xml:lang="de">Glattbrugg</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">3</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T04:17:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T04:18:00Z</TimetabledTime></ServiceDeparture><Order>4</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3311:2:3</siri:StopPointRef><StopPointName><Text xml:lang="de">Rümlang</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">3</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T04:21:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T04:21:00Z</TimetabledTime></ServiceDeparture><Order>5</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3312:2:2</siri:StopPointRef><StopPointName><Text xml:lang="de">Oberglatt ZH</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">2</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T04:24:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T04:25:00Z</TimetabledTime></ServiceDeparture><Order>6</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3313:2:5</siri:StopPointRef><StopPointName><Text xml:lang="de">Niederglatt ZH</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">5</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T04:27:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T04:27:00Z</TimetabledTime></ServiceDeparture><Order>7</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3400:1:1</siri:StopPointRef><StopPointName><Text xml:lang="de">Bülach</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">1</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T04:32:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T04:32:00Z</TimetabledTime></ServiceDeparture><Order>8</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3401:1:1</siri:StopPointRef><StopPointName><Text xml:lang="de">Glattfelden</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">1</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T04:35:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T04:35:00Z</TimetabledTime></ServiceDeparture><Order>9</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3402:2:2</siri:StopPointRef><StopPointName><Text xml:lang="de">Eglisau</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">2</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T04:39:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T04:39:00Z</TimetabledTime></ServiceDeparture><Order>10</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3403:1:3</siri:StopPointRef><StopPointName><Text xml:lang="de">Hüntwangen-Wil</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">3</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T04:42:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T04:42:00Z</TimetabledTime></ServiceDeparture><Order>11</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3404:2:3</siri:StopPointRef><StopPointName><Text xml:lang="de">Rafz</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">3</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T04:45:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T04:46:00Z</TimetabledTime></ServiceDeparture><Order>12</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3420:1:1</siri:StopPointRef><StopPointName><Text xml:lang="de">Lottstetten</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">1</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T04:49:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T04:49:00Z</TimetabledTime></ServiceDeparture><Order>13</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3421:2:3</siri:StopPointRef><StopPointName><Text xml:lang="de">Jestetten</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">3</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T04:53:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T04:53:00Z</TimetabledTime></ServiceDeparture><Order>14</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:18924:1:1</siri:StopPointRef><StopPointName><Text xml:lang="de">Neuhausen Rheinfall</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">1</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T04:57:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T04:57:00Z</TimetabledTime></ServiceDeparture><Order>15</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3423:1:2</siri:StopPointRef><StopPointName><Text xml:lang="de">Neuhausen</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">2</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T05:00:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T05:00:00Z</TimetabledTime></ServiceDeparture><Order>16</Order></LegIntermediate><LegAlight><siri:StopPointRef>ch:1:sloid:3424:2:2</siri:StopPointRef><StopPointName><Text xml:lang="de">Schaffhausen</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">2</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T05:04:00Z</TimetabledTime></ServiceArrival><Order>17</Order></LegAlight><Service><Mode><PtMode>rail</PtMode><siri:RailSubmode>regionalRail</siri:RailSubmode><Name><Text xml:lang="de">Zug</Text></Name><ShortName><Text xml:lang="de">S</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>18916</TrainNumber><siri:LineRef>ojp:91009:D</siri:LineRef><siri:OperatorRef>11</siri:OperatorRef><PublicCode>S-Bahn</PublicCode><PublishedServiceName><Text xml:lang="de">S9</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Zug</Text></Name><ShortName><Text xml:lang="de">S</Text></ShortName><ProductCategoryRef>27</ProductCategoryRef></ProductCategory><siri:DirectionRef>R</siri:DirectionRef><OperatingDayRef>2024-12-06</OperatingDayRef><DestinationStopPointRef>8503424</DestinationStopPointRef><OriginText><Text xml:lang="de">n/a</Text></OriginText><DestinationText><Text xml:lang="de">Schaffhausen</Text></DestinationText><JourneyRef>ch:1:sjyid:100001:18916-001</JourneyRef></Service></TimedLeg></Leg></Trip></TripResult><TripResult><Id>ID-E8EB7F4B-8D59-47C4-8276-31921EBEB441</Id><Trip><Id>ID-E8EB7F4B-8D59-47C4-8276-31921EBEB441</Id><Duration>PT39M</Duration><StartTime>2024-12-06T05:04:00Z</StartTime><EndTime>2024-12-06T05:43:00Z</EndTime><Transfers>0</Transfers><Leg><Id>1</Id><Duration>PT39M</Duration><TimedLeg><LegBoard><siri:StopPointRef>ch:1:sloid:3000:9:16</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich HB</Text></StopPointName><PlannedQuay><Text xml:lang="de">16</Text></PlannedQuay><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><ServiceDeparture><TimetabledTime>2024-12-06T05:04:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></LegBoard><LegIntermediate><siri:StopPointRef>ch:1:sloid:3006:4:7</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich Oerlikon</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">7</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T05:10:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T05:11:00Z</TimetabledTime></ServiceDeparture><Order>2</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3400:1:1</siri:StopPointRef><StopPointName><Text xml:lang="de">Bülach</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">1</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T05:22:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T05:23:00Z</TimetabledTime></ServiceDeparture><Order>3</Order></LegIntermediate><LegAlight><siri:StopPointRef>ch:1:sloid:3424:2:3</siri:StopPointRef><StopPointName><Text xml:lang="de">Schaffhausen</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">3</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T05:43:00Z</TimetabledTime></ServiceArrival><Order>4</Order></LegAlight><Service><Mode><PtMode>rail</PtMode><siri:RailSubmode>regionalRail</siri:RailSubmode><Name><Text xml:lang="de">Zug</Text></Name><ShortName><Text xml:lang="de">RE</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>4908</TrainNumber><siri:LineRef>ojp:91048:_x0020_</siri:LineRef><siri:OperatorRef>11</siri:OperatorRef><PublicCode>RegioExpress</PublicCode><PublishedServiceName><Text xml:lang="de">RE48</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Zug</Text></Name><ShortName><Text xml:lang="de">RE</Text></ShortName><ProductCategoryRef>24</ProductCategoryRef></ProductCategory><siri:DirectionRef>R</siri:DirectionRef><OperatingDayRef>2024-12-06</OperatingDayRef><DestinationStopPointRef>8503424</DestinationStopPointRef><OriginText><Text xml:lang="de">n/a</Text></OriginText><DestinationText><Text xml:lang="de">Schaffhausen</Text></DestinationText><JourneyRef>ch:1:sjyid:100001:4908-001</JourneyRef><Attribute><UserText><Text xml:lang="de">Gratis-Internet mit der App SBB FreeSurf</Text></UserText><Code>A__FS</Code></Attribute></Service></TimedLeg></Leg></Trip></TripResult><TripResult><Id>ID-978DFEDC-556C-44F2-BE9F-23ED88EC0E89</Id><Trip><Id>ID-978DFEDC-556C-44F2-BE9F-23ED88EC0E89</Id><Duration>PT57M</Duration><StartTime>2024-12-06T05:07:00Z</StartTime><EndTime>2024-12-06T06:04:00Z</EndTime><Transfers>0</Transfers><Leg><Id>1</Id><Duration>PT57M</Duration><TimedLeg><LegBoard><siri:StopPointRef>ch:1:sloid:3000:502:41</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich HB</Text></StopPointName><PlannedQuay><Text xml:lang="de">41/42</Text></PlannedQuay><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><ServiceDeparture><TimetabledTime>2024-12-06T05:07:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></LegBoard><LegIntermediate><siri:StopPointRef>ch:1:sloid:3020:2:3</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich Hardbrücke</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">3</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T05:09:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T05:09:00Z</TimetabledTime></ServiceDeparture><Order>2</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3006:5:8</siri:StopPointRef><StopPointName><Text xml:lang="de">Zürich Oerlikon</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">8</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T05:14:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T05:15:00Z</TimetabledTime></ServiceDeparture><Order>3</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3310:2:3</siri:StopPointRef><StopPointName><Text xml:lang="de">Glattbrugg</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">3</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T05:17:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T05:18:00Z</TimetabledTime></ServiceDeparture><Order>4</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3311:2:3</siri:StopPointRef><StopPointName><Text xml:lang="de">Rümlang</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">3</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T05:21:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T05:21:00Z</TimetabledTime></ServiceDeparture><Order>5</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3312:2:2</siri:StopPointRef><StopPointName><Text xml:lang="de">Oberglatt ZH</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">2</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T05:24:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T05:25:00Z</TimetabledTime></ServiceDeparture><Order>6</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3313:2:5</siri:StopPointRef><StopPointName><Text xml:lang="de">Niederglatt ZH</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">5</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T05:27:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T05:27:00Z</TimetabledTime></ServiceDeparture><Order>7</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3400:1:1</siri:StopPointRef><StopPointName><Text xml:lang="de">Bülach</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">1</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T05:32:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T05:32:00Z</TimetabledTime></ServiceDeparture><Order>8</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3401:1:1</siri:StopPointRef><StopPointName><Text xml:lang="de">Glattfelden</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">1</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T05:35:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T05:35:00Z</TimetabledTime></ServiceDeparture><Order>9</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3402:2:2</siri:StopPointRef><StopPointName><Text xml:lang="de">Eglisau</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">2</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T05:39:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T05:39:00Z</TimetabledTime></ServiceDeparture><Order>10</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3403:1:3</siri:StopPointRef><StopPointName><Text xml:lang="de">Hüntwangen-Wil</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">3</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T05:42:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T05:42:00Z</TimetabledTime></ServiceDeparture><Order>11</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3404:2:3</siri:StopPointRef><StopPointName><Text xml:lang="de">Rafz</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">3</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T05:45:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T05:46:00Z</TimetabledTime></ServiceDeparture><Order>12</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3420:1:1</siri:StopPointRef><StopPointName><Text xml:lang="de">Lottstetten</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">1</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T05:49:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T05:49:00Z</TimetabledTime></ServiceDeparture><Order>13</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3421:2:3</siri:StopPointRef><StopPointName><Text xml:lang="de">Jestetten</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">3</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T05:53:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T05:53:00Z</TimetabledTime></ServiceDeparture><Order>14</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:18924:1:1</siri:StopPointRef><StopPointName><Text xml:lang="de">Neuhausen Rheinfall</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">1</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T05:57:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T05:57:00Z</TimetabledTime></ServiceDeparture><Order>15</Order></LegIntermediate><LegIntermediate><siri:StopPointRef>ch:1:sloid:3423:1:2</siri:StopPointRef><StopPointName><Text xml:lang="de">Neuhausen</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">2</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T06:00:00Z</TimetabledTime></ServiceArrival><ServiceDeparture><TimetabledTime>2024-12-06T06:00:00Z</TimetabledTime></ServiceDeparture><Order>16</Order></LegIntermediate><LegAlight><siri:StopPointRef>ch:1:sloid:3424:2:2</siri:StopPointRef><StopPointName><Text xml:lang="de">Schaffhausen</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">2</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-06T06:04:00Z</TimetabledTime></ServiceArrival><Order>17</Order></LegAlight><Service><Mode><PtMode>rail</PtMode><siri:RailSubmode>regionalRail</siri:RailSubmode><Name><Text xml:lang="de">Zug</Text></Name><ShortName><Text xml:lang="de">S</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>18920</TrainNumber><siri:LineRef>ojp:91009:D</siri:LineRef><siri:OperatorRef>11</siri:OperatorRef><PublicCode>S-Bahn</PublicCode><PublishedServiceName><Text xml:lang="de">S9</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Zug</Text></Name><ShortName><Text xml:lang="de">S</Text></ShortName><ProductCategoryRef>27</ProductCategoryRef></ProductCategory><siri:DirectionRef>R</siri:DirectionRef><OperatingDayRef>2024-12-06</OperatingDayRef><DestinationStopPointRef>8503424</DestinationStopPointRef><OriginText><Text xml:lang="de">n/a</Text></OriginText><DestinationText><Text xml:lang="de">Schaffhausen</Text></DestinationText><JourneyRef>ch:1:sjyid:100001:18920-001</JourneyRef><Attribute><UserText><Text xml:lang="de">VELOS: Keine Beförderung möglich</Text></UserText><Code>A__VN</Code></Attribute></Service></TimedLeg></Leg></Trip></TripResult></OJPTripDelivery></siri:ServiceDelivery></OJPResponse></OJP>
+<OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
+  <OJPResponse>
+    <siri:ServiceDelivery>
+      <siri:ResponseTimestamp>2024-08-16T19:31:28.7961369+02:00</siri:ResponseTimestamp>
+      <siri:ProducerRef>MENTZ</siri:ProducerRef>
+      <OJPTripDelivery>
+        <siri:ResponseTimestamp>2024-08-16T19:31:28.7961379+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>7563b2e4-d01b-40b8-ab07-47cf16f8700b</siri:RequestMessageRef>
+        <siri:DefaultLanguage>de</siri:DefaultLanguage>
+        <CalcTime>239</CalcTime>
+        <TripResponseContext>
+          <Places>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8503000</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Zürich HB</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108276:0:33</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23026261:27</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Zürich HB</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.53723</siri:Longitude>
+                <siri:Latitude>47.37838</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8503006</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Zürich Oerlikon</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108280:0:2</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23026261:27</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Zürich Oerlikon</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.54312</siri:Longitude>
+                <siri:Latitude>47.41134</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8503424</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Schaffhausen</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108594:0:4</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23017939:4</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Schaffhausen</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.6315</siri:Longitude>
+                <siri:Latitude>47.69724</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8503020</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Zürich Hardbrücke</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108288:0:3</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23026261:27</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Zürich Hardbrücke</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.51955</siri:Longitude>
+                <siri:Latitude>47.38456</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8503310</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Glattbrugg</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108513:0:3</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23026066:1</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Glattbrugg</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.55937</siri:Longitude>
+                <siri:Latitude>47.4299</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8503311</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Rümlang</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108514:0:3</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23026097:2</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Rümlang</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.53488</siri:Longitude>
+                <siri:Latitude>47.45258</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8503312</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Oberglatt ZH</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108515:0:2</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23026092:2</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Oberglatt ZH</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.51141</siri:Longitude>
+                <siri:Latitude>47.46898</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8503313</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Niederglatt ZH</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108516:0:5</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23026089:1</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Niederglatt ZH</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.50263</siri:Longitude>
+                <siri:Latitude>47.48577</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8503400</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Bülach</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108576:0:1</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23026053:1</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Bülach</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.53726</siri:Longitude>
+                <siri:Latitude>47.52259</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8503401</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Glattfelden</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108577:0:1</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23026058:1</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Glattfelden</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.52341</siri:Longitude>
+                <siri:Latitude>47.54762</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8503402</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Eglisau</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108578:0:2</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23026055:3</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Eglisau</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.5173</siri:Longitude>
+                <siri:Latitude>47.57204</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8503403</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Hüntwangen-Wil</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108579:0:3</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23026061:1</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Hüntwangen-Wil</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.51313</siri:Longitude>
+                <siri:Latitude>47.58134</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8503404</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Rafz</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108580:0:3</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23026067:1</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Rafz</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.54115</siri:Longitude>
+                <siri:Latitude>47.60222</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8573709</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Bahnhof</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>116629</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23026067:1</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Bahnhof</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.54425</siri:Longitude>
+                <siri:Latitude>47.60444</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>1105017</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Bahnhofstrasse</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>135381</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>32000000:1</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Bahnhofstrasse</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.57015</siri:Longitude>
+                <siri:Latitude>47.62609</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>1104739</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Bahnhof</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>102545</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>32000000:1</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Bahnhof</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.57366</siri:Longitude>
+                <siri:Latitude>47.65437</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8503481</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Kreuzstrasse</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108615</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23017937:1</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Kreuzstrasse</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.61255</siri:Longitude>
+                <siri:Latitude>47.68372</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8578376</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Zentrum</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>120606:0:D</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23017937:1</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Zentrum</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.61866</siri:Longitude>
+                <siri:Latitude>47.68036</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8592499</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Bahnhofstr.</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>129471</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23017937:1</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Bahnhofstr.</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.62073</siri:Longitude>
+                <siri:Latitude>47.68252</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8503495</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Bahnhof</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108627:0:F</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23017939:4</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Bahnhof</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.63345</siri:Longitude>
+                <siri:Latitude>47.69885</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8503420</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Lottstetten</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108591:0:1</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>8337070:2</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Lottstetten</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.56456</siri:Longitude>
+                <siri:Latitude>47.62462</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8503421</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Jestetten</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108592:0:3</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>8337060:2</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Jestetten</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.57296</siri:Longitude>
+                <siri:Latitude>47.65452</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8518924</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Neuhausen Rheinfall</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>112754:0:1</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23017937:1</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Neuhausen Rheinfall</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.61399</siri:Longitude>
+                <siri:Latitude>47.68071</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8503423</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Neuhausen</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108593:0:2</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23017937:1</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Neuhausen</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.62529</siri:Longitude>
+                <siri:Latitude>47.68243</siri:Latitude>
+              </GeoPosition>
+            </Place>
+          </Places>
+          <Situations/>
+        </TripResponseContext>
+        <TripResult>
+          <Id>ID-DDF96BE9-CD91-4BD9-A173-93F1330AA7D6</Id>
+          <Trip>
+            <Id>ID-DDF96BE9-CD91-4BD9-A173-93F1330AA7D6</Id>
+            <Duration>PT43M</Duration>
+            <StartTime>2024-12-05T23:04:00Z</StartTime>
+            <EndTime>2024-12-05T23:47:00Z</EndTime>
+            <Transfers>0</Transfers>
+            <Leg>
+              <Id>1</Id>
+              <Duration>PT43M</Duration>
+              <TimedLeg>
+                <LegBoard>
+                  <siri:StopPointRef>ch:1:sloid:3000:501:33</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Zürich HB</Text>
+                  </StopPointName>
+                  <PlannedQuay>
+                    <Text xml:lang="de">33</Text>
+                  </PlannedQuay>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-05T23:04:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>1</Order>
+                </LegBoard>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3006:2:2</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Zürich Oerlikon</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">2</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-05T23:10:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-05T23:11:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>2</Order>
+                </LegIntermediate>
+                <LegAlight>
+                  <siri:StopPointRef>ch:1:sloid:3424:3:4</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Schaffhausen</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">4</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-05T23:47:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <Order>3</Order>
+                </LegAlight>
+                <Service>
+                  <Mode>
+                    <PtMode>rail</PtMode>
+                    <siri:RailSubmode>regionalRail</siri:RailSubmode>
+                    <Name>
+                      <Text xml:lang="de">Zug</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">RE</Text>
+                    </ShortName>
+                  </Mode>
+                  <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+                  <TrainNumber>4944</TrainNumber>
+                  <siri:LineRef>ojp:91048:_x0020_</siri:LineRef>
+                  <siri:OperatorRef>11</siri:OperatorRef>
+                  <PublicCode>RegioExpress</PublicCode>
+                  <PublishedServiceName>
+                    <Text xml:lang="de">RE48</Text>
+                  </PublishedServiceName>
+                  <ProductCategory>
+                    <Name>
+                      <Text xml:lang="de">Zug</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">RE</Text>
+                    </ShortName>
+                    <ProductCategoryRef>24</ProductCategoryRef>
+                  </ProductCategory>
+                  <siri:DirectionRef>R</siri:DirectionRef>
+                  <OperatingDayRef>2024-12-05</OperatingDayRef>
+                  <DestinationStopPointRef>8503424</DestinationStopPointRef>
+                  <OriginText>
+                    <Text xml:lang="de">n/a</Text>
+                  </OriginText>
+                  <DestinationText>
+                    <Text xml:lang="de">Schaffhausen</Text>
+                  </DestinationText>
+                  <JourneyRef>ch:1:sjyid:100001:4944-002</JourneyRef>
+                  <Attribute>
+                    <UserText>
+                      <Text xml:lang="de">Fahrplanänderung</Text>
+                    </UserText>
+                    <Code>A__BA</Code>
+                  </Attribute>
+                </Service>
+              </TimedLeg>
+            </Leg>
+          </Trip>
+        </TripResult>
+        <TripResult>
+          <Id>ID-3F972768-C9AB-4366-BBC7-9DCF5664F44A</Id>
+          <Trip>
+            <Id>ID-3F972768-C9AB-4366-BBC7-9DCF5664F44A</Id>
+            <Duration>PT1H14M</Duration>
+            <StartTime>2024-12-05T23:08:00Z</StartTime>
+            <EndTime>2024-12-06T00:22:00Z</EndTime>
+            <Transfers>1</Transfers>
+            <Leg>
+              <Id>1</Id>
+              <Duration>PT38M</Duration>
+              <TimedLeg>
+                <LegBoard>
+                  <siri:StopPointRef>ch:1:sloid:3000:502:41</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Zürich HB</Text>
+                  </StopPointName>
+                  <PlannedQuay>
+                    <Text xml:lang="de">41/42</Text>
+                  </PlannedQuay>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-05T23:08:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>1</Order>
+                </LegBoard>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3020:2:3</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Zürich Hardbrücke</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">3</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-05T23:10:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-05T23:10:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>2</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3006:5:8</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Zürich Oerlikon</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">8</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-05T23:15:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-05T23:16:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>3</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3310:2:3</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Glattbrugg</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">3</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-05T23:18:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-05T23:19:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>4</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3311:2:3</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Rümlang</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">3</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-05T23:22:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-05T23:22:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>5</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3312:2:2</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Oberglatt ZH</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">2</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-05T23:25:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-05T23:26:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>6</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3313:2:5</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Niederglatt ZH</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">5</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-05T23:28:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-05T23:28:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>7</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3400:1:1</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Bülach</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">1</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-05T23:33:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-05T23:33:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>8</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3401:1:1</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Glattfelden</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">1</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-05T23:36:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-05T23:36:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>9</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3402:2:2</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Eglisau</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">2</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-05T23:40:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-05T23:40:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>10</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3403:1:3</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Hüntwangen-Wil</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">3</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-05T23:42:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-05T23:43:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>11</Order>
+                </LegIntermediate>
+                <LegAlight>
+                  <siri:StopPointRef>ch:1:sloid:3404:2:3</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Rafz</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">3</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-05T23:46:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <Order>12</Order>
+                </LegAlight>
+                <Service>
+                  <Mode>
+                    <PtMode>rail</PtMode>
+                    <siri:RailSubmode>regionalRail</siri:RailSubmode>
+                    <Name>
+                      <Text xml:lang="de">Zug</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">S</Text>
+                    </ShortName>
+                  </Mode>
+                  <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+                  <TrainNumber>18992</TrainNumber>
+                  <siri:LineRef>ojp:91009:D</siri:LineRef>
+                  <siri:OperatorRef>11</siri:OperatorRef>
+                  <PublicCode>S-Bahn</PublicCode>
+                  <PublishedServiceName>
+                    <Text xml:lang="de">S9</Text>
+                  </PublishedServiceName>
+                  <ProductCategory>
+                    <Name>
+                      <Text xml:lang="de">Zug</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">S</Text>
+                    </ShortName>
+                    <ProductCategoryRef>27</ProductCategoryRef>
+                  </ProductCategory>
+                  <siri:DirectionRef>R</siri:DirectionRef>
+                  <OperatingDayRef>2024-12-05</OperatingDayRef>
+                  <DestinationStopPointRef>8503404</DestinationStopPointRef>
+                  <OriginText>
+                    <Text xml:lang="de">n/a</Text>
+                  </OriginText>
+                  <DestinationText>
+                    <Text xml:lang="de">Rafz</Text>
+                  </DestinationText>
+                  <JourneyRef>ch:1:sjyid:100001:18992-001</JourneyRef>
+                </Service>
+              </TimedLeg>
+            </Leg>
+            <Leg>
+              <Id>2</Id>
+              <Duration>PT3M</Duration>
+              <TransferLeg>
+                <TransferType>walk</TransferType>
+                <LegStart>
+                  <siri:StopPointRef>8503404</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Rafz</Text>
+                  </Name>
+                </LegStart>
+                <LegEnd>
+                  <siri:StopPointRef>8573709</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Rafz, Bahnhof</Text>
+                  </Name>
+                </LegEnd>
+                <Duration>PT3M</Duration>
+              </TransferLeg>
+            </Leg>
+            <Leg>
+              <Id>3</Id>
+              <Duration>PT30M</Duration>
+              <TimedLeg>
+                <LegBoard>
+                  <siri:StopPointRef>8573709</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Rafz, Bahnhof</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+                  </NameSuffix>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-05T23:49:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>1</Order>
+                </LegBoard>
+                <LegIntermediate>
+                  <siri:StopPointRef>1105017</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Lottstetten, Bahnhofstrasse</Text>
+                  </StopPointName>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-05T23:55:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-05T23:55:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>2</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>1104739</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Jestetten, Bahnhof</Text>
+                  </StopPointName>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T00:03:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T00:03:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>3</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>8503481</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Neuhausen, Kreuzstrasse</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">ALTERNATIVE_TRANSPORT</Text>
+                  </NameSuffix>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T00:10:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T00:10:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>4</Order>
+                  <NoBoardingAtStop>true</NoBoardingAtStop>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:78376:0:230592</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Neuhausen, Zentrum</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">D</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T00:12:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T00:12:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>5</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>8592499</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Neuhausen, Bahnhofstr.</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+                  </NameSuffix>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T00:14:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T00:14:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>6</Order>
+                </LegIntermediate>
+                <LegAlight>
+                  <siri:StopPointRef>ch:1:sloid:3495:0:61662</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">F</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T00:19:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <Order>7</Order>
+                </LegAlight>
+                <Service>
+                  <Mode>
+                    <PtMode>bus</PtMode>
+                    <siri:BusSubmode>localBus</siri:BusSubmode>
+                    <Name>
+                      <Text xml:lang="de">Bus</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">EV</Text>
+                    </ShortName>
+                  </Mode>
+                  <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+                  <TrainNumber>85242</TrainNumber>
+                  <siri:LineRef>ojp:92A02:R</siri:LineRef>
+                  <siri:OperatorRef>7231</siri:OperatorRef>
+                  <PublicCode>Ersatzverkehr</PublicCode>
+                  <PublishedServiceName>
+                    <Text xml:lang="de">EV1</Text>
+                  </PublishedServiceName>
+                  <ProductCategory>
+                    <Name>
+                      <Text xml:lang="de">Bus</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">EV</Text>
+                    </ShortName>
+                    <ProductCategoryRef>5</ProductCategoryRef>
+                  </ProductCategory>
+                  <siri:DirectionRef>H</siri:DirectionRef>
+                  <OperatingDayRef>2024-12-05</OperatingDayRef>
+                  <DestinationStopPointRef>8503495</DestinationStopPointRef>
+                  <OriginText>
+                    <Text xml:lang="de">n/a</Text>
+                  </OriginText>
+                  <DestinationText>
+                    <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
+                  </DestinationText>
+                  <JourneyRef>ojp-92-A02-R-j24-1-41-TA</JourneyRef>
+                  <Attribute>
+                    <UserText>
+                      <Text xml:lang="de">VELOS: Keine Beförderung möglich</Text>
+                    </UserText>
+                    <Code>A__VN</Code>
+                  </Attribute>
+                  <Attribute>
+                    <UserText>
+                      <Text xml:lang="de">Niederflureinstieg</Text>
+                    </UserText>
+                    <Code>A__NF</Code>
+                  </Attribute>
+                </Service>
+              </TimedLeg>
+            </Leg>
+            <Leg>
+              <Id>4</Id>
+              <Duration>PT3M</Duration>
+              <TransferLeg>
+                <TransferType>walk</TransferType>
+                <LegStart>
+                  <siri:StopPointRef>8503495</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
+                  </Name>
+                </LegStart>
+                <LegEnd>
+                  <siri:StopPointRef>8503424</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Schaffhausen</Text>
+                  </Name>
+                </LegEnd>
+                <Duration>PT3M</Duration>
+              </TransferLeg>
+            </Leg>
+          </Trip>
+        </TripResult>
+        <TripResult>
+          <Id>ID-1A9B43DC-5FAF-462A-B534-C4A6173CAF28</Id>
+          <Trip>
+            <Id>ID-1A9B43DC-5FAF-462A-B534-C4A6173CAF28</Id>
+            <Duration>PT57M</Duration>
+            <StartTime>2024-12-06T04:07:00Z</StartTime>
+            <EndTime>2024-12-06T05:04:00Z</EndTime>
+            <Transfers>0</Transfers>
+            <Leg>
+              <Id>1</Id>
+              <Duration>PT57M</Duration>
+              <TimedLeg>
+                <LegBoard>
+                  <siri:StopPointRef>ch:1:sloid:3000:10:18</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Zürich HB</Text>
+                  </StopPointName>
+                  <PlannedQuay>
+                    <Text xml:lang="de">18</Text>
+                  </PlannedQuay>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T04:07:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>1</Order>
+                </LegBoard>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3020:2:3</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Zürich Hardbrücke</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">3</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T04:09:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T04:09:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>2</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3006:5:8</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Zürich Oerlikon</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">8</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T04:14:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T04:15:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>3</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3310:2:3</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Glattbrugg</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">3</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T04:17:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T04:18:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>4</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3311:2:3</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Rümlang</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">3</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T04:21:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T04:21:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>5</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3312:2:2</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Oberglatt ZH</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">2</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T04:24:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T04:25:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>6</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3313:2:5</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Niederglatt ZH</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">5</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T04:27:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T04:27:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>7</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3400:1:1</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Bülach</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">1</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T04:32:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T04:32:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>8</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3401:1:1</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Glattfelden</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">1</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T04:35:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T04:35:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>9</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3402:2:2</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Eglisau</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">2</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T04:39:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T04:39:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>10</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3403:1:3</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Hüntwangen-Wil</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">3</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T04:42:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T04:42:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>11</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3404:2:3</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Rafz</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">3</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T04:45:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T04:46:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>12</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3420:1:1</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Lottstetten</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">1</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T04:49:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T04:49:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>13</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3421:2:3</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Jestetten</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">3</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T04:53:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T04:53:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>14</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:18924:1:1</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Neuhausen Rheinfall</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">1</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T04:57:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T04:57:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>15</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3423:1:2</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Neuhausen</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">2</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T05:00:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T05:00:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>16</Order>
+                </LegIntermediate>
+                <LegAlight>
+                  <siri:StopPointRef>ch:1:sloid:3424:2:2</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Schaffhausen</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">2</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T05:04:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <Order>17</Order>
+                </LegAlight>
+                <Service>
+                  <Mode>
+                    <PtMode>rail</PtMode>
+                    <siri:RailSubmode>regionalRail</siri:RailSubmode>
+                    <Name>
+                      <Text xml:lang="de">Zug</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">S</Text>
+                    </ShortName>
+                  </Mode>
+                  <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+                  <TrainNumber>18916</TrainNumber>
+                  <siri:LineRef>ojp:91009:D</siri:LineRef>
+                  <siri:OperatorRef>11</siri:OperatorRef>
+                  <PublicCode>S-Bahn</PublicCode>
+                  <PublishedServiceName>
+                    <Text xml:lang="de">S9</Text>
+                  </PublishedServiceName>
+                  <ProductCategory>
+                    <Name>
+                      <Text xml:lang="de">Zug</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">S</Text>
+                    </ShortName>
+                    <ProductCategoryRef>27</ProductCategoryRef>
+                  </ProductCategory>
+                  <siri:DirectionRef>R</siri:DirectionRef>
+                  <OperatingDayRef>2024-12-06</OperatingDayRef>
+                  <DestinationStopPointRef>8503424</DestinationStopPointRef>
+                  <OriginText>
+                    <Text xml:lang="de">n/a</Text>
+                  </OriginText>
+                  <DestinationText>
+                    <Text xml:lang="de">Schaffhausen</Text>
+                  </DestinationText>
+                  <JourneyRef>ch:1:sjyid:100001:18916-001</JourneyRef>
+                </Service>
+              </TimedLeg>
+            </Leg>
+          </Trip>
+        </TripResult>
+        <TripResult>
+          <Id>ID-CB1E1C03-338F-4345-9C86-B406166195D3</Id>
+          <Trip>
+            <Id>ID-CB1E1C03-338F-4345-9C86-B406166195D3</Id>
+            <Duration>PT39M</Duration>
+            <StartTime>2024-12-06T05:04:00Z</StartTime>
+            <EndTime>2024-12-06T05:43:00Z</EndTime>
+            <Transfers>0</Transfers>
+            <Leg>
+              <Id>1</Id>
+              <Duration>PT39M</Duration>
+              <TimedLeg>
+                <LegBoard>
+                  <siri:StopPointRef>ch:1:sloid:3000:9:16</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Zürich HB</Text>
+                  </StopPointName>
+                  <PlannedQuay>
+                    <Text xml:lang="de">16</Text>
+                  </PlannedQuay>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T05:04:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>1</Order>
+                </LegBoard>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3006:4:7</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Zürich Oerlikon</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">7</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T05:10:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T05:11:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>2</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3400:1:1</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Bülach</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">1</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T05:22:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T05:23:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>3</Order>
+                </LegIntermediate>
+                <LegAlight>
+                  <siri:StopPointRef>ch:1:sloid:3424:2:3</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Schaffhausen</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">3</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T05:43:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <Order>4</Order>
+                </LegAlight>
+                <Service>
+                  <Mode>
+                    <PtMode>rail</PtMode>
+                    <siri:RailSubmode>regionalRail</siri:RailSubmode>
+                    <Name>
+                      <Text xml:lang="de">Zug</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">RE</Text>
+                    </ShortName>
+                  </Mode>
+                  <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+                  <TrainNumber>4908</TrainNumber>
+                  <siri:LineRef>ojp:91048:_x0020_</siri:LineRef>
+                  <siri:OperatorRef>11</siri:OperatorRef>
+                  <PublicCode>RegioExpress</PublicCode>
+                  <PublishedServiceName>
+                    <Text xml:lang="de">RE48</Text>
+                  </PublishedServiceName>
+                  <ProductCategory>
+                    <Name>
+                      <Text xml:lang="de">Zug</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">RE</Text>
+                    </ShortName>
+                    <ProductCategoryRef>24</ProductCategoryRef>
+                  </ProductCategory>
+                  <siri:DirectionRef>R</siri:DirectionRef>
+                  <OperatingDayRef>2024-12-06</OperatingDayRef>
+                  <DestinationStopPointRef>8503424</DestinationStopPointRef>
+                  <OriginText>
+                    <Text xml:lang="de">n/a</Text>
+                  </OriginText>
+                  <DestinationText>
+                    <Text xml:lang="de">Schaffhausen</Text>
+                  </DestinationText>
+                  <JourneyRef>ch:1:sjyid:100001:4908-001</JourneyRef>
+                  <Attribute>
+                    <UserText>
+                      <Text xml:lang="de">Gratis-Internet mit der App SBB FreeSurf</Text>
+                    </UserText>
+                    <Code>A__FS</Code>
+                  </Attribute>
+                </Service>
+              </TimedLeg>
+            </Leg>
+          </Trip>
+        </TripResult>
+        <TripResult>
+          <Id>ID-8E5E1551-FE04-4712-B8F9-28A3771CEBB3</Id>
+          <Trip>
+            <Id>ID-8E5E1551-FE04-4712-B8F9-28A3771CEBB3</Id>
+            <Duration>PT57M</Duration>
+            <StartTime>2024-12-06T05:07:00Z</StartTime>
+            <EndTime>2024-12-06T06:04:00Z</EndTime>
+            <Transfers>0</Transfers>
+            <Leg>
+              <Id>1</Id>
+              <Duration>PT57M</Duration>
+              <TimedLeg>
+                <LegBoard>
+                  <siri:StopPointRef>ch:1:sloid:3000:502:41</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Zürich HB</Text>
+                  </StopPointName>
+                  <PlannedQuay>
+                    <Text xml:lang="de">41/42</Text>
+                  </PlannedQuay>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T05:07:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>1</Order>
+                </LegBoard>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3020:2:3</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Zürich Hardbrücke</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">3</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T05:09:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T05:09:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>2</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3006:5:8</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Zürich Oerlikon</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">8</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T05:14:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T05:15:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>3</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3310:2:3</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Glattbrugg</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">3</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T05:17:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T05:18:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>4</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3311:2:3</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Rümlang</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">3</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T05:21:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T05:21:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>5</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3312:2:2</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Oberglatt ZH</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">2</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T05:24:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T05:25:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>6</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3313:2:5</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Niederglatt ZH</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">5</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T05:27:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T05:27:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>7</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3400:1:1</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Bülach</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">1</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T05:32:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T05:32:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>8</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3401:1:1</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Glattfelden</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">1</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T05:35:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T05:35:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>9</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3402:2:2</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Eglisau</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">2</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T05:39:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T05:39:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>10</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3403:1:3</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Hüntwangen-Wil</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">3</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T05:42:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T05:42:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>11</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3404:2:3</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Rafz</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">3</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T05:45:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T05:46:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>12</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3420:1:1</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Lottstetten</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">1</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T05:49:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T05:49:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>13</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3421:2:3</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Jestetten</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">3</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T05:53:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T05:53:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>14</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:18924:1:1</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Neuhausen Rheinfall</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">1</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T05:57:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T05:57:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>15</Order>
+                </LegIntermediate>
+                <LegIntermediate>
+                  <siri:StopPointRef>ch:1:sloid:3423:1:2</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Neuhausen</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">2</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T06:00:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T06:00:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>16</Order>
+                </LegIntermediate>
+                <LegAlight>
+                  <siri:StopPointRef>ch:1:sloid:3424:2:2</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Schaffhausen</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">2</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T06:04:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <Order>17</Order>
+                </LegAlight>
+                <Service>
+                  <Mode>
+                    <PtMode>rail</PtMode>
+                    <siri:RailSubmode>regionalRail</siri:RailSubmode>
+                    <Name>
+                      <Text xml:lang="de">Zug</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">S</Text>
+                    </ShortName>
+                  </Mode>
+                  <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+                  <TrainNumber>18920</TrainNumber>
+                  <siri:LineRef>ojp:91009:D</siri:LineRef>
+                  <siri:OperatorRef>11</siri:OperatorRef>
+                  <PublicCode>S-Bahn</PublicCode>
+                  <PublishedServiceName>
+                    <Text xml:lang="de">S9</Text>
+                  </PublishedServiceName>
+                  <ProductCategory>
+                    <Name>
+                      <Text xml:lang="de">Zug</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">S</Text>
+                    </ShortName>
+                    <ProductCategoryRef>27</ProductCategoryRef>
+                  </ProductCategory>
+                  <siri:DirectionRef>R</siri:DirectionRef>
+                  <OperatingDayRef>2024-12-06</OperatingDayRef>
+                  <DestinationStopPointRef>8503424</DestinationStopPointRef>
+                  <OriginText>
+                    <Text xml:lang="de">n/a</Text>
+                  </OriginText>
+                  <DestinationText>
+                    <Text xml:lang="de">Schaffhausen</Text>
+                  </DestinationText>
+                  <JourneyRef>ch:1:sjyid:100001:18920-001</JourneyRef>
+                  <Attribute>
+                    <UserText>
+                      <Text xml:lang="de">VELOS: Keine Beförderung möglich</Text>
+                    </UserText>
+                    <Code>A__VN</Code>
+                  </Attribute>
+                </Service>
+              </TimedLeg>
+            </Leg>
+          </Trip>
+        </TripResult>
+      </OJPTripDelivery>
+    </siri:ServiceDelivery>
+  </OJPResponse>
+</OJP>

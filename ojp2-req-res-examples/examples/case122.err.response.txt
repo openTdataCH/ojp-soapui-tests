@@ -1,2 +1,1 @@
-Transmission error: 500
-{"traceId":"b1c451f8-1891-413a-9661-8f832766b8b5","error":"String '${DatumFreitagVorFahrplanwechselohneT}' was not recognized as a valid DateTime.","host":"f024be410a84"}
+XML validation error: Element '{http://www.vdv.de/ojp}Mode': This element is not expected. Expected is one of ( {http://www.vdv.de/ojp}ConventionalModeOfOperation, {http://www.vdv.de/ojp}OperatingDayRef )., line 1

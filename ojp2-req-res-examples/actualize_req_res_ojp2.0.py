@@ -15,6 +15,15 @@ branch ="develop"
 xmlschemawriter = "."
 xmlschema ="./OJP/ojp.xsd"
 
+def prettify_xml(xml_string):
+    # Parse the XML string
+    root = etree.fromstring(xml_string)
+
+    # Prettify the XML
+    pretty_xml = etree.tostring(root, pretty_print=True, encoding=str)
+
+    # Return the prettified XML as a string
+    return pretty_xml
 
 def remove_files(folder):
     for root, dirs, files in os.walk(folder):
@@ -65,8 +74,8 @@ def transmit_file_to_server(file_path,schema):
         response_filename = f"{base_filename}.response.xml"
         # Save the response with the base filename
         response_file_path = os.path.join(os.path.dirname(file_path), response_filename)
-        with open(response_file_path, 'wb') as response_file:
-            response_file.write(response.content)
+        with open(response_file_path, 'w', encoding="utf-8") as response_file:
+            response_file.write(prettify_xml(response.content))
         print(f'Response saved as {response_file_path}')
         try:
             print("parsing file.")

@@ -1,1 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?><OJP xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns="http://www.vdv.de/ojp"><OJPResponse><siri:ServiceDelivery><siri:ResponseTimestamp>2024-08-16T19:03:51.767222+02:00</siri:ResponseTimestamp><siri:ProducerRef>MENTZ</siri:ProducerRef><OJPLocationInformationDelivery><siri:ResponseTimestamp>2024-08-16T19:03:51.7672608+02:00</siri:ResponseTimestamp><siri:RequestMessageRef>2683d9c1-e08a-4188-8237-761217f1d0dc</siri:RequestMessageRef><siri:DefaultLanguage>de</siri:DefaultLanguage><CalcTime>1</CalcTime><PlaceResult><Place><StopPlace><StopPlaceRef>8530813</StopPlaceRef><StopPlaceName><Text xml:lang="de">Zürich, Kreuzplatz</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>113258</Value></PrivateCode><TopographicPlaceRef>23026261:27</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Zürich</Text></Name><GeoPosition><siri:Longitude>8.55408</siri:Longitude><siri:Latitude>47.36488</siri:Latitude></GeoPosition><Mode><PtMode>rail</PtMode></Mode><Mode><PtMode>tram</PtMode><siri:TramSubmode>cityTram</siri:TramSubmode></Mode><Mode><PtMode>bus</PtMode><siri:BusSubmode>localBus</siri:BusSubmode></Mode></Place><Complete>true</Complete><Probability>1</Probability></PlaceResult></OJPLocationInformationDelivery></siri:ServiceDelivery></OJPResponse></OJP>
+<OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
+  <OJPResponse>
+    <siri:ServiceDelivery>
+      <siri:ResponseTimestamp>2024-08-16T19:29:26.4449927+02:00</siri:ResponseTimestamp>
+      <siri:ProducerRef>MENTZ</siri:ProducerRef>
+      <OJPLocationInformationDelivery>
+        <siri:ResponseTimestamp>2024-08-16T19:29:26.4450388+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>b9829b87-f588-4d7b-9cf0-c873a9922f1c</siri:RequestMessageRef>
+        <siri:DefaultLanguage>de</siri:DefaultLanguage>
+        <CalcTime>3</CalcTime>
+        <PlaceResult>
+          <Place>
+            <StopPlace>
+              <StopPlaceRef>8530813</StopPlaceRef>
+              <StopPlaceName>
+                <Text xml:lang="de">Zürich, Kreuzplatz</Text>
+              </StopPlaceName>
+              <PrivateCode>
+                <System>EFA</System>
+                <Value>113258</Value>
+              </PrivateCode>
+              <TopographicPlaceRef>23026261:27</TopographicPlaceRef>
+            </StopPlace>
+            <Name>
+              <Text xml:lang="de">Zürich</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.55408</siri:Longitude>
+              <siri:Latitude>47.36488</siri:Latitude>
+            </GeoPosition>
+            <Mode>
+              <PtMode>rail</PtMode>
+            </Mode>
+            <Mode>
+              <PtMode>tram</PtMode>
+              <siri:TramSubmode>cityTram</siri:TramSubmode>
+            </Mode>
+            <Mode>
+              <PtMode>bus</PtMode>
+              <siri:BusSubmode>localBus</siri:BusSubmode>
+            </Mode>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>1</Probability>
+        </PlaceResult>
+      </OJPLocationInformationDelivery>
+    </siri:ServiceDelivery>
+  </OJPResponse>
+</OJP>

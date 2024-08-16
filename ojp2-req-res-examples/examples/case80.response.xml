@@ -1,1 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><OJP xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns="http://www.vdv.de/ojp"><OJPResponse><siri:ServiceDelivery><siri:ResponseTimestamp>2024-08-16T19:07:35.5326583+02:00</siri:ResponseTimestamp><siri:ProducerRef>MENTZ</siri:ProducerRef><OJPStopEventDelivery><siri:ResponseTimestamp>2024-08-16T19:07:35.53266+02:00</siri:ResponseTimestamp><siri:RequestMessageRef>c670236b-fa17-46c9-8b59-bc8c96027824</siri:RequestMessageRef><siri:DefaultLanguage>de</siri:DefaultLanguage><CalcTime>5</CalcTime><StopEventResponseContext><Places /></StopEventResponseContext></OJPStopEventDelivery></siri:ServiceDelivery></OJPResponse></OJP>
+<OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
+  <OJPResponse>
+    <siri:ServiceDelivery>
+      <siri:ResponseTimestamp>2024-08-16T19:33:10.1128186+02:00</siri:ResponseTimestamp>
+      <siri:ProducerRef>MENTZ</siri:ProducerRef>
+      <OJPStopEventDelivery>
+        <siri:ResponseTimestamp>2024-08-16T19:33:10.1128201+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>f07ace94-021e-419c-811c-d3d79e586a6d</siri:RequestMessageRef>
+        <siri:DefaultLanguage>de</siri:DefaultLanguage>
+        <CalcTime>4</CalcTime>
+        <StopEventResponseContext>
+          <Places/>
+        </StopEventResponseContext>
+      </OJPStopEventDelivery>
+    </siri:ServiceDelivery>
+  </OJPResponse>
+</OJP>

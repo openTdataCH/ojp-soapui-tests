@@ -1,1 +1,1692 @@
-<?xml version="1.0" encoding="utf-8"?><OJP xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns="http://www.vdv.de/ojp"><OJPResponse><siri:ServiceDelivery><siri:ResponseTimestamp>2024-08-16T19:08:11.9353365+02:00</siri:ResponseTimestamp><siri:ProducerRef>MENTZ</siri:ProducerRef><OJPStopEventDelivery><siri:ResponseTimestamp>2024-08-16T19:08:11.9353374+02:00</siri:ResponseTimestamp><siri:RequestMessageRef>2a737186-f5f2-460a-b7f7-cc660a068a00</siri:RequestMessageRef><siri:DefaultLanguage>de</siri:DefaultLanguage><CalcTime>23</CalcTime><StopEventResponseContext><Places><Place><StopPlace><StopPlaceRef>8580939</StopPlaceRef><StopPlaceName><Text xml:lang="de">Bahnhof</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>122517:0:A</Value></PrivateCode><TopographicPlaceRef>23006351:1</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Bahnhof</Text></Name><GeoPosition><siri:Longitude>7.40679</siri:Longitude><siri:Latitude>46.94329</siri:Latitude></GeoPosition></Place></Places></StopEventResponseContext><StopEventResult><Id>00000000-0000-0000-0000-000000000000</Id><StopEvent><ThisCall><CallAtStop><siri:StopPointRef>ch:1:sloid:80939:0:16</siri:StopPointRef><StopPointName><Text xml:lang="de">Bern Europaplatz, Bahnhof</Text></StopPointName><PlannedQuay><Text xml:lang="de">A</Text></PlannedQuay><ServiceDeparture><TimetabledTime>2024-08-16T17:08:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></CallAtStop></ThisCall><Service><Mode><PtMode>tram</PtMode><siri:TramSubmode>cityTram</siri:TramSubmode><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>5476</TrainNumber><siri:LineRef>ojp:91007:_x0020_</siri:LineRef><siri:OperatorRef>827</siri:OperatorRef><PublicCode>Tram</PublicCode><PublishedServiceName><Text xml:lang="de">7</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName><ProductCategoryRef>2</ProductCategoryRef></ProductCategory><siri:DirectionRef>H</siri:DirectionRef><JourneyRef>ojp-91-7-_-j24-1-722-TA</JourneyRef><OperatingDayRef>2024-08-16</OperatingDayRef><Cancelled>false</Cancelled><Unplanned>false</Unplanned><Deviation>false</Deviation><Attribute><UserText><Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text></UserText><Code>A__VB</Code></Attribute><Attribute><UserText><Text xml:lang="de">Niederflureinstieg</Text></UserText><Code>A__NF</Code></Attribute><OriginStopPointRef>ch:1:sloid:90044:0:16</OriginStopPointRef><DestinationStopPointRef>ch:1:sloid:79897:0:2</DestinationStopPointRef><OriginText><Text xml:lang="de">Bern, Bümpliz</Text></OriginText><DestinationText><Text xml:lang="de">Bern, Kocherpark</Text></DestinationText></Service><OperatingDays><From>2024-08-04</From><To>2024-12-13</To><Pattern>000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110000000</Pattern></OperatingDays></StopEvent></StopEventResult><StopEventResult><Id>00000000-0000-0000-0000-000000000000</Id><StopEvent><ThisCall><CallAtStop><siri:StopPointRef>ch:1:sloid:80939:0:3</siri:StopPointRef><StopPointName><Text xml:lang="de">Bern Europaplatz, Bahnhof</Text></StopPointName><PlannedQuay><Text xml:lang="de">C</Text></PlannedQuay><ServiceDeparture><TimetabledTime>2024-08-16T17:09:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></CallAtStop></ThisCall><Service><Mode><PtMode>bus</PtMode><siri:BusSubmode>localBus</siri:BusSubmode><Name><Text xml:lang="de">Bus</Text></Name><ShortName><Text xml:lang="de">B</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>37087</TrainNumber><siri:LineRef>ojp:92031:B</siri:LineRef><siri:OperatorRef>827</siri:OperatorRef><PublicCode>Bus</PublicCode><PublishedServiceName><Text xml:lang="de">31</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Bus</Text></Name><ShortName><Text xml:lang="de">B</Text></ShortName><ProductCategoryRef>29</ProductCategoryRef></ProductCategory><siri:DirectionRef>R</siri:DirectionRef><JourneyRef>ojp-92-31-B-j24-1-86-TA</JourneyRef><OperatingDayRef>2024-08-16</OperatingDayRef><Cancelled>false</Cancelled><Unplanned>false</Unplanned><Deviation>false</Deviation><Attribute><UserText><Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text></UserText><Code>A__VB</Code></Attribute><Attribute><UserText><Text xml:lang="de">Niederflureinstieg</Text></UserText><Code>A__NF</Code></Attribute><OriginStopPointRef>ch:1:sloid:80939:0:3</OriginStopPointRef><DestinationStopPointRef>8507061</DestinationStopPointRef><OriginText><Text xml:lang="de">Bern Europaplatz, Bahnhof</Text></OriginText><DestinationText><Text xml:lang="de">Bern, Brunnadernstrasse</Text></DestinationText></Service><OperatingDays><From>2024-08-04</From><To>2024-12-13</To><Pattern>011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111</Pattern></OperatingDays></StopEvent></StopEventResult><StopEventResult><Id>00000000-0000-0000-0000-000000000000</Id><StopEvent><ThisCall><CallAtStop><siri:StopPointRef>ch:1:sloid:80939:0:15</siri:StopPointRef><StopPointName><Text xml:lang="de">Bern Europaplatz, Bahnhof</Text></StopPointName><PlannedQuay><Text xml:lang="de">B</Text></PlannedQuay><ServiceDeparture><TimetabledTime>2024-08-16T17:10:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></CallAtStop></ThisCall><Service><Mode><PtMode>tram</PtMode><siri:TramSubmode>cityTram</siri:TramSubmode><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>8321</TrainNumber><siri:LineRef>ojp:91008:_x0020_</siri:LineRef><siri:OperatorRef>827</siri:OperatorRef><PublicCode>Tram</PublicCode><PublishedServiceName><Text xml:lang="de">8</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName><ProductCategoryRef>2</ProductCategoryRef></ProductCategory><siri:DirectionRef>R</siri:DirectionRef><JourneyRef>ojp-91-8-_-j24-1-1742-TA</JourneyRef><OperatingDayRef>2024-08-16</OperatingDayRef><Cancelled>false</Cancelled><Unplanned>false</Unplanned><Deviation>false</Deviation><Attribute><UserText><Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text></UserText><Code>A__VB</Code></Attribute><Attribute><UserText><Text xml:lang="de">Niederflureinstieg</Text></UserText><Code>A__NF</Code></Attribute><OriginStopPointRef>ch:1:sloid:79897:0:1</OriginStopPointRef><DestinationStopPointRef>8582262</DestinationStopPointRef><OriginText><Text xml:lang="de">Bern, Kocherpark</Text></OriginText><DestinationText><Text xml:lang="de">Bern Brünnen Westside, Bahnhof</Text></DestinationText></Service><OperatingDays><From>2024-08-04</From><To>2024-12-13</To><Pattern>000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110000000</Pattern></OperatingDays></StopEvent></StopEventResult><StopEventResult><Id>00000000-0000-0000-0000-000000000000</Id><StopEvent><ThisCall><CallAtStop><siri:StopPointRef>ch:1:sloid:80939:0:16</siri:StopPointRef><StopPointName><Text xml:lang="de">Bern Europaplatz, Bahnhof</Text></StopPointName><PlannedQuay><Text xml:lang="de">A</Text></PlannedQuay><ServiceDeparture><TimetabledTime>2024-08-16T17:10:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></CallAtStop></ThisCall><Service><Mode><PtMode>tram</PtMode><siri:TramSubmode>cityTram</siri:TramSubmode><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>8077</TrainNumber><siri:LineRef>ojp:91008:_x0020_</siri:LineRef><siri:OperatorRef>827</siri:OperatorRef><PublicCode>Tram</PublicCode><PublishedServiceName><Text xml:lang="de">8</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName><ProductCategoryRef>2</ProductCategoryRef></ProductCategory><siri:DirectionRef>H</siri:DirectionRef><JourneyRef>ojp-91-8-_-j24-1-685-TA</JourneyRef><OperatingDayRef>2024-08-16</OperatingDayRef><Cancelled>false</Cancelled><Unplanned>false</Unplanned><Deviation>false</Deviation><Attribute><UserText><Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text></UserText><Code>A__VB</Code></Attribute><Attribute><UserText><Text xml:lang="de">Niederflureinstieg</Text></UserText><Code>A__NF</Code></Attribute><OriginStopPointRef>8582262</OriginStopPointRef><DestinationStopPointRef>ch:1:sloid:79897:0:2</DestinationStopPointRef><OriginText><Text xml:lang="de">Bern Brünnen Westside, Bahnhof</Text></OriginText><DestinationText><Text xml:lang="de">Bern, Kocherpark</Text></DestinationText></Service><OperatingDays><From>2024-08-04</From><To>2024-12-13</To><Pattern>000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110000000</Pattern></OperatingDays></StopEvent></StopEventResult><StopEventResult><Id>00000000-0000-0000-0000-000000000000</Id><StopEvent><ThisCall><CallAtStop><siri:StopPointRef>ch:1:sloid:80939:0:16</siri:StopPointRef><StopPointName><Text xml:lang="de">Bern Europaplatz, Bahnhof</Text></StopPointName><PlannedQuay><Text xml:lang="de">A</Text></PlannedQuay><ServiceDeparture><TimetabledTime>2024-08-16T17:12:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></CallAtStop></ThisCall><Service><Mode><PtMode>tram</PtMode><siri:TramSubmode>cityTram</siri:TramSubmode><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>8092</TrainNumber><siri:LineRef>ojp:91008:_x0020_</siri:LineRef><siri:OperatorRef>827</siri:OperatorRef><PublicCode>Tram</PublicCode><PublishedServiceName><Text xml:lang="de">8</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName><ProductCategoryRef>2</ProductCategoryRef></ProductCategory><siri:DirectionRef>H</siri:DirectionRef><JourneyRef>ojp-91-8-_-j24-1-662-TA</JourneyRef><OperatingDayRef>2024-08-16</OperatingDayRef><Cancelled>false</Cancelled><Unplanned>false</Unplanned><Deviation>false</Deviation><Attribute><UserText><Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text></UserText><Code>A__VB</Code></Attribute><Attribute><UserText><Text xml:lang="de">Niederflureinstieg</Text></UserText><Code>A__NF</Code></Attribute><OriginStopPointRef>8582262</OriginStopPointRef><DestinationStopPointRef>ch:1:sloid:79897:0:2</DestinationStopPointRef><OriginText><Text xml:lang="de">Bern Brünnen Westside, Bahnhof</Text></OriginText><DestinationText><Text xml:lang="de">Bern, Kocherpark</Text></DestinationText></Service><OperatingDays><From>2024-08-04</From><To>2024-12-13</To><Pattern>000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110000000</Pattern></OperatingDays></StopEvent></StopEventResult><StopEventResult><Id>00000000-0000-0000-0000-000000000000</Id><StopEvent><ThisCall><CallAtStop><siri:StopPointRef>ch:1:sloid:80939:0:15</siri:StopPointRef><StopPointName><Text xml:lang="de">Bern Europaplatz, Bahnhof</Text></StopPointName><PlannedQuay><Text xml:lang="de">B</Text></PlannedQuay><ServiceDeparture><TimetabledTime>2024-08-16T17:13:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></CallAtStop></ThisCall><Service><Mode><PtMode>tram</PtMode><siri:TramSubmode>cityTram</siri:TramSubmode><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>5790</TrainNumber><siri:LineRef>ojp:91007:_x0020_</siri:LineRef><siri:OperatorRef>827</siri:OperatorRef><PublicCode>Tram</PublicCode><PublishedServiceName><Text xml:lang="de">7</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName><ProductCategoryRef>2</ProductCategoryRef></ProductCategory><siri:DirectionRef>R</siri:DirectionRef><JourneyRef>ojp-91-7-_-j24-1-1986-TA</JourneyRef><OperatingDayRef>2024-08-16</OperatingDayRef><Cancelled>false</Cancelled><Unplanned>false</Unplanned><Deviation>false</Deviation><Attribute><UserText><Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text></UserText><Code>A__VB</Code></Attribute><Attribute><UserText><Text xml:lang="de">Niederflureinstieg</Text></UserText><Code>A__NF</Code></Attribute><OriginStopPointRef>ch:1:sloid:79897:0:1</OriginStopPointRef><DestinationStopPointRef>ch:1:sloid:90044:0:16</DestinationStopPointRef><OriginText><Text xml:lang="de">Bern, Kocherpark</Text></OriginText><DestinationText><Text xml:lang="de">Bern, Bümpliz</Text></DestinationText></Service><OperatingDays><From>2024-08-04</From><To>2024-12-13</To><Pattern>000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110000000</Pattern></OperatingDays></StopEvent></StopEventResult><StopEventResult><Id>00000000-0000-0000-0000-000000000000</Id><StopEvent><ThisCall><CallAtStop><siri:StopPointRef>ch:1:sloid:80939:0:16</siri:StopPointRef><StopPointName><Text xml:lang="de">Bern Europaplatz, Bahnhof</Text></StopPointName><PlannedQuay><Text xml:lang="de">A</Text></PlannedQuay><ServiceDeparture><TimetabledTime>2024-08-16T17:15:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></CallAtStop></ThisCall><Service><Mode><PtMode>tram</PtMode><siri:TramSubmode>cityTram</siri:TramSubmode><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>5495</TrainNumber><siri:LineRef>ojp:91007:_x0020_</siri:LineRef><siri:OperatorRef>827</siri:OperatorRef><PublicCode>Tram</PublicCode><PublishedServiceName><Text xml:lang="de">7</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName><ProductCategoryRef>2</ProductCategoryRef></ProductCategory><siri:DirectionRef>H</siri:DirectionRef><JourneyRef>ojp-91-7-_-j24-1-738-TA</JourneyRef><OperatingDayRef>2024-08-16</OperatingDayRef><Cancelled>false</Cancelled><Unplanned>false</Unplanned><Deviation>false</Deviation><Attribute><UserText><Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text></UserText><Code>A__VB</Code></Attribute><Attribute><UserText><Text xml:lang="de">Niederflureinstieg</Text></UserText><Code>A__NF</Code></Attribute><OriginStopPointRef>ch:1:sloid:90044:0:16</OriginStopPointRef><DestinationStopPointRef>ch:1:sloid:79897:0:2</DestinationStopPointRef><OriginText><Text xml:lang="de">Bern, Bümpliz</Text></OriginText><DestinationText><Text xml:lang="de">Bern, Kocherpark</Text></DestinationText></Service><OperatingDays><From>2024-08-04</From><To>2024-12-13</To><Pattern>000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110000000</Pattern></OperatingDays></StopEvent></StopEventResult><StopEventResult><Id>00000000-0000-0000-0000-000000000000</Id><StopEvent><ThisCall><CallAtStop><siri:StopPointRef>ch:1:sloid:80939:0:15</siri:StopPointRef><StopPointName><Text xml:lang="de">Bern Europaplatz, Bahnhof</Text></StopPointName><PlannedQuay><Text xml:lang="de">B</Text></PlannedQuay><ServiceDeparture><TimetabledTime>2024-08-16T17:16:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></CallAtStop></ThisCall><Service><Mode><PtMode>bus</PtMode><siri:BusSubmode>localBus</siri:BusSubmode><Name><Text xml:lang="de">Bus</Text></Name><ShortName><Text xml:lang="de">B</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>37057</TrainNumber><siri:LineRef>ojp:92031:B</siri:LineRef><siri:OperatorRef>827</siri:OperatorRef><PublicCode>Bus</PublicCode><PublishedServiceName><Text xml:lang="de">31</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Bus</Text></Name><ShortName><Text xml:lang="de">B</Text></ShortName><ProductCategoryRef>29</ProductCategoryRef></ProductCategory><siri:DirectionRef>H</siri:DirectionRef><JourneyRef>ojp-92-31-B-j24-1-52-TA</JourneyRef><OperatingDayRef>2024-08-16</OperatingDayRef><Cancelled>false</Cancelled><Unplanned>false</Unplanned><Deviation>false</Deviation><Attribute><UserText><Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text></UserText><Code>A__VB</Code></Attribute><Attribute><UserText><Text xml:lang="de">Niederflureinstieg</Text></UserText><Code>A__NF</Code></Attribute><OriginStopPointRef>ch:1:sloid:7061:0:4</OriginStopPointRef><DestinationStopPointRef>ch:1:sloid:89227:0:1</DestinationStopPointRef><OriginText><Text xml:lang="de">Bern, Brunnadernstrasse</Text></OriginText><DestinationText><Text xml:lang="de">Niederwangen, Bahnhof</Text></DestinationText></Service><OperatingDays><From>2024-08-04</From><To>2024-12-13</To><Pattern>011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111</Pattern></OperatingDays></StopEvent></StopEventResult><StopEventResult><Id>00000000-0000-0000-0000-000000000000</Id><StopEvent><ThisCall><CallAtStop><siri:StopPointRef>ch:1:sloid:80939:0:15</siri:StopPointRef><StopPointName><Text xml:lang="de">Bern Europaplatz, Bahnhof</Text></StopPointName><PlannedQuay><Text xml:lang="de">B</Text></PlannedQuay><ServiceDeparture><TimetabledTime>2024-08-16T17:17:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></CallAtStop></ThisCall><Service><Mode><PtMode>tram</PtMode><siri:TramSubmode>cityTram</siri:TramSubmode><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>8359</TrainNumber><siri:LineRef>ojp:91008:_x0020_</siri:LineRef><siri:OperatorRef>827</siri:OperatorRef><PublicCode>Tram</PublicCode><PublishedServiceName><Text xml:lang="de">8</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName><ProductCategoryRef>2</ProductCategoryRef></ProductCategory><siri:DirectionRef>R</siri:DirectionRef><JourneyRef>ojp-91-8-_-j24-1-1981-TA</JourneyRef><OperatingDayRef>2024-08-16</OperatingDayRef><Cancelled>false</Cancelled><Unplanned>false</Unplanned><Deviation>false</Deviation><Attribute><UserText><Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text></UserText><Code>A__VB</Code></Attribute><Attribute><UserText><Text xml:lang="de">Niederflureinstieg</Text></UserText><Code>A__NF</Code></Attribute><OriginStopPointRef>ch:1:sloid:79897:0:1</OriginStopPointRef><DestinationStopPointRef>8582262</DestinationStopPointRef><OriginText><Text xml:lang="de">Bern, Kocherpark</Text></OriginText><DestinationText><Text xml:lang="de">Bern Brünnen Westside, Bahnhof</Text></DestinationText></Service><OperatingDays><From>2024-08-04</From><To>2024-12-13</To><Pattern>000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110000000</Pattern></OperatingDays></StopEvent></StopEventResult><StopEventResult><Id>00000000-0000-0000-0000-000000000000</Id><StopEvent><ThisCall><CallAtStop><siri:StopPointRef>ch:1:sloid:80939:0:16</siri:StopPointRef><StopPointName><Text xml:lang="de">Bern Europaplatz, Bahnhof</Text></StopPointName><PlannedQuay><Text xml:lang="de">A</Text></PlannedQuay><ServiceDeparture><TimetabledTime>2024-08-16T17:20:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></CallAtStop></ThisCall><Service><Mode><PtMode>tram</PtMode><siri:TramSubmode>cityTram</siri:TramSubmode><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>8115</TrainNumber><siri:LineRef>ojp:91008:_x0020_</siri:LineRef><siri:OperatorRef>827</siri:OperatorRef><PublicCode>Tram</PublicCode><PublishedServiceName><Text xml:lang="de">8</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName><ProductCategoryRef>2</ProductCategoryRef></ProductCategory><siri:DirectionRef>H</siri:DirectionRef><JourneyRef>ojp-91-8-_-j24-1-688-TA</JourneyRef><OperatingDayRef>2024-08-16</OperatingDayRef><Cancelled>false</Cancelled><Unplanned>false</Unplanned><Deviation>false</Deviation><Attribute><UserText><Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text></UserText><Code>A__VB</Code></Attribute><Attribute><UserText><Text xml:lang="de">Niederflureinstieg</Text></UserText><Code>A__NF</Code></Attribute><OriginStopPointRef>8582262</OriginStopPointRef><DestinationStopPointRef>ch:1:sloid:79897:0:2</DestinationStopPointRef><OriginText><Text xml:lang="de">Bern Brünnen Westside, Bahnhof</Text></OriginText><DestinationText><Text xml:lang="de">Bern, Kocherpark</Text></DestinationText></Service><OperatingDays><From>2024-08-04</From><To>2024-12-13</To><Pattern>000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110000000</Pattern></OperatingDays></StopEvent></StopEventResult><StopEventResult><Id>00000000-0000-0000-0000-000000000000</Id><StopEvent><ThisCall><CallAtStop><siri:StopPointRef>ch:1:sloid:80939:0:15</siri:StopPointRef><StopPointName><Text xml:lang="de">Bern Europaplatz, Bahnhof</Text></StopPointName><PlannedQuay><Text xml:lang="de">B</Text></PlannedQuay><ServiceDeparture><TimetabledTime>2024-08-16T17:21:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></CallAtStop></ThisCall><Service><Mode><PtMode>tram</PtMode><siri:TramSubmode>cityTram</siri:TramSubmode><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>5813</TrainNumber><siri:LineRef>ojp:91007:_x0020_</siri:LineRef><siri:OperatorRef>827</siri:OperatorRef><PublicCode>Tram</PublicCode><PublishedServiceName><Text xml:lang="de">7</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName><ProductCategoryRef>2</ProductCategoryRef></ProductCategory><siri:DirectionRef>R</siri:DirectionRef><JourneyRef>ojp-91-7-_-j24-1-1763-TA</JourneyRef><OperatingDayRef>2024-08-16</OperatingDayRef><Cancelled>false</Cancelled><Unplanned>false</Unplanned><Deviation>false</Deviation><Attribute><UserText><Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text></UserText><Code>A__VB</Code></Attribute><Attribute><UserText><Text xml:lang="de">Niederflureinstieg</Text></UserText><Code>A__NF</Code></Attribute><OriginStopPointRef>ch:1:sloid:79897:0:1</OriginStopPointRef><DestinationStopPointRef>ch:1:sloid:90044:0:16</DestinationStopPointRef><OriginText><Text xml:lang="de">Bern, Kocherpark</Text></OriginText><DestinationText><Text xml:lang="de">Bern, Bümpliz</Text></DestinationText></Service><OperatingDays><From>2024-08-04</From><To>2024-12-13</To><Pattern>000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110000000</Pattern></OperatingDays></StopEvent></StopEventResult><StopEventResult><Id>00000000-0000-0000-0000-000000000000</Id><StopEvent><ThisCall><CallAtStop><siri:StopPointRef>ch:1:sloid:80939:0:3</siri:StopPointRef><StopPointName><Text xml:lang="de">Bern Europaplatz, Bahnhof</Text></StopPointName><PlannedQuay><Text xml:lang="de">C</Text></PlannedQuay><ServiceDeparture><TimetabledTime>2024-08-16T17:22:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></CallAtStop></ThisCall><Service><Mode><PtMode>bus</PtMode><siri:BusSubmode>localBus</siri:BusSubmode><Name><Text xml:lang="de">Bus</Text></Name><ShortName><Text xml:lang="de">EV</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>46297</TrainNumber><siri:LineRef>ojp:92EV4:F</siri:LineRef><siri:OperatorRef>827</siri:OperatorRef><PublicCode>Ersatzverkehr</PublicCode><PublishedServiceName><Text xml:lang="de">EV4</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Bus</Text></Name><ShortName><Text xml:lang="de">EV</Text></ShortName><ProductCategoryRef>5</ProductCategoryRef></ProductCategory><siri:DirectionRef>R</siri:DirectionRef><JourneyRef>ojp-92-EV4-F-j24-1-67-TA</JourneyRef><OperatingDayRef>2024-08-16</OperatingDayRef><Cancelled>false</Cancelled><Unplanned>false</Unplanned><Deviation>false</Deviation><Attribute><UserText><Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text></UserText><Code>A__VB</Code></Attribute><Attribute><UserText><Text xml:lang="de">GRUPPEN: Reservierung obligatorisch</Text></UserText><Code>A__GR</Code></Attribute><Attribute><UserText><Text xml:lang="de">VELOS: Keine Beförderung möglich</Text></UserText><Code>A__VN</Code></Attribute><Attribute><UserText><Text xml:lang="de">Bahnersatz</Text></UserText><Code>A__BE</Code></Attribute><Attribute><UserText><Text xml:lang="de">Niederflureinstieg</Text></UserText><Code>A__NF</Code></Attribute><OriginStopPointRef>8571414</OriginStopPointRef><DestinationStopPointRef>ch:1:sloid:95931:0:2</DestinationStopPointRef><OriginText><Text xml:lang="de">Köniz, Zentrum</Text></OriginText><DestinationText><Text xml:lang="de">Bern Weissenbühl, Bahnhof</Text></DestinationText></Service><OperatingDays><From>2024-08-04</From><To>2024-12-13</To><Pattern>111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</Pattern></OperatingDays></StopEvent></StopEventResult><StopEventResult><Id>00000000-0000-0000-0000-000000000000</Id><StopEvent><ThisCall><CallAtStop><siri:StopPointRef>ch:1:sloid:80939:0:3</siri:StopPointRef><StopPointName><Text xml:lang="de">Bern Europaplatz, Bahnhof</Text></StopPointName><PlannedQuay><Text xml:lang="de">C</Text></PlannedQuay><ServiceDeparture><TimetabledTime>2024-08-16T17:24:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></CallAtStop></ThisCall><Service><Mode><PtMode>bus</PtMode><siri:BusSubmode>localBus</siri:BusSubmode><Name><Text xml:lang="de">Bus</Text></Name><ShortName><Text xml:lang="de">B</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>37083</TrainNumber><siri:LineRef>ojp:92031:B</siri:LineRef><siri:OperatorRef>827</siri:OperatorRef><PublicCode>Bus</PublicCode><PublishedServiceName><Text xml:lang="de">31</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Bus</Text></Name><ShortName><Text xml:lang="de">B</Text></ShortName><ProductCategoryRef>29</ProductCategoryRef></ProductCategory><siri:DirectionRef>R</siri:DirectionRef><JourneyRef>ojp-92-31-B-j24-1-131-TA</JourneyRef><OperatingDayRef>2024-08-16</OperatingDayRef><Cancelled>false</Cancelled><Unplanned>false</Unplanned><Deviation>false</Deviation><Attribute><UserText><Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text></UserText><Code>A__VB</Code></Attribute><Attribute><UserText><Text xml:lang="de">Niederflureinstieg</Text></UserText><Code>A__NF</Code></Attribute><OriginStopPointRef>ch:1:sloid:89227:0:1</OriginStopPointRef><DestinationStopPointRef>8507061</DestinationStopPointRef><OriginText><Text xml:lang="de">Niederwangen, Bahnhof</Text></OriginText><DestinationText><Text xml:lang="de">Bern, Brunnadernstrasse</Text></DestinationText></Service><OperatingDays><From>2024-08-04</From><To>2024-12-13</To><Pattern>011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111</Pattern></OperatingDays></StopEvent></StopEventResult><StopEventResult><Id>00000000-0000-0000-0000-000000000000</Id><StopEvent><ThisCall><CallAtStop><siri:StopPointRef>ch:1:sloid:80939:0:15</siri:StopPointRef><StopPointName><Text xml:lang="de">Bern Europaplatz, Bahnhof</Text></StopPointName><PlannedQuay><Text xml:lang="de">B</Text></PlannedQuay><ServiceDeparture><TimetabledTime>2024-08-16T17:25:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></CallAtStop></ThisCall><Service><Mode><PtMode>tram</PtMode><siri:TramSubmode>cityTram</siri:TramSubmode><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>7747</TrainNumber><siri:LineRef>ojp:91008:_x0020_</siri:LineRef><siri:OperatorRef>827</siri:OperatorRef><PublicCode>Tram</PublicCode><PublishedServiceName><Text xml:lang="de">8</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName><ProductCategoryRef>2</ProductCategoryRef></ProductCategory><siri:DirectionRef>R</siri:DirectionRef><JourneyRef>ojp-91-8-_-j24-1-1745-TA</JourneyRef><OperatingDayRef>2024-08-16</OperatingDayRef><Cancelled>false</Cancelled><Unplanned>false</Unplanned><Deviation>false</Deviation><Attribute><UserText><Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text></UserText><Code>A__VB</Code></Attribute><Attribute><UserText><Text xml:lang="de">Niederflureinstieg</Text></UserText><Code>A__NF</Code></Attribute><OriginStopPointRef>ch:1:sloid:79897:0:1</OriginStopPointRef><DestinationStopPointRef>8582262</DestinationStopPointRef><OriginText><Text xml:lang="de">Bern, Kocherpark</Text></OriginText><DestinationText><Text xml:lang="de">Bern Brünnen Westside, Bahnhof</Text></DestinationText></Service><OperatingDays><From>2024-08-04</From><To>2024-12-13</To><Pattern>000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110000000</Pattern></OperatingDays></StopEvent></StopEventResult><StopEventResult><Id>00000000-0000-0000-0000-000000000000</Id><StopEvent><ThisCall><CallAtStop><siri:StopPointRef>ch:1:sloid:80939:0:16</siri:StopPointRef><StopPointName><Text xml:lang="de">Bern Europaplatz, Bahnhof</Text></StopPointName><PlannedQuay><Text xml:lang="de">A</Text></PlannedQuay><ServiceDeparture><TimetabledTime>2024-08-16T17:25:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></CallAtStop></ThisCall><Service><Mode><PtMode>tram</PtMode><siri:TramSubmode>cityTram</siri:TramSubmode><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>5545</TrainNumber><siri:LineRef>ojp:91007:_x0020_</siri:LineRef><siri:OperatorRef>827</siri:OperatorRef><PublicCode>Tram</PublicCode><PublishedServiceName><Text xml:lang="de">7</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName><ProductCategoryRef>2</ProductCategoryRef></ProductCategory><siri:DirectionRef>H</siri:DirectionRef><JourneyRef>ojp-91-7-_-j24-1-725-TA</JourneyRef><OperatingDayRef>2024-08-16</OperatingDayRef><Cancelled>false</Cancelled><Unplanned>false</Unplanned><Deviation>false</Deviation><Attribute><UserText><Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text></UserText><Code>A__VB</Code></Attribute><Attribute><UserText><Text xml:lang="de">Niederflureinstieg</Text></UserText><Code>A__NF</Code></Attribute><OriginStopPointRef>ch:1:sloid:90044:0:16</OriginStopPointRef><DestinationStopPointRef>ch:1:sloid:79897:0:2</DestinationStopPointRef><OriginText><Text xml:lang="de">Bern, Bümpliz</Text></OriginText><DestinationText><Text xml:lang="de">Bern, Kocherpark</Text></DestinationText></Service><OperatingDays><From>2024-08-04</From><To>2024-12-13</To><Pattern>000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110000000</Pattern></OperatingDays></StopEvent></StopEventResult><StopEventResult><Id>00000000-0000-0000-0000-000000000000</Id><StopEvent><ThisCall><CallAtStop><siri:StopPointRef>ch:1:sloid:80939:0:16</siri:StopPointRef><StopPointName><Text xml:lang="de">Bern Europaplatz, Bahnhof</Text></StopPointName><PlannedQuay><Text xml:lang="de">A</Text></PlannedQuay><ServiceDeparture><TimetabledTime>2024-08-16T17:28:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></CallAtStop></ThisCall><Service><Mode><PtMode>tram</PtMode><siri:TramSubmode>cityTram</siri:TramSubmode><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>5562</TrainNumber><siri:LineRef>ojp:91007:_x0020_</siri:LineRef><siri:OperatorRef>827</siri:OperatorRef><PublicCode>Tram</PublicCode><PublishedServiceName><Text xml:lang="de">7</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName><ProductCategoryRef>2</ProductCategoryRef></ProductCategory><siri:DirectionRef>H</siri:DirectionRef><JourneyRef>ojp-91-7-_-j24-1-724-TA</JourneyRef><OperatingDayRef>2024-08-16</OperatingDayRef><Cancelled>false</Cancelled><Unplanned>false</Unplanned><Deviation>false</Deviation><Attribute><UserText><Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text></UserText><Code>A__VB</Code></Attribute><Attribute><UserText><Text xml:lang="de">Niederflureinstieg</Text></UserText><Code>A__NF</Code></Attribute><OriginStopPointRef>ch:1:sloid:90044:0:16</OriginStopPointRef><DestinationStopPointRef>ch:1:sloid:79897:0:2</DestinationStopPointRef><OriginText><Text xml:lang="de">Bern, Bümpliz</Text></OriginText><DestinationText><Text xml:lang="de">Bern, Kocherpark</Text></DestinationText></Service><OperatingDays><From>2024-08-04</From><To>2024-12-13</To><Pattern>000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110000000</Pattern></OperatingDays></StopEvent></StopEventResult><StopEventResult><Id>00000000-0000-0000-0000-000000000000</Id><StopEvent><ThisCall><CallAtStop><siri:StopPointRef>ch:1:sloid:80939:0:15</siri:StopPointRef><StopPointName><Text xml:lang="de">Bern Europaplatz, Bahnhof</Text></StopPointName><PlannedQuay><Text xml:lang="de">B</Text></PlannedQuay><ServiceDeparture><TimetabledTime>2024-08-16T17:29:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></CallAtStop></ThisCall><Service><Mode><PtMode>tram</PtMode><siri:TramSubmode>cityTram</siri:TramSubmode><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>5853</TrainNumber><siri:LineRef>ojp:91007:_x0020_</siri:LineRef><siri:OperatorRef>827</siri:OperatorRef><PublicCode>Tram</PublicCode><PublishedServiceName><Text xml:lang="de">7</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName><ProductCategoryRef>2</ProductCategoryRef></ProductCategory><siri:DirectionRef>R</siri:DirectionRef><JourneyRef>ojp-91-7-_-j24-1-1984-TA</JourneyRef><OperatingDayRef>2024-08-16</OperatingDayRef><Cancelled>false</Cancelled><Unplanned>false</Unplanned><Deviation>false</Deviation><Attribute><UserText><Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text></UserText><Code>A__VB</Code></Attribute><Attribute><UserText><Text xml:lang="de">Niederflureinstieg</Text></UserText><Code>A__NF</Code></Attribute><OriginStopPointRef>ch:1:sloid:79897:0:1</OriginStopPointRef><DestinationStopPointRef>ch:1:sloid:90044:0:16</DestinationStopPointRef><OriginText><Text xml:lang="de">Bern, Kocherpark</Text></OriginText><DestinationText><Text xml:lang="de">Bern, Bümpliz</Text></DestinationText></Service><OperatingDays><From>2024-08-04</From><To>2024-12-13</To><Pattern>000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110000000</Pattern></OperatingDays></StopEvent></StopEventResult><StopEventResult><Id>00000000-0000-0000-0000-000000000000</Id><StopEvent><ThisCall><CallAtStop><siri:StopPointRef>ch:1:sloid:80939:0:16</siri:StopPointRef><StopPointName><Text xml:lang="de">Bern Europaplatz, Bahnhof</Text></StopPointName><PlannedQuay><Text xml:lang="de">A</Text></PlannedQuay><ServiceDeparture><TimetabledTime>2024-08-16T17:30:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></CallAtStop></ThisCall><Service><Mode><PtMode>tram</PtMode><siri:TramSubmode>cityTram</siri:TramSubmode><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>8161</TrainNumber><siri:LineRef>ojp:91008:_x0020_</siri:LineRef><siri:OperatorRef>827</siri:OperatorRef><PublicCode>Tram</PublicCode><PublishedServiceName><Text xml:lang="de">8</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName><ProductCategoryRef>2</ProductCategoryRef></ProductCategory><siri:DirectionRef>H</siri:DirectionRef><JourneyRef>ojp-91-8-_-j24-1-697-TA</JourneyRef><OperatingDayRef>2024-08-16</OperatingDayRef><Cancelled>false</Cancelled><Unplanned>false</Unplanned><Deviation>false</Deviation><Attribute><UserText><Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text></UserText><Code>A__VB</Code></Attribute><Attribute><UserText><Text xml:lang="de">Niederflureinstieg</Text></UserText><Code>A__NF</Code></Attribute><OriginStopPointRef>8582262</OriginStopPointRef><DestinationStopPointRef>ch:1:sloid:79897:0:2</DestinationStopPointRef><OriginText><Text xml:lang="de">Bern Brünnen Westside, Bahnhof</Text></OriginText><DestinationText><Text xml:lang="de">Bern, Kocherpark</Text></DestinationText></Service><OperatingDays><From>2024-08-04</From><To>2024-12-13</To><Pattern>000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110000000</Pattern></OperatingDays></StopEvent></StopEventResult><StopEventResult><Id>00000000-0000-0000-0000-000000000000</Id><StopEvent><ThisCall><CallAtStop><siri:StopPointRef>ch:1:sloid:80939:0:16</siri:StopPointRef><StopPointName><Text xml:lang="de">Bern Europaplatz, Bahnhof</Text></StopPointName><PlannedQuay><Text xml:lang="de">A</Text></PlannedQuay><ServiceDeparture><TimetabledTime>2024-08-16T17:33:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></CallAtStop></ThisCall><Service><Mode><PtMode>tram</PtMode><siri:TramSubmode>cityTram</siri:TramSubmode><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>8184</TrainNumber><siri:LineRef>ojp:91008:_x0020_</siri:LineRef><siri:OperatorRef>827</siri:OperatorRef><PublicCode>Tram</PublicCode><PublishedServiceName><Text xml:lang="de">8</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Tram</Text></Name><ShortName><Text xml:lang="de">T</Text></ShortName><ProductCategoryRef>2</ProductCategoryRef></ProductCategory><siri:DirectionRef>H</siri:DirectionRef><JourneyRef>ojp-91-8-_-j24-1-660-TA</JourneyRef><OperatingDayRef>2024-08-16</OperatingDayRef><Cancelled>false</Cancelled><Unplanned>false</Unplanned><Deviation>false</Deviation><Attribute><UserText><Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text></UserText><Code>A__VB</Code></Attribute><Attribute><UserText><Text xml:lang="de">Niederflureinstieg</Text></UserText><Code>A__NF</Code></Attribute><OriginStopPointRef>8582262</OriginStopPointRef><DestinationStopPointRef>ch:1:sloid:79897:0:2</DestinationStopPointRef><OriginText><Text xml:lang="de">Bern Brünnen Westside, Bahnhof</Text></OriginText><DestinationText><Text xml:lang="de">Bern, Kocherpark</Text></DestinationText></Service><OperatingDays><From>2024-08-04</From><To>2024-12-13</To><Pattern>000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110000000</Pattern></OperatingDays></StopEvent></StopEventResult><StopEventResult><Id>00000000-0000-0000-0000-000000000000</Id><StopEvent><ThisCall><CallAtStop><siri:StopPointRef>ch:1:sloid:80939:0:3</siri:StopPointRef><StopPointName><Text xml:lang="de">Bern Europaplatz, Bahnhof</Text></StopPointName><PlannedQuay><Text xml:lang="de">C</Text></PlannedQuay><ServiceDeparture><TimetabledTime>2024-08-16T17:33:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></CallAtStop></ThisCall><Service><Mode><PtMode>bus</PtMode><siri:BusSubmode>localBus</siri:BusSubmode><Name><Text xml:lang="de">Bus</Text></Name><ShortName><Text xml:lang="de">EV</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>46260</TrainNumber><siri:LineRef>ojp:92EV4:F</siri:LineRef><siri:OperatorRef>827</siri:OperatorRef><PublicCode>Ersatzverkehr</PublicCode><PublishedServiceName><Text xml:lang="de">EV4</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Bus</Text></Name><ShortName><Text xml:lang="de">EV</Text></ShortName><ProductCategoryRef>5</ProductCategoryRef></ProductCategory><siri:DirectionRef>H</siri:DirectionRef><JourneyRef>ojp-92-EV4-F-j24-1-38-TA</JourneyRef><OperatingDayRef>2024-08-16</OperatingDayRef><Cancelled>false</Cancelled><Unplanned>false</Unplanned><Deviation>false</Deviation><Attribute><UserText><Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text></UserText><Code>A__VB</Code></Attribute><Attribute><UserText><Text xml:lang="de">GRUPPEN: Reservierung obligatorisch</Text></UserText><Code>A__GR</Code></Attribute><Attribute><UserText><Text xml:lang="de">VELOS: Keine Beförderung möglich</Text></UserText><Code>A__VN</Code></Attribute><Attribute><UserText><Text xml:lang="de">Bahnersatz</Text></UserText><Code>A__BE</Code></Attribute><Attribute><UserText><Text xml:lang="de">Niederflureinstieg</Text></UserText><Code>A__NF</Code></Attribute><OriginStopPointRef>ch:1:sloid:95931:0:2</OriginStopPointRef><DestinationStopPointRef>8571414</DestinationStopPointRef><OriginText><Text xml:lang="de">Bern Weissenbühl, Bahnhof</Text></OriginText><DestinationText><Text xml:lang="de">Köniz, Zentrum</Text></DestinationText></Service><OperatingDays><From>2024-08-04</From><To>2024-12-13</To><Pattern>111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</Pattern></OperatingDays></StopEvent></StopEventResult></OJPStopEventDelivery></siri:ServiceDelivery></OJPResponse></OJP>
+<OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
+  <OJPResponse>
+    <siri:ServiceDelivery>
+      <siri:ResponseTimestamp>2024-08-16T19:33:46.6054331+02:00</siri:ResponseTimestamp>
+      <siri:ProducerRef>MENTZ</siri:ProducerRef>
+      <OJPStopEventDelivery>
+        <siri:ResponseTimestamp>2024-08-16T19:33:46.6054336+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>d2e774e4-155b-4263-94e4-f50d4c4e03db</siri:RequestMessageRef>
+        <siri:DefaultLanguage>de</siri:DefaultLanguage>
+        <CalcTime>17</CalcTime>
+        <StopEventResponseContext>
+          <Places>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8580939</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Bahnhof</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>122517:0:A</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23006351:1</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Bahnhof</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>7.40679</siri:Longitude>
+                <siri:Latitude>46.94329</siri:Latitude>
+              </GeoPosition>
+            </Place>
+          </Places>
+        </StopEventResponseContext>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>ch:1:sloid:80939:0:16</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Bern Europaplatz, Bahnhof</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">A</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-08-16T17:33:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>tram</PtMode>
+                <siri:TramSubmode>cityTram</siri:TramSubmode>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>8184</TrainNumber>
+              <siri:LineRef>ojp:91008:_x0020_</siri:LineRef>
+              <siri:OperatorRef>827</siri:OperatorRef>
+              <PublicCode>Tram</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">8</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+                <ProductCategoryRef>2</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>H</siri:DirectionRef>
+              <JourneyRef>ojp-91-8-_-j24-1-660-TA</JourneyRef>
+              <OperatingDayRef>2024-08-16</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text>
+                </UserText>
+                <Code>A__VB</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <OriginStopPointRef>8582262</OriginStopPointRef>
+              <DestinationStopPointRef>ch:1:sloid:79897:0:2</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Bern Brünnen Westside, Bahnhof</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Bern, Kocherpark</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-08-04</From>
+              <To>2024-12-13</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110000000</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>ch:1:sloid:80939:0:3</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Bern Europaplatz, Bahnhof</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">C</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-08-16T17:33:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>bus</PtMode>
+                <siri:BusSubmode>localBus</siri:BusSubmode>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">EV</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>46260</TrainNumber>
+              <siri:LineRef>ojp:92EV4:F</siri:LineRef>
+              <siri:OperatorRef>827</siri:OperatorRef>
+              <PublicCode>Ersatzverkehr</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">EV4</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">EV</Text>
+                </ShortName>
+                <ProductCategoryRef>5</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>H</siri:DirectionRef>
+              <JourneyRef>ojp-92-EV4-F-j24-1-38-TA</JourneyRef>
+              <OperatingDayRef>2024-08-16</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text>
+                </UserText>
+                <Code>A__VB</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">GRUPPEN: Reservierung obligatorisch</Text>
+                </UserText>
+                <Code>A__GR</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Keine Beförderung möglich</Text>
+                </UserText>
+                <Code>A__VN</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Bahnersatz</Text>
+                </UserText>
+                <Code>A__BE</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <OriginStopPointRef>ch:1:sloid:95931:0:2</OriginStopPointRef>
+              <DestinationStopPointRef>8571414</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Bern Weissenbühl, Bahnhof</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Köniz, Zentrum</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-08-04</From>
+              <To>2024-12-13</To>
+              <Pattern>111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>ch:1:sloid:80939:0:15</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Bern Europaplatz, Bahnhof</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">B</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-08-16T17:34:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>tram</PtMode>
+                <siri:TramSubmode>cityTram</siri:TramSubmode>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>7784</TrainNumber>
+              <siri:LineRef>ojp:91008:_x0020_</siri:LineRef>
+              <siri:OperatorRef>827</siri:OperatorRef>
+              <PublicCode>Tram</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">8</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+                <ProductCategoryRef>2</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ojp-91-8-_-j24-1-1980-TA</JourneyRef>
+              <OperatingDayRef>2024-08-16</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text>
+                </UserText>
+                <Code>A__VB</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <OriginStopPointRef>ch:1:sloid:79897:0:1</OriginStopPointRef>
+              <DestinationStopPointRef>8582262</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Bern, Kocherpark</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Bern Brünnen Westside, Bahnhof</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-08-04</From>
+              <To>2024-12-13</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110000000</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>ch:1:sloid:80939:0:16</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Bern Europaplatz, Bahnhof</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">A</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-08-16T17:35:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>tram</PtMode>
+                <siri:TramSubmode>cityTram</siri:TramSubmode>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>5587</TrainNumber>
+              <siri:LineRef>ojp:91007:_x0020_</siri:LineRef>
+              <siri:OperatorRef>827</siri:OperatorRef>
+              <PublicCode>Tram</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">7</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+                <ProductCategoryRef>2</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>H</siri:DirectionRef>
+              <JourneyRef>ojp-91-7-_-j24-1-711-TA</JourneyRef>
+              <OperatingDayRef>2024-08-16</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text>
+                </UserText>
+                <Code>A__VB</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <OriginStopPointRef>ch:1:sloid:90044:0:16</OriginStopPointRef>
+              <DestinationStopPointRef>ch:1:sloid:79897:0:2</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Bern, Bümpliz</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Bern, Kocherpark</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-08-04</From>
+              <To>2024-12-13</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110000000</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>ch:1:sloid:80939:0:15</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Bern Europaplatz, Bahnhof</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">B</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-08-16T17:39:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>tram</PtMode>
+                <siri:TramSubmode>cityTram</siri:TramSubmode>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>5219</TrainNumber>
+              <siri:LineRef>ojp:91007:_x0020_</siri:LineRef>
+              <siri:OperatorRef>827</siri:OperatorRef>
+              <PublicCode>Tram</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">7</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+                <ProductCategoryRef>2</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ojp-91-7-_-j24-1-1988-TA</JourneyRef>
+              <OperatingDayRef>2024-08-16</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text>
+                </UserText>
+                <Code>A__VB</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <OriginStopPointRef>ch:1:sloid:79897:0:1</OriginStopPointRef>
+              <DestinationStopPointRef>ch:1:sloid:90044:0:16</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Bern, Kocherpark</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Bern, Bümpliz</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-08-04</From>
+              <To>2024-12-13</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110000000</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>ch:1:sloid:80939:0:16</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Bern Europaplatz, Bahnhof</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">A</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-08-16T17:40:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>tram</PtMode>
+                <siri:TramSubmode>cityTram</siri:TramSubmode>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>8199</TrainNumber>
+              <siri:LineRef>ojp:91008:_x0020_</siri:LineRef>
+              <siri:OperatorRef>827</siri:OperatorRef>
+              <PublicCode>Tram</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">8</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+                <ProductCategoryRef>2</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>H</siri:DirectionRef>
+              <JourneyRef>ojp-91-8-_-j24-1-691-TA</JourneyRef>
+              <OperatingDayRef>2024-08-16</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text>
+                </UserText>
+                <Code>A__VB</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <OriginStopPointRef>8582262</OriginStopPointRef>
+              <DestinationStopPointRef>ch:1:sloid:79897:0:2</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Bern Brünnen Westside, Bahnhof</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Bern, Kocherpark</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-08-04</From>
+              <To>2024-12-13</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110000000</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>ch:1:sloid:80939:0:15</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Bern Europaplatz, Bahnhof</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">B</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-08-16T17:44:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>tram</PtMode>
+                <siri:TramSubmode>cityTram</siri:TramSubmode>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>7836</TrainNumber>
+              <siri:LineRef>ojp:91008:_x0020_</siri:LineRef>
+              <siri:OperatorRef>827</siri:OperatorRef>
+              <PublicCode>Tram</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">8</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+                <ProductCategoryRef>2</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ojp-91-8-_-j24-1-1926-TA</JourneyRef>
+              <OperatingDayRef>2024-08-16</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text>
+                </UserText>
+                <Code>A__VB</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <OriginStopPointRef>ch:1:sloid:79897:0:1</OriginStopPointRef>
+              <DestinationStopPointRef>8582262</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Bern, Kocherpark</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Bern Brünnen Westside, Bahnhof</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-08-04</From>
+              <To>2024-12-13</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110000000</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>ch:1:sloid:80939:0:16</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Bern Europaplatz, Bahnhof</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">A</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-08-16T17:45:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>tram</PtMode>
+                <siri:TramSubmode>cityTram</siri:TramSubmode>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>5629</TrainNumber>
+              <siri:LineRef>ojp:91007:_x0020_</siri:LineRef>
+              <siri:OperatorRef>827</siri:OperatorRef>
+              <PublicCode>Tram</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">7</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+                <ProductCategoryRef>2</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>H</siri:DirectionRef>
+              <JourneyRef>ojp-91-7-_-j24-1-699-TA</JourneyRef>
+              <OperatingDayRef>2024-08-16</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text>
+                </UserText>
+                <Code>A__VB</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <OriginStopPointRef>ch:1:sloid:90044:0:16</OriginStopPointRef>
+              <DestinationStopPointRef>ch:1:sloid:79897:0:2</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Bern, Bümpliz</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Bern, Kocherpark</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-08-04</From>
+              <To>2024-12-13</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110000000</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>ch:1:sloid:80939:0:15</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Bern Europaplatz, Bahnhof</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">B</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-08-16T17:46:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>bus</PtMode>
+                <siri:BusSubmode>localBus</siri:BusSubmode>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>37063</TrainNumber>
+              <siri:LineRef>ojp:92031:B</siri:LineRef>
+              <siri:OperatorRef>827</siri:OperatorRef>
+              <PublicCode>Bus</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">31</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+                <ProductCategoryRef>29</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>H</siri:DirectionRef>
+              <JourneyRef>ojp-92-31-B-j24-1-51-TA</JourneyRef>
+              <OperatingDayRef>2024-08-16</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text>
+                </UserText>
+                <Code>A__VB</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <OriginStopPointRef>ch:1:sloid:7061:0:4</OriginStopPointRef>
+              <DestinationStopPointRef>ch:1:sloid:89227:0:1</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Bern, Brunnadernstrasse</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Niederwangen, Bahnhof</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-08-04</From>
+              <To>2024-12-13</To>
+              <Pattern>011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>ch:1:sloid:80939:0:15</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Bern Europaplatz, Bahnhof</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">B</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-08-16T17:49:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>tram</PtMode>
+                <siri:TramSubmode>cityTram</siri:TramSubmode>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>5258</TrainNumber>
+              <siri:LineRef>ojp:91007:_x0020_</siri:LineRef>
+              <siri:OperatorRef>827</siri:OperatorRef>
+              <PublicCode>Tram</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">7</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+                <ProductCategoryRef>2</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ojp-91-7-_-j24-1-1990-TA</JourneyRef>
+              <OperatingDayRef>2024-08-16</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text>
+                </UserText>
+                <Code>A__VB</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <OriginStopPointRef>ch:1:sloid:79897:0:1</OriginStopPointRef>
+              <DestinationStopPointRef>ch:1:sloid:90044:0:16</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Bern, Kocherpark</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Bern, Bümpliz</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-08-04</From>
+              <To>2024-12-13</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110000000</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>ch:1:sloid:80939:0:16</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Bern Europaplatz, Bahnhof</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">A</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-08-16T17:51:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>tram</PtMode>
+                <siri:TramSubmode>cityTram</siri:TramSubmode>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>8491</TrainNumber>
+              <siri:LineRef>ojp:91008:_x0020_</siri:LineRef>
+              <siri:OperatorRef>827</siri:OperatorRef>
+              <PublicCode>Tram</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">8</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+                <ProductCategoryRef>2</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>H</siri:DirectionRef>
+              <JourneyRef>ojp-91-8-_-j24-1-455-TA</JourneyRef>
+              <OperatingDayRef>2024-08-16</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text>
+                </UserText>
+                <Code>A__VB</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <OriginStopPointRef>8582262</OriginStopPointRef>
+              <DestinationStopPointRef>ch:1:sloid:79897:0:2</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Bern Brünnen Westside, Bahnhof</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Bern, Kocherpark</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-08-04</From>
+              <To>2024-12-13</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000111111011111101111110111111011111101111110111111011111101111110000000</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>ch:1:sloid:80939:0:3</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Bern Europaplatz, Bahnhof</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">C</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-08-16T17:52:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>bus</PtMode>
+                <siri:BusSubmode>localBus</siri:BusSubmode>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">EV</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>46298</TrainNumber>
+              <siri:LineRef>ojp:92EV4:F</siri:LineRef>
+              <siri:OperatorRef>827</siri:OperatorRef>
+              <PublicCode>Ersatzverkehr</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">EV4</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">EV</Text>
+                </ShortName>
+                <ProductCategoryRef>5</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ojp-92-EV4-F-j24-1-68-TA</JourneyRef>
+              <OperatingDayRef>2024-08-16</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text>
+                </UserText>
+                <Code>A__VB</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">GRUPPEN: Reservierung obligatorisch</Text>
+                </UserText>
+                <Code>A__GR</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Keine Beförderung möglich</Text>
+                </UserText>
+                <Code>A__VN</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Bahnersatz</Text>
+                </UserText>
+                <Code>A__BE</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <OriginStopPointRef>8571414</OriginStopPointRef>
+              <DestinationStopPointRef>ch:1:sloid:95931:0:2</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Köniz, Zentrum</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Bern Weissenbühl, Bahnhof</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-08-04</From>
+              <To>2024-12-13</To>
+              <Pattern>111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>ch:1:sloid:80939:0:15</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Bern Europaplatz, Bahnhof</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">B</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-08-16T17:54:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>tram</PtMode>
+                <siri:TramSubmode>cityTram</siri:TramSubmode>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>8403</TrainNumber>
+              <siri:LineRef>ojp:91008:_x0020_</siri:LineRef>
+              <siri:OperatorRef>827</siri:OperatorRef>
+              <PublicCode>Tram</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">8</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+                <ProductCategoryRef>2</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ojp-91-8-_-j24-1-1902-TA</JourneyRef>
+              <OperatingDayRef>2024-08-16</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text>
+                </UserText>
+                <Code>A__VB</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <OriginStopPointRef>ch:1:sloid:79897:0:1</OriginStopPointRef>
+              <DestinationStopPointRef>8582262</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Bern, Kocherpark</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Bern Brünnen Westside, Bahnhof</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-08-04</From>
+              <To>2024-12-13</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000111111011111101111110111111011111101111110111111011111101111110000000</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>ch:1:sloid:80939:0:16</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Bern Europaplatz, Bahnhof</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">A</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-08-16T17:56:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>tram</PtMode>
+                <siri:TramSubmode>cityTram</siri:TramSubmode>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>5945</TrainNumber>
+              <siri:LineRef>ojp:91007:_x0020_</siri:LineRef>
+              <siri:OperatorRef>827</siri:OperatorRef>
+              <PublicCode>Tram</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">7</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+                <ProductCategoryRef>2</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>H</siri:DirectionRef>
+              <JourneyRef>ojp-91-7-_-j24-1-560-TA</JourneyRef>
+              <OperatingDayRef>2024-08-16</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text>
+                </UserText>
+                <Code>A__VB</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <OriginStopPointRef>ch:1:sloid:90044:0:16</OriginStopPointRef>
+              <DestinationStopPointRef>ch:1:sloid:79897:0:2</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Bern, Bümpliz</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Bern, Kocherpark</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-08-04</From>
+              <To>2024-12-13</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000111111011111101111110111111011111101111110111111011111101111110000000</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>ch:1:sloid:80939:0:15</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Bern Europaplatz, Bahnhof</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">B</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-08-16T17:59:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>tram</PtMode>
+                <siri:TramSubmode>cityTram</siri:TramSubmode>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>5870</TrainNumber>
+              <siri:LineRef>ojp:91007:_x0020_</siri:LineRef>
+              <siri:OperatorRef>827</siri:OperatorRef>
+              <PublicCode>Tram</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">7</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+                <ProductCategoryRef>2</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ojp-91-7-_-j24-1-1891-TA</JourneyRef>
+              <OperatingDayRef>2024-08-16</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text>
+                </UserText>
+                <Code>A__VB</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <OriginStopPointRef>ch:1:sloid:79897:0:1</OriginStopPointRef>
+              <DestinationStopPointRef>ch:1:sloid:90044:0:16</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Bern, Kocherpark</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Bern, Bümpliz</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-08-04</From>
+              <To>2024-12-13</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000001011111101111110111111011111101111110111111011111101111110111110000000</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>ch:1:sloid:80939:0:16</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Bern Europaplatz, Bahnhof</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">A</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-08-16T18:01:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>tram</PtMode>
+                <siri:TramSubmode>cityTram</siri:TramSubmode>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>8503</TrainNumber>
+              <siri:LineRef>ojp:91008:_x0020_</siri:LineRef>
+              <siri:OperatorRef>827</siri:OperatorRef>
+              <PublicCode>Tram</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">8</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+                <ProductCategoryRef>2</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>H</siri:DirectionRef>
+              <JourneyRef>ojp-91-8-_-j24-1-456-TA</JourneyRef>
+              <OperatingDayRef>2024-08-16</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text>
+                </UserText>
+                <Code>A__VB</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <OriginStopPointRef>8582262</OriginStopPointRef>
+              <DestinationStopPointRef>ch:1:sloid:79897:0:2</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Bern Brünnen Westside, Bahnhof</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Bern, Kocherpark</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-08-04</From>
+              <To>2024-12-13</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000111111011111101111110111111011111101111110111111011111101111110000000</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>ch:1:sloid:80939:0:3</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Bern Europaplatz, Bahnhof</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">C</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-08-16T18:03:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>bus</PtMode>
+                <siri:BusSubmode>localBus</siri:BusSubmode>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">EV</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>46261</TrainNumber>
+              <siri:LineRef>ojp:92EV4:F</siri:LineRef>
+              <siri:OperatorRef>827</siri:OperatorRef>
+              <PublicCode>Ersatzverkehr</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">EV4</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">EV</Text>
+                </ShortName>
+                <ProductCategoryRef>5</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>H</siri:DirectionRef>
+              <JourneyRef>ojp-92-EV4-F-j24-1-2-TA</JourneyRef>
+              <OperatingDayRef>2024-08-16</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text>
+                </UserText>
+                <Code>A__VB</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">GRUPPEN: Reservierung obligatorisch</Text>
+                </UserText>
+                <Code>A__GR</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Keine Beförderung möglich</Text>
+                </UserText>
+                <Code>A__VN</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Bahnersatz</Text>
+                </UserText>
+                <Code>A__BE</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <OriginStopPointRef>ch:1:sloid:95931:0:2</OriginStopPointRef>
+              <DestinationStopPointRef>8571414</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Bern Weissenbühl, Bahnhof</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Köniz, Zentrum</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-08-04</From>
+              <To>2024-12-13</To>
+              <Pattern>111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>ch:1:sloid:80939:0:15</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Bern Europaplatz, Bahnhof</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">B</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-08-16T18:04:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>tram</PtMode>
+                <siri:TramSubmode>cityTram</siri:TramSubmode>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>8412</TrainNumber>
+              <siri:LineRef>ojp:91008:_x0020_</siri:LineRef>
+              <siri:OperatorRef>827</siri:OperatorRef>
+              <PublicCode>Tram</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">8</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+                <ProductCategoryRef>2</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ojp-91-8-_-j24-1-1905-TA</JourneyRef>
+              <OperatingDayRef>2024-08-16</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text>
+                </UserText>
+                <Code>A__VB</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <OriginStopPointRef>ch:1:sloid:79897:0:1</OriginStopPointRef>
+              <DestinationStopPointRef>8582262</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Bern, Kocherpark</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Bern Brünnen Westside, Bahnhof</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-08-04</From>
+              <To>2024-12-13</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000111111011111101111110111111011111101111110111111011111101111110000000</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>ch:1:sloid:80939:0:16</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Bern Europaplatz, Bahnhof</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">A</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-08-16T18:06:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>tram</PtMode>
+                <siri:TramSubmode>cityTram</siri:TramSubmode>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>5952</TrainNumber>
+              <siri:LineRef>ojp:91007:_x0020_</siri:LineRef>
+              <siri:OperatorRef>827</siri:OperatorRef>
+              <PublicCode>Tram</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">7</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+                <ProductCategoryRef>2</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>H</siri:DirectionRef>
+              <JourneyRef>ojp-91-7-_-j24-1-538-TA</JourneyRef>
+              <OperatingDayRef>2024-08-16</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text>
+                </UserText>
+                <Code>A__VB</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <OriginStopPointRef>ch:1:sloid:90044:0:16</OriginStopPointRef>
+              <DestinationStopPointRef>ch:1:sloid:79897:0:2</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Bern, Bümpliz</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Bern, Kocherpark</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-08-04</From>
+              <To>2024-12-13</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000111111011111101111110111111011111101111110111111011111101111110000000</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>ch:1:sloid:80939:0:15</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Bern Europaplatz, Bahnhof</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">B</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-08-16T18:09:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>tram</PtMode>
+                <siri:TramSubmode>cityTram</siri:TramSubmode>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>5871</TrainNumber>
+              <siri:LineRef>ojp:91007:_x0020_</siri:LineRef>
+              <siri:OperatorRef>827</siri:OperatorRef>
+              <PublicCode>Tram</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">7</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+                <ProductCategoryRef>2</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ojp-91-7-_-j24-1-1840-TA</JourneyRef>
+              <OperatingDayRef>2024-08-16</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Platzzahl eingeschränkt</Text>
+                </UserText>
+                <Code>A__VB</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <OriginStopPointRef>ch:1:sloid:79897:0:1</OriginStopPointRef>
+              <DestinationStopPointRef>ch:1:sloid:90044:0:16</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Bern, Kocherpark</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Bern, Bümpliz</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-08-04</From>
+              <To>2024-12-13</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000001011111101111110111111011111101111110111111011111101111110111110000000</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+      </OJPStopEventDelivery>
+    </siri:ServiceDelivery>
+  </OJPResponse>
+</OJP>

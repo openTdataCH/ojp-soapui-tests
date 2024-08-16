@@ -1,1 +1,146 @@
-<?xml version="1.0" encoding="utf-8"?><OJP xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns="http://www.vdv.de/ojp"><OJPResponse><siri:ServiceDelivery><siri:ResponseTimestamp>2024-08-16T19:06:27.9455036+02:00</siri:ResponseTimestamp><siri:ProducerRef>MENTZ</siri:ProducerRef><OJPTripDelivery><siri:ResponseTimestamp>2024-08-16T19:06:27.9455054+02:00</siri:ResponseTimestamp><siri:RequestMessageRef>4bf45391-66d3-4142-83da-ce8a3bf9ac52</siri:RequestMessageRef><siri:DefaultLanguage>de</siri:DefaultLanguage><CalcTime>73</CalcTime><TripResponseContext><Places><Place><StopPlace><StopPlaceRef>8503424</StopPlaceRef><StopPlaceName><Text xml:lang="de">Schaffhausen</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>108594:0:2</Value></PrivateCode><TopographicPlaceRef>23017939:4</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Schaffhausen</Text></Name><GeoPosition><siri:Longitude>8.63164</siri:Longitude><siri:Latitude>47.69728</siri:Latitude></GeoPosition></Place><Place><StopPlace><StopPlaceRef>8506000</StopPlaceRef><StopPlaceName><Text xml:lang="de">Winterthur</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>110388:0:5</Value></PrivateCode><TopographicPlaceRef>23026230:17</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Winterthur</Text></Name><GeoPosition><siri:Longitude>8.72233</siri:Longitude><siri:Latitude>47.49883</siri:Latitude></GeoPosition></Place></Places><Situations /></TripResponseContext><TripResult><Id>ID-1B5EAD02-0C3E-4BA2-9102-3D0E7317FC71</Id><Trip><Id>ID-1B5EAD02-0C3E-4BA2-9102-3D0E7317FC71</Id><Duration>PT36M</Duration><StartTime>2024-12-05T22:47:00Z</StartTime><EndTime>2024-12-05T23:23:00Z</EndTime><Transfers>0</Transfers><Leg><Id>1</Id><Duration>PT36M</Duration><TimedLeg><LegBoard><siri:StopPointRef>ch:1:sloid:3424:2:2</siri:StopPointRef><StopPointName><Text xml:lang="de">Schaffhausen</Text></StopPointName><PlannedQuay><Text xml:lang="de">2</Text></PlannedQuay><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><ServiceDeparture><TimetabledTime>2024-12-05T22:47:00Z</TimetabledTime></ServiceDeparture><Order>1</Order></LegBoard><LegAlight><siri:StopPointRef>ch:1:sloid:6000:3:5</siri:StopPointRef><StopPointName><Text xml:lang="de">Winterthur</Text></StopPointName><NameSuffix><Text xml:lang="de">NO_DATA</Text></NameSuffix><PlannedQuay><Text xml:lang="de">5</Text></PlannedQuay><ServiceArrival><TimetabledTime>2024-12-05T23:23:00Z</TimetabledTime></ServiceArrival><Order>9</Order></LegAlight><Service><Mode><PtMode>rail</PtMode><siri:RailSubmode>regionalRail</siri:RailSubmode><Name><Text xml:lang="de">Zug</Text></Name><ShortName><Text xml:lang="de">S</Text></ShortName></Mode><ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation><TrainNumber>19294</TrainNumber><siri:LineRef>ojp:91012:_x0020_</siri:LineRef><siri:OperatorRef>11</siri:OperatorRef><PublicCode>S-Bahn</PublicCode><PublishedServiceName><Text xml:lang="de">S12</Text></PublishedServiceName><ProductCategory><Name><Text xml:lang="de">Zug</Text></Name><ShortName><Text xml:lang="de">S</Text></ShortName><ProductCategoryRef>27</ProductCategoryRef></ProductCategory><siri:DirectionRef>H</siri:DirectionRef><OperatingDayRef>2024-12-05</OperatingDayRef><DestinationStopPointRef>8506000</DestinationStopPointRef><OriginText><Text xml:lang="de">n/a</Text></OriginText><DestinationText><Text xml:lang="de">Winterthur</Text></DestinationText><JourneyRef>ch:1:sjyid:100001:19294-001</JourneyRef></Service></TimedLeg></Leg></Trip></TripResult></OJPTripDelivery></siri:ServiceDelivery></OJPResponse></OJP>
+<OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
+  <OJPResponse>
+    <siri:ServiceDelivery>
+      <siri:ResponseTimestamp>2024-08-16T19:32:02.6894402+02:00</siri:ResponseTimestamp>
+      <siri:ProducerRef>MENTZ</siri:ProducerRef>
+      <OJPTripDelivery>
+        <siri:ResponseTimestamp>2024-08-16T19:32:02.6894414+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>ff9692ac-683c-417a-99f9-5e36285483a2</siri:RequestMessageRef>
+        <siri:DefaultLanguage>de</siri:DefaultLanguage>
+        <CalcTime>70</CalcTime>
+        <TripResponseContext>
+          <Places>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8503424</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Schaffhausen</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108594:0:2</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23017939:4</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Schaffhausen</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.63164</siri:Longitude>
+                <siri:Latitude>47.69728</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8506000</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Winterthur</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>110388:0:5</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23026230:17</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Winterthur</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.72233</siri:Longitude>
+                <siri:Latitude>47.49883</siri:Latitude>
+              </GeoPosition>
+            </Place>
+          </Places>
+          <Situations/>
+        </TripResponseContext>
+        <TripResult>
+          <Id>ID-57746A15-A300-4A0A-9088-53FF4A406325</Id>
+          <Trip>
+            <Id>ID-57746A15-A300-4A0A-9088-53FF4A406325</Id>
+            <Duration>PT36M</Duration>
+            <StartTime>2024-12-05T22:47:00Z</StartTime>
+            <EndTime>2024-12-05T23:23:00Z</EndTime>
+            <Transfers>0</Transfers>
+            <Leg>
+              <Id>1</Id>
+              <Duration>PT36M</Duration>
+              <TimedLeg>
+                <LegBoard>
+                  <siri:StopPointRef>ch:1:sloid:3424:2:2</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Schaffhausen</Text>
+                  </StopPointName>
+                  <PlannedQuay>
+                    <Text xml:lang="de">2</Text>
+                  </PlannedQuay>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-05T22:47:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>1</Order>
+                </LegBoard>
+                <LegAlight>
+                  <siri:StopPointRef>ch:1:sloid:6000:3:5</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Winterthur</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">NO_DATA</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">5</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-05T23:23:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <Order>9</Order>
+                </LegAlight>
+                <Service>
+                  <Mode>
+                    <PtMode>rail</PtMode>
+                    <siri:RailSubmode>regionalRail</siri:RailSubmode>
+                    <Name>
+                      <Text xml:lang="de">Zug</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">S</Text>
+                    </ShortName>
+                  </Mode>
+                  <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+                  <TrainNumber>19294</TrainNumber>
+                  <siri:LineRef>ojp:91012:_x0020_</siri:LineRef>
+                  <siri:OperatorRef>11</siri:OperatorRef>
+                  <PublicCode>S-Bahn</PublicCode>
+                  <PublishedServiceName>
+                    <Text xml:lang="de">S12</Text>
+                  </PublishedServiceName>
+                  <ProductCategory>
+                    <Name>
+                      <Text xml:lang="de">Zug</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">S</Text>
+                    </ShortName>
+                    <ProductCategoryRef>27</ProductCategoryRef>
+                  </ProductCategory>
+                  <siri:DirectionRef>H</siri:DirectionRef>
+                  <OperatingDayRef>2024-12-05</OperatingDayRef>
+                  <DestinationStopPointRef>8506000</DestinationStopPointRef>
+                  <OriginText>
+                    <Text xml:lang="de">n/a</Text>
+                  </OriginText>
+                  <DestinationText>
+                    <Text xml:lang="de">Winterthur</Text>
+                  </DestinationText>
+                  <JourneyRef>ch:1:sjyid:100001:19294-001</JourneyRef>
+                </Service>
+              </TimedLeg>
+            </Leg>
+          </Trip>
+        </TripResult>
+      </OJPTripDelivery>
+    </siri:ServiceDelivery>
+  </OJPResponse>
+</OJP>

@@ -52,9 +52,15 @@ def get_current_timestamp():
     current_utc_timestamp = datetime.datetime.utcnow().isoformat()
     return current_utc_timestamp
 
+def get_current_timestamp_1200():
+    current_utc_timestamp = datetime.datetime.utcnow().replace(hour=12, minute=0, second=0, microsecond=0).isoformat()
+    current_utc_timestamp
+    return current_utc_timestamp
+
+
 timestamp = get_current_timestamp()
 mymap = {
-    "${IsoTimestampUTC}": get_current_timestamp(),
+    "${IsoTimestampUTC}": get_current_timestamp_1200(),
     "${Freitag12UhrVorFahrplanwechsel}": get_friday_before_second_sunday_december_1200(),
     "${DatumFreitagVorFahrplanwechsel}": get_friday_before_second_sunday_december_date(),
     "${DatumFreitagVorFahrplanwechselohneT}": get_friday_before_second_sunday_december_2345(),

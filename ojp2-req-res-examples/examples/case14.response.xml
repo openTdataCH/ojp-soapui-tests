@@ -1,1 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?><OJP xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns="http://www.vdv.de/ojp"><OJPResponse><siri:ServiceDelivery><siri:ResponseTimestamp>2024-08-16T19:04:50.5843963+02:00</siri:ResponseTimestamp><siri:ProducerRef>MENTZ</siri:ProducerRef><OJPLocationInformationDelivery><siri:ResponseTimestamp>2024-08-16T19:04:50.5844488+02:00</siri:ResponseTimestamp><siri:RequestMessageRef>637b2538-0d98-44f8-bc94-ec487397afa5</siri:RequestMessageRef><siri:DefaultLanguage>de</siri:DefaultLanguage><CalcTime>1</CalcTime><PlaceResult><Place><StopPlace><StopPlaceRef>8575590</StopPlaceRef><StopPlaceName><Text xml:lang="de">Genestrerio, Canova</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>118287</Value></PrivateCode><TopographicPlaceRef>23020254:12</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Genestrerio, Canova (Genestrerio)</Text></Name><GeoPosition><siri:Longitude>8.96187</siri:Longitude><siri:Latitude>45.85165</siri:Latitude></GeoPosition><Mode><PtMode>bus</PtMode><siri:BusSubmode>localBus</siri:BusSubmode></Mode></Place><Complete>true</Complete><Probability>0.94</Probability></PlaceResult><PlaceResult><Place><StopPlace><StopPlaceRef>8769746</StopPlaceRef><StopPlaceName><Text xml:lang="de">Grenoble-Eugène-Chavant</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>134027</Value></PrivateCode><TopographicPlaceRef>24038185:1</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Grenoble-Eugène-Chavant (Grenoble)</Text></Name><GeoPosition><siri:Longitude>5.73174</siri:Longitude><siri:Latitude>45.18473</siri:Latitude></GeoPosition><Mode><PtMode>bus</PtMode><siri:BusSubmode>localBus</siri:BusSubmode></Mode></Place><Complete>true</Complete><Probability>0.62</Probability></PlaceResult><PlaceResult><Place><StopPlace><StopPlaceRef>8511072</StopPlaceRef><StopPlaceName><Text xml:lang="de">Villigen, Park Innovaare</Text></StopPlaceName><PrivateCode><System>EFA</System><Value>176052</Value></PrivateCode><TopographicPlaceRef>23001121:1</TopographicPlaceRef></StopPlace><Name><Text xml:lang="de">Villigen, Park Innovaare (Villigen)</Text></Name><GeoPosition><siri:Longitude>8.22048</siri:Longitude><siri:Latitude>47.53529</siri:Latitude></GeoPosition><Mode><PtMode>bus</PtMode><siri:BusSubmode>localBus</siri:BusSubmode></Mode></Place><Complete>true</Complete><Probability>0.517</Probability></PlaceResult></OJPLocationInformationDelivery></siri:ServiceDelivery></OJPResponse></OJP>
+<OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
+  <OJPResponse>
+    <siri:ServiceDelivery>
+      <siri:ResponseTimestamp>2024-08-16T19:30:25.4847475+02:00</siri:ResponseTimestamp>
+      <siri:ProducerRef>MENTZ</siri:ProducerRef>
+      <OJPLocationInformationDelivery>
+        <siri:ResponseTimestamp>2024-08-16T19:30:25.4848001+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>02d652ec-e885-46ad-a2ae-58f3883ca726</siri:RequestMessageRef>
+        <siri:DefaultLanguage>de</siri:DefaultLanguage>
+        <CalcTime>2</CalcTime>
+        <PlaceResult>
+          <Place>
+            <StopPlace>
+              <StopPlaceRef>8575590</StopPlaceRef>
+              <StopPlaceName>
+                <Text xml:lang="de">Genestrerio, Canova</Text>
+              </StopPlaceName>
+              <PrivateCode>
+                <System>EFA</System>
+                <Value>118287</Value>
+              </PrivateCode>
+              <TopographicPlaceRef>23020254:12</TopographicPlaceRef>
+            </StopPlace>
+            <Name>
+              <Text xml:lang="de">Genestrerio, Canova (Genestrerio)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.96187</siri:Longitude>
+              <siri:Latitude>45.85165</siri:Latitude>
+            </GeoPosition>
+            <Mode>
+              <PtMode>bus</PtMode>
+              <siri:BusSubmode>localBus</siri:BusSubmode>
+            </Mode>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.94</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <StopPlace>
+              <StopPlaceRef>8769746</StopPlaceRef>
+              <StopPlaceName>
+                <Text xml:lang="de">Grenoble-Eugène-Chavant</Text>
+              </StopPlaceName>
+              <PrivateCode>
+                <System>EFA</System>
+                <Value>134027</Value>
+              </PrivateCode>
+              <TopographicPlaceRef>24038185:1</TopographicPlaceRef>
+            </StopPlace>
+            <Name>
+              <Text xml:lang="de">Grenoble-Eugène-Chavant (Grenoble)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>5.73174</siri:Longitude>
+              <siri:Latitude>45.18473</siri:Latitude>
+            </GeoPosition>
+            <Mode>
+              <PtMode>bus</PtMode>
+              <siri:BusSubmode>localBus</siri:BusSubmode>
+            </Mode>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.62</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <StopPlace>
+              <StopPlaceRef>8511072</StopPlaceRef>
+              <StopPlaceName>
+                <Text xml:lang="de">Villigen, Park Innovaare</Text>
+              </StopPlaceName>
+              <PrivateCode>
+                <System>EFA</System>
+                <Value>176052</Value>
+              </PrivateCode>
+              <TopographicPlaceRef>23001121:1</TopographicPlaceRef>
+            </StopPlace>
+            <Name>
+              <Text xml:lang="de">Villigen, Park Innovaare (Villigen)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.22048</siri:Longitude>
+              <siri:Latitude>47.53529</siri:Latitude>
+            </GeoPosition>
+            <Mode>
+              <PtMode>bus</PtMode>
+              <siri:BusSubmode>localBus</siri:BusSubmode>
+            </Mode>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.517</Probability>
+        </PlaceResult>
+      </OJPLocationInformationDelivery>
+    </siri:ServiceDelivery>
+  </OJPResponse>
+</OJP>
