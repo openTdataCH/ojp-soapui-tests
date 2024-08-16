@@ -24,7 +24,7 @@ See also our API-Explorer: https://opentdatach.github.io/api-explorer2
 # Automated Request/Response tests
 In the folder ojp2-req-res-examples we do some some generations of from given requests into responses with validation (and unfortunately validation errors).
 
-https://github.com/openTdataCH/ojp-soapui-tests/blob/main/ojp2-req-res-examples/README.md
+[https://github.com/openTdataCH/ojp-soapui-tests/blob/main/ojp2-req-res-examples/README.md](https://github.com/openTdataCH/ojp-soapui-tests/tree/main/ojp2-req-res-examples)
 
 # ojp-soapui-tests
 This is a repo contains different tests for OJP instances in Europe. The main focus is the Swiss servers  (seeh https://opentransportdata.swiss/de/)
