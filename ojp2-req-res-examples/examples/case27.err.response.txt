@@ -1,0 +1,1 @@
+XML validation error: Element '{http://www.vdv.de/ojp}GeoPosition': This element is not expected. Expected is ( {http://www.vdv.de/ojp}Name )., line 1

@@ -1,0 +1,1 @@
+XML validation error: Element '{http://www.vdv.de/ojp}UseRealtimeData': This element is not expected. Expected is one of ( {http://www.vdv.de/ojp}IncludeFare, {http://www.vdv.de/ojp}IncludeOperatingDays, {http://www.vdv.de/ojp}TripSummaryOnly, {http://www.vdv.de/ojp}FareParam, {http://www.vdv.de/ojp}Extension )., line 29

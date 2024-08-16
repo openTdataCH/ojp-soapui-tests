@@ -1,0 +1,1 @@
+XML validation error: Element '{http://www.vdv.de/ojp}NameSuffix': This element is not expected. Expected is one of ( {http://www.vdv.de/ojp}EstimatedQuay, {http://www.vdv.de/ojp}ServiceArrival, {http://www.vdv.de/ojp}ServiceDeparture )., line 1

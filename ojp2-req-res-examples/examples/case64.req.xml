@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vdv.de/ojp OJP_changes_for_v1.1/OJP.xsd">
+	<OJPRequest>
+		<siri:ServiceRequest>
+			<siri:RequestTimestamp>2024-08-16T16:17:21.361485</siri:RequestTimestamp>
+			<siri:RequestorRef>SKIPlusRegTest</siri:RequestorRef>
+			<OJPTripRequest>
+				<siri:RequestTimestamp>2024-08-16T16:17:21.361485</siri:RequestTimestamp>
+				<siri:MessageIdentifier>TR-1r1</siri:MessageIdentifier>
+				<Origin>
+					<PlaceRef>
+						<siri:StopPointRef>8507000</siri:StopPointRef>
+						<Name>
+							<Text>Bern</Text>
+						</Name>
+					</PlaceRef>
+				</Origin>
+				<Destination>
+					<PlaceRef>
+						<siri:StopPointRef>8504128</siri:StopPointRef>
+						<Name>
+							<Text>Murten/Morat</Text>
+						</Name>
+					</PlaceRef>
+					<DepArrTime>2024-12-05T23:00:00+00:00</DepArrTime>
+				</Destination>
+			</OJPTripRequest>
+		</siri:ServiceRequest>
+	</OJPRequest>
+</OJP>

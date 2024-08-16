@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vdv.de/ojp ../../../../Downloads/OJP-changes_for_v1.1%20(1)/OJP-changes_for_v1.1/OJP.xsd">
+    <OJPRequest>
+        <siri:ServiceRequest>
+            <siri:RequestTimestamp>2024-08-16T16:17:21.361485</siri:RequestTimestamp>
+            <siri:RequestorRef>SKIPlusRegTest</siri:RequestorRef>
+            <OJPLocationInformationRequest>
+                <siri:RequestTimestamp>2024-08-16T16:17:21.361485</siri:RequestTimestamp>
+                <siri:MessageIdentifier>LIR-4a</siri:MessageIdentifier>
+                <InitialInput>
+                    <Name>Dübendorf</Name>
+                </InitialInput>
+                <Restrictions>
+                    <Type>stop</Type>
+                    <NumberOfResults>10</NumberOfResults>
+                </Restrictions>
+            </OJPLocationInformationRequest>
+        </siri:ServiceRequest>
+    </OJPRequest>
+</OJP>

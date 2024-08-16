@@ -1,0 +1,1 @@
+XML validation error: Element '{http://www.vdv.de/ojp}Mode': This element is not expected. Expected is one of ( {http://www.vdv.de/ojp}ConventionalModeOfOperation, {http://www.vdv.de/ojp}OperatingDayRef )., line 1

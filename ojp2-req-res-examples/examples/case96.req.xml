@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vdv.de/ojp OJP_changes_for_v1.1/OJP.xsd">
+	<OJPRequest>
+		<siri:ServiceRequest>
+			<siri:RequestTimestamp>2024-08-16T16:17:21.361485</siri:RequestTimestamp>
+			<siri:RequestorRef>SKIPlusZRegTest</siri:RequestorRef>
+			<OJPStopEventRequest>
+				<siri:RequestTimestamp>2024-08-16T16:17:21.361485</siri:RequestTimestamp>
+				<siri:MessageIdentifier>SER-1g5</siri:MessageIdentifier>
+				<Location>
+					<PlaceRef>
+						<siri:StopPointRef>8580939</siri:StopPointRef>
+						<Name>
+							<Text>Bern Europaplatz</Text>
+						</Name>
+					</PlaceRef>
+				</Location>
+				<Params>
+					<NumberOfResults>20</NumberOfResults>
+					<StopEventType>departure</StopEventType>
+					<IncludePreviousCalls>false</IncludePreviousCalls>
+					<IncludeOnwardCalls>false</IncludeOnwardCalls>
+					<IncludeOperatingDays>false</IncludeOperatingDays>
+					<UseRealtimeData>none</UseRealtimeData>
+				</Params>
+			</OJPStopEventRequest>
+		</siri:ServiceRequest>
+	</OJPRequest>
+</OJP>

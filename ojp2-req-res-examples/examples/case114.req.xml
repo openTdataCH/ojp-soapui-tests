@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vdv.de/ojp OJP_changes_for_v1.1/OJP.xsd">
+	<OJPRequest>
+		<siri:ServiceRequest>
+			<siri:RequestTimestamp>2024-08-16T16:17:21.361485</siri:RequestTimestamp>
+			<siri:RequestorRef>SKIPlusRegTest</siri:RequestorRef>
+			<OJPTripRequest>
+				<siri:RequestTimestamp>2024-08-16T16:17:21.361485</siri:RequestTimestamp>
+				<siri:MessageIdentifier>ATV_TR-2b</siri:MessageIdentifier>
+				<Origin>
+					<PlaceRef>
+						<siri:StopPointRef>8511171</siri:StopPointRef>
+						<Name>
+							<Text>Kandersteg Autoverlad</Text>
+						</Name>
+					</PlaceRef>
+					<DepArrTime>2024-12-05T23:00:00+00:00</DepArrTime>
+				</Origin>
+				<Destination>
+					<PlaceRef>
+						<siri:StopPointRef>8519655</siri:StopPointRef>
+						<Name>
+							<Text>Goppenstein Autoverlad</Text>
+						</Name>
+					</PlaceRef>
+				</Destination>
+				<Params>
+					<NumberOfResults>10</NumberOfResults>
+					<IncludeAllRestrictedLines>false</IncludeAllRestrictedLines>
+					<IncludeTrackSections>false</IncludeTrackSections>
+					<IncludeLegProjection>false</IncludeLegProjection>
+					<IncludeIntermediateStops>true</IncludeIntermediateStops>
+				</Params>
+			</OJPTripRequest>
+		</siri:ServiceRequest>
+	</OJPRequest>
+</OJP>
