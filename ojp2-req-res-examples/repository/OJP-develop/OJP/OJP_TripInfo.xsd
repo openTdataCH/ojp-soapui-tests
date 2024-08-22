@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://www.vdv.de/ojp" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.vdv.de/ojp" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:annotation>
+		<xs:documentation>OJP/OJP_TripInfo.xsd - Request and response definitions for information on a single trip</xs:documentation>
+	</xs:annotation>
+	<xs:include schemaLocation="OJP_All.xsd"/>
+	<xs:annotation>
+		<xs:documentation>========================================== Request definitions ==========================================</xs:documentation>
+	</xs:annotation>
+	<xs:group name="TripInfoRequestGroup">
+		<xs:annotation>
+			<xs:documentation>TripInfo request structure.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:choice>
+				<xs:group ref="DatedJourneyRefGroup"/>
+				<xs:group ref="DatedTrainNumberRefGroup"/>
+				<xs:group ref="TimedVehicleRefGroup"/>
+			</xs:choice>
+			<xs:element name="Params" type="TripInfoParamStructure" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Request parameter.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:group>
+	<xs:complexType name="TripInfoParamStructure">
+		<xs:annotation>
+			<xs:documentation>TripInfo request parameter structure.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:group ref="TripInfoPolicyGroup"/>
+			<xs:group ref="TripInfoContentFilterGroup"/>
+			<xs:element name="Extension" type="xs:anyType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:group name="TripInfoPolicyGroup">
+		<xs:annotation>
+			<xs:documentation>Parameters that control the response behaviour.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="UseRealTimeData" type="UseRealtimeDataEnumeration" default="full" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Use real-time data. Default is "full"</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:group>
+	<xs:simpleType name="IncludeFormationEnumeration">
+		<xs:annotation>
+			<xs:documentation>Possible values how to include formations in the basic filters</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="none"/>
+			<xs:enumeration value="vehiclefeature">
+				<xs:annotation>
+					<xs:documentation>The response should include VehicleFeatureRef (from SIRI).</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="full">
+				<xs:annotation>
+					<xs:documentation>Besides VehicleFeatureRefs also Formation, ArrivalFormation and DepartureFormation can be used. This is the full SIRI formation experience. Refer to the SIRI documentation for details. The specification document and the examples may show simpler ways of doing things. For full accessibility many features are needed. It is recommended to always also use VehicleFeatureRef (for people not processing SIRI formation and because buses and the like don't need Formation in most cases).</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:group name="TripInfoContentFilterGroup">
+		<xs:annotation>
+			<xs:documentation>Parameters that control the level of detail to be returned in the results.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="IncludeCalls" type="xs:boolean" default="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Whether call information is to be included. Default is true.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IncludePosition" type="xs:boolean" default="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Whether current position is to be included. Default is true.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IncludeService" type="xs:boolean" default="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Whether service information is to be included. Default is true.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IncludeTrackSections" type="xs:boolean" default="false" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Whether the result should include TrackSection elements to describe the geographic route of this vehicle journey.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IncludeTrackProjection" type="xs:boolean" default="false" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Whether the result should include the geographic projection (coordinates) of this vehicle journey.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IncludePlacesContext" type="xs:boolean" default="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Whether the place context is needed. If a requestor has that information already, the response can be made slimmer, when set to false. Default is true. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IncludeFormation" type="IncludeFormationEnumeration" default="none" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Whether the formation should be included. With "simple" only VehicleFeature is used. "full" may unleash the full power of the SIRI formation model (especially for trains). The OJP specification document gives hints on how to limit oneself as a server to the most important aspects. Default is none.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IncludeSituationsContext" type="xs:boolean" default="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Whether the situation context is needed. If a requestor has that information by other means or can't process it, the response can be made slimmer, when set to false. Default is true</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:group>
+	<xs:annotation>
+		<xs:documentation>========================================== Response definitions ==========================================</xs:documentation>
+	</xs:annotation>
+	<xs:group name="TripInfoResponseGroup">
+		<xs:annotation>
+			<xs:documentation>TripInfo response structure.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="TripInfoResponseContext" type="ResponseContextStructure" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Response context.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TripInfoResult" type="TripInfoResultStructure" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Result structure.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:group>
+	<xs:complexType name="TripInfoResultStructure">
+		<xs:annotation>
+			<xs:documentation>TripInfo result structure containing the status of a trip.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ErrorCondition" type="OJPErrorStructure" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Problems related to this TripInfo result.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PreviousCall" type="CallAtStopStructure" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>The stops this service already has called at. Including the current stop if service is currently at stop.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CurrentPosition" type="VehiclePositionStructure" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Current position of this service.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="OnwardCall" type="CallAtStopStructure" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>The stops this service still has to call at.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Service" type="DatedJourneyStructure" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Description of the service.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:group ref="OperatingDaysGroup" minOccurs="0"/>
+			<xs:group ref="ServiceFacilityGroup" minOccurs="0"/>
+			<xs:element name="JourneyTrack" type="LegTrackStructure" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Geographic embedding of this journey. The entire journey is regarded as one leg.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Extension" type="xs:anyType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:annotation>
+		<xs:documentation>========================================== Problems ==========================================</xs:documentation>
+	</xs:annotation>
+	<xs:simpleType name="TripInfoProblemTypeEnumeration">
+		<xs:annotation>
+			<xs:documentation>Types of problems that may be returned in responses to TripInfo requests.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="TRIPINFO_JOURNEYREFUNKNOWN">
+				<xs:annotation>
+					<xs:documentation>The journey reference used in the request is unknown.</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="TRIPINFO_VEHICLEUNKNOWN">
+				<xs:annotation>
+					<xs:documentation>The vehicle reference used in the request is unknown.</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="TRIPINFO_NOJOURNEYFOUND">
+				<xs:annotation>
+					<xs:documentation>No matching journey could be found for the requested time and journey/vehicle identifiers.</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="TRIPINFO_NOGEOINFO">
+				<xs:annotation>
+					<xs:documentation>No geographic information available for this vehicle journey.</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="TRIPINFO_NOREALTIME">
+				<xs:annotation>
+					<xs:documentation>No real-time information available.</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="TRIPINFO_OTHER">
+				<xs:annotation>
+					<xs:documentation>A problem has occurred that does not have a specific problem type.</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="TripInfoProblemType" type="TripInfoProblemTypeEnumeration" substitutionGroup="ErrorType"/>
+</xs:schema>

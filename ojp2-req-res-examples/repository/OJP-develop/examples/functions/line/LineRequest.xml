@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.vdv.de/ojp  ../../../OJP.xsd">
+	<OJPRequest>
+		<siri:ServiceRequest>
+			<siri:RequestTimestamp>2022-12-19T12:00:00Z</siri:RequestTimestamp>
+			<siri:RequestorRef>IRMA</siri:RequestorRef>
+			<OJPLineInformationRequest>
+				<siri:RequestTimestamp>2022-12-19T12:00:00Z</siri:RequestTimestamp>
+				<siri:MessageIdentifier>4711</siri:MessageIdentifier>
+				<LineDirectionFilter>
+					<Line>
+						<siri:LineRef>ch:1:slnid:129312</siri:LineRef>
+						<siri:DirectionRef>ch:1:Direction:H</siri:DirectionRef>
+					</Line>
+					<Exclude>false</Exclude>
+				</LineDirectionFilter>
+			</OJPLineInformationRequest>
+		</siri:ServiceRequest>
+	</OJPRequest>
+</OJP>

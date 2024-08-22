@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.vdv.de/ojp ../../../OJP.xsd">
+	<OJPRequest>
+		<siri:ServiceRequest>
+			<siri:RequestTimestamp>2020-01-19T12:00:00Z</siri:RequestTimestamp>
+			<siri:RequestorRef>IRMA</siri:RequestorRef>
+			<OJPLocationInformationRequest>
+				<siri:RequestTimestamp>2020-01-19T12:00:00Z</siri:RequestTimestamp>
+				<siri:MessageIdentifier>4711</siri:MessageIdentifier>
+				<PlaceRef>
+					<siri:StopPointRef>8530813</siri:StopPointRef>
+					<Name>
+						<Text>Zürich Kreuzplatz</Text>
+					</Name>
+				</PlaceRef>
+				<Restrictions>
+					<Type>stop</Type>
+					<IncludePtModes>true</IncludePtModes>
+					<IncludeOperators>true</IncludeOperators>
+					<SortingMethod>fastChanges</SortingMethod>
+					<GeoPosition>
+						<siri:Longitude>0.0000</siri:Longitude>
+						<siri:Latitude>0.0000</siri:Latitude>
+					</GeoPosition>
+					<MinimalProbability>0.7</MinimalProbability>
+					<Extension>
+						<AnotherExtension>defined by users</AnotherExtension>
+					</Extension>
+				</Restrictions>
+			</OJPLocationInformationRequest>
+		</siri:ServiceRequest>
+	</OJPRequest>
+</OJP>

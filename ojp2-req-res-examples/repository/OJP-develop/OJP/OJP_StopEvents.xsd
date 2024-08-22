@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://www.vdv.de/ojp" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:siri="http://www.siri.org.uk/siri" targetNamespace="http://www.vdv.de/ojp" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:annotation>
+		<xs:documentation>OJP/OJP_StopEvents.xsd - Request and response definitions for arrivals and departures of public transport services at stops</xs:documentation>
+	</xs:annotation>
+	<xs:import namespace="http://www.siri.org.uk/siri" schemaLocation="../siri/xsd/siri_model/siri_all.xsd"/>
+	<xs:include schemaLocation="OJP_All.xsd"/>
+	<xs:annotation>
+		<xs:documentation>========================================== Request definitions ==========================================</xs:documentation>
+	</xs:annotation>
+	<xs:group name="StopEventRequestGroup">
+		<xs:annotation>
+			<xs:documentation>Request structure for departure and arrival events at stops</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Location" type="PlaceContextStructure">
+				<xs:annotation>
+					<xs:documentation>LOCATION / PLACE for which to obtain stop event information. If a coordinate or an address is used, then the result may depend on other parameters: All stops in reasonable walking distance and stops that are within range of limitations of the IndividualTransportAptions should be shown. If the next stop is too far away, then no result is shown. "Reasonable" is usually defined as part of the server configuration.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Params" type="StopEventParamStructure" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Request parameter</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:group>
+	<xs:complexType name="StopEventParamStructure">
+		<xs:annotation>
+			<xs:documentation>Request specific parameters (parameters which define what is to be included in a Stop  Event result)</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:group ref="StopEventDataFilterGroup"/>
+			<xs:group ref="StopEventPolicyGroup"/>
+			<xs:group ref="StopEventContentFilterGroup"/>
+			<xs:element name="Extension" type="xs:anyType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:group name="StopEventDataFilterGroup">
+		<xs:annotation>
+			<xs:documentation>Request data filters</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ModeFilter" type="ModeFilterStructure" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>MODEs to be excluded or included in stop events. We on purpose don't use ModeOfOperationFilter in the stop event service.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="LineFilter" type="LineDirectionFilterStructure" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Lines/Directions to include/exclude.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="OperatorFilter" type="OperatorFilterStructure" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Transport operators to include/exclude.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IncludeAllRestrictedLines" type="xs:boolean" minOccurs="0" default="false">
+				<xs:annotation>
+					<xs:documentation>There might exist lines that have special restrictions and are not generally available to the public. E.g. school buses, company shuttles. dragLifts need to have an ACCESS MODE ski. Lines with ACCESS MODE bicycle will be included as well. If this flag is set, then existing restricted lines are considered by the router. The results are marked as restricted in the ServiceGroup. The usage could also be detailed with Attribute elements.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:group>
+	<xs:group name="StopEventPolicyGroup">
+		<xs:annotation>
+			<xs:documentation>Request policies</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="NumberOfResults" type="xs:positiveInteger" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>parameter to control the number of TRIP results before/after a point in time. May NOT be used when departure time at origin AND arrival time at destination are set</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TimeWindow" type="xs:duration" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Time window events should lie within. Starting from time given in PlaceContext.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="StopEventType" type="StopEventTypeEnumeration" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Only departures or arrivals or both.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:group>
+	<xs:simpleType name="HierarchyEnumeration">
+		<xs:annotation>
+			<xs:documentation>
+			Indicates for which parts of the hierarchy of the StopPlace(s) stop events should be provided 
+			(if known by the server). "local" (default) is the local server setting. "no" will include no hierarchy and only 
+			provide the given StopPlace / StopPoint. "down" will include all lower StopPoints/StopPlaces in the hierarchy, if
+			such a hierarchy exists. "all" does include all StopPoints/StopPlaces for the meta station if it is known. How 
+			to use this: if you indicate the reference to a train station and the parameter is set to "down", the departures/
+			arrivals at the associated bus stations will show as well. If you have the ScheduledStopPoint of platform B of 
+			the local bus and it is associated with 3 other stations, you will get all these arrivals/departures as well, 
+			if the parameter is set to "all".
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:NMTOKEN">
+			<xs:enumeration value="local"/>
+			<xs:enumeration value="no"/>
+			<xs:enumeration value="down"/>
+			<xs:enumeration value="all"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:group name="StopEventContentFilterGroup">
+		<xs:annotation>
+			<xs:documentation>Content filters which data is expected in the response</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="IncludePreviousCalls" type="xs:boolean" default="false" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Whether the previous calls of each vehicle journey should be included in the response.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IncludeOnwardCalls" type="xs:boolean" default="false" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Whether the onward calls of each vehicle journey should be included in the response.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IncludeOperatingDays" type="xs:boolean" default="false" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Whether operating day information of this stop event should be included in the response.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="UseRealtimeData" type="UseRealtimeDataEnumeration" default="full" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Whether real-time information of this stop event should be used in the response. Default is "full"</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IncludePlacesContext" type="xs:boolean" default="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Whether the place context is needed. If a requestor has that information already, the response can be made slimmer, when set to false. Default is true. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IncludeSituationsContext" type="xs:boolean" default="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Whether the situation context is needed. If a requestor has that information by other means or can't process it, the response can be made slimmer, when set to false. Default is true</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IncludeStopHierarchy" type="HierarchyEnumeration" default="local" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Indicates for which parts of the hierarchy of the StopPlace(s) stop events should 
+					be provided (if known by the server). "local" (default) is the local server setting. "no" will include
+					no hierarchy and only provide the given StopPlace / StopPoint. "down" will include all lower StopPoints/
+					StopPlaces in the hierarchy, if such a hierarchy exists. "all" does include all StopPoints/StopPlaces 
+					for the meta station if it is known. How to use this: if you indicate the reference to a train station 
+					and the parameter is set to "down", the departures/arrivals at the associated bus stations will show as 
+					well. If you have the ScheduledStopPoint of platform B of the local bus and it is associated with 3 other 
+					stations, you will get all these arrivals/departures as well if the parameter is set to "all".
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:group>
+	<xs:simpleType name="StopEventTypeEnumeration">
+		<xs:annotation>
+			<xs:documentation> Departure or arrival events or both</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="departure"/>
+			<xs:enumeration value="arrival"/>
+			<xs:enumeration value="both"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:annotation>
+		<xs:documentation>========================================== Response definitions ==========================================</xs:documentation>
+	</xs:annotation>
+	<xs:group name="StopEventResponseGroup">
+		<xs:annotation>
+			<xs:documentation>Response structure for departure and arrival events at stops</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="StopEventResponseContext" type="ResponseContextStructure" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Container for data that is referenced multiple times.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="StopEventResult" type="StopEventResultStructure" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Enclosing element for stop event data.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:group>
+	<xs:simpleType name="StopEventResultObjectIdType">
+		<xs:annotation>
+			<xs:documentation>Type for identifier of a NeTEx Object.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="ObjectIdType"/>
+	</xs:simpleType>
+	<xs:complexType name="StopEventResultStructure">
+		<xs:annotation>
+			<xs:documentation>Wrapper element for a single stop event result.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Id" type="StopEventResultObjectIdType">
+				<xs:annotation>
+					<xs:documentation>ID of this result.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ErrorCondition" type="OJPErrorStructure" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Problems related to this STOPEVENT result.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="StopEvent" type="StopEventStructure">
+				<xs:annotation>
+					<xs:documentation>Stop event data element.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="StopEventStructure">
+		<xs:annotation>
+			<xs:documentation>Stop event structure.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="PreviousCall" type="CallAtNearStopStructure" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Calls at stops that happen before this stop event (service pattern of this vehicle journey before this stop event).</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ThisCall" type="CallAtNearStopStructure">
+				<xs:annotation>
+					<xs:documentation>The call of this vehicle journey at this stop.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="OnwardCall" type="CallAtNearStopStructure" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Calls at stops that happen after this stop event (rest of the service pattern of the vehicle journey).</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Service" type="DatedJourneyStructure">
+				<xs:annotation>
+					<xs:documentation>Service that calls at this stop.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:group ref="OperatingDaysGroup" minOccurs="0"/>
+			<xs:element name="SituationFullRefs" type="SituationRefList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>For SITUATIONs that affect the whole StopEvent. Otherwise References for SITUATIONs can be added at the different CALL elements</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Extension" type="xs:anyType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CallAtNearStopStructure">
+		<xs:annotation>
+			<xs:documentation>indication of the walk distance and time to a nearby stop where relevant.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="CallAtStop" type="CallAtStopStructure">
+				<xs:annotation>
+					<xs:documentation>[same as CALL in SIRI] the meeting of a VEHICLE JOURNEY with a specific SCHEDULED STOP POINT.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="WalkDistance" type="siri:DistanceType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Distance from request LOCATION / PLACE (e.g., address) to this stop in metres.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="WalkDuration" type="xs:duration" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Walking duration from request LOCATION / PLACE (e.g., address) to this stop. All user options considered (e.g., walk speed).</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:annotation>
+		<xs:documentation>========================================== Problems ==========================================</xs:documentation>
+	</xs:annotation>
+	<xs:simpleType name="StopEventProblemTypeEnumeration">
+		<xs:annotation>
+			<xs:documentation>Types of problems that may be returned in responses to STOPEVENT requests.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="STOPEVENT_NOEVENTFOUND">
+				<xs:annotation>
+					<xs:documentation>No departure/arrival could be found within the requested period that meets the given restrictions.</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="STOPEVENT_LOCATIONUNSERVED">
+				<xs:annotation>
+					<xs:documentation>At the locations (address, stop, etc.) for which stop events have been requested, there is no public transport service at all.</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="STOPEVENT_LOCATIONUNKNOWN">
+				<xs:annotation>
+					<xs:documentation>The location (address, stop, etc.) for which stop events were requested is unknown.</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="STOPEVENT_DATEOUTOFRANGE">
+				<xs:annotation>
+					<xs:documentation>There are no timetables available for the requested date.</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="STOPEVENT_LASTSERVICEOFTHISLINE">
+				<xs:annotation>
+					<xs:documentation>This departure/arrival event is the last one of this line for this operating day.</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="STOPEVENT_NOREALTIME">
+				<xs:annotation>
+					<xs:documentation>There is no real-time or forecast data available for this departure/arrival event.</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="STOPEVENT_OTHER">
+				<xs:annotation>
+					<xs:documentation>A problem has occurred that does not have a specific problem type.</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="StopEventProblemType" type="StopEventProblemTypeEnumeration" substitutionGroup="ErrorType"/>
+</xs:schema>

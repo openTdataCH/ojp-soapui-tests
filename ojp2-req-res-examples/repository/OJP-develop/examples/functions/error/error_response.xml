@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.vdv.de/ojp ../../../OJP.xsd">
+	<OJPResponse>
+		<siri:ServiceDelivery>
+			<siri:ResponseTimestamp>2020-11-30T09:57:29Z</siri:ResponseTimestamp>
+			<siri:ProducerRef>OJPCH_Prod</siri:ProducerRef>
+			<siri:Status>true</siri:Status>
+			<OJPStopEventDelivery>
+				<siri:ResponseTimestamp>2020-11-30T09:57:29Z</siri:ResponseTimestamp>
+				<siri:RequestMessageRef>756</siri:RequestMessageRef>
+				<siri:Status>false</siri:Status>
+				<siri:ErrorCondition>
+					<siri:NoInfoForTopicError number="0">
+						<siri:ErrorText>STOPEVENT_NOEVENTFOUND</siri:ErrorText>
+					</siri:NoInfoForTopicError>
+				</siri:ErrorCondition>
+				<CalcTime>23</CalcTime>
+				<ErrorCondition>
+					<StopEventProblemType>STOPEVENT_NOEVENTFOUND</StopEventProblemType>
+				</ErrorCondition>
+			</OJPStopEventDelivery>
+		</siri:ServiceDelivery>
+	</OJPResponse>
+</OJP>

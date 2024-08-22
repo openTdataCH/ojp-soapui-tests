@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.vdv.de/ojp ../../../OJP.xsd">
+	<!-- This (hypothetical) example includes illustrations of the following changes for V1.1:
+	- PR #63 - AllowedSystemId
+-->
+	<OJPResponse>
+		<siri:ServiceDelivery>
+			<siri:ResponseTimestamp>2021-08-25T10:23:22Z</siri:ResponseTimestamp>
+			<siri:ProducerRef>OJPCH_Prod</siri:ProducerRef>
+			<siri:Status>true</siri:Status>
+			<OJPLocationInformationDelivery>
+				<siri:ResponseTimestamp>2021-08-25T10:23:22Z</siri:ResponseTimestamp>
+				<siri:RequestMessageRef>4712</siri:RequestMessageRef>
+				<siri:Status>true</siri:Status>
+				<CalcTime>17</CalcTime>
+				<PlaceResult>
+					<Place>
+						<TopographicPlace>
+							<TopographicPlaceCode>24025462:1</TopographicPlaceCode>
+							<TopographicPlaceName>
+								<Text>Pontarlier</Text>
+							</TopographicPlaceName>
+							<ReferredSystem>OJPCH_Prod</ReferredSystem>
+							<!-- V1.1, PR #62 - Illustration of ReferredSystemId -->
+						</TopographicPlace>
+						<Name>
+							<Text xml:lang="de">Pontarlier (Pontarlier)</Text>
+						</Name>
+						<GeoPosition>
+							<siri:Longitude>6.35332</siri:Longitude>
+							<siri:Latitude>46.90060</siri:Latitude>
+						</GeoPosition>
+						<Mode>
+							<PtMode>cableway</PtMode>
+						</Mode>
+						<AccessModeList>
+							<AccessMode>bicycle</AccessMode>
+							<AccessMode>foot</AccessMode>
+						</AccessModeList>
+					</Place>
+					<Complete>true</Complete>
+					<System>12312311</System>
+					<Operators>
+						<OperatorRef>11</OperatorRef>
+					</Operators>
+				</PlaceResult>
+				<PlaceResult>
+					<Place>
+						<StopPlace>
+							<StopPlaceRef>8771500</StopPlaceRef>
+							<StopPlaceName>
+								<Text>Pontarlier</Text>
+							</StopPlaceName>
+							<TopographicPlaceRef>24025462:1</TopographicPlaceRef>
+						</StopPlace>
+						<Name>
+							<Text xml:lang="de">Pontarlier (Pontarlier)</Text>
+						</Name>
+						<GeoPosition>
+							<siri:Longitude>6.35332</siri:Longitude>
+							<siri:Latitude>46.90060</siri:Latitude>
+						</GeoPosition>
+						<Mode>
+							<PtMode>rail</PtMode>
+							<siri:RailSubmode>unknown</siri:RailSubmode>
+						</Mode>
+						<Mode>
+							<PtMode>bus</PtMode>
+							<siri:BusSubmode>localBusService</siri:BusSubmode>
+						</Mode>
+					</Place>
+					<Complete>true</Complete>
+					<Probability>1</Probability>
+				</PlaceResult>
+				<PlaceResult>
+					<Place>
+						<StopPlace>
+							<StopPlaceRef>8504322</StopPlaceRef>
+							<StopPlaceName>
+								<Text>Pontarlier, gare</Text>
+							</StopPlaceName>
+							<TopographicPlaceRef>24025462:1</TopographicPlaceRef>
+						</StopPlace>
+						<Name>
+							<Text xml:lang="de">Pontarlier, gare (Pontarlier)</Text>
+						</Name>
+						<GeoPosition>
+							<siri:Longitude>6.35145</siri:Longitude>
+							<siri:Latitude>46.90125</siri:Latitude>
+						</GeoPosition>
+						<Mode>
+							<PtMode>bus</PtMode>
+							<siri:BusSubmode>localBusService</siri:BusSubmode>
+						</Mode>
+					</Place>
+					<Complete>true</Complete>
+					<Probability>0.964999974</Probability>
+				</PlaceResult>
+			</OJPLocationInformationDelivery>
+		</siri:ServiceDelivery>
+	</OJPResponse>
+</OJP>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.vdv.de/ojp ../../../OJP.xsd">
+	<OJPRequest>
+		<siri:ServiceRequest>
+			<siri:RequestTimestamp>2020-01-20T12:00:00Z</siri:RequestTimestamp>
+			<siri:RequestorRef>IRMA</siri:RequestorRef>
+			<OJPTripRequest>
+				<siri:RequestTimestamp>2020-12-01T12:00:00Z</siri:RequestTimestamp>
+				<Origin>
+					<PlaceRef>
+						<siri:StopPointRef>8503000</siri:StopPointRef>
+						<Name xmlns:siri="http://www.siri.org.uk/siri">
+							<Text>Zürich HB</Text>
+						</Name>
+					</PlaceRef>
+					<DepArrTime>2020-12-01T12:00:00Z</DepArrTime>
+				</Origin>
+				<Destination>
+					<PlaceRef>
+						<siri:StopPointRef>8503424</siri:StopPointRef>
+						<Name xmlns:siri="http://www.siri.org.uk/siri">
+							<Text>Schaffhausen</Text>
+						</Name>
+					</PlaceRef>
+				</Destination>
+				<Via>
+					<ViaPoint>
+						<siri:StopPointRef>8506000</siri:StopPointRef>
+						<Name xmlns:siri="http://www.siri.org.uk/siri">
+							<Text>Winterthur</Text>
+						</Name>
+					</ViaPoint>
+				</Via>
+				<Params>
+					<MotorisedMainTravelMode>true</MotorisedMainTravelMode>
+					<IncludeTrackSections>true</IncludeTrackSections>
+					<IncludeLegProjection>true</IncludeLegProjection>
+					<IncludeTurnDescription>true</IncludeTurnDescription>
+					<IncludeAccessFeatures>true</IncludeAccessFeatures>
+					<IncludeIntermediateStops>true</IncludeIntermediateStops>
+					<IncludeFare>true</IncludeFare>
+				</Params>
+			</OJPTripRequest>
+		</siri:ServiceRequest>
+	</OJPRequest>
+</OJP>

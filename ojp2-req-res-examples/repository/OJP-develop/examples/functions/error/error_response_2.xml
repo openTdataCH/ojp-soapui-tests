@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.vdv.de/ojp ../../../OJP.xsd">
+	<OJPResponse>
+		<siri:ServiceDelivery>
+			<siri:ResponseTimestamp>2020-11-30T10:07:19Z</siri:ResponseTimestamp>
+			<siri:ProducerRef>OJPCH_Prod</siri:ProducerRef>
+			<siri:Status>true</siri:Status>
+			<OJPTripInfoDelivery>
+				<siri:ResponseTimestamp>2020-11-30T10:07:19Z</siri:ResponseTimestamp>
+				<siri:RequestMessageRef>756</siri:RequestMessageRef>
+				<siri:Status>true</siri:Status>
+				<CalcTime>60</CalcTime>
+				<ErrorCondition>
+					<TripInfoProblemType>TRIPINFO_NOGEOINFO</TripInfoProblemType>
+				</ErrorCondition>
+				<TripInfoResult>
+					<ErrorCondition>
+						<TripInfoProblemType>TRIPINFO_NOGEOINFO</TripInfoProblemType>
+					</ErrorCondition>
+					<OnwardCall>
+						<siri:StopPointRef>8591315</siri:StopPointRef>
+						<StopPointName>
+							<Text>Zürich, Rehalp</Text>
+						</StopPointName>
+						<ServiceDeparture>
+							<TimetabledTime>2020-12-01T12:15:00Z</TimetabledTime>
+						</ServiceDeparture>
+						<Order>1</Order>
+					</OnwardCall>
+					<!--- lots of other OnwardCall -->
+					<OnwardCall>
+						<siri:StopPointRef>8591049</siri:StopPointRef>
+						<StopPointName>
+							<Text>Zürich, Auzelg</Text>
+						</StopPointName>
+						<ServiceArrival>
+							<TimetabledTime>2020-12-01T13:01:00Z</TimetabledTime>
+						</ServiceArrival>
+						<Order>34</Order>
+					</OnwardCall>
+					<Service>
+						<OperatingDayRef>Unknown</OperatingDayRef>
+						<JourneyRef>91011:A:R:j20:719</JourneyRef>
+						<siri:LineRef>91011:A</siri:LineRef>
+						<siri:DirectionRef>R</siri:DirectionRef>
+						<Mode>
+							<PtMode>tram</PtMode>
+							<siri:TramSubmode>cityTram</siri:TramSubmode>
+							<Name>
+								<Text xml:lang="de">Tram</Text>
+							</Name>
+							<ShortName>
+								<Text xml:lang="de">T</Text>
+							</ShortName>
+						</Mode>
+						<PublishedServiceName>
+							<Text>11</Text>
+						</PublishedServiceName>
+						<OperatorRefs>
+							<OperatorRef>3849</OperatorRef>
+						</OperatorRefs>
+						<OriginStopPointRef>8591315</OriginStopPointRef>
+						<OriginText>
+							<Text xml:lang="de">Zürich, Rehalp</Text>
+						</OriginText>
+						<DestinationStopPointRef>8591049</DestinationStopPointRef>
+						<DestinationText>
+							<Text xml:lang="de">Basel, St-Louis Grenze</Text>
+						</DestinationText>
+					</Service>
+					<JourneyTrack>
+						<TrackSection>
+							<TrackSectionStart>
+								<siri:StopPointRef>8591315</siri:StopPointRef>
+								<Name>
+									<Text xml:lang="de">Zürich, Rehalp</Text>
+								</Name>
+							</TrackSectionStart>
+							<TrackSectionEnd>
+								<siri:StopPointRef>8591049</siri:StopPointRef>
+								<Name>
+									<Text xml:lang="de">Zürich, Auzelg</Text>
+								</Name>
+							</TrackSectionEnd>
+							<Length>55032</Length>
+						</TrackSection>
+					</JourneyTrack>
+					<Extension>
+						<TransportTypeName>
+							<Text xml:lang="de"/>
+						</TransportTypeName>
+						<PublishedJourneyNumber>
+							<Text xml:lang="de">8527</Text>
+						</PublishedJourneyNumber>
+					</Extension>
+				</TripInfoResult>
+			</OJPTripInfoDelivery>
+		</siri:ServiceDelivery>
+	</OJPResponse>
+</OJP>

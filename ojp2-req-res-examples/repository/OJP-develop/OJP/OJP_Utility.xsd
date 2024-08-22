@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://www.vdv.de/ojp" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:siri="http://www.siri.org.uk/siri" targetNamespace="http://www.vdv.de/ojp" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:annotation>
+		<xs:documentation>OJP/OJP_Utility.xsd - Support definitions not specifically related to the public transport domain</xs:documentation>
+	</xs:annotation>
+	<xs:import namespace="http://www.siri.org.uk/siri" schemaLocation="../siri/xsd/siri_model/siri_all.xsd"/>
+	<xs:include schemaLocation="OJP_All.xsd"/>
+	<xs:simpleType name="PercentType">
+		<xs:annotation>
+			<xs:documentation>Percent value as integer, limited to max value 100.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:nonNegativeInteger">
+			<xs:maxInclusive value="100"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="OpenPercentType">
+		<xs:annotation>
+			<xs:documentation>Percent value as integer, no upper limit.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:nonNegativeInteger"/>
+	</xs:simpleType>
+	<xs:simpleType name="PriorityType">
+		<xs:annotation>
+			<xs:documentation>Data type for priority values, from 1 (highest) to 5 (lowest).</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:nonNegativeInteger">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="5"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="ValidDayBitType">
+		<xs:annotation>
+			<xs:documentation>sequence of bits (values 0 or 1) coded as a text string and representing days</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[01]*"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="LengthType">
+		<xs:annotation>
+			<xs:documentation>Data type for lengths, in meters.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:nonNegativeInteger"/>
+	</xs:simpleType>
+	<xs:simpleType name="PhoneNumberType">
+		<xs:annotation>
+			<xs:documentation>Type definition for phone numbers</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:normalizedString"/>
+	</xs:simpleType>
+	<xs:simpleType name="EmailAddressType">
+		<xs:annotation>
+			<xs:documentation>Type definition for email addresses.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:normalizedString"/>
+	</xs:simpleType>
+	<xs:complexType name="InternationalTextStructure">
+		<xs:annotation>
+			<xs:documentation>[a restricted view of ALTERNATIVE NAME in TMv6] alternative identified text to be used in specified languages.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Text" type="siri:NaturalLanguageStringStructure" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Text content.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TextId" type="xs:NMTOKEN" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Id of this text. May be used for matching to pre-recorded audio files.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:group name="WebLinkGroup">
+		<xs:annotation>
+			<xs:documentation>URL of a web resource including type of resource.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Url" type="xs:anyURI">
+				<xs:annotation>
+					<xs:documentation>URL to resource on web.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MimeType" type="xs:normalizedString" default="text/html" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>MIME type of the referenced resource. To which kind of resource does the URL point to?</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Embeddable" type="xs:boolean" default="false" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Is the referenced resource meant to be embedded as a webview in a surrounding context, e.g., app or web page? If yes, the resource has to be fully responsive. Default is false.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:group>
+	<xs:complexType name="WebLinkStructure">
+		<xs:annotation>
+			<xs:documentation>URL of a web resource with label.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Label" type="InternationalTextStructure">
+				<xs:annotation>
+					<xs:documentation>Label for link description.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:group ref="WebLinkGroup"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

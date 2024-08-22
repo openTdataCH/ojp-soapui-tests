@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.vdv.de/ojp ../../../OJP.xsd">
+	<OJPRequest>
+		<siri:ServiceRequest>
+			<siri:RequestTimestamp>2020-01-19T12:00:00Z</siri:RequestTimestamp>
+			<siri:RequestorRef>IRMA</siri:RequestorRef>
+			<OJPLocationInformationRequest>
+				<siri:RequestTimestamp>2020-01-19T12:00:00Z</siri:RequestTimestamp>
+				<siri:MessageIdentifier>4712</siri:MessageIdentifier>
+				<InitialInput>
+					<Name>Bern</Name>
+				</InitialInput>
+				<Restrictions>
+					<Type>stop</Type>
+					<IncludePtModes>true</IncludePtModes>
+				</Restrictions>
+			</OJPLocationInformationRequest>
+		</siri:ServiceRequest>
+	</OJPRequest>
+</OJP>

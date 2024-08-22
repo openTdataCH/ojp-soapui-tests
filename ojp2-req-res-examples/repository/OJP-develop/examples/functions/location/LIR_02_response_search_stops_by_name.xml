@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.vdv.de/ojp ../../../OJP.xsd">
+	<OJPResponse>
+		<siri:ServiceDelivery>
+			<siri:ResponseTimestamp>2020-10-10T15:57:12Z</siri:ResponseTimestamp>
+			<siri:ProducerRef>OJPCH_Prod</siri:ProducerRef>
+			<siri:Status>true</siri:Status>
+			<OJPLocationInformationDelivery>
+				<siri:ResponseTimestamp>2020-10-10T15:57:12Z</siri:ResponseTimestamp>
+				<siri:RequestMessageRef>4712</siri:RequestMessageRef>
+				<siri:Status>true</siri:Status>
+				<CalcTime>83</CalcTime>
+				<PlaceResult>
+					<Place>
+						<StopPlace>
+							<StopPlaceRef>8507000</StopPlaceRef>
+							<StopPlaceName>
+								<Text>Bern</Text>
+							</StopPlaceName>
+							<TopographicPlaceRef>23006351:1</TopographicPlaceRef>
+						</StopPlace>
+						<Name>
+							<Text xml:lang="de">Bern (Bern)</Text>
+						</Name>
+						<GeoPosition>
+							<siri:Longitude>7.43913</siri:Longitude>
+							<siri:Latitude>46.94883</siri:Latitude>
+						</GeoPosition>
+						<Mode>
+							<PtMode>rail</PtMode>
+							<siri:RailSubmode>unknown</siri:RailSubmode>
+						</Mode>
+						<Mode>
+							<PtMode>bus</PtMode>
+							<siri:BusSubmode>localBusService</siri:BusSubmode>
+						</Mode>
+					</Place>
+					<Complete>true</Complete>
+					<Probability>1</Probability>
+				</PlaceResult>
+				<PlaceResult>
+					<Place>
+						<StopPlace>
+							<StopPlaceRef>8577001</StopPlaceRef>
+							<StopPlaceName>
+								<Text>Bern, Zent</Text>
+							</StopPlaceName>
+							<TopographicPlaceRef>23006351:1</TopographicPlaceRef>
+						</StopPlace>
+						<Name>
+							<Text xml:lang="de">Bern, Zent (Bern)</Text>
+						</Name>
+						<GeoPosition>
+							<siri:Longitude>7.47534</siri:Longitude>
+							<siri:Latitude>46.95745</siri:Latitude>
+						</GeoPosition>
+						<Mode>
+							<PtMode>bus</PtMode>
+							<siri:BusSubmode>localBusService</siri:BusSubmode>
+						</Mode>
+					</Place>
+					<Complete>true</Complete>
+					<Probability>0.949999988</Probability>
+				</PlaceResult>
+			</OJPLocationInformationDelivery>
+		</siri:ServiceDelivery>
+	</OJPResponse>
+</OJP>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.vdv.de/ojp ../../../OJP.xsd">
+	<!-- This (hypothetical) example includes illustrations of the following changes for V1.1:
+	- PR #83 - IncludePlacesContext and IncludeSituationsContext -> both excluded in this response
+	- PR #96 - IncludeStopHierarchy -> only StopEvents for a single Place (in case of a meta stop)
+	- PR #95 - ProductCategoryStructure
+	- PR #92 - Extension in DatedJourneyStructure
+-->
+	<OJPResponse>
+		<siri:ServiceDelivery>
+			<siri:ResponseTimestamp>2021-08-16T18:11:51Z</siri:ResponseTimestamp>
+			<siri:ProducerRef>OJPCH_Prod</siri:ProducerRef>
+			<siri:Status>true</siri:Status>
+			<OJPStopEventDelivery>
+				<siri:ResponseTimestamp>2021-08-16T18:11:51Z</siri:ResponseTimestamp>
+				<siri:RequestMessageRef>756</siri:RequestMessageRef>
+				<siri:Status>true</siri:Status>
+				<CalcTime>39</CalcTime>
+				<!-- IncludePlacesContext==false, IncludeSituationsContext==false -> Places and Situations are excluded -->
+				<StopEventResult>
+					<!-- IncludeStopHierarchy==no -> no services from nearby railway or funicular stations -->
+					<Id>ID-1903E461-C436-4CCB-A928-5A4A06E15320</Id>
+					<StopEvent>
+						<ThisCall>
+							<CallAtStop>
+								<siri:StopPointRef>8504375</siri:StopPointRef>
+								<StopPointName>
+									<Text>Ligerz (Schiff)</Text>
+								</StopPointName>
+								<ServiceDeparture>
+									<TimetabledTime>2021-08-17T08:25:00Z</TimetabledTime>
+								</ServiceDeparture>
+								<Order>5</Order>
+								<siri:ExpectedDepartureOccupancy>
+									<siri:OccupancyLevel>fewSeatsAvailable</siri:OccupancyLevel>
+									<siri:TotalNumberOfReservedSeats>10</siri:TotalNumberOfReservedSeats>
+								</siri:ExpectedDepartureOccupancy>
+								<Attribute>
+									<UserText>
+										<Text>Boarding</Text>
+									</UserText>
+									<Code>PRM</Code>
+									<Facility>
+										<siri:AssistanceFacility>boardingAssistance</siri:AssistanceFacility>
+									</Facility>
+								</Attribute>
+							</CallAtStop>
+						</ThisCall>
+						<Service>
+							<OperatingDayRef>2021-08-17</OperatingDayRef>
+							<JourneyRef>9400B:Y:R:j21:12</JourneyRef>
+							<siri:LineRef>9400B:Y</siri:LineRef>
+							<siri:DirectionRef>R</siri:DirectionRef>
+							<Mode>
+								<PtMode>water</PtMode>
+								<siri:WaterSubmode>unknown</siri:WaterSubmode>
+								<Name>
+									<Text xml:lang="de">Schiff</Text>
+								</Name>
+								<ShortName>
+									<Text xml:lang="de">BAT</Text>
+								</ShortName>
+							</Mode>
+							<ProductCategory>
+								<!-- V1.1, PR #95 - Illustration of ProductCategory -->
+								<Name>
+									<Text>Dampfschiff</Text>
+								</Name>
+							</ProductCategory>
+							<PublishedServiceName>
+								<Text>BAT</Text>
+							</PublishedServiceName>
+							<OriginStopPointRef>8504371</OriginStopPointRef>
+							<OriginText>
+								<Text xml:lang="de">Biel/Bienne (Schiff/bateau)</Text>
+							</OriginText>
+							<DestinationStopPointRef>8504577</DestinationStopPointRef>
+							<DestinationText>
+								<Text xml:lang="de">Murten/Morat (Schiff/bateau)</Text>
+							</DestinationText>
+							<Extension>
+								<!-- V1.1, PR #92 - Illustration of new Extension (first of two changes of the PR)-->
+								<TransportTypeName>
+									<Text xml:lang="de">Schiff</Text>
+								</TransportTypeName>
+								<PublishedJourneyNumber>
+									<Text xml:lang="de">301</Text>
+								</PublishedJourneyNumber>
+							</Extension>
+						</Service>
+						<Extension>
+							<TransportTypeName>
+								<Text xml:lang="de">Schiff</Text>
+							</TransportTypeName>
+							<PublishedJourneyNumber>
+								<Text xml:lang="de">301</Text>
+							</PublishedJourneyNumber>
+						</Extension>
+					</StopEvent>
+				</StopEventResult>
+			</OJPStopEventDelivery>
+		</siri:ServiceDelivery>
+	</OJPResponse>
+</OJP>
