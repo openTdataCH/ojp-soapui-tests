@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns="http://www.vdv.de/ojp" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:siri="http://www.siri.org.uk/siri" targetNamespace="http://www.vdv.de/ojp" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:schema xmlns="http://www.vdv.de/ojp" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:siri="http://www.siri.org.uk/siri" targetNamespace="http://www.vdv.de/ojp" elementFormDefault="qualified">
 	<xs:annotation>
 		<xs:documentation>OJP/OJP_JourneySupport.xsd - Supporting definitions for journeys on public transport vehicles</xs:documentation>
 	</xs:annotation>
@@ -125,7 +125,7 @@
 			</xs:element>
 			<xs:element ref="siri:VehicleRef" minOccurs="0">
 				<xs:annotation>
-					<xs:documentation>Contains the Vehicle reference of the vehicle. In Transmodel this may be the VEHICLE Id.</xs:documentation>
+					<xs:documentation>Contains the Vehicle reference of the vehicle. In Transmodel this may be the VEHICLE id.</xs:documentation>
 				</xs:annotation>
 			</xs:element>
 			<xs:element name="OperatorRefs" type="OperatorRefs_RelStructure" minOccurs="0">
@@ -644,7 +644,7 @@
 			<xs:choice minOccurs="0">
 				<xs:element name="NumberOfResults" type="xs:positiveInteger" minOccurs="0">
 					<xs:annotation>
-						<xs:documentation>The number of trip results that the user wants to see at least (TRIP REQUEST POLICY.maximumNumberofJourneys). Be aware that some implementations will deliver one of the TripResults before the indicated departure time. This means one always must check the results against the parameters before using them.</xs:documentation>
+						<xs:documentation>The number of trip results that the user wants to see at least. Be aware that some implementations will deliver one of the TripResults before the indicated departure time. This means that you can't assume that you get the exact number of results that you asked for in the request from the server.</xs:documentation>
 					</xs:annotation>
 				</xs:element>
 				<xs:group ref="NumberOfResultsGroup" minOccurs="0"/>

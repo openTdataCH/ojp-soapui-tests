@@ -1,0 +1,581 @@
+<OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
+  <OJPResponse>
+    <siri:ServiceDelivery>
+      <siri:ResponseTimestamp>2024-09-25T12:56:22.2941026+02:00</siri:ResponseTimestamp>
+      <siri:ProducerRef>MENTZ</siri:ProducerRef>
+      <OJPTripDelivery>
+        <siri:ResponseTimestamp>2024-09-25T12:56:22.2941051+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>f1be95da-514c-45f4-8eed-51520a3f980a</siri:RequestMessageRef>
+        <siri:DefaultLanguage>de</siri:DefaultLanguage>
+        <CalcTime>170</CalcTime>
+        <TripResponseContext>
+          <Places>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8592509</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Neuhausen, Rheinstrasse</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>129481</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23017937:1</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Neuhausen, Rheinstrasse</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.62208</siri:Longitude>
+                <siri:Latitude>47.67939</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPoint>
+                <siri:StopPointRef>8592509</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Neuhausen, Rheinstrasse</Text>
+                </StopPointName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>129481</Value>
+                </PrivateCode>
+                <ParentRef>8592509</ParentRef>
+                <TopographicPlaceRef>23017937:1</TopographicPlaceRef>
+              </StopPoint>
+              <Name>
+                <Text xml:lang="de">Rheinstrasse</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.62208</siri:Longitude>
+                <siri:Latitude>47.67939</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <TopographicPlace>
+                <TopographicPlaceCode>23017937:1</TopographicPlaceCode>
+                <TopographicPlaceName>
+                  <Text xml:lang="de">Neuhausen am Rheinfall</Text>
+                </TopographicPlaceName>
+              </TopographicPlace>
+              <Name>
+                <Text xml:lang="de">Rheinstrasse</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.62208</siri:Longitude>
+                <siri:Latitude>47.67939</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8503495</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108627:0:E</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23017939:4</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.63391</siri:Longitude>
+                <siri:Latitude>47.69917</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPoint>
+                <siri:StopPointRef>ch:1:sloid:3495:0:469739</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
+                </StopPointName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108627:0:E</Value>
+                </PrivateCode>
+                <ParentRef>8503495</ParentRef>
+                <TopographicPlaceRef>23017939:4</TopographicPlaceRef>
+              </StopPoint>
+              <Name>
+                <Text xml:lang="de">Bahnhof</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.63391</siri:Longitude>
+                <siri:Latitude>47.69917</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <TopographicPlace>
+                <TopographicPlaceCode>23017939:4</TopographicPlaceCode>
+                <TopographicPlaceName>
+                  <Text xml:lang="de">Schaffhausen</Text>
+                </TopographicPlaceName>
+              </TopographicPlace>
+              <Name>
+                <Text xml:lang="de">Bahnhof</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.63391</siri:Longitude>
+                <siri:Latitude>47.69917</siri:Latitude>
+              </GeoPosition>
+            </Place>
+          </Places>
+          <Situations/>
+        </TripResponseContext>
+        <TripResult>
+          <Id>ID-02E9E13B-5187-4AC9-90F2-12B510210B59</Id>
+          <Trip>
+            <Id>ID-02E9E13B-5187-4AC9-90F2-12B510210B59</Id>
+            <Duration>PT15M</Duration>
+            <StartTime>2024-12-06T05:18:00Z</StartTime>
+            <EndTime>2024-12-06T05:33:00Z</EndTime>
+            <Transfers>0</Transfers>
+            <Leg>
+              <Id>1</Id>
+              <Duration>PT15M</Duration>
+              <TimedLeg>
+                <LegBoard>
+                  <siri:StopPointRef>8592509</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Neuhausen, Rheinstrasse</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">PLATFORM_NOT_WHEELCHAIR_ACCESSIBLE</Text>
+                  </NameSuffix>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T05:18:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>1</Order>
+                </LegBoard>
+                <LegAlight>
+                  <siri:StopPointRef>ch:1:sloid:3495:0:469739</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">PLATFORM_NOT_WHEELCHAIR_ACCESSIBLE</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">E</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T05:33:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <Order>16</Order>
+                </LegAlight>
+                <Service>
+                  <Mode>
+                    <PtMode>bus</PtMode>
+                    <siri:BusSubmode>localBus</siri:BusSubmode>
+                    <Name>
+                      <Text xml:lang="de">Bus</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">B</Text>
+                    </ShortName>
+                  </Mode>
+                  <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+                  <TrainNumber>71010</TrainNumber>
+                  <siri:LineRef>ojp:92007:D</siri:LineRef>
+                  <siri:OperatorRef>836</siri:OperatorRef>
+                  <PublicCode>Bus</PublicCode>
+                  <PublishedServiceName>
+                    <Text xml:lang="de">7</Text>
+                  </PublishedServiceName>
+                  <ProductCategory>
+                    <Name>
+                      <Text xml:lang="de">Bus</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">B</Text>
+                    </ShortName>
+                    <ProductCategoryRef>29</ProductCategoryRef>
+                  </ProductCategory>
+                  <siri:DirectionRef>R</siri:DirectionRef>
+                  <OperatingDayRef>2024-12-06</OperatingDayRef>
+                  <DestinationStopPointRef>8503495</DestinationStopPointRef>
+                  <OriginText>
+                    <Text xml:lang="de">n/a</Text>
+                  </OriginText>
+                  <DestinationText>
+                    <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
+                  </DestinationText>
+                  <JourneyRef>ojp-92-7-D-j24-1-777-TA</JourneyRef>
+                  <Attribute>
+                    <UserText>
+                      <Text xml:lang="de">Kein Niederflur</Text>
+                    </UserText>
+                    <Code>A__PH</Code>
+                  </Attribute>
+                </Service>
+              </TimedLeg>
+            </Leg>
+          </Trip>
+        </TripResult>
+        <TripResult>
+          <Id>ID-901978B4-3476-424C-9803-21D2CFAAA1BB</Id>
+          <Trip>
+            <Id>ID-901978B4-3476-424C-9803-21D2CFAAA1BB</Id>
+            <Duration>PT16M</Duration>
+            <StartTime>2024-12-06T05:37:00Z</StartTime>
+            <EndTime>2024-12-06T05:53:00Z</EndTime>
+            <Transfers>0</Transfers>
+            <Leg>
+              <Id>1</Id>
+              <Duration>PT16M</Duration>
+              <TimedLeg>
+                <LegBoard>
+                  <siri:StopPointRef>8592509</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Neuhausen, Rheinstrasse</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">PLATFORM_NOT_WHEELCHAIR_ACCESSIBLE</Text>
+                  </NameSuffix>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T05:37:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>1</Order>
+                </LegBoard>
+                <LegAlight>
+                  <siri:StopPointRef>ch:1:sloid:3495:0:469739</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">PLATFORM_NOT_WHEELCHAIR_ACCESSIBLE</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">E</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T05:53:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <Order>16</Order>
+                </LegAlight>
+                <Service>
+                  <Mode>
+                    <PtMode>bus</PtMode>
+                    <siri:BusSubmode>localBus</siri:BusSubmode>
+                    <Name>
+                      <Text xml:lang="de">Bus</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">B</Text>
+                    </ShortName>
+                  </Mode>
+                  <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+                  <TrainNumber>71014</TrainNumber>
+                  <siri:LineRef>ojp:92007:D</siri:LineRef>
+                  <siri:OperatorRef>836</siri:OperatorRef>
+                  <PublicCode>Bus</PublicCode>
+                  <PublishedServiceName>
+                    <Text xml:lang="de">7</Text>
+                  </PublishedServiceName>
+                  <ProductCategory>
+                    <Name>
+                      <Text xml:lang="de">Bus</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">B</Text>
+                    </ShortName>
+                    <ProductCategoryRef>29</ProductCategoryRef>
+                  </ProductCategory>
+                  <siri:DirectionRef>R</siri:DirectionRef>
+                  <OperatingDayRef>2024-12-06</OperatingDayRef>
+                  <DestinationStopPointRef>8503495</DestinationStopPointRef>
+                  <OriginText>
+                    <Text xml:lang="de">n/a</Text>
+                  </OriginText>
+                  <DestinationText>
+                    <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
+                  </DestinationText>
+                  <JourneyRef>ojp-92-7-D-j24-1-805-TA</JourneyRef>
+                  <Attribute>
+                    <UserText>
+                      <Text xml:lang="de">Kein Niederflur</Text>
+                    </UserText>
+                    <Code>A__PH</Code>
+                  </Attribute>
+                </Service>
+              </TimedLeg>
+            </Leg>
+          </Trip>
+        </TripResult>
+        <TripResult>
+          <Id>ID-D5DCEF39-F557-42DA-B770-80963FA898B1</Id>
+          <Trip>
+            <Id>ID-D5DCEF39-F557-42DA-B770-80963FA898B1</Id>
+            <Duration>PT16M</Duration>
+            <StartTime>2024-12-06T05:47:00Z</StartTime>
+            <EndTime>2024-12-06T06:03:00Z</EndTime>
+            <Transfers>0</Transfers>
+            <Leg>
+              <Id>1</Id>
+              <Duration>PT16M</Duration>
+              <TimedLeg>
+                <LegBoard>
+                  <siri:StopPointRef>8592509</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Neuhausen, Rheinstrasse</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">PLATFORM_NOT_WHEELCHAIR_ACCESSIBLE</Text>
+                  </NameSuffix>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T05:47:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>1</Order>
+                </LegBoard>
+                <LegAlight>
+                  <siri:StopPointRef>ch:1:sloid:3495:0:469739</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">PLATFORM_NOT_WHEELCHAIR_ACCESSIBLE</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">E</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T06:03:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <Order>16</Order>
+                </LegAlight>
+                <Service>
+                  <Mode>
+                    <PtMode>bus</PtMode>
+                    <siri:BusSubmode>localBus</siri:BusSubmode>
+                    <Name>
+                      <Text xml:lang="de">Bus</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">B</Text>
+                    </ShortName>
+                  </Mode>
+                  <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+                  <TrainNumber>71016</TrainNumber>
+                  <siri:LineRef>ojp:92007:D</siri:LineRef>
+                  <siri:OperatorRef>836</siri:OperatorRef>
+                  <PublicCode>Bus</PublicCode>
+                  <PublishedServiceName>
+                    <Text xml:lang="de">7</Text>
+                  </PublishedServiceName>
+                  <ProductCategory>
+                    <Name>
+                      <Text xml:lang="de">Bus</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">B</Text>
+                    </ShortName>
+                    <ProductCategoryRef>29</ProductCategoryRef>
+                  </ProductCategory>
+                  <siri:DirectionRef>R</siri:DirectionRef>
+                  <OperatingDayRef>2024-12-06</OperatingDayRef>
+                  <DestinationStopPointRef>8503495</DestinationStopPointRef>
+                  <OriginText>
+                    <Text xml:lang="de">n/a</Text>
+                  </OriginText>
+                  <DestinationText>
+                    <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
+                  </DestinationText>
+                  <JourneyRef>ojp-92-7-D-j24-1-809-TA</JourneyRef>
+                  <Attribute>
+                    <UserText>
+                      <Text xml:lang="de">Kein Niederflur</Text>
+                    </UserText>
+                    <Code>A__PH</Code>
+                  </Attribute>
+                </Service>
+              </TimedLeg>
+            </Leg>
+          </Trip>
+        </TripResult>
+        <TripResult>
+          <Id>ID-3FC841C8-5E48-4793-8EE6-D342DF4F1160</Id>
+          <Trip>
+            <Id>ID-3FC841C8-5E48-4793-8EE6-D342DF4F1160</Id>
+            <Duration>PT16M</Duration>
+            <StartTime>2024-12-06T05:57:00Z</StartTime>
+            <EndTime>2024-12-06T06:13:00Z</EndTime>
+            <Transfers>0</Transfers>
+            <Leg>
+              <Id>1</Id>
+              <Duration>PT16M</Duration>
+              <TimedLeg>
+                <LegBoard>
+                  <siri:StopPointRef>8592509</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Neuhausen, Rheinstrasse</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">PLATFORM_NOT_WHEELCHAIR_ACCESSIBLE</Text>
+                  </NameSuffix>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T05:57:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>1</Order>
+                </LegBoard>
+                <LegAlight>
+                  <siri:StopPointRef>ch:1:sloid:3495:0:469739</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">PLATFORM_NOT_WHEELCHAIR_ACCESSIBLE</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">E</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T06:13:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <Order>16</Order>
+                </LegAlight>
+                <Service>
+                  <Mode>
+                    <PtMode>bus</PtMode>
+                    <siri:BusSubmode>localBus</siri:BusSubmode>
+                    <Name>
+                      <Text xml:lang="de">Bus</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">B</Text>
+                    </ShortName>
+                  </Mode>
+                  <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+                  <TrainNumber>71018</TrainNumber>
+                  <siri:LineRef>ojp:92007:D</siri:LineRef>
+                  <siri:OperatorRef>836</siri:OperatorRef>
+                  <PublicCode>Bus</PublicCode>
+                  <PublishedServiceName>
+                    <Text xml:lang="de">7</Text>
+                  </PublishedServiceName>
+                  <ProductCategory>
+                    <Name>
+                      <Text xml:lang="de">Bus</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">B</Text>
+                    </ShortName>
+                    <ProductCategoryRef>29</ProductCategoryRef>
+                  </ProductCategory>
+                  <siri:DirectionRef>R</siri:DirectionRef>
+                  <OperatingDayRef>2024-12-06</OperatingDayRef>
+                  <DestinationStopPointRef>8503495</DestinationStopPointRef>
+                  <OriginText>
+                    <Text xml:lang="de">n/a</Text>
+                  </OriginText>
+                  <DestinationText>
+                    <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
+                  </DestinationText>
+                  <JourneyRef>ojp-92-7-D-j24-1-807-TA</JourneyRef>
+                  <Attribute>
+                    <UserText>
+                      <Text xml:lang="de">Kein Niederflur</Text>
+                    </UserText>
+                    <Code>A__PH</Code>
+                  </Attribute>
+                </Service>
+              </TimedLeg>
+            </Leg>
+          </Trip>
+        </TripResult>
+        <TripResult>
+          <Id>ID-4A061D82-E208-4137-B507-6912FDD173DB</Id>
+          <Trip>
+            <Id>ID-4A061D82-E208-4137-B507-6912FDD173DB</Id>
+            <Duration>PT16M</Duration>
+            <StartTime>2024-12-06T06:07:00Z</StartTime>
+            <EndTime>2024-12-06T06:23:00Z</EndTime>
+            <Transfers>0</Transfers>
+            <Leg>
+              <Id>1</Id>
+              <Duration>PT16M</Duration>
+              <TimedLeg>
+                <LegBoard>
+                  <siri:StopPointRef>8592509</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Neuhausen, Rheinstrasse</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">PLATFORM_NOT_WHEELCHAIR_ACCESSIBLE</Text>
+                  </NameSuffix>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T06:07:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>1</Order>
+                </LegBoard>
+                <LegAlight>
+                  <siri:StopPointRef>ch:1:sloid:3495:0:469739</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">PLATFORM_NOT_WHEELCHAIR_ACCESSIBLE</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">E</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T06:23:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <Order>16</Order>
+                </LegAlight>
+                <Service>
+                  <Mode>
+                    <PtMode>bus</PtMode>
+                    <siri:BusSubmode>localBus</siri:BusSubmode>
+                    <Name>
+                      <Text xml:lang="de">Bus</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">B</Text>
+                    </ShortName>
+                  </Mode>
+                  <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+                  <TrainNumber>71020</TrainNumber>
+                  <siri:LineRef>ojp:92007:D</siri:LineRef>
+                  <siri:OperatorRef>836</siri:OperatorRef>
+                  <PublicCode>Bus</PublicCode>
+                  <PublishedServiceName>
+                    <Text xml:lang="de">7</Text>
+                  </PublishedServiceName>
+                  <ProductCategory>
+                    <Name>
+                      <Text xml:lang="de">Bus</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">B</Text>
+                    </ShortName>
+                    <ProductCategoryRef>29</ProductCategoryRef>
+                  </ProductCategory>
+                  <siri:DirectionRef>R</siri:DirectionRef>
+                  <OperatingDayRef>2024-12-06</OperatingDayRef>
+                  <DestinationStopPointRef>8503495</DestinationStopPointRef>
+                  <OriginText>
+                    <Text xml:lang="de">n/a</Text>
+                  </OriginText>
+                  <DestinationText>
+                    <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
+                  </DestinationText>
+                  <JourneyRef>ojp-92-7-D-j24-1-808-TA</JourneyRef>
+                  <Attribute>
+                    <UserText>
+                      <Text xml:lang="de">Kein Niederflur</Text>
+                    </UserText>
+                    <Code>A__PH</Code>
+                  </Attribute>
+                </Service>
+              </TimedLeg>
+            </Leg>
+          </Trip>
+        </TripResult>
+      </OJPTripDelivery>
+    </siri:ServiceDelivery>
+  </OJPResponse>
+</OJP>

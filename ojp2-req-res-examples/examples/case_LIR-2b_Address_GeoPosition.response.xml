@@ -1,0 +1,37 @@
+<OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
+  <OJPResponse>
+    <siri:ServiceDelivery>
+      <siri:ResponseTimestamp>2024-09-25T12:54:23.0034366+02:00</siri:ResponseTimestamp>
+      <siri:ProducerRef>MENTZ</siri:ProducerRef>
+      <OJPLocationInformationDelivery>
+        <siri:ResponseTimestamp>2024-09-25T12:54:23.003466+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>b9156b3e-d1db-475e-b5f3-bc03dc21b0c8</siri:RequestMessageRef>
+        <siri:DefaultLanguage>de</siri:DefaultLanguage>
+        <CalcTime>4</CalcTime>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <Name>
+                <Text xml:lang="de">Zürich, Staffelstrasse 12</Text>
+              </Name>
+              <PostCode/>
+              <TopographicPlaceName>Zürich</TopographicPlaceName>
+              <TopographicPlaceRef>23026261:1500000003</TopographicPlaceRef>
+              <Street>Staffelstrasse</Street>
+              <HouseNumber>12</HouseNumber>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Staffelstrasse 12 (Zürich)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.52063</siri:Longitude>
+              <siri:Latitude>47.36084</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>1</Probability>
+        </PlaceResult>
+      </OJPLocationInformationDelivery>
+    </siri:ServiceDelivery>
+  </OJPResponse>
+</OJP>

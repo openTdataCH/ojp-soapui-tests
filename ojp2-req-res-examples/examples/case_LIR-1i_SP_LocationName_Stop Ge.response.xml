@@ -1,0 +1,69 @@
+<OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
+  <OJPResponse>
+    <siri:ServiceDelivery>
+      <siri:ResponseTimestamp>2024-09-25T12:54:00.912833+02:00</siri:ResponseTimestamp>
+      <siri:ProducerRef>MENTZ</siri:ProducerRef>
+      <OJPLocationInformationDelivery>
+        <siri:ResponseTimestamp>2024-09-25T12:54:00.91288+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>023e107a-f00b-4317-8861-edc882988395</siri:RequestMessageRef>
+        <siri:DefaultLanguage>de</siri:DefaultLanguage>
+        <CalcTime>9</CalcTime>
+        <PlaceResult>
+          <Place>
+            <StopPlace>
+              <StopPlaceRef>8304700</StopPlaceRef>
+              <StopPlaceName>
+                <Text xml:lang="de">Genova</Text>
+              </StopPlaceName>
+              <PrivateCode>
+                <System>EFA</System>
+                <Value>106491</Value>
+              </PrivateCode>
+              <TopographicPlaceRef>22010025:1</TopographicPlaceRef>
+            </StopPlace>
+            <Name>
+              <Text xml:lang="de">Genova (Genova)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.92208</siri:Longitude>
+              <siri:Latitude>44.4175</siri:Latitude>
+            </GeoPosition>
+            <Mode>
+              <PtMode>rail</PtMode>
+            </Mode>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.8</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <StopPlace>
+              <StopPlaceRef>8575590</StopPlaceRef>
+              <StopPlaceName>
+                <Text xml:lang="de">Genestrerio, Canova</Text>
+              </StopPlaceName>
+              <PrivateCode>
+                <System>EFA</System>
+                <Value>118287</Value>
+              </PrivateCode>
+              <TopographicPlaceRef>23020254:1</TopographicPlaceRef>
+            </StopPlace>
+            <Name>
+              <Text xml:lang="de">Genestrerio, Canova (Mendrisio)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.96187</siri:Longitude>
+              <siri:Latitude>45.85165</siri:Latitude>
+            </GeoPosition>
+            <Mode>
+              <PtMode>bus</PtMode>
+              <siri:BusSubmode>localBus</siri:BusSubmode>
+            </Mode>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.752</Probability>
+        </PlaceResult>
+      </OJPLocationInformationDelivery>
+    </siri:ServiceDelivery>
+  </OJPResponse>
+</OJP>

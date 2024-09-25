@@ -1,0 +1,784 @@
+<OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
+  <OJPResponse>
+    <siri:ServiceDelivery>
+      <siri:ResponseTimestamp>2024-09-25T12:55:05.8883328+02:00</siri:ResponseTimestamp>
+      <siri:ProducerRef>MENTZ</siri:ProducerRef>
+      <OJPStopEventDelivery>
+        <siri:ResponseTimestamp>2024-09-25T12:55:05.888334+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>2efe07ad-4925-4c83-a3aa-0f7c6273c3f0</siri:RequestMessageRef>
+        <siri:DefaultLanguage>de</siri:DefaultLanguage>
+        <CalcTime>12</CalcTime>
+        <StopEventResponseContext>
+          <Places>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8503481</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Neuhausen, Kreuzstrasse</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108615</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23017937:1</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Neuhausen, Kreuzstrasse</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.61255</siri:Longitude>
+                <siri:Latitude>47.68372</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPoint>
+                <siri:StopPointRef>8503481</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Neuhausen, Kreuzstrasse</Text>
+                </StopPointName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108615</Value>
+                </PrivateCode>
+                <ParentRef>8503481</ParentRef>
+                <TopographicPlaceRef>23017937:1</TopographicPlaceRef>
+              </StopPoint>
+              <Name>
+                <Text xml:lang="de">Neuhausen, Kreuzstrasse</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.61255</siri:Longitude>
+                <siri:Latitude>47.68372</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <TopographicPlace>
+                <TopographicPlaceCode>23017937:1</TopographicPlaceCode>
+                <TopographicPlaceName>
+                  <Text xml:lang="de">Neuhausen am Rheinfall</Text>
+                </TopographicPlaceName>
+              </TopographicPlace>
+              <Name>
+                <Text xml:lang="de">Neuhausen am Rheinfall</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.61255</siri:Longitude>
+                <siri:Latitude>47.68372</siri:Latitude>
+              </GeoPosition>
+            </Place>
+          </Places>
+        </StopEventResponseContext>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8503481</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Neuhausen, Kreuzstrasse</Text>
+                </StopPointName>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-12-05T23:01:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>bus</PtMode>
+                <siri:BusSubmode>localBus</siri:BusSubmode>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>10217</TrainNumber>
+              <siri:LineRef>ojp:92001:F</siri:LineRef>
+              <siri:OperatorRef>836</siri:OperatorRef>
+              <PublicCode>Bus</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">1</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+                <ProductCategoryRef>29</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>H</siri:DirectionRef>
+              <JourneyRef>ojp-92-1-F-j24-1-108-TA</JourneyRef>
+              <OperatingDayRef>2024-12-05</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Kein Niederflur</Text>
+                </UserText>
+                <Code>A__PH</Code>
+              </Attribute>
+              <OriginStopPointRef>8592586</OriginStopPointRef>
+              <DestinationStopPointRef>8592505</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Schaffhausen, Waldfriedhof</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Neuhausen, Herbstäcker</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8503481</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Neuhausen, Kreuzstrasse</Text>
+                </StopPointName>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-12-05T23:07:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>bus</PtMode>
+                <siri:BusSubmode>localBus</siri:BusSubmode>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>10214</TrainNumber>
+              <siri:LineRef>ojp:92001:F</siri:LineRef>
+              <siri:OperatorRef>836</siri:OperatorRef>
+              <PublicCode>Bus</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">1</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+                <ProductCategoryRef>29</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ojp-92-1-F-j24-1-589-TA</JourneyRef>
+              <OperatingDayRef>2024-12-05</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Kein Niederflur</Text>
+                </UserText>
+                <Code>A__PH</Code>
+              </Attribute>
+              <OriginStopPointRef>8592505</OriginStopPointRef>
+              <DestinationStopPointRef>8592530</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Neuhausen, Herbstäcker</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Schaffhausen, Ebnat</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111110011111001111100111110011111001111100111110011111001111100111110011111001111100111110</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8503481</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Neuhausen, Kreuzstrasse</Text>
+                </StopPointName>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-12-06T04:17:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>bus</PtMode>
+                <siri:BusSubmode>localBus</siri:BusSubmode>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>10003</TrainNumber>
+              <siri:LineRef>ojp:92001:F</siri:LineRef>
+              <siri:OperatorRef>836</siri:OperatorRef>
+              <PublicCode>Bus</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">1</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+                <ProductCategoryRef>29</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>H</siri:DirectionRef>
+              <JourneyRef>ojp-92-1-F-j24-1-15-TA</JourneyRef>
+              <OperatingDayRef>2024-12-06</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Kein Niederflur</Text>
+                </UserText>
+                <Code>A__PH</Code>
+              </Attribute>
+              <OriginStopPointRef>8592530</OriginStopPointRef>
+              <DestinationStopPointRef>8592505</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Schaffhausen, Ebnat</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Neuhausen, Herbstäcker</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8503481</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Neuhausen, Kreuzstrasse</Text>
+                </StopPointName>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-12-06T04:25:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>bus</PtMode>
+                <siri:BusSubmode>localBus</siri:BusSubmode>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>10002</TrainNumber>
+              <siri:LineRef>ojp:92001:F</siri:LineRef>
+              <siri:OperatorRef>836</siri:OperatorRef>
+              <PublicCode>Bus</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">1</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+                <ProductCategoryRef>29</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ojp-92-1-F-j24-1-748-TA</JourneyRef>
+              <OperatingDayRef>2024-12-06</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Kein Niederflur</Text>
+                </UserText>
+                <Code>A__PH</Code>
+              </Attribute>
+              <OriginStopPointRef>8592505</OriginStopPointRef>
+              <DestinationStopPointRef>8592586</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Neuhausen, Herbstäcker</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Schaffhausen, Waldfriedhof</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8503481</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Neuhausen, Kreuzstrasse</Text>
+                </StopPointName>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-12-06T04:29:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>bus</PtMode>
+                <siri:BusSubmode>localBus</siri:BusSubmode>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>71002</TrainNumber>
+              <siri:LineRef>ojp:92007:D</siri:LineRef>
+              <siri:OperatorRef>836</siri:OperatorRef>
+              <PublicCode>Bus</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">7</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+                <ProductCategoryRef>29</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ojp-92-7-D-j24-1-478-TA</JourneyRef>
+              <OperatingDayRef>2024-12-06</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Kein Niederflur</Text>
+                </UserText>
+                <Code>A__PH</Code>
+              </Attribute>
+              <OriginStopPointRef>ch:1:sloid:78376:0:870606</OriginStopPointRef>
+              <DestinationStopPointRef>ch:1:sloid:3495:0:469739</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Neuhausen, Zentrum</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8503481</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Neuhausen, Kreuzstrasse</Text>
+                </StopPointName>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-12-06T04:33:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>bus</PtMode>
+                <siri:BusSubmode>localBus</siri:BusSubmode>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>21001</TrainNumber>
+              <siri:LineRef>ojp:92021:A</siri:LineRef>
+              <siri:OperatorRef>846</siri:OperatorRef>
+              <PublicCode>Bus</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">21</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+                <ProductCategoryRef>29</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ojp-92-21-A-j24-1-452-TA</JourneyRef>
+              <OperatingDayRef>2024-12-06</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Kein Niederflur</Text>
+                </UserText>
+                <Code>A__PH</Code>
+              </Attribute>
+              <OriginStopPointRef>8578364</OriginStopPointRef>
+              <DestinationStopPointRef>ch:1:sloid:3495:0:469739</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Schleitheim, Gemeindehaus</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8503481</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Neuhausen, Kreuzstrasse</Text>
+                </StopPointName>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-12-06T04:37:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>bus</PtMode>
+                <siri:BusSubmode>localBus</siri:BusSubmode>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>10009</TrainNumber>
+              <siri:LineRef>ojp:92001:F</siri:LineRef>
+              <siri:OperatorRef>836</siri:OperatorRef>
+              <PublicCode>Bus</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">1</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+                <ProductCategoryRef>29</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>H</siri:DirectionRef>
+              <JourneyRef>ojp-92-1-F-j24-1-16-TA</JourneyRef>
+              <OperatingDayRef>2024-12-06</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Kein Niederflur</Text>
+                </UserText>
+                <Code>A__PH</Code>
+              </Attribute>
+              <OriginStopPointRef>8592530</OriginStopPointRef>
+              <DestinationStopPointRef>8592505</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Schaffhausen, Ebnat</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Neuhausen, Herbstäcker</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8503481</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Neuhausen, Kreuzstrasse</Text>
+                </StopPointName>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-12-06T04:45:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>bus</PtMode>
+                <siri:BusSubmode>localBus</siri:BusSubmode>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>10008</TrainNumber>
+              <siri:LineRef>ojp:92001:F</siri:LineRef>
+              <siri:OperatorRef>836</siri:OperatorRef>
+              <PublicCode>Bus</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">1</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+                <ProductCategoryRef>29</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ojp-92-1-F-j24-1-635-TA</JourneyRef>
+              <OperatingDayRef>2024-12-06</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Kein Niederflur</Text>
+                </UserText>
+                <Code>A__PH</Code>
+              </Attribute>
+              <OriginStopPointRef>8592505</OriginStopPointRef>
+              <DestinationStopPointRef>8592586</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Neuhausen, Herbstäcker</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Schaffhausen, Waldfriedhof</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8503481</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Neuhausen, Kreuzstrasse</Text>
+                </StopPointName>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-12-06T04:46:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>bus</PtMode>
+                <siri:BusSubmode>localBus</siri:BusSubmode>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>71004</TrainNumber>
+              <siri:LineRef>ojp:92007:D</siri:LineRef>
+              <siri:OperatorRef>836</siri:OperatorRef>
+              <PublicCode>Bus</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">7</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+                <ProductCategoryRef>29</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ojp-92-7-D-j24-1-481-TA</JourneyRef>
+              <OperatingDayRef>2024-12-06</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Kein Niederflur</Text>
+                </UserText>
+                <Code>A__PH</Code>
+              </Attribute>
+              <OriginStopPointRef>ch:1:sloid:78376:0:870606</OriginStopPointRef>
+              <DestinationStopPointRef>ch:1:sloid:3495:0:469739</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Neuhausen, Zentrum</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8503481</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Neuhausen, Kreuzstrasse</Text>
+                </StopPointName>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-12-06T04:47:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>bus</PtMode>
+                <siri:BusSubmode>localBus</siri:BusSubmode>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>10011</TrainNumber>
+              <siri:LineRef>ojp:92001:F</siri:LineRef>
+              <siri:OperatorRef>836</siri:OperatorRef>
+              <PublicCode>Bus</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">1</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+                <ProductCategoryRef>29</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>H</siri:DirectionRef>
+              <JourneyRef>ojp-92-1-F-j24-1-92-TA</JourneyRef>
+              <OperatingDayRef>2024-12-06</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Kein Niederflur</Text>
+                </UserText>
+                <Code>A__PH</Code>
+              </Attribute>
+              <OriginStopPointRef>8592586</OriginStopPointRef>
+              <DestinationStopPointRef>8592505</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Schaffhausen, Waldfriedhof</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Neuhausen, Herbstäcker</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+      </OJPStopEventDelivery>
+    </siri:ServiceDelivery>
+  </OJPResponse>
+</OJP>

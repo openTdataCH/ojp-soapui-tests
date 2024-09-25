@@ -1,0 +1,242 @@
+<OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
+  <OJPResponse>
+    <siri:ServiceDelivery>
+      <siri:ResponseTimestamp>2024-09-25T12:53:43.8552634+02:00</siri:ResponseTimestamp>
+      <siri:ProducerRef>MENTZ</siri:ProducerRef>
+      <OJPLocationInformationDelivery>
+        <siri:ResponseTimestamp>2024-09-25T12:53:43.85537+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>93a4421a-215c-4e7b-8914-ce3c657590d5</siri:RequestMessageRef>
+        <siri:DefaultLanguage>de</siri:DefaultLanguage>
+        <CalcTime>2</CalcTime>
+        <PlaceResult>
+          <Place>
+            <TopographicPlace>
+              <TopographicPlaceCode>23006351:1</TopographicPlaceCode>
+              <TopographicPlaceName>
+                <Text xml:lang="de">Bern</Text>
+              </TopographicPlaceName>
+            </TopographicPlace>
+            <Name>
+              <Text xml:lang="de">Bern</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>7.43005</siri:Longitude>
+              <siri:Latitude>46.94867</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.8</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <TopographicPlace>
+              <TopographicPlaceCode>23009607:1</TopographicPlaceCode>
+              <TopographicPlaceName>
+                <Text xml:lang="de">Bernex (CH)</Text>
+              </TopographicPlaceName>
+            </TopographicPlace>
+            <Name>
+              <Text xml:lang="de">Bernex (CH)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>6.07143</siri:Longitude>
+              <siri:Latitude>46.17643</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.782</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <TopographicPlace>
+              <TopographicPlaceCode>23016233:1</TopographicPlaceCode>
+              <TopographicPlaceName>
+                <Text xml:lang="de">Berneck (SG)</Text>
+              </TopographicPlaceName>
+            </TopographicPlace>
+            <Name>
+              <Text xml:lang="de">Berneck (SG)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>9.61382</siri:Longitude>
+              <siri:Latitude>47.42459</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.776</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <TopographicPlace>
+              <TopographicPlaceCode>46021039:2</TopographicPlaceCode>
+              <TopographicPlaceName>
+                <Text xml:lang="de">Berndorf (Bruck/Mur)</Text>
+              </TopographicPlaceName>
+            </TopographicPlace>
+            <Name>
+              <Text xml:lang="de">Berndorf (Bruck/Mur)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>15.27131</siri:Longitude>
+              <siri:Latitude>47.42428</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.771</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <TopographicPlace>
+              <TopographicPlaceCode>8136088:7</TopographicPlaceCode>
+              <TopographicPlaceName>
+                <Text xml:lang="de">Bernlohe (Aalen)</Text>
+              </TopographicPlaceName>
+            </TopographicPlace>
+            <Name>
+              <Text xml:lang="de">Bernlohe (Aalen)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>10.16667</siri:Longitude>
+              <siri:Latitude>48.85</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.771</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <TopographicPlace>
+              <TopographicPlaceCode>8437100:2</TopographicPlaceCode>
+              <TopographicPlaceName>
+                <Text xml:lang="de">Bernhausen (Saulgau)</Text>
+              </TopographicPlaceName>
+            </TopographicPlace>
+            <Name>
+              <Text xml:lang="de">Bernhausen (Saulgau)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>9.51666</siri:Longitude>
+              <siri:Latitude>48.03333</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.763</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <TopographicPlace>
+              <TopographicPlaceCode>23016444:1</TopographicPlaceCode>
+              <TopographicPlaceName>
+                <Text xml:lang="de">Bernhardzell</Text>
+              </TopographicPlaceName>
+            </TopographicPlace>
+            <Name>
+              <Text xml:lang="de">Bernhardzell</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>9.34329</siri:Longitude>
+              <siri:Latitude>47.46866</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.757</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <TopographicPlace>
+              <TopographicPlaceCode>8136088:6</TopographicPlaceCode>
+              <TopographicPlaceName>
+                <Text xml:lang="de">Bernhardsdorf</Text>
+              </TopographicPlaceName>
+            </TopographicPlace>
+            <Name>
+              <Text xml:lang="de">Bernhardsdorf</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>10</siri:Longitude>
+              <siri:Latitude>48.86667</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.755</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <TopographicPlace>
+              <TopographicPlaceCode>23006356:3</TopographicPlaceCode>
+              <TopographicPlaceName>
+                <Text xml:lang="de">Muri b. Bern</Text>
+              </TopographicPlaceName>
+            </TopographicPlace>
+            <Name>
+              <Text xml:lang="de">Muri b. Bern</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>7.49207</siri:Longitude>
+              <siri:Latitude>46.92987</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.76</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <TopographicPlace>
+              <TopographicPlaceCode>23006360:16</TopographicPlaceCode>
+              <TopographicPlaceName>
+                <Text xml:lang="de">Wohlen b. Bern</Text>
+              </TopographicPlaceName>
+            </TopographicPlace>
+            <Name>
+              <Text xml:lang="de">Wohlen b. Bern</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>7.35704</siri:Longitude>
+              <siri:Latitude>46.97585</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.755</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <TopographicPlace>
+              <TopographicPlaceCode>23011822:5</TopographicPlaceCode>
+              <TopographicPlaceName>
+                <Text xml:lang="de">S. Bernardino</Text>
+              </TopographicPlaceName>
+            </TopographicPlace>
+            <Name>
+              <Text xml:lang="de">S. Bernardino</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>9.17989</siri:Longitude>
+              <siri:Latitude>46.47642</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.753</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <TopographicPlace>
+              <TopographicPlaceCode>23006355:19</TopographicPlaceCode>
+              <TopographicPlaceName>
+                <Text xml:lang="de">Spiegel b. Bern</Text>
+              </TopographicPlaceName>
+            </TopographicPlace>
+            <Name>
+              <Text xml:lang="de">Spiegel b. Bern</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>7.43536</siri:Longitude>
+              <siri:Latitude>46.9254</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.753</Probability>
+        </PlaceResult>
+      </OJPLocationInformationDelivery>
+    </siri:ServiceDelivery>
+  </OJPResponse>
+</OJP>

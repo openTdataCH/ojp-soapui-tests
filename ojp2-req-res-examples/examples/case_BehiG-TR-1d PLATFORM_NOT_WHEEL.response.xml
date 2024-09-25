@@ -1,0 +1,341 @@
+<OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
+  <OJPResponse>
+    <siri:ServiceDelivery>
+      <siri:ResponseTimestamp>2024-09-25T12:53:35.3327487+02:00</siri:ResponseTimestamp>
+      <siri:ProducerRef>MENTZ</siri:ProducerRef>
+      <OJPTripDelivery>
+        <siri:ResponseTimestamp>2024-09-25T12:53:35.3327505+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>94e10da7-9273-4146-83b7-e21200cab206</siri:RequestMessageRef>
+        <siri:DefaultLanguage>de</siri:DefaultLanguage>
+        <CalcTime>36</CalcTime>
+        <TripResponseContext>
+          <Places>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8502512</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Tägerwilen, Ernst-Kreidolfstr.</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>107967</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23021696:1</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Tägerwilen, Ernst-Kreidolfstr.</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>9.12892</siri:Longitude>
+                <siri:Latitude>47.65504</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPoint>
+                <siri:StopPointRef>8502512</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Tägerwilen, Ernst-Kreidolfstr.</Text>
+                </StopPointName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>107967</Value>
+                </PrivateCode>
+                <ParentRef>8502512</ParentRef>
+                <TopographicPlaceRef>23021696:1</TopographicPlaceRef>
+              </StopPoint>
+              <Name>
+                <Text xml:lang="de">Ernst-Kreidolfstr.</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>9.12892</siri:Longitude>
+                <siri:Latitude>47.65504</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <TopographicPlace>
+                <TopographicPlaceCode>23021696:1</TopographicPlaceCode>
+                <TopographicPlaceName>
+                  <Text xml:lang="de">Tägerwilen</Text>
+                </TopographicPlaceName>
+              </TopographicPlace>
+              <Name>
+                <Text xml:lang="de">Ernst-Kreidolfstr.</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>9.12892</siri:Longitude>
+                <siri:Latitude>47.65504</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8573378</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Tägerwilen, Kirche</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>116361</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23021696:1</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Tägerwilen, Kirche</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>9.13512</siri:Longitude>
+                <siri:Latitude>47.65474</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPoint>
+                <siri:StopPointRef>8573378</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Tägerwilen, Kirche</Text>
+                </StopPointName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>116361</Value>
+                </PrivateCode>
+                <ParentRef>8573378</ParentRef>
+                <TopographicPlaceRef>23021696:1</TopographicPlaceRef>
+              </StopPoint>
+              <Name>
+                <Text xml:lang="de">Kirche</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>9.13512</siri:Longitude>
+                <siri:Latitude>47.65474</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8573379</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Tägerwilen, Hertler</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>116362</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23021696:1</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Tägerwilen, Hertler</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>9.12772</siri:Longitude>
+                <siri:Latitude>47.65735</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPoint>
+                <siri:StopPointRef>8573379</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Tägerwilen, Hertler</Text>
+                </StopPointName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>116362</Value>
+                </PrivateCode>
+                <ParentRef>8573379</ParentRef>
+                <TopographicPlaceRef>23021696:1</TopographicPlaceRef>
+              </StopPoint>
+              <Name>
+                <Text xml:lang="de">Hertler</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>9.12772</siri:Longitude>
+                <siri:Latitude>47.65735</siri:Latitude>
+              </GeoPosition>
+            </Place>
+          </Places>
+          <Situations/>
+        </TripResponseContext>
+        <TripResult>
+          <Id>ID-19A8D87C-D09E-4EF7-B0F6-FA316FADA835</Id>
+          <Trip>
+            <Id>ID-19A8D87C-D09E-4EF7-B0F6-FA316FADA835</Id>
+            <Duration>PT26M</Duration>
+            <StartTime>2024-12-06T04:59:00Z</StartTime>
+            <EndTime>2024-12-06T05:25:00Z</EndTime>
+            <Transfers>1</Transfers>
+            <Leg>
+              <Id>1</Id>
+              <Duration>PT2M</Duration>
+              <TimedLeg>
+                <LegBoard>
+                  <siri:StopPointRef>8502512</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Tägerwilen, Ernst-Kreidolfstr.</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">PLATFORM_NOT_WHEELCHAIR_ACCESSIBLE</Text>
+                  </NameSuffix>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T04:59:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>1</Order>
+                </LegBoard>
+                <LegAlight>
+                  <siri:StopPointRef>8573378</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Tägerwilen, Kirche</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">PLATFORM_NOT_WHEELCHAIR_ACCESSIBLE</Text>
+                  </NameSuffix>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T05:01:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <Order>4</Order>
+                </LegAlight>
+                <Service>
+                  <Mode>
+                    <PtMode>bus</PtMode>
+                    <siri:BusSubmode>localBus</siri:BusSubmode>
+                    <Name>
+                      <Text xml:lang="de">Bus</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">B</Text>
+                    </ShortName>
+                  </Mode>
+                  <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+                  <TrainNumber>7002</TrainNumber>
+                  <siri:LineRef>ojp:92907:_x0020_</siri:LineRef>
+                  <siri:OperatorRef>727</siri:OperatorRef>
+                  <PublicCode>Bus</PublicCode>
+                  <PublishedServiceName>
+                    <Text xml:lang="de">907</Text>
+                  </PublishedServiceName>
+                  <ProductCategory>
+                    <Name>
+                      <Text xml:lang="de">Bus</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">B</Text>
+                    </ShortName>
+                    <ProductCategoryRef>29</ProductCategoryRef>
+                  </ProductCategory>
+                  <siri:DirectionRef>H</siri:DirectionRef>
+                  <OperatingDayRef>2024-12-06</OperatingDayRef>
+                  <DestinationStopPointRef>8573376</DestinationStopPointRef>
+                  <OriginText>
+                    <Text xml:lang="de">n/a</Text>
+                  </OriginText>
+                  <DestinationText>
+                    <Text xml:lang="de">Kreuzlingen, Bahnhof</Text>
+                  </DestinationText>
+                  <JourneyRef>ojp-92-907-_-j24-1-10-TA</JourneyRef>
+                  <Attribute>
+                    <UserText>
+                      <Text xml:lang="de">Kein Niederflur</Text>
+                    </UserText>
+                    <Code>A__PH</Code>
+                  </Attribute>
+                </Service>
+              </TimedLeg>
+            </Leg>
+            <Leg>
+              <Id>2</Id>
+              <Duration>PT2M</Duration>
+              <TransferLeg>
+                <TransferType>walk</TransferType>
+                <LegStart>
+                  <siri:StopPointRef>8573378</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Tägerwilen, Kirche</Text>
+                  </Name>
+                </LegStart>
+                <LegEnd>
+                  <siri:StopPointRef>8573378</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Tägerwilen, Kirche</Text>
+                  </Name>
+                </LegEnd>
+                <Duration>PT2M</Duration>
+              </TransferLeg>
+            </Leg>
+            <Leg>
+              <Id>3</Id>
+              <Duration>PT1M</Duration>
+              <TimedLeg>
+                <LegBoard>
+                  <siri:StopPointRef>8573378</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Tägerwilen, Kirche</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">PLATFORM_ACCESS_WITHOUT_ASSISTANCE</Text>
+                  </NameSuffix>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-06T05:24:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>1</Order>
+                </LegBoard>
+                <LegAlight>
+                  <siri:StopPointRef>8573379</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Tägerwilen, Hertler</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">ALTERNATIVE_TRANSPORT</Text>
+                  </NameSuffix>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-06T05:25:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <Order>2</Order>
+                </LegAlight>
+                <Service>
+                  <Mode>
+                    <PtMode>bus</PtMode>
+                    <siri:BusSubmode>localBus</siri:BusSubmode>
+                    <Name>
+                      <Text xml:lang="de">Bus</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">B</Text>
+                    </ShortName>
+                  </Mode>
+                  <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+                  <TrainNumber>92005</TrainNumber>
+                  <siri:LineRef>ojp:96203:1</siri:LineRef>
+                  <siri:OperatorRef>801</siri:OperatorRef>
+                  <PublicCode>Bus</PublicCode>
+                  <PublishedServiceName>
+                    <Text xml:lang="de">920</Text>
+                  </PublishedServiceName>
+                  <ProductCategory>
+                    <Name>
+                      <Text xml:lang="de">Bus</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">B</Text>
+                    </ShortName>
+                    <ProductCategoryRef>29</ProductCategoryRef>
+                  </ProductCategory>
+                  <siri:DirectionRef>H</siri:DirectionRef>
+                  <OperatingDayRef>2024-12-06</OperatingDayRef>
+                  <DestinationStopPointRef>8573375</DestinationStopPointRef>
+                  <OriginText>
+                    <Text xml:lang="de">n/a</Text>
+                  </OriginText>
+                  <DestinationText>
+                    <Text xml:lang="de">Frauenfeld, Bahnhof</Text>
+                  </DestinationText>
+                  <JourneyRef>ojp-96-203-1-j24-1-25-TA</JourneyRef>
+                  <Attribute>
+                    <UserText>
+                      <Text xml:lang="de">Niederflureinstieg</Text>
+                    </UserText>
+                    <Code>A__NF</Code>
+                  </Attribute>
+                </Service>
+              </TimedLeg>
+            </Leg>
+          </Trip>
+        </TripResult>
+      </OJPTripDelivery>
+    </siri:ServiceDelivery>
+  </OJPResponse>
+</OJP>

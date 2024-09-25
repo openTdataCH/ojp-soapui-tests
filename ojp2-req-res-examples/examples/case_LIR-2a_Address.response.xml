@@ -1,0 +1,62 @@
+<OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
+  <OJPResponse>
+    <siri:ServiceDelivery>
+      <siri:ResponseTimestamp>2024-09-25T12:54:20.8644531+02:00</siri:ResponseTimestamp>
+      <siri:ProducerRef>MENTZ</siri:ProducerRef>
+      <OJPLocationInformationDelivery>
+        <siri:ResponseTimestamp>2024-09-25T12:54:20.8645059+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>638de6b6-b68e-4b07-84c8-edd09f15c0f8</siri:RequestMessageRef>
+        <siri:DefaultLanguage>de</siri:DefaultLanguage>
+        <CalcTime>185</CalcTime>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000012:12:23001045:-1:Staffelstrasse:Wettingen:Staffelstrasse::Staffelstrasse:5430:ANY:DIVA_SINGLEHOUSE:926113:5981857:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Wettingen, Staffelstrasse 12</Text>
+              </Name>
+              <PostCode>5430</PostCode>
+              <TopographicPlaceName>Wettingen</TopographicPlaceName>
+              <TopographicPlaceRef>23001045:-1</TopographicPlaceRef>
+              <Street>Staffelstrasse</Street>
+              <HouseNumber>12</HouseNumber>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Staffelstrasse 12 (Wettingen)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.31941</siri:Longitude>
+              <siri:Latitude>47.464</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.8</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000496:12:23026261:-1:Staffelstrasse:Zürich:Staffelstrasse::Staffelstrasse:8045:ANY:DIVA_SINGLEHOUSE:948494:5998818:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Zürich, Staffelstrasse 12</Text>
+              </Name>
+              <PostCode>8045</PostCode>
+              <TopographicPlaceName>Zürich</TopographicPlaceName>
+              <TopographicPlaceRef>23026261:-1</TopographicPlaceRef>
+              <Street>Staffelstrasse</Street>
+              <HouseNumber>12</HouseNumber>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Staffelstrasse 12 (Zürich)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.52047</siri:Longitude>
+              <siri:Latitude>47.3609</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.8</Probability>
+        </PlaceResult>
+      </OJPLocationInformationDelivery>
+    </siri:ServiceDelivery>
+  </OJPResponse>
+</OJP>

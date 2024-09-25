@@ -1,0 +1,49 @@
+<OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
+  <OJPResponse>
+    <siri:ServiceDelivery>
+      <siri:ResponseTimestamp>2024-09-25T12:53:50.1935779+02:00</siri:ResponseTimestamp>
+      <siri:ProducerRef>MENTZ</siri:ProducerRef>
+      <OJPLocationInformationDelivery>
+        <siri:ResponseTimestamp>2024-09-25T12:53:50.1936216+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>d4e0fc47-dcda-429d-abc1-9091c22c8f83</siri:RequestMessageRef>
+        <siri:DefaultLanguage>de</siri:DefaultLanguage>
+        <CalcTime>1</CalcTime>
+        <PlaceResult>
+          <Place>
+            <StopPlace>
+              <StopPlaceRef>8530813</StopPlaceRef>
+              <StopPlaceName>
+                <Text xml:lang="de">Zürich, Kreuzplatz</Text>
+              </StopPlaceName>
+              <PrivateCode>
+                <System>EFA</System>
+                <Value>113258</Value>
+              </PrivateCode>
+              <TopographicPlaceRef>23026261:27</TopographicPlaceRef>
+            </StopPlace>
+            <Name>
+              <Text xml:lang="de">Zürich</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.55408</siri:Longitude>
+              <siri:Latitude>47.36488</siri:Latitude>
+            </GeoPosition>
+            <Mode>
+              <PtMode>rail</PtMode>
+            </Mode>
+            <Mode>
+              <PtMode>tram</PtMode>
+              <siri:TramSubmode>cityTram</siri:TramSubmode>
+            </Mode>
+            <Mode>
+              <PtMode>bus</PtMode>
+              <siri:BusSubmode>localBus</siri:BusSubmode>
+            </Mode>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>1</Probability>
+        </PlaceResult>
+      </OJPLocationInformationDelivery>
+    </siri:ServiceDelivery>
+  </OJPResponse>
+</OJP>

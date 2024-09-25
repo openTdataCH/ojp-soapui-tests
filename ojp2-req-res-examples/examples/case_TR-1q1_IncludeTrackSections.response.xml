@@ -1,0 +1,294 @@
+<OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
+  <OJPResponse>
+    <siri:ServiceDelivery>
+      <siri:ResponseTimestamp>2024-09-25T12:56:52.8502943+02:00</siri:ResponseTimestamp>
+      <siri:ProducerRef>MENTZ</siri:ProducerRef>
+      <OJPTripDelivery>
+        <siri:ResponseTimestamp>2024-09-25T12:56:52.850297+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>d9402695-83ad-4ada-919a-9e401602e948</siri:RequestMessageRef>
+        <siri:DefaultLanguage>de</siri:DefaultLanguage>
+        <CalcTime>84</CalcTime>
+        <TripResponseContext>
+          <Places>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8503000</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Zürich HB</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108276</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23026261:27</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Zürich HB</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.54021</siri:Longitude>
+                <siri:Latitude>47.37818</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPoint>
+                <siri:StopPointRef>8503000</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Zürich HB</Text>
+                </StopPointName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108276</Value>
+                </PrivateCode>
+                <ParentRef>8503000</ParentRef>
+                <TopographicPlaceRef>23026261:27</TopographicPlaceRef>
+              </StopPoint>
+              <Name>
+                <Text xml:lang="de">Zürich HB</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.54021</siri:Longitude>
+                <siri:Latitude>47.37818</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <TopographicPlace>
+                <TopographicPlaceCode>23026261:27</TopographicPlaceCode>
+                <TopographicPlaceName>
+                  <Text xml:lang="de">Zürich</Text>
+                </TopographicPlaceName>
+              </TopographicPlace>
+              <Name>
+                <Text xml:lang="de">Zürich HB</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.54021</siri:Longitude>
+                <siri:Latitude>47.37818</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8503088</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Zürich HB SZU</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108326:0:21</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23026261:27</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Zürich HB SZU</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.5395</siri:Longitude>
+                <siri:Latitude>47.37728</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPoint>
+                <siri:StopPointRef>ch:1:sloid:3088:0:99992</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Zürich HB SZU</Text>
+                </StopPointName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108326:0:21</Value>
+                </PrivateCode>
+                <ParentRef>8503088</ParentRef>
+                <TopographicPlaceRef>23026261:27</TopographicPlaceRef>
+              </StopPoint>
+              <Name>
+                <Text xml:lang="de">Zürich HB SZU</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.5395</siri:Longitude>
+                <siri:Latitude>47.37728</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8503091</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Zürich Giesshübel</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108329:0:1</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23026261:27</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Zürich Giesshübel</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.52202</siri:Longitude>
+                <siri:Latitude>47.36261</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPoint>
+                <siri:StopPointRef>ch:1:sloid:3091:0:185066</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Zürich Giesshübel</Text>
+                </StopPointName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>108329:0:1</Value>
+                </PrivateCode>
+                <ParentRef>8503091</ParentRef>
+                <TopographicPlaceRef>23026261:27</TopographicPlaceRef>
+              </StopPoint>
+              <Name>
+                <Text xml:lang="de">Zürich Giesshübel</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>8.52202</siri:Longitude>
+                <siri:Latitude>47.36261</siri:Latitude>
+              </GeoPosition>
+            </Place>
+          </Places>
+          <Situations/>
+        </TripResponseContext>
+        <TripResult>
+          <Id>ID-029F8054-816E-4CE4-8B23-B580BD6B12E0</Id>
+          <Trip>
+            <Id>ID-029F8054-816E-4CE4-8B23-B580BD6B12E0</Id>
+            <Duration>PT10M</Duration>
+            <StartTime>2024-12-05T23:11:00Z</StartTime>
+            <EndTime>2024-12-05T23:21:00Z</EndTime>
+            <Transfers>0</Transfers>
+            <Leg>
+              <Id>1</Id>
+              <Duration>PT7M</Duration>
+              <TransferLeg>
+                <TransferType>walk</TransferType>
+                <LegStart>
+                  <siri:StopPointRef>8503000</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Zürich HB</Text>
+                  </Name>
+                </LegStart>
+                <LegEnd>
+                  <siri:StopPointRef>8503088</siri:StopPointRef>
+                  <Name>
+                    <Text xml:lang="de">Zürich HB SZU</Text>
+                  </Name>
+                </LegEnd>
+                <Duration>PT7M</Duration>
+              </TransferLeg>
+            </Leg>
+            <Leg>
+              <Id>2</Id>
+              <Duration>PT3M</Duration>
+              <TimedLeg>
+                <LegBoard>
+                  <siri:StopPointRef>ch:1:sloid:3088:0:99992</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Zürich HB SZU</Text>
+                  </StopPointName>
+                  <PlannedQuay>
+                    <Text xml:lang="de">21</Text>
+                  </PlannedQuay>
+                  <NameSuffix>
+                    <Text xml:lang="de">PLATFORM_ACCESS_WITHOUT_ASSISTANCE</Text>
+                  </NameSuffix>
+                  <ServiceDeparture>
+                    <TimetabledTime>2024-12-05T23:18:00Z</TimetabledTime>
+                  </ServiceDeparture>
+                  <Order>1</Order>
+                </LegBoard>
+                <LegAlight>
+                  <siri:StopPointRef>ch:1:sloid:3091:0:185066</siri:StopPointRef>
+                  <StopPointName>
+                    <Text xml:lang="de">Zürich Giesshübel</Text>
+                  </StopPointName>
+                  <NameSuffix>
+                    <Text xml:lang="de">PLATFORM_ACCESS_WITHOUT_ASSISTANCE</Text>
+                  </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">1</Text>
+                  </PlannedQuay>
+                  <ServiceArrival>
+                    <TimetabledTime>2024-12-05T23:21:00Z</TimetabledTime>
+                  </ServiceArrival>
+                  <Order>3</Order>
+                </LegAlight>
+                <Service>
+                  <Mode>
+                    <PtMode>rail</PtMode>
+                    <siri:RailSubmode>regionalRail</siri:RailSubmode>
+                    <Name>
+                      <Text xml:lang="de">Zug</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">S</Text>
+                    </ShortName>
+                  </Mode>
+                  <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+                  <TrainNumber>12667</TrainNumber>
+                  <siri:LineRef>ojp:91004:A</siri:LineRef>
+                  <siri:OperatorRef>78</siri:OperatorRef>
+                  <PublicCode>Sihltalbahn</PublicCode>
+                  <PublishedServiceName>
+                    <Text xml:lang="de">S4</Text>
+                  </PublishedServiceName>
+                  <ProductCategory>
+                    <Name>
+                      <Text xml:lang="de">Zug</Text>
+                    </Name>
+                    <ShortName>
+                      <Text xml:lang="de">S</Text>
+                    </ShortName>
+                    <ProductCategoryRef>27</ProductCategoryRef>
+                  </ProductCategory>
+                  <siri:DirectionRef>R</siri:DirectionRef>
+                  <OperatingDayRef>2024-12-05</OperatingDayRef>
+                  <DestinationStopPointRef>8503097</DestinationStopPointRef>
+                  <OriginText>
+                    <Text xml:lang="de">n/a</Text>
+                  </OriginText>
+                  <DestinationText>
+                    <Text xml:lang="de">Langnau-Gattikon</Text>
+                  </DestinationText>
+                  <JourneyRef>ch:1:sjyid:100058:12667-001</JourneyRef>
+                  <Attribute>
+                    <UserText>
+                      <Text xml:lang="de">Nur 2. Klasse</Text>
+                    </UserText>
+                    <Code>A___2</Code>
+                  </Attribute>
+                  <Attribute>
+                    <UserText>
+                      <Text xml:lang="de">Niederflureinstieg</Text>
+                    </UserText>
+                    <Code>A__NF</Code>
+                  </Attribute>
+                </Service>
+                <LegTrack>
+                  <TrackSection>
+                    <TrackSectionStart>
+                      <siri:StopPointRef>8503088</siri:StopPointRef>
+                      <Name>
+                        <Text xml:lang="de">Zürich HB SZU</Text>
+                      </Name>
+                    </TrackSectionStart>
+                    <TrackSectionEnd>
+                      <siri:StopPointRef>8503091</siri:StopPointRef>
+                      <Name>
+                        <Text xml:lang="de">Zürich Giesshübel</Text>
+                      </Name>
+                    </TrackSectionEnd>
+                    <Duration>PT3M</Duration>
+                    <Length>0</Length>
+                  </TrackSection>
+                </LegTrack>
+              </TimedLeg>
+            </Leg>
+          </Trip>
+        </TripResult>
+      </OJPTripDelivery>
+    </siri:ServiceDelivery>
+  </OJPResponse>
+</OJP>

@@ -1,0 +1,489 @@
+<OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
+  <OJPResponse>
+    <siri:ServiceDelivery>
+      <siri:ResponseTimestamp>2024-09-25T12:55:28.0810271+02:00</siri:ResponseTimestamp>
+      <siri:ProducerRef>MENTZ</siri:ProducerRef>
+      <OJPStopEventDelivery>
+        <siri:ResponseTimestamp>2024-09-25T12:55:28.0810279+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>758ad4f7-c962-4ba2-8542-862c71873a8b</siri:RequestMessageRef>
+        <siri:DefaultLanguage>de</siri:DefaultLanguage>
+        <CalcTime>8</CalcTime>
+        <StopEventResponseContext>
+          <Places>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8507786</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Goppenstein, Bahnhof</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>111554</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23024195:2</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Goppenstein, Bahnhof</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>7.75537</siri:Longitude>
+                <siri:Latitude>46.36807</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPoint>
+                <siri:StopPointRef>8507786</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Goppenstein, Bahnhof</Text>
+                </StopPointName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>111554</Value>
+                </PrivateCode>
+                <ParentRef>8507786</ParentRef>
+                <TopographicPlaceRef>23024195:2</TopographicPlaceRef>
+              </StopPoint>
+              <Name>
+                <Text xml:lang="de">Goppenstein, Bahnhof</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>7.75537</siri:Longitude>
+                <siri:Latitude>46.36807</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <TopographicPlace>
+                <TopographicPlaceCode>23024195:2</TopographicPlaceCode>
+                <TopographicPlaceName>
+                  <Text xml:lang="de">Goppenstein</Text>
+                </TopographicPlaceName>
+              </TopographicPlace>
+              <Name>
+                <Text xml:lang="de">Goppenstein</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>7.75537</siri:Longitude>
+                <siri:Latitude>46.36807</siri:Latitude>
+              </GeoPosition>
+            </Place>
+          </Places>
+        </StopEventResponseContext>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8507786</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Goppenstein, Bahnhof</Text>
+                </StopPointName>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-12-06T04:42:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>bus</PtMode>
+                <siri:BusSubmode>localBus</siri:BusSubmode>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>559102</TrainNumber>
+              <siri:LineRef>ojp:96601:_x0020_</siri:LineRef>
+              <siri:OperatorRef>801</siri:OperatorRef>
+              <PublicCode>Bus</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">591</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+                <ProductCategoryRef>29</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ojp-96-601-_-j24-1-105-TA</JourneyRef>
+              <OperatingDayRef>2024-12-06</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Reservierung obligatorisch</Text>
+                </UserText>
+                <Code>A__VR</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Alle Kurse von Mai bis Oktober, Anmeldung obligatorisch bis 16 Uhr am Vortag (für's Wochenende bis Freitag, 16 Uhr): www.resabike.ch</Text>
+                </UserText>
+                <Code>I_13w</Code>
+              </Attribute>
+              <OriginStopPointRef>8507753</OriginStopPointRef>
+              <DestinationStopPointRef>8571128</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Blatten (Lötschen), Dorf</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Gampel-Steg, Bahnhof</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8507786</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Goppenstein, Bahnhof</Text>
+                </StopPointName>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-12-06T05:24:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>bus</PtMode>
+                <siri:BusSubmode>localBus</siri:BusSubmode>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>559101</TrainNumber>
+              <siri:LineRef>ojp:96601:_x0020_</siri:LineRef>
+              <siri:OperatorRef>801</siri:OperatorRef>
+              <PublicCode>Bus</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">591</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+                <ProductCategoryRef>29</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>H</siri:DirectionRef>
+              <JourneyRef>ojp-96-601-_-j24-1-46-TA</JourneyRef>
+              <OperatingDayRef>2024-12-06</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Reservierung obligatorisch</Text>
+                </UserText>
+                <Code>A__VR</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Alle Kurse von Mai bis Oktober, Anmeldung obligatorisch bis 16 Uhr am Vortag (für's Wochenende bis Freitag, 16 Uhr): www.resabike.ch</Text>
+                </UserText>
+                <Code>I_13w</Code>
+              </Attribute>
+              <OriginStopPointRef>8571128</OriginStopPointRef>
+              <DestinationStopPointRef>8507753</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Gampel-Steg, Bahnhof</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Blatten (Lötschen), Dorf</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8507786</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Goppenstein, Bahnhof</Text>
+                </StopPointName>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-12-06T05:52:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>bus</PtMode>
+                <siri:BusSubmode>localBus</siri:BusSubmode>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>559106</TrainNumber>
+              <siri:LineRef>ojp:96601:_x0020_</siri:LineRef>
+              <siri:OperatorRef>801</siri:OperatorRef>
+              <PublicCode>Bus</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">591</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+                <ProductCategoryRef>29</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ojp-96-601-_-j24-1-101-TA</JourneyRef>
+              <OperatingDayRef>2024-12-06</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Reservierung obligatorisch</Text>
+                </UserText>
+                <Code>A__VR</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Alle Kurse von Mai bis Oktober, Anmeldung obligatorisch bis 16 Uhr am Vortag (für's Wochenende bis Freitag, 16 Uhr): www.resabike.ch</Text>
+                </UserText>
+                <Code>I_13w</Code>
+              </Attribute>
+              <OriginStopPointRef>8507753</OriginStopPointRef>
+              <DestinationStopPointRef>8571128</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Blatten (Lötschen), Dorf</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Gampel-Steg, Bahnhof</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8507786</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Goppenstein, Bahnhof</Text>
+                </StopPointName>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-12-06T06:03:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>bus</PtMode>
+                <siri:BusSubmode>localBus</siri:BusSubmode>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>559103</TrainNumber>
+              <siri:LineRef>ojp:96601:_x0020_</siri:LineRef>
+              <siri:OperatorRef>801</siri:OperatorRef>
+              <PublicCode>Bus</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">591</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+                <ProductCategoryRef>29</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>H</siri:DirectionRef>
+              <JourneyRef>ojp-96-601-_-j24-1-33-TA</JourneyRef>
+              <OperatingDayRef>2024-12-06</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Reservierung obligatorisch</Text>
+                </UserText>
+                <Code>A__VR</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Alle Kurse von Mai bis Oktober, Anmeldung obligatorisch bis 16 Uhr am Vortag (für's Wochenende bis Freitag, 16 Uhr): www.resabike.ch</Text>
+                </UserText>
+                <Code>I_13w</Code>
+              </Attribute>
+              <OriginStopPointRef>8507786</OriginStopPointRef>
+              <DestinationStopPointRef>8507753</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Goppenstein, Bahnhof</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Blatten (Lötschen), Dorf</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111111111111111111111111111111111111111111111000000000000000000000000000000000000000000</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8507786</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Goppenstein, Bahnhof</Text>
+                </StopPointName>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-12-06T06:16:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>bus</PtMode>
+                <siri:BusSubmode>localBus</siri:BusSubmode>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>559112</TrainNumber>
+              <siri:LineRef>ojp:96601:_x0020_</siri:LineRef>
+              <siri:OperatorRef>801</siri:OperatorRef>
+              <PublicCode>Bus</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">591</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Bus</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">B</Text>
+                </ShortName>
+                <ProductCategoryRef>29</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ojp-96-601-_-j24-1-100-TA</JourneyRef>
+              <OperatingDayRef>2024-12-06</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Reservierung obligatorisch</Text>
+                </UserText>
+                <Code>A__VR</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Alle Kurse von Mai bis Oktober, Anmeldung obligatorisch bis 16 Uhr am Vortag (für's Wochenende bis Freitag, 16 Uhr): www.resabike.ch</Text>
+                </UserText>
+                <Code>I_13w</Code>
+              </Attribute>
+              <OriginStopPointRef>8507753</OriginStopPointRef>
+              <DestinationStopPointRef>8571128</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Blatten (Lötschen), Dorf</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Gampel-Steg, Bahnhof</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+      </OJPStopEventDelivery>
+    </siri:ServiceDelivery>
+  </OJPResponse>
+</OJP>

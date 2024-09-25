@@ -1,0 +1,267 @@
+<OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
+  <OJPResponse>
+    <siri:ServiceDelivery>
+      <siri:ResponseTimestamp>2024-09-25T12:54:09.7299631+02:00</siri:ResponseTimestamp>
+      <siri:ProducerRef>MENTZ</siri:ProducerRef>
+      <OJPLocationInformationDelivery>
+        <siri:ResponseTimestamp>2024-09-25T12:54:09.7301021+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>3b5ad723-99e5-4e4c-bd55-36ee8ea68ddd</siri:RequestMessageRef>
+        <siri:DefaultLanguage>de</siri:DefaultLanguage>
+        <CalcTime>12</CalcTime>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000053::23001038:-1:Xanderweg:Obersiggenthal:Xanderweg::Xanderweg: 5415:ANY:DIVA_STREET:922759:5978124:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Obersiggenthal, Xanderweg</Text>
+              </Name>
+              <PostCode> 5415</PostCode>
+              <TopographicPlaceName>Obersiggenthal</TopographicPlaceName>
+              <TopographicPlaceRef>23001038:-1</TopographicPlaceRef>
+              <Street>Xanderweg</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Xanderweg (Obersiggenthal)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.28929</siri:Longitude>
+              <siri:Latitude>47.48667</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.747</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000081::23012010:-1:Xanderheim:Escholzmatt-Marbach:Xanderheim::Xanderheim: 6182:ANY:DIVA_STREET:887403:6069504:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Escholzmatt-Marbach, Xanderheim</Text>
+              </Name>
+              <PostCode> 6182</PostCode>
+              <TopographicPlaceName>Escholzmatt-Marbach</TopographicPlaceName>
+              <TopographicPlaceRef>23012010:-1</TopographicPlaceRef>
+              <Street>Xanderheim</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Xanderheim (Escholzmatt-Marbach)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>7.97168</siri:Longitude>
+              <siri:Latitude>46.92902</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.744</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000238::23016275:-1:Xanderguet:Buchs SG:Xanderguet::Xanderguet: 9470:ANY:DIVA_STREET:1051927:6033263:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Buchs SG, Xanderguet</Text>
+              </Name>
+              <PostCode> 9470</PostCode>
+              <TopographicPlaceName>Buchs SG</TopographicPlaceName>
+              <TopographicPlaceRef>23016275:-1</TopographicPlaceRef>
+              <Street>Xanderguet</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Xanderguet (Buchs SG)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>9.44962</siri:Longitude>
+              <siri:Latitude>47.15088</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.744</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000079::23018371:-1:Xandersstafel:Sattel (CH):Xandersstafel::Xandersstafel: 6417:ANY:DIVA_STREET:958396:6043683:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Sattel (CH), Xandersstafel</Text>
+              </Name>
+              <PostCode> 6417</PostCode>
+              <TopographicPlaceName>Sattel (CH)</TopographicPlaceName>
+              <TopographicPlaceRef>23018371:-1</TopographicPlaceRef>
+              <Street>Xandersstafel</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Xandersstafel (Sattel (CH))</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.60942</siri:Longitude>
+              <siri:Latitude>47.08719</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.74</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000219::23012024:-1:Xaver Brun-Weg:Emmen (CH):Xaver Brun-Weg::Xaver Brun-Weg: 6032:ANY:DIVA_STREET:922653:6045365:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Emmen (CH), Xaver Brun-Weg</Text>
+              </Name>
+              <PostCode> 6032</PostCode>
+              <TopographicPlaceName>Emmen (CH)</TopographicPlaceName>
+              <TopographicPlaceRef>23012024:-1</TopographicPlaceRef>
+              <Street>Xaver Brun-Weg</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Xaver Brun-Weg (Emmen (CH))</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.28833</siri:Longitude>
+              <siri:Latitude>47.0769</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.736</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000025::23012023:-1:Xaver-Herzogweg:Ballwil:Xaver-Herzogweg::Xaver-Herzogweg: 6275:ANY:DIVA_STREET:926379:6033010:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Ballwil, Xaver-Herzogweg</Text>
+              </Name>
+              <PostCode> 6275</PostCode>
+              <TopographicPlaceName>Ballwil</TopographicPlaceName>
+              <TopographicPlaceRef>23012023:-1</TopographicPlaceRef>
+              <Street>Xaver-Herzogweg</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Xaver-Herzogweg (Ballwil)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.3218</siri:Longitude>
+              <siri:Latitude>47.15243</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.736</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000042::23012031:-1:Xaver-Künzliweg:Hochdorf (CH):Xaver-Künzliweg::Xaver-Künzliweg: 6280:ANY:DIVA_STREET:922965:6029930:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Hochdorf (CH), Xaver-Künzliweg</Text>
+              </Name>
+              <PostCode> 6280</PostCode>
+              <TopographicPlaceName>Hochdorf (CH)</TopographicPlaceName>
+              <TopographicPlaceRef>23012031:-1</TopographicPlaceRef>
+              <Street>Xaver-Künzliweg</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Xaver-Künzliweg (Hochdorf (CH))</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.29114</siri:Longitude>
+              <siri:Latitude>47.17124</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.736</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000034::23008148:-1:Rue Xavier-de-Poret:Riaz:Rue Xavier-de-Poret::Rue Xavier-de-Poret: 1632:ANY:DIVA_STREET:785632:6116828:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Riaz, Rue Xavier-de-Poret</Text>
+              </Name>
+              <PostCode> 1632</PostCode>
+              <TopographicPlaceName>Riaz</TopographicPlaceName>
+              <TopographicPlaceRef>23008148:-1</TopographicPlaceRef>
+              <Street>Rue Xavier-de-Poret</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Rue Xavier-de-Poret (Riaz)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>7.05745</siri:Longitude>
+              <siri:Latitude>46.63792</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.732</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000031::23007712:-1:Rue Xavier Chappuis:Develier:Rue Xavier Chappuis::Rue Xavier Chappuis: 2802:ANY:DIVA_STREET:811786:5999643:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Develier, Rue Xavier Chappuis</Text>
+              </Name>
+              <PostCode> 2802</PostCode>
+              <TopographicPlaceName>Develier</TopographicPlaceName>
+              <TopographicPlaceRef>23007712:-1</TopographicPlaceRef>
+              <Street>Rue Xavier Chappuis</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Rue Xavier Chappuis (Develier)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>7.2924</siri:Longitude>
+              <siri:Latitude>47.35588</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.732</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000025::23007800:-1:Rue Xavier-Stockmar:Porrentruy:Rue Xavier-Stockmar::Rue Xavier-Stockmar: 2900:ANY:DIVA_STREET:787801:5988829:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Porrentruy, Rue Xavier-Stockmar</Text>
+              </Name>
+              <PostCode> 2900</PostCode>
+              <TopographicPlaceName>Porrentruy</TopographicPlaceName>
+              <TopographicPlaceRef>23007800:-1</TopographicPlaceRef>
+              <Street>Rue Xavier-Stockmar</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Rue Xavier-Stockmar (Porrentruy)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>7.07694</siri:Longitude>
+              <siri:Latitude>47.42165</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.732</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000018::23008305:-1:F. X. Müllerstrasse:Schmitten FR:F. X. Müllerstrasse::F. X. Müllerstrasse: 3185:ANY:DIVA_STREET:807021:6081779:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Schmitten FR, F. X. Müllerstrasse</Text>
+              </Name>
+              <PostCode> 3185</PostCode>
+              <TopographicPlaceName>Schmitten FR</TopographicPlaceName>
+              <TopographicPlaceRef>23008305:-1</TopographicPlaceRef>
+              <Street>F. X. Müllerstrasse</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">F. X. Müllerstrasse (Schmitten FR)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>7.24959</siri:Longitude>
+              <siri:Latitude>46.85366</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.732</Probability>
+        </PlaceResult>
+      </OJPLocationInformationDelivery>
+    </siri:ServiceDelivery>
+  </OJPResponse>
+</OJP>

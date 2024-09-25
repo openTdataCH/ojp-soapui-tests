@@ -1,1 +1,0 @@
-XML validation error: Element '{http://www.vdv.de/ojp}GeoPosition': Missing child element(s). Expected is one of ( {http://www.siri.org.uk/siri}Longitude, {http://www.siri.org.uk/siri}Coordinates )., line 1

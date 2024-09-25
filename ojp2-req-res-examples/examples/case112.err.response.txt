@@ -1,1 +1,0 @@
-XML validation error: Element '{http://www.vdv.de/ojp}Places': Missing child element(s). Expected is ( {http://www.vdv.de/ojp}Place )., line 1

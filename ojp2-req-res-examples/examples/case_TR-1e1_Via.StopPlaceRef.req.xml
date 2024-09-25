@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vdv.de/ojp OJP_changes_for_v1.1/OJP.xsd">
+    <OJPRequest>
+        <siri:ServiceRequest>
+            <siri:RequestTimestamp>2024-09-25T12:00:00</siri:RequestTimestamp>
+            <siri:RequestorRef>MENTZRegTest</siri:RequestorRef>
+            <OJPTripRequest>
+                <siri:RequestTimestamp>2024-09-25T12:00:00</siri:RequestTimestamp>
+                <siri:MessageIdentifier>TR-1e1</siri:MessageIdentifier>
+                <Origin>
+                    <PlaceRef>
+                        <siri:StopPointRef>8503000</siri:StopPointRef>
+                        <Name>
+                            <Text>ZÃ¼rich HB</Text>
+                        </Name>
+                    </PlaceRef>
+                    <DepArrTime>2024-12-05T23:00:00+00:00</DepArrTime>
+                </Origin>
+                <Destination>
+                    <PlaceRef>
+                        <siri:StopPointRef>8503424</siri:StopPointRef>
+                        <Name>
+                            <Text>Schaffhausen</Text>
+                        </Name>
+                    </PlaceRef>
+                </Destination>
+                <Via>
+                    <ViaPoint>
+                        <StopPlaceRef>8506000</StopPlaceRef>
+                        <Name>
+                            <Text>Winterthur</Text>
+                        </Name>
+                    </ViaPoint>
+                </Via>
+                <Params>
+                    <NumberOfResults>3</NumberOfResults>
+                    <IncludeIntermediateStops>true</IncludeIntermediateStops>
+                </Params>
+            </OJPTripRequest>
+        </siri:ServiceRequest>
+    </OJPRequest>
+</OJP>

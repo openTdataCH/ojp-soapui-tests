@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vdv.de/ojp OJP_changes_for_v1.1/OJP.xsd">
+    <OJPRequest>
+        <siri:ServiceRequest>
+            <siri:RequestTimestamp>2024-09-25T12:00:00</siri:RequestTimestamp>
+            <siri:RequestorRef>MENTZRegTest</siri:RequestorRef>
+            <OJPStopEventRequest>
+                <siri:RequestTimestamp>2024-09-25T12:00:00</siri:RequestTimestamp>
+                <siri:MessageIdentifier>SER ohne DepArrTime</siri:MessageIdentifier>
+                <Location>
+                    <PlaceRef>
+                        <siri:StopPointRef>8500090</siri:StopPointRef>
+                        <Name>
+                            <Text>Basel Bad Bf</Text>
+                        </Name>
+                    </PlaceRef>
+                </Location>
+                <Params>
+                    <NumberOfResults>20</NumberOfResults>
+                    <StopEventType>departure</StopEventType>
+                    <IncludePreviousCalls>false</IncludePreviousCalls>
+                    <IncludeOnwardCalls>false</IncludeOnwardCalls>
+                    <IncludeOperatingDays>false</IncludeOperatingDays>
+                    <UseRealtimeData>explanatory</UseRealtimeData>
+                </Params>
+            </OJPStopEventRequest>
+        </siri:ServiceRequest>
+    </OJPRequest>
+</OJP>

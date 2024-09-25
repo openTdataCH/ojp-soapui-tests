@@ -1,0 +1,1562 @@
+<OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
+  <OJPResponse>
+    <siri:ServiceDelivery>
+      <siri:ResponseTimestamp>2024-09-25T12:55:23.7661704+02:00</siri:ResponseTimestamp>
+      <siri:ProducerRef>MENTZ</siri:ProducerRef>
+      <OJPStopEventDelivery>
+        <siri:ResponseTimestamp>2024-09-25T12:55:23.7661714+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>60ee7cc3-8a14-4b80-bb1d-f39443f1eaf8</siri:RequestMessageRef>
+        <siri:DefaultLanguage>de</siri:DefaultLanguage>
+        <CalcTime>30</CalcTime>
+        <StopEventResponseContext>
+          <Places>
+            <Place>
+              <StopPlace>
+                <StopPlaceRef>8500090</StopPlaceRef>
+                <StopPlaceName>
+                  <Text xml:lang="de">Basel Bad Bf</Text>
+                </StopPlaceName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>106562:0:3</Value>
+                </PrivateCode>
+                <TopographicPlaceRef>23005701:2</TopographicPlaceRef>
+              </StopPlace>
+              <Name>
+                <Text xml:lang="de">Basel Bad Bf</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>7.60692</siri:Longitude>
+                <siri:Latitude>47.56731</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <StopPoint>
+                <siri:StopPointRef>8500090</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Basel Bad Bf</Text>
+                </StopPointName>
+                <PrivateCode>
+                  <System>EFA</System>
+                  <Value>106562:0:3</Value>
+                </PrivateCode>
+                <ParentRef>8500090</ParentRef>
+                <TopographicPlaceRef>23005701:2</TopographicPlaceRef>
+              </StopPoint>
+              <Name>
+                <Text xml:lang="de">Basel Bad Bf</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>7.60692</siri:Longitude>
+                <siri:Latitude>47.56731</siri:Latitude>
+              </GeoPosition>
+            </Place>
+            <Place>
+              <TopographicPlace>
+                <TopographicPlaceCode>23005701:2</TopographicPlaceCode>
+                <TopographicPlaceName>
+                  <Text xml:lang="de">Basel</Text>
+                </TopographicPlaceName>
+              </TopographicPlace>
+              <Name>
+                <Text xml:lang="de">Basel</Text>
+              </Name>
+              <GeoPosition>
+                <siri:Longitude>7.60692</siri:Longitude>
+                <siri:Latitude>47.56731</siri:Latitude>
+              </GeoPosition>
+            </Place>
+          </Places>
+        </StopEventResponseContext>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8500090</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Basel Bad Bf</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">5</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-09-25T11:03:00Z</TimetabledTime>
+                  <EstimatedTime>2024-09-25T11:03:00Z</EstimatedTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>rail</PtMode>
+                <siri:RailSubmode>highSpeedRail</siri:RailSubmode>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">ICE</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>71</TrainNumber>
+              <siri:LineRef>ojp:9100N:Y</siri:LineRef>
+              <siri:OperatorRef>11</siri:OperatorRef>
+              <PublicCode>InterCityExpress</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">ICE</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">ICE</Text>
+                </ShortName>
+                <ProductCategoryRef>23</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ch:1:sjyid:100001:71-002</JourneyRef>
+              <OperatingDayRef>2024-09-25</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>true</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Platzreservierung möglich</Text>
+                </UserText>
+                <Code>A___R</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Reservierung obligatorisch</Text>
+                </UserText>
+                <Code>A__VR</Code>
+              </Attribute>
+              <OriginStopPointRef>8007799</OriginStopPointRef>
+              <DestinationStopPointRef>ch:1:sloid:10:4:8</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Berlin Gesundbrunnen</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Basel SBB</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111111111111111111111111111111111111110011111111111111111101111111001111111111111111111</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8500090</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Basel Bad Bf</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">5</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-09-25T11:14:00Z</TimetabledTime>
+                  <EstimatedTime>2024-09-25T11:14:00Z</EstimatedTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>rail</PtMode>
+                <siri:RailSubmode>highSpeedRail</siri:RailSubmode>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">ICE</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>72</TrainNumber>
+              <siri:LineRef>ojp:9100N:Y</siri:LineRef>
+              <siri:OperatorRef>11</siri:OperatorRef>
+              <PublicCode>InterCityExpress</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">ICE</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">ICE</Text>
+                </ShortName>
+                <ProductCategoryRef>23</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>H</siri:DirectionRef>
+              <JourneyRef>ch:1:sjyid:100001:72-002</JourneyRef>
+              <OperatingDayRef>2024-09-25</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>true</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Platzreservierung möglich</Text>
+                </UserText>
+                <Code>A___R</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Reservierung obligatorisch</Text>
+                </UserText>
+                <Code>A__VR</Code>
+              </Attribute>
+              <OriginStopPointRef>ch:1:sloid:10:2:4</OriginStopPointRef>
+              <DestinationStopPointRef>8007799</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Basel SBB</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Berlin Gesundbrunnen</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8500090</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Basel Bad Bf</Text>
+                </StopPointName>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-09-25T11:17:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>rail</PtMode>
+                <siri:RailSubmode>regionalRail</siri:RailSubmode>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">S</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>87832</TrainNumber>
+              <siri:LineRef>ojp:91006:M</siri:LineRef>
+              <siri:OperatorRef>L7____</siri:OperatorRef>
+              <PublicCode>S-Bahn</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">S6</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">S</Text>
+                </ShortName>
+                <ProductCategoryRef>27</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ojp-91-6-M-j24-1-189-TA</JourneyRef>
+              <OperatingDayRef>2024-09-25</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <OriginStopPointRef>8500090</OriginStopPointRef>
+              <DestinationStopPointRef>8014450</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Basel Bad Bf</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Zell (Wiesental)</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8500090</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Basel Bad Bf</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">5</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-09-25T11:17:00Z</TimetabledTime>
+                  <EstimatedTime>2024-09-25T11:19:00Z</EstimatedTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>rail</PtMode>
+                <siri:RailSubmode>regionalRail</siri:RailSubmode>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">S</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>87832</TrainNumber>
+              <siri:LineRef>ojp:91006:E</siri:LineRef>
+              <siri:OperatorRef>351</siri:OperatorRef>
+              <PublicCode>S-Bahn</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">S6</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">S</Text>
+                </ShortName>
+                <ProductCategoryRef>27</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>H</siri:DirectionRef>
+              <JourneyRef>ch:1:sjyid:100308:87832-001</JourneyRef>
+              <OperatingDayRef>2024-09-25</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <OriginStopPointRef>ch:1:sloid:10:1:2</OriginStopPointRef>
+              <DestinationStopPointRef>8014450</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Basel SBB</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Zell (Wiesental)</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8500090</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Basel Bad Bf</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">9</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-09-25T11:18:00Z</TimetabledTime>
+                  <EstimatedTime>2024-09-25T11:18:00Z</EstimatedTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>rail</PtMode>
+                <siri:RailSubmode>regionalRail</siri:RailSubmode>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">RB</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>17176</TrainNumber>
+              <siri:LineRef>ojp:91027:H</siri:LineRef>
+              <siri:OperatorRef>06____</siri:OperatorRef>
+              <PublicCode>Regionalbahn</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">27</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">RB</Text>
+                </ShortName>
+                <ProductCategoryRef>24</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ojp-91-27-H-j24-1-449-TA</JourneyRef>
+              <OperatingDayRef>2024-09-25</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <OriginStopPointRef>8500090</OriginStopPointRef>
+              <DestinationStopPointRef>8014350</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Basel Bad Bf</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Freiburg(Breisgau) Hbf</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110001111001111100111110011111001011100111110011111</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8500090</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Basel Bad Bf</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">5</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-09-25T11:19:00Z</TimetabledTime>
+                  <EstimatedTime>2024-09-25T11:21:00Z</EstimatedTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>rail</PtMode>
+                <siri:RailSubmode>regionalRail</siri:RailSubmode>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">S</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>87831</TrainNumber>
+              <siri:LineRef>ojp:91006:E</siri:LineRef>
+              <siri:OperatorRef>351</siri:OperatorRef>
+              <PublicCode>S-Bahn</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">S6</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">S</Text>
+                </ShortName>
+                <ProductCategoryRef>27</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ch:1:sjyid:100308:87831-001</JourneyRef>
+              <OperatingDayRef>2024-09-25</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <OriginStopPointRef>8014450</OriginStopPointRef>
+              <DestinationStopPointRef>ch:1:sloid:10:1:2</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Zell (Wiesental)</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Basel SBB</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8500090</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Basel Bad Bf</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">5</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-09-25T11:22:00Z</TimetabledTime>
+                  <EstimatedTime>2024-09-25T11:22:00Z</EstimatedTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>rail</PtMode>
+                <siri:RailSubmode>highSpeedRail</siri:RailSubmode>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">ICE</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>106</TrainNumber>
+              <siri:LineRef>ojp:9100N:Y</siri:LineRef>
+              <siri:OperatorRef>11</siri:OperatorRef>
+              <PublicCode>InterCityExpress</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">ICE</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">ICE</Text>
+                </ShortName>
+                <ProductCategoryRef>23</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>H</siri:DirectionRef>
+              <JourneyRef>ch:1:sjyid:100001:106-001</JourneyRef>
+              <OperatingDayRef>2024-09-25</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>true</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Platzreservierung möglich</Text>
+                </UserText>
+                <Code>A___R</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Keine Beförderung möglich</Text>
+                </UserText>
+                <Code>A__VN</Code>
+              </Attribute>
+              <OriginStopPointRef>ch:1:sloid:10:6:12</OriginStopPointRef>
+              <DestinationStopPointRef>8015588</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Basel SBB</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Siegburg/Bonn</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8500090</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Basel Bad Bf</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">10</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-09-25T11:23:00Z</TimetabledTime>
+                  <EstimatedTime>2024-09-25T11:23:00Z</EstimatedTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>rail</PtMode>
+                <siri:RailSubmode>regionalRail</siri:RailSubmode>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">RB</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>17255</TrainNumber>
+              <siri:LineRef>ojp:91030:H</siri:LineRef>
+              <siri:OperatorRef>800693</siri:OperatorRef>
+              <PublicCode>Regionalbahn</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">30</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">RB</Text>
+                </ShortName>
+                <ProductCategoryRef>24</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ojp-91-30-H-j24-1-181-TA</JourneyRef>
+              <OperatingDayRef>2024-09-25</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Möglicherweise nur 2. Klasse</Text>
+                </UserText>
+                <Code>A__ZM</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Kein Niederflur</Text>
+                </UserText>
+                <Code>A__PH</Code>
+              </Attribute>
+              <OriginStopPointRef>8500090</OriginStopPointRef>
+              <DestinationStopPointRef>8014474</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Basel Bad Bf</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Waldshut</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110001111001111100111110011111001011100111110011111</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8500090</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Basel Bad Bf</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">5</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-09-25T11:40:00Z</TimetabledTime>
+                  <EstimatedTime>2024-09-25T11:50:00Z</EstimatedTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>rail</PtMode>
+                <siri:RailSubmode>highSpeedRail</siri:RailSubmode>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">ICE</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>277</TrainNumber>
+              <siri:LineRef>ojp:9100N:Y</siri:LineRef>
+              <siri:OperatorRef>11</siri:OperatorRef>
+              <PublicCode>InterCityExpress</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">ICE</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">ICE</Text>
+                </ShortName>
+                <ProductCategoryRef>23</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ch:1:sjyid:100001:277-001</JourneyRef>
+              <OperatingDayRef>2024-09-25</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>true</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Platzreservierung möglich</Text>
+                </UserText>
+                <Code>A___R</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Reservierung obligatorisch</Text>
+                </UserText>
+                <Code>A__VR</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">1. Klasse Service am Platz</Text>
+                </UserText>
+                <Code>A__SC</Code>
+              </Attribute>
+              <OriginStopPointRef>8001071</OriginStopPointRef>
+              <DestinationStopPointRef>ch:1:sloid:10:6:11</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Hamburg Hbf</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Basel SBB</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111111111111111111111111111111111111111110011111111111111111111111111111110111111100000</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8500090</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Basel Bad Bf</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">5</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-09-25T11:45:00Z</TimetabledTime>
+                  <EstimatedTime>2024-09-25T11:50:00Z</EstimatedTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>rail</PtMode>
+                <siri:RailSubmode>regionalRail</siri:RailSubmode>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">S</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>87833</TrainNumber>
+              <siri:LineRef>ojp:91006:E</siri:LineRef>
+              <siri:OperatorRef>351</siri:OperatorRef>
+              <PublicCode>S-Bahn</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">S6</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">S</Text>
+                </ShortName>
+                <ProductCategoryRef>27</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ch:1:sjyid:100308:87833-001</JourneyRef>
+              <OperatingDayRef>2024-09-25</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <OriginStopPointRef>8014450</OriginStopPointRef>
+              <DestinationStopPointRef>ch:1:sloid:10:1:2</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Zell (Wiesental)</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Basel SBB</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111011111101111110111111011111101111110111111011111101111110111111011111101111110111111</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8500090</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Basel Bad Bf</Text>
+                </StopPointName>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-09-25T11:47:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>rail</PtMode>
+                <siri:RailSubmode>regionalRail</siri:RailSubmode>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">S</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>87834</TrainNumber>
+              <siri:LineRef>ojp:91006:M</siri:LineRef>
+              <siri:OperatorRef>L7____</siri:OperatorRef>
+              <PublicCode>S-Bahn</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">S6</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">S</Text>
+                </ShortName>
+                <ProductCategoryRef>27</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ojp-91-6-M-j24-1-175-TA</JourneyRef>
+              <OperatingDayRef>2024-09-25</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <OriginStopPointRef>8500090</OriginStopPointRef>
+              <DestinationStopPointRef>8014450</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Basel Bad Bf</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Zell (Wiesental)</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8500090</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Basel Bad Bf</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">5</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-09-25T11:47:00Z</TimetabledTime>
+                  <EstimatedTime>2024-09-25T11:47:00Z</EstimatedTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>rail</PtMode>
+                <siri:RailSubmode>regionalRail</siri:RailSubmode>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">S</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>87834</TrainNumber>
+              <siri:LineRef>ojp:91006:E</siri:LineRef>
+              <siri:OperatorRef>351</siri:OperatorRef>
+              <PublicCode>S-Bahn</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">S6</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">S</Text>
+                </ShortName>
+                <ProductCategoryRef>27</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>H</siri:DirectionRef>
+              <JourneyRef>ch:1:sjyid:100308:87834-001</JourneyRef>
+              <OperatingDayRef>2024-09-25</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <OriginStopPointRef>ch:1:sloid:10:1:2</OriginStopPointRef>
+              <DestinationStopPointRef>8014450</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Basel SBB</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Zell (Wiesental)</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8500090</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Basel Bad Bf</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">7</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-09-25T11:49:00Z</TimetabledTime>
+                  <EstimatedTime>2024-09-25T11:49:00Z</EstimatedTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>rail</PtMode>
+                <siri:RailSubmode>regionalRail</siri:RailSubmode>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">IRE</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>3061</TrainNumber>
+              <siri:LineRef>ojp:91003:L</siri:LineRef>
+              <siri:OperatorRef>800693</siri:OperatorRef>
+              <PublicCode>Interregio-Express</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">3</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">IRE</Text>
+                </ShortName>
+                <ProductCategoryRef>1</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ojp-91-3-L-j24-1-361-TA</JourneyRef>
+              <OperatingDayRef>2024-09-25</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Kein Niederflur</Text>
+                </UserText>
+                <Code>A__PH</Code>
+              </Attribute>
+              <OriginStopPointRef>8500090</OriginStopPointRef>
+              <DestinationStopPointRef>8029163</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Basel Bad Bf</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Friedrichshafen-Hafen</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8500090</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Basel Bad Bf</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">8</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-09-25T11:53:00Z</TimetabledTime>
+                  <EstimatedTime>2024-09-25T11:53:00Z</EstimatedTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>rail</PtMode>
+                <siri:RailSubmode>regionalRail</siri:RailSubmode>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">RB</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>17257</TrainNumber>
+              <siri:LineRef>ojp:91030:H</siri:LineRef>
+              <siri:OperatorRef>800693</siri:OperatorRef>
+              <PublicCode>Regionalbahn</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">30</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">RB</Text>
+                </ShortName>
+                <ProductCategoryRef>24</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ojp-91-30-H-j24-1-210-TA</JourneyRef>
+              <OperatingDayRef>2024-09-25</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Möglicherweise nur 2. Klasse</Text>
+                </UserText>
+                <Code>A__ZM</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Kein Niederflur</Text>
+                </UserText>
+                <Code>A__PH</Code>
+              </Attribute>
+              <OriginStopPointRef>8500090</OriginStopPointRef>
+              <DestinationStopPointRef>8014479</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Basel Bad Bf</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Lauchringen</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8500090</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Basel Bad Bf</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">10</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-09-25T11:58:00Z</TimetabledTime>
+                  <EstimatedTime>2024-09-25T11:58:00Z</EstimatedTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>rail</PtMode>
+                <siri:RailSubmode>regionalRail</siri:RailSubmode>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">RE</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>17020</TrainNumber>
+              <siri:LineRef>ojp:91007:J</siri:LineRef>
+              <siri:OperatorRef>06____</siri:OperatorRef>
+              <PublicCode>RegioExpress</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">RE7</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">RE</Text>
+                </ShortName>
+                <ProductCategoryRef>24</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ojp-91-7-J-j24-1-624-TA</JourneyRef>
+              <OperatingDayRef>2024-09-25</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <OriginStopPointRef>8500090</OriginStopPointRef>
+              <DestinationStopPointRef>8014228</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Basel Bad Bf</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Karlsruhe Hbf</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111111111111111111111111111111111111111111111111111111111111111111000100011111111000000</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8500090</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Basel Bad Bf</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">9</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-09-25T12:13:00Z</TimetabledTime>
+                  <EstimatedTime>2024-09-25T12:13:00Z</EstimatedTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>rail</PtMode>
+                <siri:RailSubmode>regionalRail</siri:RailSubmode>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">RB</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>17178</TrainNumber>
+              <siri:LineRef>ojp:91027:H</siri:LineRef>
+              <siri:OperatorRef>06____</siri:OperatorRef>
+              <PublicCode>Regionalbahn</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">27</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">RB</Text>
+                </ShortName>
+                <ProductCategoryRef>24</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ojp-91-27-H-j24-1-419-TA</JourneyRef>
+              <OperatingDayRef>2024-09-25</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <OriginStopPointRef>8500090</OriginStopPointRef>
+              <DestinationStopPointRef>8014350</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Basel Bad Bf</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Freiburg(Breisgau) Hbf</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8500090</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Basel Bad Bf</Text>
+                </StopPointName>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-09-25T12:17:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>rail</PtMode>
+                <siri:RailSubmode>regionalRail</siri:RailSubmode>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">S</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>87836</TrainNumber>
+              <siri:LineRef>ojp:91006:M</siri:LineRef>
+              <siri:OperatorRef>L7____</siri:OperatorRef>
+              <PublicCode>S-Bahn</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">S6</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">S</Text>
+                </ShortName>
+                <ProductCategoryRef>27</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ojp-91-6-M-j24-1-191-TA</JourneyRef>
+              <OperatingDayRef>2024-09-25</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <OriginStopPointRef>8500090</OriginStopPointRef>
+              <DestinationStopPointRef>8014450</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Basel Bad Bf</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Zell (Wiesental)</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8500090</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Basel Bad Bf</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">5</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-09-25T12:17:00Z</TimetabledTime>
+                  <EstimatedTime>2024-09-25T12:17:00Z</EstimatedTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>rail</PtMode>
+                <siri:RailSubmode>regionalRail</siri:RailSubmode>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">S</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>87836</TrainNumber>
+              <siri:LineRef>ojp:91006:E</siri:LineRef>
+              <siri:OperatorRef>351</siri:OperatorRef>
+              <PublicCode>S-Bahn</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">S6</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">S</Text>
+                </ShortName>
+                <ProductCategoryRef>27</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>H</siri:DirectionRef>
+              <JourneyRef>ch:1:sjyid:100308:87836-001</JourneyRef>
+              <OperatingDayRef>2024-09-25</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <OriginStopPointRef>ch:1:sloid:10:1:2</OriginStopPointRef>
+              <DestinationStopPointRef>8014450</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Basel SBB</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Zell (Wiesental)</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8500090</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Basel Bad Bf</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">5</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-09-25T12:19:00Z</TimetabledTime>
+                  <EstimatedTime>2024-09-25T12:19:00Z</EstimatedTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>rail</PtMode>
+                <siri:RailSubmode>regionalRail</siri:RailSubmode>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">S</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>87835</TrainNumber>
+              <siri:LineRef>ojp:91006:E</siri:LineRef>
+              <siri:OperatorRef>351</siri:OperatorRef>
+              <PublicCode>S-Bahn</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">S6</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">S</Text>
+                </ShortName>
+                <ProductCategoryRef>27</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ch:1:sjyid:100308:87835-001</JourneyRef>
+              <OperatingDayRef>2024-09-25</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <OriginStopPointRef>8014450</OriginStopPointRef>
+              <DestinationStopPointRef>ch:1:sloid:10:1:2</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Zell (Wiesental)</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Basel SBB</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8500090</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Basel Bad Bf</Text>
+                </StopPointName>
+                <PlannedQuay>
+                  <Text xml:lang="de">5</Text>
+                </PlannedQuay>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-09-25T12:21:00Z</TimetabledTime>
+                  <EstimatedTime>2024-09-25T12:21:00Z</EstimatedTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>rail</PtMode>
+                <siri:RailSubmode>highSpeedRail</siri:RailSubmode>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">ICE</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>276</TrainNumber>
+              <siri:LineRef>ojp:9100N:Y</siri:LineRef>
+              <siri:OperatorRef>11</siri:OperatorRef>
+              <PublicCode>InterCityExpress</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">ICE</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Zug</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">ICE</Text>
+                </ShortName>
+                <ProductCategoryRef>23</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>H</siri:DirectionRef>
+              <JourneyRef>ch:1:sjyid:100001:276-001</JourneyRef>
+              <OperatingDayRef>2024-09-25</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>true</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Platzreservierung möglich</Text>
+                </UserText>
+                <Code>A___R</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">VELOS: Reservierung obligatorisch</Text>
+                </UserText>
+                <Code>A__VR</Code>
+              </Attribute>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">1. Klasse Service am Platz</Text>
+                </UserText>
+                <Code>A__SC</Code>
+              </Attribute>
+              <OriginStopPointRef>ch:1:sloid:10:6:11</OriginStopPointRef>
+              <DestinationStopPointRef>8001071</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Basel SBB</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Hamburg Hbf</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+      </OJPStopEventDelivery>
+    </siri:ServiceDelivery>
+  </OJPResponse>
+</OJP>

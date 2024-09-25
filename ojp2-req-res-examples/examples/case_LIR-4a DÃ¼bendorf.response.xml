@@ -1,0 +1,42 @@
+<OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
+  <OJPResponse>
+    <siri:ServiceDelivery>
+      <siri:ResponseTimestamp>2024-09-25T12:54:33.8884529+02:00</siri:ResponseTimestamp>
+      <siri:ProducerRef>MENTZ</siri:ProducerRef>
+      <OJPLocationInformationDelivery>
+        <siri:ResponseTimestamp>2024-09-25T12:54:33.88849+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>ee07411c-ecf6-4922-96f0-065fb6ffe3ab</siri:RequestMessageRef>
+        <siri:DefaultLanguage>de</siri:DefaultLanguage>
+        <CalcTime>11</CalcTime>
+        <PlaceResult>
+          <Place>
+            <StopPlace>
+              <StopPlaceRef>8580796</StopPlaceRef>
+              <StopPlaceName>
+                <Text xml:lang="de">Wiesendangen, Oberdorf</Text>
+              </StopPlaceName>
+              <PrivateCode>
+                <System>EFA</System>
+                <Value>122436</Value>
+              </PrivateCode>
+              <TopographicPlaceRef>23026298:1</TopographicPlaceRef>
+            </StopPlace>
+            <Name>
+              <Text xml:lang="de">Wiesendangen, Oberdorf (Wiesendangen)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.79787</siri:Longitude>
+              <siri:Latitude>47.52223</siri:Latitude>
+            </GeoPosition>
+            <Mode>
+              <PtMode>bus</PtMode>
+              <siri:BusSubmode>localBus</siri:BusSubmode>
+            </Mode>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.328</Probability>
+        </PlaceResult>
+      </OJPLocationInformationDelivery>
+    </siri:ServiceDelivery>
+  </OJPResponse>
+</OJP>

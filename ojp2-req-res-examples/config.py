@@ -1,6 +1,14 @@
+
+# SOAP UI test file
 xml_file = "../Swiss-OJP-2.0/ojp2_testcases_soapui.xml"
+
+# POSTMAN test file
+postman_file = "../Swiss-OJP-2.0/ojp2_testcases_postman.json"
+
+# Folder to write the examples
 output_folder = "./examples"
 
+# Some functions for the calculation of some given times
 import datetime
 
 
@@ -59,9 +67,13 @@ def get_current_timestamp_1200():
 
 
 timestamp = get_current_timestamp()
+
 mymap = {
+    "{$isoTimestamp}": get_current_timestamp_1200(),
     "${IsoTimestampUTC}": get_current_timestamp_1200(),
+    "{Freitag12UhrVorFahrplanwechsel}": get_friday_before_second_sunday_december_1200(), # TODO probably problem
     "${Freitag12UhrVorFahrplanwechsel}": get_friday_before_second_sunday_december_1200(),
+    "{DatumFreitagVorFahrplanwechsel}": get_friday_before_second_sunday_december_date(), # TODO probably problem
     "${DatumFreitagVorFahrplanwechsel}": get_friday_before_second_sunday_december_date(),
     "${DatumFreitagVorFahrplanwechselohneT}": get_friday_before_second_sunday_december_2345(),
     "${Freitag2345UhrVorFahrplanwechsel}": get_friday_before_second_sunday_december_2345()

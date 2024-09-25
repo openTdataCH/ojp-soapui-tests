@@ -1,0 +1,359 @@
+<OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
+  <OJPResponse>
+    <siri:ServiceDelivery>
+      <siri:ResponseTimestamp>2024-09-25T12:54:11.906854+02:00</siri:ResponseTimestamp>
+      <siri:ProducerRef>MENTZ</siri:ProducerRef>
+      <OJPLocationInformationDelivery>
+        <siri:ResponseTimestamp>2024-09-25T12:54:11.9069959+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>c1f962c3-3521-412b-a7c5-23e1fb0cab60</siri:RequestMessageRef>
+        <siri:DefaultLanguage>de</siri:DefaultLanguage>
+        <CalcTime>60</CalcTime>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000073::23011988:-1:Axastei:Obersaxen Mundaun:Axastei::Axastei: 7134:ANY:DIVA_STREET:1007276:6098910:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Obersaxen Mundaun, Axastei</Text>
+              </Name>
+              <PostCode> 7134</PostCode>
+              <TopographicPlaceName>Obersaxen Mundaun</TopographicPlaceName>
+              <TopographicPlaceRef>23011988:-1</TopographicPlaceRef>
+              <Street>Axastei</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Axastei (Obersaxen Mundaun)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>9.04851</siri:Longitude>
+              <siri:Latitude>46.74832</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.76</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000157::23011981:-1:Axastei:Breil/Brigels:Axastei::Axastei: 7134:ANY:DIVA_STREET:1005769:6099145:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Breil/Brigels, Axastei</Text>
+              </Name>
+              <PostCode> 7134</PostCode>
+              <TopographicPlaceName>Breil/Brigels</TopographicPlaceName>
+              <TopographicPlaceRef>23011981:-1</TopographicPlaceRef>
+              <Street>Axastei</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Axastei (Breil/Brigels)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>9.03498</siri:Longitude>
+              <siri:Latitude>46.74687</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.76</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000003::23018366:-1:Axenfels:Morschach:Axenfels::Axenfels: 6443:ANY:DIVA_STREET:959179:6060709:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Morschach, Axenfels</Text>
+              </Name>
+              <PostCode> 6443</PostCode>
+              <TopographicPlaceName>Morschach</TopographicPlaceName>
+              <TopographicPlaceRef>23018366:-1</TopographicPlaceRef>
+              <Street>Axenfels</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Axenfels (Morschach)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.61645</siri:Longitude>
+              <siri:Latitude>46.98295</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.756</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000008::23018366:-1:Axenstein:Morschach:Axenstein::Axenstein: 6443:ANY:DIVA_STREET:959020:6059876:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Morschach, Axenstein</Text>
+              </Name>
+              <PostCode> 6443</PostCode>
+              <TopographicPlaceName>Morschach</TopographicPlaceName>
+              <TopographicPlaceRef>23018366:-1</TopographicPlaceRef>
+              <Street>Axenstein</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Axenstein (Morschach)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.61502</siri:Longitude>
+              <siri:Latitude>46.98805</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.753</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000047::23022217:-1:Axenrüti:Sisikon:Axenrüti::Axenrüti: 6452:ANY:DIVA_STREET:960482:6069002:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Sisikon, Axenrüti</Text>
+              </Name>
+              <PostCode> 6452</PostCode>
+              <TopographicPlaceName>Sisikon</TopographicPlaceName>
+              <TopographicPlaceRef>23022217:-1</TopographicPlaceRef>
+              <Street>Axenrüti</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Axenrüti (Sisikon)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.62816</siri:Longitude>
+              <siri:Latitude>46.9321</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.753</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000016::23018364:-1:Axenstrasse:Ingenbohl:Axenstrasse::Axenstrasse: 6440:ANY:DIVA_STREET:958682:6060575:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Ingenbohl, Axenstrasse</Text>
+              </Name>
+              <PostCode> 6440</PostCode>
+              <TopographicPlaceName>Ingenbohl</TopographicPlaceName>
+              <TopographicPlaceRef>23018364:-1</TopographicPlaceRef>
+              <Street>Axenstrasse</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Axenstrasse (Ingenbohl)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.61199</siri:Longitude>
+              <siri:Latitude>46.98377</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.748</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000015::23018366:-1:Axenstrasse:Morschach:Axenstrasse::Axenstrasse: 6452 6440:ANY:DIVA_STREET:958551:6062105:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Morschach, Axenstrasse</Text>
+              </Name>
+              <PostCode> 6452 6440</PostCode>
+              <TopographicPlaceName>Morschach</TopographicPlaceName>
+              <TopographicPlaceRef>23018366:-1</TopographicPlaceRef>
+              <Street>Axenstrasse</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Axenstrasse (Morschach)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.61081</siri:Longitude>
+              <siri:Latitude>46.97439</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.748</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000000::23022217:-1:Axenstrasse:Sisikon:Axenstrasse::Axenstrasse: 6452:ANY:DIVA_STREET:959761:6066060:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Sisikon, Axenstrasse</Text>
+              </Name>
+              <PostCode> 6452</PostCode>
+              <TopographicPlaceName>Sisikon</TopographicPlaceName>
+              <TopographicPlaceRef>23022217:-1</TopographicPlaceRef>
+              <Street>Axenstrasse</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Axenstrasse (Sisikon)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.62168</siri:Longitude>
+              <siri:Latitude>46.95014</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.748</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000001::23022207:-1:Axenstrasse:Flüelen:Axenstrasse::Axenstrasse: 6454:ANY:DIVA_STREET:959887:6072377:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Flüelen, Axenstrasse</Text>
+              </Name>
+              <PostCode> 6454</PostCode>
+              <TopographicPlaceName>Flüelen</TopographicPlaceName>
+              <TopographicPlaceRef>23022207:-1</TopographicPlaceRef>
+              <Street>Axenstrasse</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Axenstrasse (Flüelen)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.62281</siri:Longitude>
+              <siri:Latitude>46.91139</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.748</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000138::23006573:-1:Axalphornweg:Brienz BE:Axalphornweg::Axalphornweg: 3855:ANY:DIVA_STREET:894936:6103041:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Brienz BE, Axalphornweg</Text>
+              </Name>
+              <PostCode> 3855</PostCode>
+              <TopographicPlaceName>Brienz BE</TopographicPlaceName>
+              <TopographicPlaceRef>23006573:-1</TopographicPlaceRef>
+              <Street>Axalphornweg</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Axalphornweg (Brienz BE)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.03935</siri:Longitude>
+              <siri:Latitude>46.72289</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.747</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000131::23006573:-1:Axalpstrasse:Brienz BE:Axalpstrasse::Axalpstrasse: 3855:ANY:DIVA_STREET:894667:6103021:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Brienz BE, Axalpstrasse</Text>
+              </Name>
+              <PostCode> 3855</PostCode>
+              <TopographicPlaceName>Brienz BE</TopographicPlaceName>
+              <TopographicPlaceRef>23006573:-1</TopographicPlaceRef>
+              <Street>Axalpstrasse</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Axalpstrasse (Brienz BE)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.03693</siri:Longitude>
+              <siri:Latitude>46.72301</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.747</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000124::23006573:-1:Biel Axalp:Brienz BE:Biel Axalp::Biel Axalp: 3855:ANY:DIVA_STREET:895590:6101873:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Brienz BE, Biel Axalp</Text>
+              </Name>
+              <PostCode> 3855</PostCode>
+              <TopographicPlaceName>Brienz BE</TopographicPlaceName>
+              <TopographicPlaceRef>23006573:-1</TopographicPlaceRef>
+              <Street>Biel Axalp</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Biel Axalp (Brienz BE)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.04522</siri:Longitude>
+              <siri:Latitude>46.73008</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.747</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000049::23022207:-1:Axenmätteli:Flüelen:Axenmätteli::Axenmätteli: 6454:ANY:DIVA_STREET:958918:6070088:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Flüelen, Axenmätteli</Text>
+              </Name>
+              <PostCode> 6454</PostCode>
+              <TopographicPlaceName>Flüelen</TopographicPlaceName>
+              <TopographicPlaceRef>23022207:-1</TopographicPlaceRef>
+              <Street>Axenmätteli</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Axenmätteli (Flüelen)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.61411</siri:Longitude>
+              <siri:Latitude>46.92544</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.747</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000105::23022209:-1:Ober Axeli:Gurtnellen:Ober Axeli::Ober Axeli: 6474:ANY:DIVA_STREET:963094:6094686:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Gurtnellen, Ober Axeli</Text>
+              </Name>
+              <PostCode> 6474</PostCode>
+              <TopographicPlaceName>Gurtnellen</TopographicPlaceName>
+              <TopographicPlaceRef>23022209:-1</TopographicPlaceRef>
+              <Street>Ober Axeli</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Ober Axeli (Gurtnellen)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.65162</siri:Longitude>
+              <siri:Latitude>46.77431</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.747</Probability>
+        </PlaceResult>
+        <PlaceResult>
+          <Place>
+            <Address>
+              <PublicCode>streetID:1500000201::23026053:-1:Axloostrasse:Bülach:Axloostrasse::Axloostrasse: 8180:ANY:DIVA_STREET:951725:5969142:MRCV</PublicCode>
+              <Name>
+                <Text xml:lang="de">Bülach, Axloostrasse</Text>
+              </Name>
+              <PostCode> 8180</PostCode>
+              <TopographicPlaceName>Bülach</TopographicPlaceName>
+              <TopographicPlaceRef>23026053:-1</TopographicPlaceRef>
+              <Street>Axloostrasse</Street>
+            </Address>
+            <Name>
+              <Text xml:lang="de">Axloostrasse (Bülach)</Text>
+            </Name>
+            <GeoPosition>
+              <siri:Longitude>8.54949</siri:Longitude>
+              <siri:Latitude>47.54117</siri:Latitude>
+            </GeoPosition>
+          </Place>
+          <Complete>true</Complete>
+          <Probability>0.747</Probability>
+        </PlaceResult>
+      </OJPLocationInformationDelivery>
+    </siri:ServiceDelivery>
+  </OJPResponse>
+</OJP>
