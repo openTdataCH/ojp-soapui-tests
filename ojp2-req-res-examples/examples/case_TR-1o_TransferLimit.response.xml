@@ -1,13 +1,13 @@
 <OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
   <OJPResponse>
     <siri:ServiceDelivery>
-      <siri:ResponseTimestamp>2024-09-25T12:56:50.6046244+02:00</siri:ResponseTimestamp>
+      <siri:ResponseTimestamp>2024-09-25T15:49:32.9629576+02:00</siri:ResponseTimestamp>
       <siri:ProducerRef>MENTZ</siri:ProducerRef>
       <OJPTripDelivery>
-        <siri:ResponseTimestamp>2024-09-25T12:56:50.604626+02:00</siri:ResponseTimestamp>
-        <siri:RequestMessageRef>8c5a581a-3673-410e-9873-a0d5ed9d4799</siri:RequestMessageRef>
+        <siri:ResponseTimestamp>2024-09-25T15:49:32.9629593+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>135ab2c5-d649-4b0c-adaa-764d63d6cf62</siri:RequestMessageRef>
         <siri:DefaultLanguage>de</siri:DefaultLanguage>
-        <CalcTime>105</CalcTime>
+        <CalcTime>96</CalcTime>
         <TripResponseContext>
           <Places>
             <Place>
@@ -74,7 +74,7 @@
                 </StopPlaceName>
                 <PrivateCode>
                   <System>EFA</System>
-                  <Value>108627</Value>
+                  <Value>108627:0:E</Value>
                 </PrivateCode>
                 <TopographicPlaceRef>23017939:4</TopographicPlaceRef>
               </StopPlace>
@@ -82,19 +82,19 @@
                 <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
               </Name>
               <GeoPosition>
-                <siri:Longitude>8.63275</siri:Longitude>
-                <siri:Latitude>47.69786</siri:Latitude>
+                <siri:Longitude>8.63391</siri:Longitude>
+                <siri:Latitude>47.69917</siri:Latitude>
               </GeoPosition>
             </Place>
             <Place>
               <StopPoint>
-                <siri:StopPointRef>8503495</siri:StopPointRef>
+                <siri:StopPointRef>ch:1:sloid:3495:0:469739</siri:StopPointRef>
                 <StopPointName>
                   <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
                 </StopPointName>
                 <PrivateCode>
                   <System>EFA</System>
-                  <Value>108627</Value>
+                  <Value>108627:0:E</Value>
                 </PrivateCode>
                 <ParentRef>8503495</ParentRef>
                 <TopographicPlaceRef>23017939:4</TopographicPlaceRef>
@@ -103,8 +103,8 @@
                 <Text xml:lang="de">Bahnhof</Text>
               </Name>
               <GeoPosition>
-                <siri:Longitude>8.63275</siri:Longitude>
-                <siri:Latitude>47.69786</siri:Latitude>
+                <siri:Longitude>8.63391</siri:Longitude>
+                <siri:Latitude>47.69917</siri:Latitude>
               </GeoPosition>
             </Place>
             <Place>
@@ -118,24 +118,24 @@
                 <Text xml:lang="de">Bahnhof</Text>
               </Name>
               <GeoPosition>
-                <siri:Longitude>8.63275</siri:Longitude>
-                <siri:Latitude>47.69786</siri:Latitude>
+                <siri:Longitude>8.63391</siri:Longitude>
+                <siri:Latitude>47.69917</siri:Latitude>
               </GeoPosition>
             </Place>
           </Places>
           <Situations/>
         </TripResponseContext>
         <TripResult>
-          <Id>ID-BC509A9D-4D8E-458C-8FE0-D92C092FF795</Id>
+          <Id>ID-A1837CEC-95B2-4E82-8874-3EFE54EEAE65</Id>
           <Trip>
-            <Id>ID-BC509A9D-4D8E-458C-8FE0-D92C092FF795</Id>
-            <Duration>PT14M54S</Duration>
-            <StartTime>2024-09-25T12:13:06Z</StartTime>
+            <Id>ID-A1837CEC-95B2-4E82-8874-3EFE54EEAE65</Id>
+            <Duration>PT15M</Duration>
+            <StartTime>2024-09-25T12:13:00Z</StartTime>
             <EndTime>2024-09-25T12:28:00Z</EndTime>
             <Transfers>0</Transfers>
             <Leg>
               <Id>1</Id>
-              <Duration>PT14M54S</Duration>
+              <Duration>PT15M</Duration>
               <TimedLeg>
                 <LegBoard>
                   <siri:StopPointRef>8592509</siri:StopPointRef>
@@ -146,18 +146,21 @@
                     <Text xml:lang="de">PLATFORM_NOT_WHEELCHAIR_ACCESSIBLE</Text>
                   </NameSuffix>
                   <ServiceDeparture>
-                    <TimetabledTime>2024-09-25T12:13:06Z</TimetabledTime>
+                    <TimetabledTime>2024-09-25T12:13:00Z</TimetabledTime>
                   </ServiceDeparture>
                   <Order>1</Order>
                 </LegBoard>
                 <LegAlight>
-                  <siri:StopPointRef>8503495</siri:StopPointRef>
+                  <siri:StopPointRef>ch:1:sloid:3495:0:469739</siri:StopPointRef>
                   <StopPointName>
                     <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
                   </StopPointName>
                   <NameSuffix>
                     <Text xml:lang="de">PLATFORM_NOT_WHEELCHAIR_ACCESSIBLE</Text>
                   </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">E</Text>
+                  </PlannedQuay>
                   <ServiceArrival>
                     <TimetabledTime>2024-09-25T12:28:00Z</TimetabledTime>
                   </ServiceArrival>
@@ -168,56 +171,61 @@
                     <PtMode>bus</PtMode>
                     <siri:BusSubmode>localBus</siri:BusSubmode>
                     <Name>
-                      <Text xml:lang="de">B</Text>
+                      <Text xml:lang="de">Bus</Text>
                     </Name>
                     <ShortName>
                       <Text xml:lang="de">B</Text>
                     </ShortName>
                   </Mode>
                   <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
-                  <TrainNumber>85</TrainNumber>
-                  <siri:LineRef>ojp:92007:T</siri:LineRef>
-                  <siri:OperatorRef>80_RVL</siri:OperatorRef>
+                  <TrainNumber>71082</TrainNumber>
+                  <siri:LineRef>ojp:92007:D</siri:LineRef>
+                  <siri:OperatorRef>836</siri:OperatorRef>
+                  <PublicCode>Bus</PublicCode>
                   <PublishedServiceName>
                     <Text xml:lang="de">7</Text>
                   </PublishedServiceName>
                   <ProductCategory>
                     <Name>
-                      <Text xml:lang="de">B</Text>
+                      <Text xml:lang="de">Bus</Text>
                     </Name>
                     <ShortName>
                       <Text xml:lang="de">B</Text>
                     </ShortName>
                     <ProductCategoryRef>29</ProductCategoryRef>
                   </ProductCategory>
-                  <siri:DirectionRef>H</siri:DirectionRef>
-                  <Unplanned>true</Unplanned>
+                  <siri:DirectionRef>R</siri:DirectionRef>
                   <OperatingDayRef>2024-09-25</OperatingDayRef>
-                  <DestinationStopPointRef/>
+                  <DestinationStopPointRef>8503495</DestinationStopPointRef>
                   <OriginText>
                     <Text xml:lang="de">n/a</Text>
                   </OriginText>
                   <DestinationText>
-                    <Text xml:lang="de">Schaffhausen Bhf</Text>
+                    <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
                   </DestinationText>
-                  <JourneyRef>ojp:92007:T:H:j24:65351</JourneyRef>
+                  <JourneyRef>ojp-92-7-D-j24-1-738-TA</JourneyRef>
+                  <Attribute>
+                    <UserText>
+                      <Text xml:lang="de">Kein Niederflur</Text>
+                    </UserText>
+                    <Code>A__PH</Code>
+                  </Attribute>
                 </Service>
               </TimedLeg>
             </Leg>
-            <Unplanned>true</Unplanned>
           </Trip>
         </TripResult>
         <TripResult>
-          <Id>ID-FBF6C876-B032-4416-BD9B-BFE25ECCB768</Id>
+          <Id>ID-93E6C1BF-3B40-4161-98C6-713FC0CF35F7</Id>
           <Trip>
-            <Id>ID-FBF6C876-B032-4416-BD9B-BFE25ECCB768</Id>
-            <Duration>PT14M54S</Duration>
-            <StartTime>2024-09-25T12:28:06Z</StartTime>
+            <Id>ID-93E6C1BF-3B40-4161-98C6-713FC0CF35F7</Id>
+            <Duration>PT15M</Duration>
+            <StartTime>2024-09-25T12:28:00Z</StartTime>
             <EndTime>2024-09-25T12:43:00Z</EndTime>
             <Transfers>0</Transfers>
             <Leg>
               <Id>1</Id>
-              <Duration>PT14M54S</Duration>
+              <Duration>PT15M</Duration>
               <TimedLeg>
                 <LegBoard>
                   <siri:StopPointRef>8592509</siri:StopPointRef>
@@ -228,18 +236,21 @@
                     <Text xml:lang="de">PLATFORM_NOT_WHEELCHAIR_ACCESSIBLE</Text>
                   </NameSuffix>
                   <ServiceDeparture>
-                    <TimetabledTime>2024-09-25T12:28:06Z</TimetabledTime>
+                    <TimetabledTime>2024-09-25T12:28:00Z</TimetabledTime>
                   </ServiceDeparture>
                   <Order>1</Order>
                 </LegBoard>
                 <LegAlight>
-                  <siri:StopPointRef>8503495</siri:StopPointRef>
+                  <siri:StopPointRef>ch:1:sloid:3495:0:469739</siri:StopPointRef>
                   <StopPointName>
                     <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
                   </StopPointName>
                   <NameSuffix>
                     <Text xml:lang="de">PLATFORM_NOT_WHEELCHAIR_ACCESSIBLE</Text>
                   </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">E</Text>
+                  </PlannedQuay>
                   <ServiceArrival>
                     <TimetabledTime>2024-09-25T12:43:00Z</TimetabledTime>
                   </ServiceArrival>
@@ -250,56 +261,61 @@
                     <PtMode>bus</PtMode>
                     <siri:BusSubmode>localBus</siri:BusSubmode>
                     <Name>
-                      <Text xml:lang="de">B</Text>
+                      <Text xml:lang="de">Bus</Text>
                     </Name>
                     <ShortName>
                       <Text xml:lang="de">B</Text>
                     </ShortName>
                   </Mode>
                   <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
-                  <TrainNumber>85</TrainNumber>
-                  <siri:LineRef>ojp:92007:T</siri:LineRef>
-                  <siri:OperatorRef>80_RVL</siri:OperatorRef>
+                  <TrainNumber>71084</TrainNumber>
+                  <siri:LineRef>ojp:92007:D</siri:LineRef>
+                  <siri:OperatorRef>836</siri:OperatorRef>
+                  <PublicCode>Bus</PublicCode>
                   <PublishedServiceName>
                     <Text xml:lang="de">7</Text>
                   </PublishedServiceName>
                   <ProductCategory>
                     <Name>
-                      <Text xml:lang="de">B</Text>
+                      <Text xml:lang="de">Bus</Text>
                     </Name>
                     <ShortName>
                       <Text xml:lang="de">B</Text>
                     </ShortName>
                     <ProductCategoryRef>29</ProductCategoryRef>
                   </ProductCategory>
-                  <siri:DirectionRef>H</siri:DirectionRef>
-                  <Unplanned>true</Unplanned>
+                  <siri:DirectionRef>R</siri:DirectionRef>
                   <OperatingDayRef>2024-09-25</OperatingDayRef>
-                  <DestinationStopPointRef/>
+                  <DestinationStopPointRef>8503495</DestinationStopPointRef>
                   <OriginText>
                     <Text xml:lang="de">n/a</Text>
                   </OriginText>
                   <DestinationText>
-                    <Text xml:lang="de">Schaffhausen Bhf</Text>
+                    <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
                   </DestinationText>
-                  <JourneyRef>ojp:92007:T:H:j24:65352</JourneyRef>
+                  <JourneyRef>ojp-92-7-D-j24-1-729-TA</JourneyRef>
+                  <Attribute>
+                    <UserText>
+                      <Text xml:lang="de">Kein Niederflur</Text>
+                    </UserText>
+                    <Code>A__PH</Code>
+                  </Attribute>
                 </Service>
               </TimedLeg>
             </Leg>
-            <Unplanned>true</Unplanned>
           </Trip>
         </TripResult>
         <TripResult>
-          <Id>ID-A69DBD2D-9524-4A8F-9013-890B7D89E39E</Id>
+          <Id>ID-2C6A0DB8-8E62-41D5-A892-7FE2A23C6B8E</Id>
           <Trip>
-            <Id>ID-A69DBD2D-9524-4A8F-9013-890B7D89E39E</Id>
-            <Duration>PT14M54S</Duration>
-            <StartTime>2024-09-25T12:43:06Z</StartTime>
+            <Id>ID-2C6A0DB8-8E62-41D5-A892-7FE2A23C6B8E</Id>
+            <Duration>PT15M</Duration>
+            <StartTime>2024-09-25T12:43:00Z</StartTime>
             <EndTime>2024-09-25T12:58:00Z</EndTime>
             <Transfers>0</Transfers>
             <Leg>
               <Id>1</Id>
-              <Duration>PT14M54S</Duration>
+              <Duration>PT15M</Duration>
               <TimedLeg>
                 <LegBoard>
                   <siri:StopPointRef>8592509</siri:StopPointRef>
@@ -310,18 +326,21 @@
                     <Text xml:lang="de">PLATFORM_NOT_WHEELCHAIR_ACCESSIBLE</Text>
                   </NameSuffix>
                   <ServiceDeparture>
-                    <TimetabledTime>2024-09-25T12:43:06Z</TimetabledTime>
+                    <TimetabledTime>2024-09-25T12:43:00Z</TimetabledTime>
                   </ServiceDeparture>
                   <Order>1</Order>
                 </LegBoard>
                 <LegAlight>
-                  <siri:StopPointRef>8503495</siri:StopPointRef>
+                  <siri:StopPointRef>ch:1:sloid:3495:0:469739</siri:StopPointRef>
                   <StopPointName>
                     <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
                   </StopPointName>
                   <NameSuffix>
                     <Text xml:lang="de">PLATFORM_NOT_WHEELCHAIR_ACCESSIBLE</Text>
                   </NameSuffix>
+                  <PlannedQuay>
+                    <Text xml:lang="de">E</Text>
+                  </PlannedQuay>
                   <ServiceArrival>
                     <TimetabledTime>2024-09-25T12:58:00Z</TimetabledTime>
                   </ServiceArrival>
@@ -332,43 +351,48 @@
                     <PtMode>bus</PtMode>
                     <siri:BusSubmode>localBus</siri:BusSubmode>
                     <Name>
-                      <Text xml:lang="de">B</Text>
+                      <Text xml:lang="de">Bus</Text>
                     </Name>
                     <ShortName>
                       <Text xml:lang="de">B</Text>
                     </ShortName>
                   </Mode>
                   <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
-                  <TrainNumber>85</TrainNumber>
-                  <siri:LineRef>ojp:92007:T</siri:LineRef>
-                  <siri:OperatorRef>80_RVL</siri:OperatorRef>
+                  <TrainNumber>71086</TrainNumber>
+                  <siri:LineRef>ojp:92007:D</siri:LineRef>
+                  <siri:OperatorRef>836</siri:OperatorRef>
+                  <PublicCode>Bus</PublicCode>
                   <PublishedServiceName>
                     <Text xml:lang="de">7</Text>
                   </PublishedServiceName>
                   <ProductCategory>
                     <Name>
-                      <Text xml:lang="de">B</Text>
+                      <Text xml:lang="de">Bus</Text>
                     </Name>
                     <ShortName>
                       <Text xml:lang="de">B</Text>
                     </ShortName>
                     <ProductCategoryRef>29</ProductCategoryRef>
                   </ProductCategory>
-                  <siri:DirectionRef>H</siri:DirectionRef>
-                  <Unplanned>true</Unplanned>
+                  <siri:DirectionRef>R</siri:DirectionRef>
                   <OperatingDayRef>2024-09-25</OperatingDayRef>
-                  <DestinationStopPointRef/>
+                  <DestinationStopPointRef>8503495</DestinationStopPointRef>
                   <OriginText>
                     <Text xml:lang="de">n/a</Text>
                   </OriginText>
                   <DestinationText>
-                    <Text xml:lang="de">Schaffhausen Bhf</Text>
+                    <Text xml:lang="de">Schaffhausen, Bahnhof</Text>
                   </DestinationText>
-                  <JourneyRef>ojp:92007:T:H:j24:65353</JourneyRef>
+                  <JourneyRef>ojp-92-7-D-j24-1-748-TA</JourneyRef>
+                  <Attribute>
+                    <UserText>
+                      <Text xml:lang="de">Kein Niederflur</Text>
+                    </UserText>
+                    <Code>A__PH</Code>
+                  </Attribute>
                 </Service>
               </TimedLeg>
             </Leg>
-            <Unplanned>true</Unplanned>
           </Trip>
         </TripResult>
       </OJPTripDelivery>

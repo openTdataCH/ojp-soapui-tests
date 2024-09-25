@@ -1,33 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vdv.de/ojp OJP_changes_for_v1.1/OJP.xsd">
-    <OJPRequest>
-        <siri:ServiceRequest>
-            <siri:RequestTimestamp>2023-11-02T10:12:55.403Z</siri:RequestTimestamp>
-            <siri:RequestorRef>MENTZRegTest</siri:RequestorRef>
-            <OJPTripRequest>
-                <siri:RequestTimestamp>2023-11-02T10:12:55.403Z</siri:RequestTimestamp>
-                <siri:MessageIdentifier>TR-4a</siri:MessageIdentifier>
-                <Origin>
-                    <PlaceRef>
-                        <TopographicPlaceRef>23026261:27</TopographicPlaceRef>
-                        <Name>
-                            <Text>ZÃ¼rich</Text>
-                        </Name>
-                    </PlaceRef>
-                    <DepArrTime>2024-12-05T23:00:00+00:00</DepArrTime>
-                </Origin>
-                <Destination>
-                    <PlaceRef>
-                        <TopographicPlaceRef>23017939:4</TopographicPlaceRef>
-                        <Name>
-                            <Text>Schaffhausen</Text>
-                        </Name>
-                    </PlaceRef>
-                </Destination>
-                <Params>
-                    <NumberOfResults>1</NumberOfResults>
-                </Params>
-            </OJPTripRequest>
-        </siri:ServiceRequest>
-    </OJPRequest>
-</OJP>
+<?xml version="1.0" encoding="UTF-8"?>
+<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vdv.de/ojp OJP_changes_for_v1.1/OJP.xsd">
+    <OJPRequest>
+        <siri:ServiceRequest>
+            <siri:RequestTimestamp>2023-11-02T10:12:55.403Z</siri:RequestTimestamp>
+            <siri:RequestorRef>MENTZRegTest</siri:RequestorRef>
+            <OJPTripRequest>
+                <siri:RequestTimestamp>2023-11-02T10:12:55.403Z</siri:RequestTimestamp>
+                <siri:MessageIdentifier>TR-4a</siri:MessageIdentifier>
+                <Origin>
+                    <PlaceRef>
+                        <TopographicPlaceRef>23026261:27</TopographicPlaceRef>
+                        <Name>
+                            <Text>ZÃ¼rich</Text>
+                        </Name>
+                    </PlaceRef>
+                    <DepArrTime>2024-12-05T23:00:00+00:00</DepArrTime>
+                </Origin>
+                <Destination>
+                    <PlaceRef>
+                        <TopographicPlaceRef>23017939:4</TopographicPlaceRef>
+                        <Name>
+                            <Text>Schaffhausen</Text>
+                        </Name>
+                    </PlaceRef>
+                </Destination>
+                <Params>
+                    <NumberOfResults>1</NumberOfResults>
+                </Params>
+            </OJPTripRequest>
+        </siri:ServiceRequest>
+    </OJPRequest>
+</OJP>

@@ -1,33 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vdv.de/ojp OJP_changes_for_v1.1/OJP.xsd">
-    <OJPRequest>
-        <siri:ServiceRequest>
-            <siri:RequestTimestamp>2024-09-25T12:00:00</siri:RequestTimestamp>
-            <siri:RequestorRef>MENTZRegTest</siri:RequestorRef>
-            <OJPTripRequest>
-                <siri:RequestTimestamp>2024-09-25T12:00:00</siri:RequestTimestamp>
-                <siri:MessageIdentifier>TR-1b</siri:MessageIdentifier>
-                <Origin>
-                    <PlaceRef>
-                        <siri:StopPointRef>8507000</siri:StopPointRef>
-                        <Name>
-                            <Text>Bern</Text>
-                        </Name>
-                    </PlaceRef>
-                    <TimeAllowance>PT2H</TimeAllowance>
-                </Origin>
-                <Destination>
-                    <PlaceRef>
-                        <siri:StopPointRef>8503424</siri:StopPointRef>
-                        <Name>
-                            <Text>Schaffhausen</Text>
-                        </Name>
-                    </PlaceRef>
-                </Destination>
-                <Params>
-                    <NumberOfResults>3</NumberOfResults>
-                </Params>
-            </OJPTripRequest>
-        </siri:ServiceRequest>
-    </OJPRequest>
+<?xml version="1.0" encoding="UTF-8"?>
+<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vdv.de/ojp OJP_changes_for_v1.1/OJP.xsd">
+    <OJPRequest>
+        <siri:ServiceRequest>
+            <siri:RequestTimestamp>2024-09-25T12:00:00</siri:RequestTimestamp>
+            <siri:RequestorRef>MENTZRegTest</siri:RequestorRef>
+            <OJPTripRequest>
+                <siri:RequestTimestamp>2024-09-25T12:00:00</siri:RequestTimestamp>
+                <siri:MessageIdentifier>TR-1b</siri:MessageIdentifier>
+                <Origin>
+                    <PlaceRef>
+                        <siri:StopPointRef>8507000</siri:StopPointRef>
+                        <Name>
+                            <Text>Bern</Text>
+                        </Name>
+                    </PlaceRef>
+                    <TimeAllowance>PT2H</TimeAllowance>
+                </Origin>
+                <Destination>
+                    <PlaceRef>
+                        <siri:StopPointRef>8503424</siri:StopPointRef>
+                        <Name>
+                            <Text>Schaffhausen</Text>
+                        </Name>
+                    </PlaceRef>
+                </Destination>
+                <Params>
+                    <NumberOfResults>3</NumberOfResults>
+                </Params>
+            </OJPTripRequest>
+        </siri:ServiceRequest>
+    </OJPRequest>
 </OJP>

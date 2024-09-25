@@ -67,7 +67,7 @@ def get_current_timestamp_1200():
 
 
 timestamp = get_current_timestamp()
-
+dt = datetime.datetime.now()
 mymap = {
     "{$isoTimestamp}": get_current_timestamp_1200(),
     "${IsoTimestampUTC}": get_current_timestamp_1200(),
@@ -76,6 +76,8 @@ mymap = {
     "{DatumFreitagVorFahrplanwechsel}": get_friday_before_second_sunday_december_date(), # TODO probably problem
     "${DatumFreitagVorFahrplanwechsel}": get_friday_before_second_sunday_december_date(),
     "${DatumFreitagVorFahrplanwechselohneT}": get_friday_before_second_sunday_december_2345(),
+    "{DatumFreitagVorFahrplanwechselohneT}": get_friday_before_second_sunday_december_2345(),
+    "{ActiveJourneyRef}": "NoActiveJourneyRef",
+    "{ActiveOperatingDayRef}": dt.strftime('%Y-%m-%d'),
     "${Freitag2345UhrVorFahrplanwechsel}": get_friday_before_second_sunday_december_2345()
-
 }

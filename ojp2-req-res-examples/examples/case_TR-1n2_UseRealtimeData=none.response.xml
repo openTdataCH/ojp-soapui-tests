@@ -1,13 +1,13 @@
 <OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
   <OJPResponse>
     <siri:ServiceDelivery>
-      <siri:ResponseTimestamp>2024-09-25T12:56:48.3907582+02:00</siri:ResponseTimestamp>
+      <siri:ResponseTimestamp>2024-09-25T15:49:30.8035375+02:00</siri:ResponseTimestamp>
       <siri:ProducerRef>MENTZ</siri:ProducerRef>
       <OJPTripDelivery>
-        <siri:ResponseTimestamp>2024-09-25T12:56:48.3907598+02:00</siri:ResponseTimestamp>
-        <siri:RequestMessageRef>71ea764b-7c83-459b-98de-146d25cbca54</siri:RequestMessageRef>
+        <siri:ResponseTimestamp>2024-09-25T15:49:30.8035392+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>bb3c8a09-62c0-4695-8165-2c148c1a67b6</siri:RequestMessageRef>
         <siri:DefaultLanguage>de</siri:DefaultLanguage>
-        <CalcTime>50</CalcTime>
+        <CalcTime>53</CalcTime>
         <TripResponseContext>
           <Places>
             <Place>
@@ -189,9 +189,9 @@
           <Situations/>
         </TripResponseContext>
         <TripResult>
-          <Id>ID-7BDD4162-E7A0-40AC-BB11-0A98D4E7684B</Id>
+          <Id>ID-12439C90-2CC0-4B1B-AE2B-5C09BE423459</Id>
           <Trip>
-            <Id>ID-7BDD4162-E7A0-40AC-BB11-0A98D4E7684B</Id>
+            <Id>ID-12439C90-2CC0-4B1B-AE2B-5C09BE423459</Id>
             <Duration>PT27M</Duration>
             <StartTime>2024-09-25T12:15:00Z</StartTime>
             <EndTime>2024-09-25T12:42:00Z</EndTime>
@@ -270,21 +270,15 @@
                     <Text xml:lang="de">Zürich Wipkingen</Text>
                   </DestinationText>
                   <JourneyRef>ch:1:sjyid:100001:20457-001</JourneyRef>
-                  <Attribute>
-                    <UserText>
-                      <Text xml:lang="de">Aussteigeseite: Links</Text>
-                    </UserText>
-                    <Code>ojp91024_H_InfoCall182_110388_1</Code>
-                  </Attribute>
                 </Service>
               </TimedLeg>
             </Leg>
           </Trip>
         </TripResult>
         <TripResult>
-          <Id>ID-7BC8C7C5-625E-4D62-8A13-A980715DC4C4</Id>
+          <Id>ID-812F8C22-30E0-4C09-A164-BEBC0F5EF4FF</Id>
           <Trip>
-            <Id>ID-7BC8C7C5-625E-4D62-8A13-A980715DC4C4</Id>
+            <Id>ID-812F8C22-30E0-4C09-A164-BEBC0F5EF4FF</Id>
             <Duration>PT33M</Duration>
             <StartTime>2024-09-25T12:21:00Z</StartTime>
             <EndTime>2024-09-25T12:54:00Z</EndTime>
@@ -363,21 +357,15 @@
                     <Text xml:lang="de">Winterthur</Text>
                   </DestinationText>
                   <JourneyRef>ch:1:sjyid:100001:20357-001</JourneyRef>
-                  <Attribute>
-                    <UserText>
-                      <Text xml:lang="de">Aussteigeseite: Rechts</Text>
-                    </UserText>
-                    <Code>ojp91033_H_InfoCall21_110388_1</Code>
-                  </Attribute>
                 </Service>
               </TimedLeg>
             </Leg>
           </Trip>
         </TripResult>
         <TripResult>
-          <Id>ID-E362A071-A79B-48CB-A016-D13BDDF072C6</Id>
+          <Id>ID-31C495A4-1298-45D3-A339-B85AFE078F66</Id>
           <Trip>
-            <Id>ID-E362A071-A79B-48CB-A016-D13BDDF072C6</Id>
+            <Id>ID-31C495A4-1298-45D3-A339-B85AFE078F66</Id>
             <Duration>PT33M</Duration>
             <StartTime>2024-09-25T12:46:00Z</StartTime>
             <EndTime>2024-09-25T13:19:00Z</EndTime>

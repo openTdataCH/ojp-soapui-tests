@@ -54,7 +54,7 @@ def transmit_file_to_server(file_path,schema):
         base_filename = os.path.splitext(os.path.basename(file_path))[0]
         base_filename = os.path.splitext(os.path.basename(base_filename))[0]
         err_filename = f"{base_filename}.err.request.txt"
-        err_file_path = os.path.join(os.path.dirname(file_path), err_filename)
+        err_file_path = os.path.join(os.path.dirname(file_path),"errors", err_filename)
         with open(err_file_path, 'w') as err_file:
             err_file.write(f"XML validation error: {e}")
     # Set the request headers with the bearer token
@@ -87,7 +87,7 @@ def transmit_file_to_server(file_path,schema):
             print("XML validation error:", e)
             tree = etree.fromstring(response.content)
             err_filename = f"{base_filename}.err.response.txt"
-            err_file_path = os.path.join(os.path.dirname(file_path), err_filename)
+            err_file_path = os.path.join(os.path.dirname(file_path),"errors", err_filename)  #having an error file path
             with open(err_file_path, 'w') as err_file:
                 err_file.write(f"XML validation error: {e}")
         print(f'Response saved as {response_file_path}')

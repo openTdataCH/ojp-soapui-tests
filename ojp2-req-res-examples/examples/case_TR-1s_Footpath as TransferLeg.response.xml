@@ -1,13 +1,13 @@
 <OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
   <OJPResponse>
     <siri:ServiceDelivery>
-      <siri:ResponseTimestamp>2024-09-25T12:57:05.0134518+02:00</siri:ResponseTimestamp>
+      <siri:ResponseTimestamp>2024-09-25T15:49:47.073026+02:00</siri:ResponseTimestamp>
       <siri:ProducerRef>MENTZ</siri:ProducerRef>
       <OJPTripDelivery>
-        <siri:ResponseTimestamp>2024-09-25T12:57:05.0134523+02:00</siri:ResponseTimestamp>
-        <siri:RequestMessageRef>640d4ef9-5300-4e93-a069-6ef9ec70d7f3</siri:RequestMessageRef>
+        <siri:ResponseTimestamp>2024-09-25T15:49:47.0730268+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>8675aef8-49b2-4bc4-a9e5-4ddc9939ca0c</siri:RequestMessageRef>
         <siri:DefaultLanguage>de</siri:DefaultLanguage>
-        <CalcTime>1362</CalcTime>
+        <CalcTime>1395</CalcTime>
         <TripResponseContext>
           <Places>
             <Place>
@@ -2916,79 +2916,6 @@
           </Places>
           <Situations>
             <PtSituation>
-              <siri:CreationTime>2024-09-06T08:35:00Z</siri:CreationTime>
-              <siri:ParticipantRef>ch:1:sboid:100110</siri:ParticipantRef>
-              <siri:SituationNumber>ems-8713</siri:SituationNumber>
-              <siri:Version>3</siri:Version>
-              <siri:Source>
-                <siri:SourceType>other</siri:SourceType>
-              </siri:Source>
-              <siri:ValidityPeriod>
-                <siri:StartTime>2024-09-06T08:28:00Z</siri:StartTime>
-                <siri:EndTime>2025-05-31T09:28:00Z</siri:EndTime>
-              </siri:ValidityPeriod>
-              <siri:AlertCause>unknown</siri:AlertCause>
-              <siri:Priority>3</siri:Priority>
-              <siri:ScopeType>line</siri:ScopeType>
-              <siri:Language>de</siri:Language>
-              <siri:Affects>
-                <siri:VehicleJourneys>
-                  <siri:AffectedVehicleJourney>
-                    <siri:LineRef>ojp:93081:_x0020_</siri:LineRef>
-                  </siri:AffectedVehicleJourney>
-                  <siri:AffectedVehicleJourney>
-                    <siri:LineRef>ojp:93082:_x0020_</siri:LineRef>
-                  </siri:AffectedVehicleJourney>
-                  <siri:AffectedVehicleJourney>
-                    <siri:LineRef>ojp:93081:_x0020_</siri:LineRef>
-                  </siri:AffectedVehicleJourney>
-                  <siri:AffectedVehicleJourney>
-                    <siri:LineRef>ojp:93082:_x0020_</siri:LineRef>
-                  </siri:AffectedVehicleJourney>
-                </siri:VehicleJourneys>
-              </siri:Affects>
-              <siri:Consequences>
-                <siri:Consequence>
-                  <siri:Blocking>
-                    <siri:JourneyPlanner>true</siri:JourneyPlanner>
-                  </siri:Blocking>
-                </siri:Consequence>
-              </siri:Consequences>
-              <siri:PublishingActions>
-                <siri:PublishingAction>
-                  <siri:PublishAtScope>
-                    <siri:ScopeType>unknown</siri:ScopeType>
-                    <siri:Affects>
-                      <siri:VehicleJourneys>
-                        <siri:AffectedVehicleJourney>
-                          <siri:LineRef>ojp:93081:_x0020_</siri:LineRef>
-                        </siri:AffectedVehicleJourney>
-                        <siri:AffectedVehicleJourney>
-                          <siri:LineRef>ojp:93082:_x0020_</siri:LineRef>
-                        </siri:AffectedVehicleJourney>
-                        <siri:AffectedVehicleJourney>
-                          <siri:LineRef>ojp:93081:_x0020_</siri:LineRef>
-                        </siri:AffectedVehicleJourney>
-                        <siri:AffectedVehicleJourney>
-                          <siri:LineRef>ojp:93082:_x0020_</siri:LineRef>
-                        </siri:AffectedVehicleJourney>
-                      </siri:VehicleJourneys>
-                    </siri:Affects>
-                  </siri:PublishAtScope>
-                  <siri:PassengerInformationAction>
-                    <siri:ActionRef/>
-                    <siri:RecordedAtTime>2024-09-06T08:35:00Z</siri:RecordedAtTime>
-                    <siri:Perspective>vehicleJourney</siri:Perspective>
-                    <siri:TextualContent>
-                      <siri:SummaryContent>
-                        <siri:SummaryText xml:lang="de">Servicegebühr: Beim Kauf einer Fahrkarte im Zug wird generell ein Zuschlag von CHF 5.- erhoben</siri:SummaryText>
-                      </siri:SummaryContent>
-                    </siri:TextualContent>
-                  </siri:PassengerInformationAction>
-                </siri:PublishingAction>
-              </siri:PublishingActions>
-            </PtSituation>
-            <PtSituation>
               <siri:CreationTime>2024-09-06T08:37:00Z</siri:CreationTime>
               <siri:ParticipantRef>ch:1:sboid:100110</siri:ParticipantRef>
               <siri:SituationNumber>ems-8714</siri:SituationNumber>
@@ -3068,6 +2995,155 @@
                       <siri:SummaryContent>
                         <siri:SummaryText xml:lang="de">Servicegebühr: Beim Kauf einer Fahrkarte im Zug wird generell ein Zuschlag von CHF 5.- erhoben</siri:SummaryText>
                       </siri:SummaryContent>
+                    </siri:TextualContent>
+                  </siri:PassengerInformationAction>
+                </siri:PublishingAction>
+              </siri:PublishingActions>
+            </PtSituation>
+            <PtSituation>
+              <siri:CreationTime>2024-09-06T08:35:00Z</siri:CreationTime>
+              <siri:ParticipantRef>ch:1:sboid:100110</siri:ParticipantRef>
+              <siri:SituationNumber>ems-8713</siri:SituationNumber>
+              <siri:Version>3</siri:Version>
+              <siri:Source>
+                <siri:SourceType>other</siri:SourceType>
+              </siri:Source>
+              <siri:ValidityPeriod>
+                <siri:StartTime>2024-09-06T08:28:00Z</siri:StartTime>
+                <siri:EndTime>2025-05-31T09:28:00Z</siri:EndTime>
+              </siri:ValidityPeriod>
+              <siri:AlertCause>unknown</siri:AlertCause>
+              <siri:Priority>3</siri:Priority>
+              <siri:ScopeType>line</siri:ScopeType>
+              <siri:Language>de</siri:Language>
+              <siri:Affects>
+                <siri:VehicleJourneys>
+                  <siri:AffectedVehicleJourney>
+                    <siri:LineRef>ojp:93081:_x0020_</siri:LineRef>
+                  </siri:AffectedVehicleJourney>
+                  <siri:AffectedVehicleJourney>
+                    <siri:LineRef>ojp:93082:_x0020_</siri:LineRef>
+                  </siri:AffectedVehicleJourney>
+                  <siri:AffectedVehicleJourney>
+                    <siri:LineRef>ojp:93081:_x0020_</siri:LineRef>
+                  </siri:AffectedVehicleJourney>
+                  <siri:AffectedVehicleJourney>
+                    <siri:LineRef>ojp:93082:_x0020_</siri:LineRef>
+                  </siri:AffectedVehicleJourney>
+                </siri:VehicleJourneys>
+              </siri:Affects>
+              <siri:Consequences>
+                <siri:Consequence>
+                  <siri:Blocking>
+                    <siri:JourneyPlanner>true</siri:JourneyPlanner>
+                  </siri:Blocking>
+                </siri:Consequence>
+              </siri:Consequences>
+              <siri:PublishingActions>
+                <siri:PublishingAction>
+                  <siri:PublishAtScope>
+                    <siri:ScopeType>unknown</siri:ScopeType>
+                    <siri:Affects>
+                      <siri:VehicleJourneys>
+                        <siri:AffectedVehicleJourney>
+                          <siri:LineRef>ojp:93081:_x0020_</siri:LineRef>
+                        </siri:AffectedVehicleJourney>
+                        <siri:AffectedVehicleJourney>
+                          <siri:LineRef>ojp:93082:_x0020_</siri:LineRef>
+                        </siri:AffectedVehicleJourney>
+                        <siri:AffectedVehicleJourney>
+                          <siri:LineRef>ojp:93081:_x0020_</siri:LineRef>
+                        </siri:AffectedVehicleJourney>
+                        <siri:AffectedVehicleJourney>
+                          <siri:LineRef>ojp:93082:_x0020_</siri:LineRef>
+                        </siri:AffectedVehicleJourney>
+                      </siri:VehicleJourneys>
+                    </siri:Affects>
+                  </siri:PublishAtScope>
+                  <siri:PassengerInformationAction>
+                    <siri:ActionRef/>
+                    <siri:RecordedAtTime>2024-09-06T08:35:00Z</siri:RecordedAtTime>
+                    <siri:Perspective>vehicleJourney</siri:Perspective>
+                    <siri:TextualContent>
+                      <siri:SummaryContent>
+                        <siri:SummaryText xml:lang="de">Servicegebühr: Beim Kauf einer Fahrkarte im Zug wird generell ein Zuschlag von CHF 5.- erhoben</siri:SummaryText>
+                      </siri:SummaryContent>
+                    </siri:TextualContent>
+                  </siri:PassengerInformationAction>
+                </siri:PublishingAction>
+              </siri:PublishingActions>
+            </PtSituation>
+            <PtSituation>
+              <siri:CreationTime>2024-02-16T04:58:00Z</siri:CreationTime>
+              <siri:ParticipantRef>ski-ddip-out-sx_prod</siri:ParticipantRef>
+              <siri:SituationNumber>ch:1:sstid:100619:65ceeb58b3cb1f0071636929:-0</siri:SituationNumber>
+              <siri:Version>13</siri:Version>
+              <siri:Source>
+                <siri:SourceType>other</siri:SourceType>
+              </siri:Source>
+              <siri:ValidityPeriod>
+                <siri:StartTime>2024-03-16T04:55:00Z</siri:StartTime>
+                <siri:EndTime>2024-12-14T23:00:00Z</siri:EndTime>
+              </siri:ValidityPeriod>
+              <siri:AlertCause>unknown</siri:AlertCause>
+              <siri:Priority>3</siri:Priority>
+              <siri:ScopeType>line</siri:ScopeType>
+              <siri:Language>de</siri:Language>
+              <siri:Affects>
+                <siri:VehicleJourneys>
+                  <siri:AffectedVehicleJourney>
+                    <siri:LineRef>ojp:92502:A</siri:LineRef>
+                  </siri:AffectedVehicleJourney>
+                  <siri:AffectedVehicleJourney>
+                    <siri:LineRef>ojp:92502:A</siri:LineRef>
+                  </siri:AffectedVehicleJourney>
+                </siri:VehicleJourneys>
+              </siri:Affects>
+              <siri:Consequences>
+                <siri:Consequence>
+                  <siri:Blocking>
+                    <siri:JourneyPlanner>true</siri:JourneyPlanner>
+                  </siri:Blocking>
+                </siri:Consequence>
+              </siri:Consequences>
+              <siri:PublishingActions>
+                <siri:PublishingAction>
+                  <siri:PublishAtScope>
+                    <siri:ScopeType>unknown</siri:ScopeType>
+                    <siri:Affects>
+                      <siri:VehicleJourneys>
+                        <siri:AffectedVehicleJourney>
+                          <siri:LineRef>ojp:92502:A</siri:LineRef>
+                        </siri:AffectedVehicleJourney>
+                        <siri:AffectedVehicleJourney>
+                          <siri:LineRef>ojp:92502:A</siri:LineRef>
+                        </siri:AffectedVehicleJourney>
+                      </siri:VehicleJourneys>
+                    </siri:Affects>
+                  </siri:PublishAtScope>
+                  <siri:PassengerInformationAction>
+                    <siri:ActionRef/>
+                    <siri:RecordedAtTime>2024-02-16T04:58:00Z</siri:RecordedAtTime>
+                    <siri:Perspective>vehicleJourney</siri:Perspective>
+                    <siri:TextualContent>
+                      <siri:SummaryContent>
+                        <siri:SummaryText xml:lang="de">Der Busverkehr im Raum Küssnacht am Rigi-Vitznau verläuft unregelmässig.</siri:SummaryText>
+                      </siri:SummaryContent>
+                      <siri:ReasonContent>
+                        <siri:ReasonText xml:lang="de">Der Grund dafür sind Bauarbeiten.</siri:ReasonText>
+                      </siri:ReasonContent>
+                      <siri:DescriptionContent>
+                        <siri:DescriptionText xml:lang="de">Betroffen ist die Linie 502.</siri:DescriptionText>
+                      </siri:DescriptionContent>
+                      <siri:ConsequenceContent>
+                        <siri:ConsequenceText xml:lang="de">Es ist mit Verspätungen und Ausfällen zu rechnen.</siri:ConsequenceText>
+                      </siri:ConsequenceContent>
+                      <siri:RecommendationContent>
+                        <siri:RecommendationText xml:lang="de">Wir empfehlen, kurz vor jeder Fahrt den Online-Fahrplan zu konsultieren.</siri:RecommendationText>
+                      </siri:RecommendationContent>
+                      <siri:DurationContent>
+                        <siri:DurationText xml:lang="de">Die Einschränkung dauert bis 14.12.2024, 23:59.</siri:DurationText>
+                      </siri:DurationContent>
                     </siri:TextualContent>
                   </siri:PassengerInformationAction>
                 </siri:PublishingAction>
@@ -3158,88 +3234,12 @@
                 </siri:PublishingAction>
               </siri:PublishingActions>
             </PtSituation>
-            <PtSituation>
-              <siri:CreationTime>2024-02-16T04:58:00Z</siri:CreationTime>
-              <siri:ParticipantRef>ski-ddip-out-sx_prod</siri:ParticipantRef>
-              <siri:SituationNumber>ch:1:sstid:100619:65ceeb58b3cb1f0071636929:-0</siri:SituationNumber>
-              <siri:Version>13</siri:Version>
-              <siri:Source>
-                <siri:SourceType>other</siri:SourceType>
-              </siri:Source>
-              <siri:ValidityPeriod>
-                <siri:StartTime>2024-03-16T04:55:00Z</siri:StartTime>
-                <siri:EndTime>2024-12-14T23:00:00Z</siri:EndTime>
-              </siri:ValidityPeriod>
-              <siri:AlertCause>unknown</siri:AlertCause>
-              <siri:Priority>3</siri:Priority>
-              <siri:ScopeType>line</siri:ScopeType>
-              <siri:Language>de</siri:Language>
-              <siri:Affects>
-                <siri:VehicleJourneys>
-                  <siri:AffectedVehicleJourney>
-                    <siri:LineRef>ojp:92502:A</siri:LineRef>
-                  </siri:AffectedVehicleJourney>
-                  <siri:AffectedVehicleJourney>
-                    <siri:LineRef>ojp:92502:A</siri:LineRef>
-                  </siri:AffectedVehicleJourney>
-                </siri:VehicleJourneys>
-              </siri:Affects>
-              <siri:Consequences>
-                <siri:Consequence>
-                  <siri:Blocking>
-                    <siri:JourneyPlanner>true</siri:JourneyPlanner>
-                  </siri:Blocking>
-                </siri:Consequence>
-              </siri:Consequences>
-              <siri:PublishingActions>
-                <siri:PublishingAction>
-                  <siri:PublishAtScope>
-                    <siri:ScopeType>unknown</siri:ScopeType>
-                    <siri:Affects>
-                      <siri:VehicleJourneys>
-                        <siri:AffectedVehicleJourney>
-                          <siri:LineRef>ojp:92502:A</siri:LineRef>
-                        </siri:AffectedVehicleJourney>
-                        <siri:AffectedVehicleJourney>
-                          <siri:LineRef>ojp:92502:A</siri:LineRef>
-                        </siri:AffectedVehicleJourney>
-                      </siri:VehicleJourneys>
-                    </siri:Affects>
-                  </siri:PublishAtScope>
-                  <siri:PassengerInformationAction>
-                    <siri:ActionRef/>
-                    <siri:RecordedAtTime>2024-02-16T04:58:00Z</siri:RecordedAtTime>
-                    <siri:Perspective>vehicleJourney</siri:Perspective>
-                    <siri:TextualContent>
-                      <siri:SummaryContent>
-                        <siri:SummaryText xml:lang="de">Der Busverkehr im Raum Küssnacht am Rigi-Vitznau verläuft unregelmässig.</siri:SummaryText>
-                      </siri:SummaryContent>
-                      <siri:ReasonContent>
-                        <siri:ReasonText xml:lang="de">Der Grund dafür sind Bauarbeiten.</siri:ReasonText>
-                      </siri:ReasonContent>
-                      <siri:DescriptionContent>
-                        <siri:DescriptionText xml:lang="de">Betroffen ist die Linie 502.</siri:DescriptionText>
-                      </siri:DescriptionContent>
-                      <siri:ConsequenceContent>
-                        <siri:ConsequenceText xml:lang="de">Es ist mit Verspätungen und Ausfällen zu rechnen.</siri:ConsequenceText>
-                      </siri:ConsequenceContent>
-                      <siri:RecommendationContent>
-                        <siri:RecommendationText xml:lang="de">Wir empfehlen, kurz vor jeder Fahrt den Online-Fahrplan zu konsultieren.</siri:RecommendationText>
-                      </siri:RecommendationContent>
-                      <siri:DurationContent>
-                        <siri:DurationText xml:lang="de">Die Einschränkung dauert bis 14.12.2024, 23:59.</siri:DurationText>
-                      </siri:DurationContent>
-                    </siri:TextualContent>
-                  </siri:PassengerInformationAction>
-                </siri:PublishingAction>
-              </siri:PublishingActions>
-            </PtSituation>
           </Situations>
         </TripResponseContext>
         <TripResult>
-          <Id>ID-ACA4FD39-7B39-408D-A1CE-5B2E5EFAF6BA</Id>
+          <Id>ID-9507272F-E2DC-4013-9080-2EBE6BF5ED2E</Id>
           <Trip>
-            <Id>ID-ACA4FD39-7B39-408D-A1CE-5B2E5EFAF6BA</Id>
+            <Id>ID-9507272F-E2DC-4013-9080-2EBE6BF5ED2E</Id>
             <Duration>PT3H17M</Duration>
             <StartTime>2024-12-06T06:30:00Z</StartTime>
             <EndTime>2024-12-06T09:47:00Z</EndTime>
@@ -11877,11 +11877,11 @@
                   <SituationFullRefs>
                     <SituationFullRef>
                       <siri:ParticipantRef>ch:1:sboid:100110</siri:ParticipantRef>
-                      <siri:SituationNumber>ems-8713</siri:SituationNumber>
+                      <siri:SituationNumber>ems-8714</siri:SituationNumber>
                     </SituationFullRef>
                     <SituationFullRef>
                       <siri:ParticipantRef>ch:1:sboid:100110</siri:ParticipantRef>
-                      <siri:SituationNumber>ems-8714</siri:SituationNumber>
+                      <siri:SituationNumber>ems-8713</siri:SituationNumber>
                     </SituationFullRef>
                   </SituationFullRefs>
                 </Service>
@@ -13630,9 +13630,9 @@
           </Trip>
         </TripResult>
         <TripResult>
-          <Id>ID-B3F93350-ACB7-43E1-AC41-32C4B0F9422E</Id>
+          <Id>ID-1865729B-A74A-4436-A327-2AD14822444B</Id>
           <Trip>
-            <Id>ID-B3F93350-ACB7-43E1-AC41-32C4B0F9422E</Id>
+            <Id>ID-1865729B-A74A-4436-A327-2AD14822444B</Id>
             <Duration>PT3H17M</Duration>
             <StartTime>2024-12-06T07:30:00Z</StartTime>
             <EndTime>2024-12-06T10:47:00Z</EndTime>
@@ -22270,11 +22270,11 @@
                   <SituationFullRefs>
                     <SituationFullRef>
                       <siri:ParticipantRef>ch:1:sboid:100110</siri:ParticipantRef>
-                      <siri:SituationNumber>ems-8713</siri:SituationNumber>
+                      <siri:SituationNumber>ems-8714</siri:SituationNumber>
                     </SituationFullRef>
                     <SituationFullRef>
                       <siri:ParticipantRef>ch:1:sboid:100110</siri:ParticipantRef>
-                      <siri:SituationNumber>ems-8714</siri:SituationNumber>
+                      <siri:SituationNumber>ems-8713</siri:SituationNumber>
                     </SituationFullRef>
                   </SituationFullRefs>
                 </Service>
@@ -24023,9 +24023,9 @@
           </Trip>
         </TripResult>
         <TripResult>
-          <Id>ID-BCD6EBCA-5C1C-4A82-9B65-C40857A4EA41</Id>
+          <Id>ID-AB4F0FC8-758D-48BD-963C-F422F80925B6</Id>
           <Trip>
-            <Id>ID-BCD6EBCA-5C1C-4A82-9B65-C40857A4EA41</Id>
+            <Id>ID-AB4F0FC8-758D-48BD-963C-F422F80925B6</Id>
             <Duration>PT3H17M</Duration>
             <StartTime>2024-12-06T08:30:00Z</StartTime>
             <EndTime>2024-12-06T11:47:00Z</EndTime>
@@ -30310,11 +30310,11 @@
                   <SituationFullRefs>
                     <SituationFullRef>
                       <siri:ParticipantRef>ch:1:sboid:100110</siri:ParticipantRef>
-                      <siri:SituationNumber>ems-8713</siri:SituationNumber>
+                      <siri:SituationNumber>ems-8714</siri:SituationNumber>
                     </SituationFullRef>
                     <SituationFullRef>
                       <siri:ParticipantRef>ch:1:sboid:100110</siri:ParticipantRef>
-                      <siri:SituationNumber>ems-8714</siri:SituationNumber>
+                      <siri:SituationNumber>ems-8713</siri:SituationNumber>
                     </SituationFullRef>
                   </SituationFullRefs>
                 </Service>
@@ -31591,9 +31591,9 @@
           </Trip>
         </TripResult>
         <TripResult>
-          <Id>ID-7693EBC8-7B47-4B16-9321-0D86B4C45F66</Id>
+          <Id>ID-49E1DFEC-3275-4C3C-8740-BDC71C214B42</Id>
           <Trip>
-            <Id>ID-7693EBC8-7B47-4B16-9321-0D86B4C45F66</Id>
+            <Id>ID-49E1DFEC-3275-4C3C-8740-BDC71C214B42</Id>
             <Duration>PT3H17M</Duration>
             <StartTime>2024-12-06T09:30:00Z</StartTime>
             <EndTime>2024-12-06T12:47:00Z</EndTime>
@@ -40237,11 +40237,11 @@
                   <SituationFullRefs>
                     <SituationFullRef>
                       <siri:ParticipantRef>ch:1:sboid:100110</siri:ParticipantRef>
-                      <siri:SituationNumber>ems-8713</siri:SituationNumber>
+                      <siri:SituationNumber>ems-8714</siri:SituationNumber>
                     </SituationFullRef>
                     <SituationFullRef>
                       <siri:ParticipantRef>ch:1:sboid:100110</siri:ParticipantRef>
-                      <siri:SituationNumber>ems-8714</siri:SituationNumber>
+                      <siri:SituationNumber>ems-8713</siri:SituationNumber>
                     </SituationFullRef>
                   </SituationFullRefs>
                 </Service>
@@ -41990,9 +41990,9 @@
           </Trip>
         </TripResult>
         <TripResult>
-          <Id>ID-843D37C6-F878-4659-9718-C97307D1E124</Id>
+          <Id>ID-AD29C0B5-B647-474B-81FB-EABFD4AE3F94</Id>
           <Trip>
-            <Id>ID-843D37C6-F878-4659-9718-C97307D1E124</Id>
+            <Id>ID-AD29C0B5-B647-474B-81FB-EABFD4AE3F94</Id>
             <Duration>PT3H17M</Duration>
             <StartTime>2024-12-06T10:30:00Z</StartTime>
             <EndTime>2024-12-06T13:47:00Z</EndTime>
@@ -49680,11 +49680,11 @@
                   <SituationFullRefs>
                     <SituationFullRef>
                       <siri:ParticipantRef>ski-ddip-out-sx_prod</siri:ParticipantRef>
-                      <siri:SituationNumber>ch:1:sstid:100619:66dd4ba6b3cb1f00737f6216:-0</siri:SituationNumber>
+                      <siri:SituationNumber>ch:1:sstid:100619:65ceeb58b3cb1f0071636929:-0</siri:SituationNumber>
                     </SituationFullRef>
                     <SituationFullRef>
                       <siri:ParticipantRef>ski-ddip-out-sx_prod</siri:ParticipantRef>
-                      <siri:SituationNumber>ch:1:sstid:100619:65ceeb58b3cb1f0071636929:-0</siri:SituationNumber>
+                      <siri:SituationNumber>ch:1:sstid:100619:66dd4ba6b3cb1f00737f6216:-0</siri:SituationNumber>
                     </SituationFullRef>
                   </SituationFullRefs>
                 </Service>
@@ -52425,11 +52425,11 @@
                   <SituationFullRefs>
                     <SituationFullRef>
                       <siri:ParticipantRef>ch:1:sboid:100110</siri:ParticipantRef>
-                      <siri:SituationNumber>ems-8713</siri:SituationNumber>
+                      <siri:SituationNumber>ems-8714</siri:SituationNumber>
                     </SituationFullRef>
                     <SituationFullRef>
                       <siri:ParticipantRef>ch:1:sboid:100110</siri:ParticipantRef>
-                      <siri:SituationNumber>ems-8714</siri:SituationNumber>
+                      <siri:SituationNumber>ems-8713</siri:SituationNumber>
                     </SituationFullRef>
                   </SituationFullRefs>
                 </Service>
@@ -53706,9 +53706,9 @@
           </Trip>
         </TripResult>
         <TripResult>
-          <Id>ID-57246109-9393-46D4-BD7A-9D9135F2828C</Id>
+          <Id>ID-BFFC2984-1E05-4298-9D4B-94AEBA98B40B</Id>
           <Trip>
-            <Id>ID-57246109-9393-46D4-BD7A-9D9135F2828C</Id>
+            <Id>ID-BFFC2984-1E05-4298-9D4B-94AEBA98B40B</Id>
             <Duration>PT3H32M</Duration>
             <StartTime>2024-12-06T10:30:00Z</StartTime>
             <EndTime>2024-12-06T14:02:00Z</EndTime>
@@ -62344,11 +62344,11 @@
                   <SituationFullRefs>
                     <SituationFullRef>
                       <siri:ParticipantRef>ch:1:sboid:100110</siri:ParticipantRef>
-                      <siri:SituationNumber>ems-8713</siri:SituationNumber>
+                      <siri:SituationNumber>ems-8714</siri:SituationNumber>
                     </SituationFullRef>
                     <SituationFullRef>
                       <siri:ParticipantRef>ch:1:sboid:100110</siri:ParticipantRef>
-                      <siri:SituationNumber>ems-8714</siri:SituationNumber>
+                      <siri:SituationNumber>ems-8713</siri:SituationNumber>
                     </SituationFullRef>
                   </SituationFullRefs>
                 </Service>

@@ -1,13 +1,13 @@
 <OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
   <OJPResponse>
     <siri:ServiceDelivery>
-      <siri:ResponseTimestamp>2024-09-25T12:55:28.0810271+02:00</siri:ResponseTimestamp>
+      <siri:ResponseTimestamp>2024-09-25T15:48:12.5513821+02:00</siri:ResponseTimestamp>
       <siri:ProducerRef>MENTZ</siri:ProducerRef>
       <OJPStopEventDelivery>
-        <siri:ResponseTimestamp>2024-09-25T12:55:28.0810279+02:00</siri:ResponseTimestamp>
-        <siri:RequestMessageRef>758ad4f7-c962-4ba2-8542-862c71873a8b</siri:RequestMessageRef>
+        <siri:ResponseTimestamp>2024-09-25T15:48:12.5513829+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>80880399-79b8-4dec-9d0b-4628ecedca4c</siri:RequestMessageRef>
         <siri:DefaultLanguage>de</siri:DefaultLanguage>
-        <CalcTime>8</CalcTime>
+        <CalcTime>7</CalcTime>
         <StopEventResponseContext>
           <Places>
             <Place>

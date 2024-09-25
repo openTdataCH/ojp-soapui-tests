@@ -1,13 +1,13 @@
 <OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
   <OJPResponse>
     <siri:ServiceDelivery>
-      <siri:ResponseTimestamp>2024-09-25T12:56:28.1063397+02:00</siri:ResponseTimestamp>
+      <siri:ResponseTimestamp>2024-09-25T15:49:11.0021685+02:00</siri:ResponseTimestamp>
       <siri:ProducerRef>MENTZ</siri:ProducerRef>
       <OJPTripDelivery>
-        <siri:ResponseTimestamp>2024-09-25T12:56:28.1063422+02:00</siri:ResponseTimestamp>
-        <siri:RequestMessageRef>f5a76636-e379-4555-99af-caaef92a949a</siri:RequestMessageRef>
+        <siri:ResponseTimestamp>2024-09-25T15:49:11.0021711+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>9b070d62-d93a-4f50-bef3-381274f15768</siri:RequestMessageRef>
         <siri:DefaultLanguage>de</siri:DefaultLanguage>
-        <CalcTime>311</CalcTime>
+        <CalcTime>305</CalcTime>
         <TripResponseContext>
           <Places>
             <Place>
@@ -607,9 +607,9 @@
           <Situations/>
         </TripResponseContext>
         <TripResult>
-          <Id>ID-6A17463F-B4BC-4081-860E-7FCE3F30EE73</Id>
+          <Id>ID-CA5DD46A-07F6-49A4-ACB5-1DD44C49997B</Id>
           <Trip>
-            <Id>ID-6A17463F-B4BC-4081-860E-7FCE3F30EE73</Id>
+            <Id>ID-CA5DD46A-07F6-49A4-ACB5-1DD44C49997B</Id>
             <Duration>PT2H11M</Duration>
             <StartTime>2024-12-05T21:02:00Z</StartTime>
             <EndTime>2024-12-05T23:13:00Z</EndTime>
@@ -815,9 +815,9 @@
           </Trip>
         </TripResult>
         <TripResult>
-          <Id>ID-FEC1898F-0BBA-49E6-9556-BD2595E5FE0A</Id>
+          <Id>ID-6C7DE21D-3E9F-4E42-946F-64120F97A2C3</Id>
           <Trip>
-            <Id>ID-FEC1898F-0BBA-49E6-9556-BD2595E5FE0A</Id>
+            <Id>ID-6C7DE21D-3E9F-4E42-946F-64120F97A2C3</Id>
             <Duration>PT2H12M</Duration>
             <StartTime>2024-12-05T21:31:00Z</StartTime>
             <EndTime>2024-12-05T23:43:00Z</EndTime>
@@ -1132,9 +1132,9 @@
           </Trip>
         </TripResult>
         <TripResult>
-          <Id>ID-C18AEAC0-6C44-4033-9CB4-1C8FC7829DB6</Id>
+          <Id>ID-B52294AC-5DB5-4E83-BBC9-85B1E53337B4</Id>
           <Trip>
-            <Id>ID-C18AEAC0-6C44-4033-9CB4-1C8FC7829DB6</Id>
+            <Id>ID-B52294AC-5DB5-4E83-BBC9-85B1E53337B4</Id>
             <Duration>PT2H16M</Duration>
             <StartTime>2024-12-05T21:31:00Z</StartTime>
             <EndTime>2024-12-05T23:47:00Z</EndTime>
@@ -1358,9 +1358,9 @@
           </Trip>
         </TripResult>
         <TripResult>
-          <Id>ID-FAC9A3B5-349F-4BDE-9C47-318D8AD9FFA8</Id>
+          <Id>ID-DE20AC48-E3C6-41A0-AB72-E4B1B4729860</Id>
           <Trip>
-            <Id>ID-FAC9A3B5-349F-4BDE-9C47-318D8AD9FFA8</Id>
+            <Id>ID-DE20AC48-E3C6-41A0-AB72-E4B1B4729860</Id>
             <Duration>PT2H20M</Duration>
             <StartTime>2024-12-05T22:02:00Z</StartTime>
             <EndTime>2024-12-06T00:22:00Z</EndTime>

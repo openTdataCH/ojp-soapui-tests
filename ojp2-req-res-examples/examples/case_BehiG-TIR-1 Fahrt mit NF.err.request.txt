@@ -1,1 +1,0 @@
-XML validation error: Element '{http://www.vdv.de/ojp}OperatingDayRef': '{DatumFreitagVorFahrplanwechselohneT}' is not a valid value of the atomic type '{http://www.vdv.de/ojp}OperatingDayCodeType'., line 11

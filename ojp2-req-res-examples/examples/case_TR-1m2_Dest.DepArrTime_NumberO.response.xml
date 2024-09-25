@@ -1,13 +1,13 @@
 <OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
   <OJPResponse>
     <siri:ServiceDelivery>
-      <siri:ResponseTimestamp>2024-09-25T12:56:32.5540223+02:00</siri:ResponseTimestamp>
+      <siri:ResponseTimestamp>2024-09-25T15:49:15.3644816+02:00</siri:ResponseTimestamp>
       <siri:ProducerRef>MENTZ</siri:ProducerRef>
       <OJPTripDelivery>
-        <siri:ResponseTimestamp>2024-09-25T12:56:32.5540265+02:00</siri:ResponseTimestamp>
-        <siri:RequestMessageRef>51bbaaa8-027e-41b8-91a5-e47f1dd5ee1f</siri:RequestMessageRef>
+        <siri:ResponseTimestamp>2024-09-25T15:49:15.3644851+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>f32b79c6-dcb7-4ff5-9c52-4c6cddda1116</siri:RequestMessageRef>
         <siri:DefaultLanguage>de</siri:DefaultLanguage>
-        <CalcTime>47</CalcTime>
+        <CalcTime>37</CalcTime>
         <TripResponseContext>
           <Places>
             <Place>
@@ -126,9 +126,9 @@
           <Situations/>
         </TripResponseContext>
         <TripResult>
-          <Id>ID-1B3737A1-3B78-4629-AD70-72BF7918C831</Id>
+          <Id>ID-12595600-D675-42F0-85D8-C6682742AD15</Id>
           <Trip>
-            <Id>ID-1B3737A1-3B78-4629-AD70-72BF7918C831</Id>
+            <Id>ID-12595600-D675-42F0-85D8-C6682742AD15</Id>
             <Duration>PT33M</Duration>
             <StartTime>2024-12-05T22:21:00Z</StartTime>
             <EndTime>2024-12-05T22:54:00Z</EndTime>

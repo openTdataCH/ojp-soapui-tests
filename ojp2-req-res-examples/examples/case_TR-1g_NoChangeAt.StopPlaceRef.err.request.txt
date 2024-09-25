@@ -1,1 +1,0 @@
-XML validation error: Element '{http://www.vdv.de/ojp}DepArrTime': '2024-12-0614:23:00Z' is not a valid value of the atomic type 'xs:dateTime'., line 17

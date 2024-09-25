@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vdv.de/ojp OJP_changes_for_v1.1/OJP.xsd">
-    <OJPRequest>
-        <siri:ServiceRequest>
-            <siri:RequestTimestamp>2024-09-25T12:00:00</siri:RequestTimestamp>
-            <siri:RequestorRef>MENTZRegTest</siri:RequestorRef>
-            <OJPStopEventRequest>
-                <siri:RequestTimestamp>2024-09-25T12:00:00</siri:RequestTimestamp>
-                <siri:MessageIdentifier>SER-3a</siri:MessageIdentifier>
-                <Location>
-                    <PlaceRef>
-                        <GeoPosition>
-                            <siri:Longitude>8.5545</siri:Longitude>
-                            <siri:Latitude>47.365</siri:Latitude>
-                        </GeoPosition>
-                        <Name>
-                            <Text>ZÃ¼rich Kreuzplatz</Text>
-                        </Name>
-                    </PlaceRef>
-                </Location>
-            </OJPStopEventRequest>
-        </siri:ServiceRequest>
-    </OJPRequest>
-</OJP>
+<?xml version="1.0" encoding="UTF-8"?>
+<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vdv.de/ojp OJP_changes_for_v1.1/OJP.xsd">
+    <OJPRequest>
+        <siri:ServiceRequest>
+            <siri:RequestTimestamp>2024-09-25T12:00:00</siri:RequestTimestamp>
+            <siri:RequestorRef>MENTZRegTest</siri:RequestorRef>
+            <OJPStopEventRequest>
+                <siri:RequestTimestamp>2024-09-25T12:00:00</siri:RequestTimestamp>
+                <siri:MessageIdentifier>SER-3a</siri:MessageIdentifier>
+                <Location>
+                    <PlaceRef>
+                        <GeoPosition>
+                            <siri:Longitude>8.5545</siri:Longitude>
+                            <siri:Latitude>47.365</siri:Latitude>
+                        </GeoPosition>
+                        <Name>
+                            <Text>ZÃ¼rich Kreuzplatz</Text>
+                        </Name>
+                    </PlaceRef>
+                </Location>
+            </OJPStopEventRequest>
+        </siri:ServiceRequest>
+    </OJPRequest>
+</OJP>

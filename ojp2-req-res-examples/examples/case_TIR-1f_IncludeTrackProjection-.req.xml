@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vdv.de/ojp OJP_changes_for_v1.1/OJP.xsd">
-    <OJPRequest>
-        <siri:ServiceRequest>
-            <siri:RequestTimestamp>2024-09-25T12:00:00</siri:RequestTimestamp>
-            <siri:RequestorRef>MENTZRegTest</siri:RequestorRef>
-            <OJPTripInfoRequest>
-                <siri:RequestTimestamp>2024-09-25T12:00:00</siri:RequestTimestamp>
-                <siri:MessageIdentifier>TIR-1f</siri:MessageIdentifier>
-                <JourneyRef>{ActiveJourneyRef}</JourneyRef>
-                <OperatingDayRef>{ActiveOperatingDayRef}</OperatingDayRef>
-                <Params>
-                    <IncludeTrackSections>true</IncludeTrackSections>
-                    <IncludeTrackProjection>true</IncludeTrackProjection> <!--Default=false, Koordinatenfolge-->
-                </Params>
-            </OJPTripInfoRequest>
-        </siri:ServiceRequest>
-    </OJPRequest>
-</OJP>
+<?xml version="1.0" encoding="UTF-8"?>
+<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vdv.de/ojp OJP_changes_for_v1.1/OJP.xsd">
+    <OJPRequest>
+        <siri:ServiceRequest>
+            <siri:RequestTimestamp>2024-09-25T12:00:00</siri:RequestTimestamp>
+            <siri:RequestorRef>MENTZRegTest</siri:RequestorRef>
+            <OJPTripInfoRequest>
+                <siri:RequestTimestamp>2024-09-25T12:00:00</siri:RequestTimestamp>
+                <siri:MessageIdentifier>TIR-1f</siri:MessageIdentifier>
+                <JourneyRef>NO_VALID_JOURNEYREF</JourneyRef>
+                <OperatingDayRef>2024-09-25</OperatingDayRef>
+                <Params>
+                    <IncludeTrackSections>true</IncludeTrackSections>
+                    <IncludeTrackProjection>true</IncludeTrackProjection> <!--Default=false, Koordinatenfolge-->
+                </Params>
+            </OJPTripInfoRequest>
+        </siri:ServiceRequest>
+    </OJPRequest>
+</OJP>

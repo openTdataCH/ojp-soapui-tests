@@ -1,13 +1,13 @@
 <OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
   <OJPResponse>
     <siri:ServiceDelivery>
-      <siri:ResponseTimestamp>2024-09-25T12:56:08.513474+02:00</siri:ResponseTimestamp>
+      <siri:ResponseTimestamp>2024-09-25T15:48:51.9629478+02:00</siri:ResponseTimestamp>
       <siri:ProducerRef>MENTZ</siri:ProducerRef>
       <OJPTripDelivery>
-        <siri:ResponseTimestamp>2024-09-25T12:56:08.5134772+02:00</siri:ResponseTimestamp>
-        <siri:RequestMessageRef>7b87423e-b4b1-4a1b-ba6a-0d6b50351b7e</siri:RequestMessageRef>
+        <siri:ResponseTimestamp>2024-09-25T15:48:51.962951+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>091c6514-8984-4512-baf3-a73c3f52201f</siri:RequestMessageRef>
         <siri:DefaultLanguage>de</siri:DefaultLanguage>
-        <CalcTime>129</CalcTime>
+        <CalcTime>123</CalcTime>
         <TripResponseContext>
           <Places>
             <Place>
@@ -296,9 +296,9 @@
           <Situations/>
         </TripResponseContext>
         <TripResult>
-          <Id>ID-5B43DECF-100E-41F0-A708-C84292497FCC</Id>
+          <Id>ID-036D606B-560A-4870-8BC5-3CDBF13424DA</Id>
           <Trip>
-            <Id>ID-5B43DECF-100E-41F0-A708-C84292497FCC</Id>
+            <Id>ID-036D606B-560A-4870-8BC5-3CDBF13424DA</Id>
             <Duration>PT5H37M</Duration>
             <StartTime>2024-12-05T23:19:00Z</StartTime>
             <EndTime>2024-12-06T04:56:00Z</EndTime>
@@ -641,9 +641,9 @@
           </Trip>
         </TripResult>
         <TripResult>
-          <Id>ID-853247E8-E63D-4719-BED0-3ACD0203331C</Id>
+          <Id>ID-B7A5C1D1-952E-4305-A546-679AADB21D31</Id>
           <Trip>
-            <Id>ID-853247E8-E63D-4719-BED0-3ACD0203331C</Id>
+            <Id>ID-B7A5C1D1-952E-4305-A546-679AADB21D31</Id>
             <Duration>PT21M</Duration>
             <StartTime>2024-12-06T19:40:00Z</StartTime>
             <EndTime>2024-12-06T20:01:00Z</EndTime>
@@ -986,9 +986,9 @@
           </Trip>
         </TripResult>
         <TripResult>
-          <Id>ID-3A8CC57D-8E16-471A-9B0A-A413019E674C</Id>
+          <Id>ID-4730BCE2-2225-49CF-9483-236F874CDE9E</Id>
           <Trip>
-            <Id>ID-3A8CC57D-8E16-471A-9B0A-A413019E674C</Id>
+            <Id>ID-4730BCE2-2225-49CF-9483-236F874CDE9E</Id>
             <Duration>PT21M</Duration>
             <StartTime>2024-12-06T20:00:00Z</StartTime>
             <EndTime>2024-12-06T20:21:00Z</EndTime>

@@ -1,0 +1,442 @@
+<OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
+  <OJPResponse>
+    <siri:ServiceDelivery>
+      <siri:ResponseTimestamp>2024-09-25T15:46:14.7908209+02:00</siri:ResponseTimestamp>
+      <siri:ProducerRef>MENTZ</siri:ProducerRef>
+      <OJPTripInfoDelivery>
+        <siri:ResponseTimestamp>2024-09-25T15:46:14.7908752+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>483099f4-d41b-48b6-88a7-4ecb2f8e0cc3</siri:RequestMessageRef>
+        <siri:DefaultLanguage>de</siri:DefaultLanguage>
+        <CalcTime>9</CalcTime>
+        <TripInfoResponseContext/>
+        <TripInfoResult>
+          <OnwardCall>
+            <siri:StopPointRef>8500456</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Oberdorf SO, Endhalt</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITHOUT_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceDeparture>
+              <TimetabledTime>2024-12-06T13:54:00Z</TimetabledTime>
+            </ServiceDeparture>
+          </OnwardCall>
+          <OnwardCall>
+            <siri:StopPointRef>8578058</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Oberdorf SO, Dorfplatz</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-12-06T13:55:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-12-06T13:55:00Z</TimetabledTime>
+            </ServiceDeparture>
+          </OnwardCall>
+          <OnwardCall>
+            <siri:StopPointRef>8578059</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Oberdorf SO, Mühlebrücke</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-12-06T13:56:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-12-06T13:56:00Z</TimetabledTime>
+            </ServiceDeparture>
+          </OnwardCall>
+          <OnwardCall>
+            <siri:StopPointRef>8589953</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Langendorf, Sunnerain</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-12-06T13:57:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-12-06T13:57:00Z</TimetabledTime>
+            </ServiceDeparture>
+          </OnwardCall>
+          <OnwardCall>
+            <siri:StopPointRef>8500490</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Langendorf, Chutz</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-12-06T13:58:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-12-06T13:58:00Z</TimetabledTime>
+            </ServiceDeparture>
+          </OnwardCall>
+          <OnwardCall>
+            <siri:StopPointRef>8500455</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Langendorf, Ladendorf</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-12-06T13:59:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-12-06T13:59:00Z</TimetabledTime>
+            </ServiceDeparture>
+          </OnwardCall>
+          <OnwardCall>
+            <siri:StopPointRef>8578061</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Solothurn, Roamer</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-12-06T14:00:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-12-06T14:00:00Z</TimetabledTime>
+            </ServiceDeparture>
+          </OnwardCall>
+          <OnwardCall>
+            <siri:StopPointRef>8572374</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Solothurn, Grenchenstrasse</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-12-06T14:01:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-12-06T14:01:00Z</TimetabledTime>
+            </ServiceDeparture>
+          </OnwardCall>
+          <OnwardCall>
+            <siri:StopPointRef>8589956</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Solothurn, Zentralbibliothek</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-12-06T14:02:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-12-06T14:02:00Z</TimetabledTime>
+            </ServiceDeparture>
+          </OnwardCall>
+          <OnwardCall>
+            <siri:StopPointRef>8500494</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Solothurn, Amthausplatz</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-12-06T14:04:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-12-06T14:04:00Z</TimetabledTime>
+            </ServiceDeparture>
+          </OnwardCall>
+          <OnwardCall>
+            <siri:StopPointRef>8578064</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Solothurn, Postplatz</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITHOUT_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-12-06T14:05:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-12-06T14:05:00Z</TimetabledTime>
+            </ServiceDeparture>
+          </OnwardCall>
+          <OnwardCall>
+            <siri:StopPointRef>8578065</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Solothurn, Vorstadt</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITHOUT_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-12-06T14:06:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-12-06T14:06:00Z</TimetabledTime>
+            </ServiceDeparture>
+          </OnwardCall>
+          <OnwardCall>
+            <siri:StopPointRef>ch:1:sloid:72373:0:1</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Solothurn, Hauptbahnhof</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <PlannedQuay>
+              <Text xml:lang="de">A</Text>
+            </PlannedQuay>
+            <ServiceArrival>
+              <TimetabledTime>2024-12-06T14:09:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-12-06T14:09:00Z</TimetabledTime>
+            </ServiceDeparture>
+          </OnwardCall>
+          <OnwardCall>
+            <siri:StopPointRef>8500467</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Zuchwil, Kornfeld</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-12-06T14:11:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-12-06T14:11:00Z</TimetabledTime>
+            </ServiceDeparture>
+          </OnwardCall>
+          <OnwardCall>
+            <siri:StopPointRef>8500468</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Zuchwil, Langfeld</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-12-06T14:13:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-12-06T14:13:00Z</TimetabledTime>
+            </ServiceDeparture>
+          </OnwardCall>
+          <OnwardCall>
+            <siri:StopPointRef>8578067</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Derendingen, Kreuzplatz</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-12-06T14:14:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-12-06T14:14:00Z</TimetabledTime>
+            </ServiceDeparture>
+          </OnwardCall>
+          <OnwardCall>
+            <siri:StopPointRef>8507538</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Derendingen, Floraplatz</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITHOUT_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-12-06T14:15:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-12-06T14:15:00Z</TimetabledTime>
+            </ServiceDeparture>
+          </OnwardCall>
+          <OnwardCall>
+            <siri:StopPointRef>8500485</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Derendingen, Pestalozziplatz</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-12-06T14:16:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-12-06T14:16:00Z</TimetabledTime>
+            </ServiceDeparture>
+          </OnwardCall>
+          <OnwardCall>
+            <siri:StopPointRef>8578068</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Derendingen, Mühle</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-12-06T14:17:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-12-06T14:17:00Z</TimetabledTime>
+            </ServiceDeparture>
+          </OnwardCall>
+          <OnwardCall>
+            <siri:StopPointRef>8578069</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Derendingen, Linde</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-12-06T14:18:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-12-06T14:18:00Z</TimetabledTime>
+            </ServiceDeparture>
+          </OnwardCall>
+          <OnwardCall>
+            <siri:StopPointRef>8578070</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Kriegstetten, Subingenstrasse</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-12-06T14:19:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-12-06T14:19:00Z</TimetabledTime>
+            </ServiceDeparture>
+          </OnwardCall>
+          <OnwardCall>
+            <siri:StopPointRef>8500459</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Kriegstetten, Dorfplatz</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-12-06T14:21:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-12-06T14:21:00Z</TimetabledTime>
+            </ServiceDeparture>
+          </OnwardCall>
+          <OnwardCall>
+            <siri:StopPointRef>8504517</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Kriegstetten, Reform. Kirche</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-12-06T14:21:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-12-06T14:21:00Z</TimetabledTime>
+            </ServiceDeparture>
+          </OnwardCall>
+          <OnwardCall>
+            <siri:StopPointRef>8504515</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Recherswil, Unterdorf</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-12-06T14:22:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-12-06T14:22:00Z</TimetabledTime>
+            </ServiceDeparture>
+          </OnwardCall>
+          <OnwardCall>
+            <siri:StopPointRef>8500460</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Recherswil, Dorf</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-12-06T14:23:00Z</TimetabledTime>
+            </ServiceArrival>
+            <ServiceDeparture>
+              <TimetabledTime>2024-12-06T14:23:00Z</TimetabledTime>
+            </ServiceDeparture>
+          </OnwardCall>
+          <OnwardCall>
+            <siri:StopPointRef>8578071</siri:StopPointRef>
+            <StopPointName>
+              <Text xml:lang="de">Recherswil, Freiheit</Text>
+            </StopPointName>
+            <NameSuffix>
+              <Text xml:lang="de">PLATFORM_ACCESS_WITH_ASSISTANCE</Text>
+            </NameSuffix>
+            <ServiceArrival>
+              <TimetabledTime>2024-12-06T14:25:00Z</TimetabledTime>
+            </ServiceArrival>
+          </OnwardCall>
+          <Service>
+            <Mode>
+              <PtMode>bus</PtMode>
+              <siri:BusSubmode>localBus</siri:BusSubmode>
+              <Name>
+                <Text xml:lang="de">Bus</Text>
+              </Name>
+              <ShortName>
+                <Text xml:lang="de">B</Text>
+              </ShortName>
+            </Mode>
+            <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+            <TrainNumber>1114</TrainNumber>
+            <siri:LineRef>ojp:92001:L</siri:LineRef>
+            <siri:OperatorRef>883</siri:OperatorRef>
+            <PublishedServiceName>
+              <Text xml:lang="de">1</Text>
+            </PublishedServiceName>
+            <ProductCategory>
+              <Name>
+                <Text xml:lang="de">Bus</Text>
+              </Name>
+              <ShortName>
+                <Text xml:lang="de">B</Text>
+              </ShortName>
+              <ProductCategoryRef>29</ProductCategoryRef>
+            </ProductCategory>
+            <siri:DirectionRef>H</siri:DirectionRef>
+            <JourneyRef>ojp-92-1-L-j24-1-98-TA</JourneyRef>
+            <OperatingDayRef>2024-12-06</OperatingDayRef>
+            <DestinationStopPointRef>8578071</DestinationStopPointRef>
+            <OriginText>
+              <Text xml:lang="de">n/a</Text>
+            </OriginText>
+            <DestinationText>
+              <Text xml:lang="de">Recherswil, Freiheit</Text>
+            </DestinationText>
+          </Service>
+        </TripInfoResult>
+      </OJPTripInfoDelivery>
+    </siri:ServiceDelivery>
+  </OJPResponse>
+</OJP>

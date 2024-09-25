@@ -1,1 +1,0 @@
-XML validation error: Element '{http://www.vdv.de/ojp}IncludeRealtimeData': This element is not expected. Expected is one of ( {http://www.vdv.de/ojp}UseRealtimeData, {http://www.vdv.de/ojp}IncludePlacesContext, {http://www.vdv.de/ojp}IncludeSituationsContext, {http://www.vdv.de/ojp}IncludeStopHierarchy, {http://www.vdv.de/ojp}Extension )., line 25

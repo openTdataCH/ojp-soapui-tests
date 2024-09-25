@@ -1,13 +1,13 @@
 <OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
   <OJPResponse>
     <siri:ServiceDelivery>
-      <siri:ResponseTimestamp>2024-09-25T12:56:46.2264566+02:00</siri:ResponseTimestamp>
+      <siri:ResponseTimestamp>2024-09-25T15:49:28.6803219+02:00</siri:ResponseTimestamp>
       <siri:ProducerRef>MENTZ</siri:ProducerRef>
       <OJPTripDelivery>
-        <siri:ResponseTimestamp>2024-09-25T12:56:46.2264586+02:00</siri:ResponseTimestamp>
-        <siri:RequestMessageRef>e51bcf5b-b9d6-4907-968b-102b118aa46b</siri:RequestMessageRef>
+        <siri:ResponseTimestamp>2024-09-25T15:49:28.6803247+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>8ee57522-3d72-48e2-9a37-8a8f4b8c637c</siri:RequestMessageRef>
         <siri:DefaultLanguage>de</siri:DefaultLanguage>
-        <CalcTime>103</CalcTime>
+        <CalcTime>104</CalcTime>
         <TripResponseContext>
           <Places>
             <Place>
@@ -189,16 +189,16 @@
           <Situations/>
         </TripResponseContext>
         <TripResult>
-          <Id>ID-9511A4AD-FF9B-4F9D-9295-EE339D3714EF</Id>
+          <Id>ID-3025CE5A-8477-465D-98E4-15E6DD3D63A2</Id>
           <Trip>
-            <Id>ID-9511A4AD-FF9B-4F9D-9295-EE339D3714EF</Id>
-            <Duration>PT26M54S</Duration>
-            <StartTime>2024-09-25T12:15:18Z</StartTime>
-            <EndTime>2024-09-25T12:42:12Z</EndTime>
+            <Id>ID-3025CE5A-8477-465D-98E4-15E6DD3D63A2</Id>
+            <Duration>PT27M</Duration>
+            <StartTime>2024-09-25T12:15:00Z</StartTime>
+            <EndTime>2024-09-25T12:42:00Z</EndTime>
             <Transfers>0</Transfers>
             <Leg>
               <Id>1</Id>
-              <Duration>PT26M54S</Duration>
+              <Duration>PT27M</Duration>
               <TimedLeg>
                 <LegBoard>
                   <siri:StopPointRef>ch:1:sloid:3424:1:1</siri:StopPointRef>
@@ -208,15 +208,11 @@
                   <PlannedQuay>
                     <Text xml:lang="de">1</Text>
                   </PlannedQuay>
-                  <EstimatedQuay>
-                    <Text xml:lang="de">1A-C</Text>
-                  </EstimatedQuay>
                   <NameSuffix>
                     <Text xml:lang="de">NO_DATA</Text>
                   </NameSuffix>
                   <ServiceDeparture>
                     <TimetabledTime>2024-09-25T12:15:00Z</TimetabledTime>
-                    <EstimatedTime>2024-09-25T12:15:18Z</EstimatedTime>
                   </ServiceDeparture>
                   <Order>1</Order>
                 </LegBoard>
@@ -231,12 +227,8 @@
                   <PlannedQuay>
                     <Text xml:lang="de">5</Text>
                   </PlannedQuay>
-                  <EstimatedQuay>
-                    <Text xml:lang="de">5</Text>
-                  </EstimatedQuay>
                   <ServiceArrival>
                     <TimetabledTime>2024-09-25T12:42:00Z</TimetabledTime>
-                    <EstimatedTime>2024-09-25T12:42:12Z</EstimatedTime>
                   </ServiceArrival>
                   <Order>4</Order>
                 </LegAlight>
@@ -278,28 +270,22 @@
                     <Text xml:lang="de">Zürich Wipkingen</Text>
                   </DestinationText>
                   <JourneyRef>ch:1:sjyid:100001:20457-001</JourneyRef>
-                  <Attribute>
-                    <UserText>
-                      <Text xml:lang="de">Aussteigeseite: Links</Text>
-                    </UserText>
-                    <Code>ojp91024_H_InfoCall182_110388_1</Code>
-                  </Attribute>
                 </Service>
               </TimedLeg>
             </Leg>
           </Trip>
         </TripResult>
         <TripResult>
-          <Id>ID-DCFC69C8-447E-4861-88E8-54B0C47A1110</Id>
+          <Id>ID-08E94329-00AF-4DD5-BDF8-736C9DB24A9B</Id>
           <Trip>
-            <Id>ID-DCFC69C8-447E-4861-88E8-54B0C47A1110</Id>
-            <Duration>PT33M36S</Duration>
-            <StartTime>2024-09-25T12:21:18Z</StartTime>
-            <EndTime>2024-09-25T12:54:54Z</EndTime>
+            <Id>ID-08E94329-00AF-4DD5-BDF8-736C9DB24A9B</Id>
+            <Duration>PT33M</Duration>
+            <StartTime>2024-09-25T12:21:00Z</StartTime>
+            <EndTime>2024-09-25T12:54:00Z</EndTime>
             <Transfers>0</Transfers>
             <Leg>
               <Id>1</Id>
-              <Duration>PT33M36S</Duration>
+              <Duration>PT33M</Duration>
               <TimedLeg>
                 <LegBoard>
                   <siri:StopPointRef>ch:1:sloid:3424:2:2</siri:StopPointRef>
@@ -309,15 +295,11 @@
                   <PlannedQuay>
                     <Text xml:lang="de">2</Text>
                   </PlannedQuay>
-                  <EstimatedQuay>
-                    <Text xml:lang="de">2</Text>
-                  </EstimatedQuay>
                   <NameSuffix>
                     <Text xml:lang="de">NO_DATA</Text>
                   </NameSuffix>
                   <ServiceDeparture>
                     <TimetabledTime>2024-09-25T12:21:00Z</TimetabledTime>
-                    <EstimatedTime>2024-09-25T12:21:18Z</EstimatedTime>
                   </ServiceDeparture>
                   <Order>1</Order>
                 </LegBoard>
@@ -332,12 +314,8 @@
                   <PlannedQuay>
                     <Text xml:lang="de">8</Text>
                   </PlannedQuay>
-                  <EstimatedQuay>
-                    <Text xml:lang="de">8</Text>
-                  </EstimatedQuay>
                   <ServiceArrival>
                     <TimetabledTime>2024-09-25T12:54:00Z</TimetabledTime>
-                    <EstimatedTime>2024-09-25T12:54:54Z</EstimatedTime>
                   </ServiceArrival>
                   <Order>9</Order>
                 </LegAlight>
@@ -379,28 +357,22 @@
                     <Text xml:lang="de">Winterthur</Text>
                   </DestinationText>
                   <JourneyRef>ch:1:sjyid:100001:20357-001</JourneyRef>
-                  <Attribute>
-                    <UserText>
-                      <Text xml:lang="de">Aussteigeseite: Rechts</Text>
-                    </UserText>
-                    <Code>ojp91033_H_InfoCall21_110388_1</Code>
-                  </Attribute>
                 </Service>
               </TimedLeg>
             </Leg>
           </Trip>
         </TripResult>
         <TripResult>
-          <Id>ID-6413ED71-C696-4364-8C33-A8134447C0A4</Id>
+          <Id>ID-BAD46159-E06A-4A03-A057-78E80B28E2EC</Id>
           <Trip>
-            <Id>ID-6413ED71-C696-4364-8C33-A8134447C0A4</Id>
-            <Duration>PT32M42S</Duration>
-            <StartTime>2024-09-25T12:46:18Z</StartTime>
-            <EndTime>2024-09-25T13:19:00Z</EndTime>
+            <Id>ID-BAD46159-E06A-4A03-A057-78E80B28E2EC</Id>
+            <Duration>PT31M30S</Duration>
+            <StartTime>2024-09-25T12:47:54Z</StartTime>
+            <EndTime>2024-09-25T13:19:24Z</EndTime>
             <Transfers>0</Transfers>
             <Leg>
               <Id>1</Id>
-              <Duration>PT32M42S</Duration>
+              <Duration>PT31M30S</Duration>
               <TimedLeg>
                 <LegBoard>
                   <siri:StopPointRef>ch:1:sloid:3424:1:1</siri:StopPointRef>
@@ -418,7 +390,7 @@
                   </NameSuffix>
                   <ServiceDeparture>
                     <TimetabledTime>2024-09-25T12:46:00Z</TimetabledTime>
-                    <EstimatedTime>2024-09-25T12:46:18Z</EstimatedTime>
+                    <EstimatedTime>2024-09-25T12:47:54Z</EstimatedTime>
                   </ServiceDeparture>
                   <Order>1</Order>
                 </LegBoard>
@@ -438,7 +410,7 @@
                   </EstimatedQuay>
                   <ServiceArrival>
                     <TimetabledTime>2024-09-25T13:19:00Z</TimetabledTime>
-                    <EstimatedTime>2024-09-25T13:19:00Z</EstimatedTime>
+                    <EstimatedTime>2024-09-25T13:19:24Z</EstimatedTime>
                   </ServiceArrival>
                   <Order>9</Order>
                 </LegAlight>

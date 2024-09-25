@@ -1,27 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?>
-<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.vdv.de/ojp" version="2.0">
-    <OJPRequest>
-        <siri:ServiceRequest>
-            <siri:RequestTimestamp>2024-03-12T10:31:05Z</siri:RequestTimestamp>
-            <siri:RequestorRef>Buckmann</siri:RequestorRef>
-            <OJPStopEventRequest>
-                <siri:RequestTimestamp>2024-03-12T10:31:05Z</siri:RequestTimestamp>
-                <Location>
-                    <PlaceRef>
-                        <siri:StopPointRef>8500010</siri:StopPointRef>
-                        <Name>
-                            <Text>na</Text>
-                        </Name>
-                    </PlaceRef>
-                </Location>
-                <Params>
-                    <NumberOfResults>20</NumberOfResults>
-                    <StopEventType>departure</StopEventType>
-                    <IncludePreviousCalls>true</IncludePreviousCalls>
-                    <IncludeOnwardCalls>true</IncludeOnwardCalls>
-                    <UseRealtimeData>none</UseRealtimeData>
-                </Params>
-            </OJPStopEventRequest>
-        </siri:ServiceRequest>
-    </OJPRequest>
+<?xml version="1.0" encoding="utf-8"?>
+<OJP xmlns="http://www.vdv.de/ojp" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.vdv.de/ojp" version="2.0">
+    <OJPRequest>
+        <siri:ServiceRequest>
+            <siri:RequestTimestamp>2024-03-12T10:31:05Z</siri:RequestTimestamp>
+            <siri:RequestorRef>Buckmann</siri:RequestorRef>
+            <OJPStopEventRequest>
+                <siri:RequestTimestamp>2024-03-12T10:31:05Z</siri:RequestTimestamp>
+                <Location>
+                    <PlaceRef>
+                        <siri:StopPointRef>8500010</siri:StopPointRef>
+                        <Name>
+                            <Text>na</Text>
+                        </Name>
+                    </PlaceRef>
+                </Location>
+                <Params>
+                    <NumberOfResults>20</NumberOfResults>
+                    <StopEventType>departure</StopEventType>
+                    <IncludePreviousCalls>true</IncludePreviousCalls>
+                    <IncludeOnwardCalls>true</IncludeOnwardCalls>
+                    <UseRealtimeData>none</UseRealtimeData>
+                </Params>
+            </OJPStopEventRequest>
+        </siri:ServiceRequest>
+    </OJPRequest>
 </OJP>

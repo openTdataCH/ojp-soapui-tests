@@ -1,13 +1,13 @@
 <OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
   <OJPResponse>
     <siri:ServiceDelivery>
-      <siri:ResponseTimestamp>2024-09-25T12:54:44.6093309+02:00</siri:ResponseTimestamp>
+      <siri:ResponseTimestamp>2024-09-25T15:47:30.6716257+02:00</siri:ResponseTimestamp>
       <siri:ProducerRef>MENTZ</siri:ProducerRef>
       <OJPStopEventDelivery>
-        <siri:ResponseTimestamp>2024-09-25T12:54:44.609334+02:00</siri:ResponseTimestamp>
-        <siri:RequestMessageRef>2b0308d7-6e86-4095-836b-4e268f90f89d</siri:RequestMessageRef>
+        <siri:ResponseTimestamp>2024-09-25T15:47:30.6716263+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>14cb2145-cbe3-4159-8295-e71266a535bf</siri:RequestMessageRef>
         <siri:DefaultLanguage>de</siri:DefaultLanguage>
-        <CalcTime>15</CalcTime>
+        <CalcTime>13</CalcTime>
         <StopEventResponseContext>
           <Places>
             <Place>
@@ -78,161 +78,7 @@
                   <Text xml:lang="de">Zürich, Kreuzplatz</Text>
                 </StopPointName>
                 <ServiceDeparture>
-                  <TimetabledTime>2024-09-25T13:04:00Z</TimetabledTime>
-                </ServiceDeparture>
-                <Order>1</Order>
-              </CallAtStop>
-            </ThisCall>
-            <Service>
-              <Mode>
-                <PtMode>rail</PtMode>
-                <siri:RailSubmode>regionalRail</siri:RailSubmode>
-                <Name>
-                  <Text xml:lang="de">Zug</Text>
-                </Name>
-                <ShortName>
-                  <Text xml:lang="de">S</Text>
-                </ShortName>
-              </Mode>
-              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
-              <TrainNumber>222</TrainNumber>
-              <siri:LineRef>ojp:91018:A</siri:LineRef>
-              <siri:OperatorRef>46</siri:OperatorRef>
-              <PublicCode>S-Bahn</PublicCode>
-              <PublishedServiceName>
-                <Text xml:lang="de">S18</Text>
-              </PublishedServiceName>
-              <ProductCategory>
-                <Name>
-                  <Text xml:lang="de">Zug</Text>
-                </Name>
-                <ShortName>
-                  <Text xml:lang="de">S</Text>
-                </ShortName>
-                <ProductCategoryRef>27</ProductCategoryRef>
-              </ProductCategory>
-              <siri:DirectionRef>H</siri:DirectionRef>
-              <JourneyRef>ojp-91-18-A-j24-1-1046-TA</JourneyRef>
-              <OperatingDayRef>2024-09-25</OperatingDayRef>
-              <Cancelled>false</Cancelled>
-              <Unplanned>false</Unplanned>
-              <Deviation>false</Deviation>
-              <Attribute>
-                <UserText>
-                  <Text xml:lang="de">Nur 2. Klasse</Text>
-                </UserText>
-                <Code>A___2</Code>
-              </Attribute>
-              <Attribute>
-                <UserText>
-                  <Text xml:lang="de">Niederflureinstieg</Text>
-                </UserText>
-                <Code>A__NF</Code>
-              </Attribute>
-              <OriginStopPointRef>8503060</OriginStopPointRef>
-              <DestinationStopPointRef>8503059</DestinationStopPointRef>
-              <OriginText>
-                <Text xml:lang="de">Esslingen</Text>
-              </OriginText>
-              <DestinationText>
-                <Text xml:lang="de">Zürich Stadelhofen, Bahnhof</Text>
-              </DestinationText>
-            </Service>
-            <OperatingDays>
-              <From>2024-09-15</From>
-              <To>2025-10-30</To>
-              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</Pattern>
-            </OperatingDays>
-          </StopEvent>
-        </StopEventResult>
-        <StopEventResult>
-          <Id>00000000-0000-0000-0000-000000000000</Id>
-          <StopEvent>
-            <ThisCall>
-              <CallAtStop>
-                <siri:StopPointRef>8530813</siri:StopPointRef>
-                <StopPointName>
-                  <Text xml:lang="de">Zürich, Kreuzplatz</Text>
-                </StopPointName>
-                <ServiceDeparture>
-                  <TimetabledTime>2024-09-25T13:04:00Z</TimetabledTime>
-                </ServiceDeparture>
-                <Order>1</Order>
-              </CallAtStop>
-            </ThisCall>
-            <Service>
-              <Mode>
-                <PtMode>rail</PtMode>
-                <siri:RailSubmode>regionalRail</siri:RailSubmode>
-                <Name>
-                  <Text xml:lang="de">Zug</Text>
-                </Name>
-                <ShortName>
-                  <Text xml:lang="de">S</Text>
-                </ShortName>
-              </Mode>
-              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
-              <TrainNumber>225</TrainNumber>
-              <siri:LineRef>ojp:91018:A</siri:LineRef>
-              <siri:OperatorRef>46</siri:OperatorRef>
-              <PublicCode>S-Bahn</PublicCode>
-              <PublishedServiceName>
-                <Text xml:lang="de">S18</Text>
-              </PublishedServiceName>
-              <ProductCategory>
-                <Name>
-                  <Text xml:lang="de">Zug</Text>
-                </Name>
-                <ShortName>
-                  <Text xml:lang="de">S</Text>
-                </ShortName>
-                <ProductCategoryRef>27</ProductCategoryRef>
-              </ProductCategory>
-              <siri:DirectionRef>R</siri:DirectionRef>
-              <JourneyRef>ojp-91-18-A-j24-1-2388-TA</JourneyRef>
-              <OperatingDayRef>2024-09-25</OperatingDayRef>
-              <Cancelled>false</Cancelled>
-              <Unplanned>false</Unplanned>
-              <Deviation>false</Deviation>
-              <Attribute>
-                <UserText>
-                  <Text xml:lang="de">Nur 2. Klasse</Text>
-                </UserText>
-                <Code>A___2</Code>
-              </Attribute>
-              <Attribute>
-                <UserText>
-                  <Text xml:lang="de">Kein Niederflur</Text>
-                </UserText>
-                <Code>A__PH</Code>
-              </Attribute>
-              <OriginStopPointRef>8503059</OriginStopPointRef>
-              <DestinationStopPointRef>8503060</DestinationStopPointRef>
-              <OriginText>
-                <Text xml:lang="de">Zürich Stadelhofen, Bahnhof</Text>
-              </OriginText>
-              <DestinationText>
-                <Text xml:lang="de">Esslingen</Text>
-              </DestinationText>
-            </Service>
-            <OperatingDays>
-              <From>2024-09-15</From>
-              <To>2025-10-30</To>
-              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111110000000</Pattern>
-            </OperatingDays>
-          </StopEvent>
-        </StopEventResult>
-        <StopEventResult>
-          <Id>00000000-0000-0000-0000-000000000000</Id>
-          <StopEvent>
-            <ThisCall>
-              <CallAtStop>
-                <siri:StopPointRef>8530813</siri:StopPointRef>
-                <StopPointName>
-                  <Text xml:lang="de">Zürich, Kreuzplatz</Text>
-                </StopPointName>
-                <ServiceDeparture>
-                  <TimetabledTime>2024-09-25T13:04:00Z</TimetabledTime>
+                  <TimetabledTime>2024-09-25T15:57:00Z</TimetabledTime>
                 </ServiceDeparture>
                 <Order>1</Order>
               </CallAtStop>
@@ -249,7 +95,7 @@
                 </ShortName>
               </Mode>
               <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
-              <TrainNumber>25069</TrainNumber>
+              <TrainNumber>34463</TrainNumber>
               <siri:LineRef>ojp:91008:H</siri:LineRef>
               <siri:OperatorRef>3849</siri:OperatorRef>
               <PublicCode>Tram</PublicCode>
@@ -266,7 +112,7 @@
                 <ProductCategoryRef>2</ProductCategoryRef>
               </ProductCategory>
               <siri:DirectionRef>H</siri:DirectionRef>
-              <JourneyRef>ojp-91-8-H-j24-1-144-TA</JourneyRef>
+              <JourneyRef>ojp-91-8-H-j24-1-206-TA</JourneyRef>
               <OperatingDayRef>2024-09-25</OperatingDayRef>
               <Cancelled>false</Cancelled>
               <Unplanned>false</Unplanned>
@@ -303,7 +149,7 @@
                   <Text xml:lang="de">Zürich, Kreuzplatz</Text>
                 </StopPointName>
                 <ServiceDeparture>
-                  <TimetabledTime>2024-09-25T13:06:00Z</TimetabledTime>
+                  <TimetabledTime>2024-09-25T15:58:00Z</TimetabledTime>
                 </ServiceDeparture>
                 <Order>1</Order>
               </CallAtStop>
@@ -320,7 +166,149 @@
                 </ShortName>
               </Mode>
               <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
-              <TrainNumber>25004</TrainNumber>
+              <TrainNumber>34048</TrainNumber>
+              <siri:LineRef>ojp:91011:C</siri:LineRef>
+              <siri:OperatorRef>3849</siri:OperatorRef>
+              <PublicCode>Tram</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">11</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+                <ProductCategoryRef>2</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>R</siri:DirectionRef>
+              <JourneyRef>ojp-91-11-C-j24-1-3975-TA</JourneyRef>
+              <OperatingDayRef>2024-09-25</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <OriginStopPointRef>8591315</OriginStopPointRef>
+              <DestinationStopPointRef>8503059</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Zürich, Rehalp</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Zürich Stadelhofen, Bahnhof</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111000000000</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8530813</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Zürich, Kreuzplatz</Text>
+                </StopPointName>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-09-25T15:58:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>tram</PtMode>
+                <siri:TramSubmode>cityTram</siri:TramSubmode>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>34526</TrainNumber>
+              <siri:LineRef>ojp:91011:C</siri:LineRef>
+              <siri:OperatorRef>3849</siri:OperatorRef>
+              <PublicCode>Tram</PublicCode>
+              <PublishedServiceName>
+                <Text xml:lang="de">11</Text>
+              </PublishedServiceName>
+              <ProductCategory>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+                <ProductCategoryRef>2</ProductCategoryRef>
+              </ProductCategory>
+              <siri:DirectionRef>H</siri:DirectionRef>
+              <JourneyRef>ojp-91-11-C-j24-1-537-TA</JourneyRef>
+              <OperatingDayRef>2024-09-25</OperatingDayRef>
+              <Cancelled>false</Cancelled>
+              <Unplanned>false</Unplanned>
+              <Deviation>false</Deviation>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Niederflureinstieg</Text>
+                </UserText>
+                <Code>A__NF</Code>
+              </Attribute>
+              <OriginStopPointRef>8503059</OriginStopPointRef>
+              <DestinationStopPointRef>8591315</DestinationStopPointRef>
+              <OriginText>
+                <Text xml:lang="de">Zürich Stadelhofen, Bahnhof</Text>
+              </OriginText>
+              <DestinationText>
+                <Text xml:lang="de">Zürich, Rehalp</Text>
+              </DestinationText>
+            </Service>
+            <OperatingDays>
+              <From>2024-09-15</From>
+              <To>2025-10-30</To>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111000000000</Pattern>
+            </OperatingDays>
+          </StopEvent>
+        </StopEventResult>
+        <StopEventResult>
+          <Id>00000000-0000-0000-0000-000000000000</Id>
+          <StopEvent>
+            <ThisCall>
+              <CallAtStop>
+                <siri:StopPointRef>8530813</siri:StopPointRef>
+                <StopPointName>
+                  <Text xml:lang="de">Zürich, Kreuzplatz</Text>
+                </StopPointName>
+                <ServiceDeparture>
+                  <TimetabledTime>2024-09-25T15:59:00Z</TimetabledTime>
+                </ServiceDeparture>
+                <Order>1</Order>
+              </CallAtStop>
+            </ThisCall>
+            <Service>
+              <Mode>
+                <PtMode>tram</PtMode>
+                <siri:TramSubmode>cityTram</siri:TramSubmode>
+                <Name>
+                  <Text xml:lang="de">Tram</Text>
+                </Name>
+                <ShortName>
+                  <Text xml:lang="de">T</Text>
+                </ShortName>
+              </Mode>
+              <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
+              <TrainNumber>34396</TrainNumber>
               <siri:LineRef>ojp:91008:H</siri:LineRef>
               <siri:OperatorRef>3849</siri:OperatorRef>
               <PublicCode>Tram</PublicCode>
@@ -337,7 +325,7 @@
                 <ProductCategoryRef>2</ProductCategoryRef>
               </ProductCategory>
               <siri:DirectionRef>R</siri:DirectionRef>
-              <JourneyRef>ojp-91-8-H-j24-1-1982-TA</JourneyRef>
+              <JourneyRef>ojp-91-8-H-j24-1-1919-TA</JourneyRef>
               <OperatingDayRef>2024-09-25</OperatingDayRef>
               <Cancelled>false</Cancelled>
               <Unplanned>false</Unplanned>
@@ -374,55 +362,61 @@
                   <Text xml:lang="de">Zürich, Kreuzplatz</Text>
                 </StopPointName>
                 <ServiceDeparture>
-                  <TimetabledTime>2024-09-25T13:07:00Z</TimetabledTime>
+                  <TimetabledTime>2024-09-25T15:59:00Z</TimetabledTime>
                 </ServiceDeparture>
                 <Order>1</Order>
               </CallAtStop>
             </ThisCall>
             <Service>
               <Mode>
-                <PtMode>tram</PtMode>
-                <siri:TramSubmode>cityTram</siri:TramSubmode>
+                <PtMode>rail</PtMode>
+                <siri:RailSubmode>regionalRail</siri:RailSubmode>
                 <Name>
-                  <Text xml:lang="de">Tram</Text>
+                  <Text xml:lang="de">Zug</Text>
                 </Name>
                 <ShortName>
-                  <Text xml:lang="de">T</Text>
+                  <Text xml:lang="de">S</Text>
                 </ShortName>
               </Mode>
               <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
-              <TrainNumber>24825</TrainNumber>
-              <siri:LineRef>ojp:91011:C</siri:LineRef>
-              <siri:OperatorRef>3849</siri:OperatorRef>
-              <PublicCode>Tram</PublicCode>
+              <TrainNumber>646</TrainNumber>
+              <siri:LineRef>ojp:91018:A</siri:LineRef>
+              <siri:OperatorRef>46</siri:OperatorRef>
+              <PublicCode>S-Bahn</PublicCode>
               <PublishedServiceName>
-                <Text xml:lang="de">11</Text>
+                <Text xml:lang="de">S18</Text>
               </PublishedServiceName>
               <ProductCategory>
                 <Name>
-                  <Text xml:lang="de">Tram</Text>
+                  <Text xml:lang="de">Zug</Text>
                 </Name>
                 <ShortName>
-                  <Text xml:lang="de">T</Text>
+                  <Text xml:lang="de">S</Text>
                 </ShortName>
-                <ProductCategoryRef>2</ProductCategoryRef>
+                <ProductCategoryRef>27</ProductCategoryRef>
               </ProductCategory>
-              <siri:DirectionRef>R</siri:DirectionRef>
-              <JourneyRef>ojp-91-11-C-j24-1-3849-TA</JourneyRef>
+              <siri:DirectionRef>H</siri:DirectionRef>
+              <JourneyRef>ojp-91-18-A-j24-1-522-TA</JourneyRef>
               <OperatingDayRef>2024-09-25</OperatingDayRef>
               <Cancelled>false</Cancelled>
               <Unplanned>false</Unplanned>
               <Deviation>false</Deviation>
               <Attribute>
                 <UserText>
-                  <Text xml:lang="de">Niederflureinstieg</Text>
+                  <Text xml:lang="de">Nur 2. Klasse</Text>
                 </UserText>
-                <Code>A__NF</Code>
+                <Code>A___2</Code>
               </Attribute>
-              <OriginStopPointRef>8591315</OriginStopPointRef>
+              <Attribute>
+                <UserText>
+                  <Text xml:lang="de">Kein Niederflur</Text>
+                </UserText>
+                <Code>A__PH</Code>
+              </Attribute>
+              <OriginStopPointRef>8503060</OriginStopPointRef>
               <DestinationStopPointRef>8503059</DestinationStopPointRef>
               <OriginText>
-                <Text xml:lang="de">Zürich, Rehalp</Text>
+                <Text xml:lang="de">Esslingen</Text>
               </OriginText>
               <DestinationText>
                 <Text xml:lang="de">Zürich Stadelhofen, Bahnhof</Text>
@@ -431,7 +425,7 @@
             <OperatingDays>
               <From>2024-09-15</From>
               <To>2025-10-30</To>
-              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111000000000</Pattern>
+              <Pattern>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111001111100111110011111001111100111110011111001111100111110011111001111100111110011111</Pattern>
             </OperatingDays>
           </StopEvent>
         </StopEventResult>

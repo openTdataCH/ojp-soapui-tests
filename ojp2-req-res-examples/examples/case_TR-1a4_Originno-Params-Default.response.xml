@@ -1,13 +1,13 @@
 <OJP xmlns:siri="http://www.siri.org.uk/siri" xmlns="http://www.vdv.de/ojp" version="2.0">
   <OJPResponse>
     <siri:ServiceDelivery>
-      <siri:ResponseTimestamp>2024-09-25T12:55:54.7092355+02:00</siri:ResponseTimestamp>
+      <siri:ResponseTimestamp>2024-09-25T15:48:38.55358+02:00</siri:ResponseTimestamp>
       <siri:ProducerRef>MENTZ</siri:ProducerRef>
       <OJPTripDelivery>
-        <siri:ResponseTimestamp>2024-09-25T12:55:54.709237+02:00</siri:ResponseTimestamp>
-        <siri:RequestMessageRef>6ea40c6f-c2cf-4c94-bb59-3088e967cc46</siri:RequestMessageRef>
+        <siri:ResponseTimestamp>2024-09-25T15:48:38.5535816+02:00</siri:ResponseTimestamp>
+        <siri:RequestMessageRef>f675491b-b29c-46c2-ab79-23c177abd363</siri:RequestMessageRef>
         <siri:DefaultLanguage>de</siri:DefaultLanguage>
-        <CalcTime>145</CalcTime>
+        <CalcTime>183</CalcTime>
         <TripResponseContext>
           <Places>
             <Place>
@@ -287,12 +287,12 @@
           <Situations/>
         </TripResponseContext>
         <TripResult>
-          <Id>ID-441B78DD-3422-41BE-A90A-FA3A0979EA9F</Id>
+          <Id>ID-87955212-7BC9-4EA4-A95D-291C0C78C4F1</Id>
           <Trip>
-            <Id>ID-441B78DD-3422-41BE-A90A-FA3A0979EA9F</Id>
-            <Duration>PT1H40M30S</Duration>
-            <StartTime>2024-09-25T11:02:30Z</StartTime>
-            <EndTime>2024-09-25T12:43:00Z</EndTime>
+            <Id>ID-87955212-7BC9-4EA4-A95D-291C0C78C4F1</Id>
+            <Duration>PT1H40M36S</Duration>
+            <StartTime>2024-09-25T14:02:30Z</StartTime>
+            <EndTime>2024-09-25T15:43:06Z</EndTime>
             <Transfers>1</Transfers>
             <Leg>
               <Id>1</Id>
@@ -307,14 +307,14 @@
                     <Text xml:lang="de">2</Text>
                   </PlannedQuay>
                   <EstimatedQuay>
-                    <Text xml:lang="de">1</Text>
+                    <Text xml:lang="de">2</Text>
                   </EstimatedQuay>
                   <NameSuffix>
                     <Text xml:lang="de">NO_DATA</Text>
                   </NameSuffix>
                   <ServiceDeparture>
-                    <TimetabledTime>2024-09-25T11:02:00Z</TimetabledTime>
-                    <EstimatedTime>2024-09-25T11:02:30Z</EstimatedTime>
+                    <TimetabledTime>2024-09-25T14:02:00Z</TimetabledTime>
+                    <EstimatedTime>2024-09-25T14:02:30Z</EstimatedTime>
                   </ServiceDeparture>
                   <Order>1</Order>
                 </LegBoard>
@@ -330,11 +330,11 @@
                     <Text xml:lang="de">33</Text>
                   </PlannedQuay>
                   <EstimatedQuay>
-                    <Text xml:lang="de">34</Text>
+                    <Text xml:lang="de">33</Text>
                   </EstimatedQuay>
                   <ServiceArrival>
-                    <TimetabledTime>2024-09-25T11:58:00Z</TimetabledTime>
-                    <EstimatedTime>2024-09-25T11:58:00Z</EstimatedTime>
+                    <TimetabledTime>2024-09-25T14:58:00Z</TimetabledTime>
+                    <EstimatedTime>2024-09-25T14:58:00Z</EstimatedTime>
                   </ServiceArrival>
                   <Order>3</Order>
                 </LegAlight>
@@ -350,7 +350,7 @@
                     </ShortName>
                   </Mode>
                   <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
-                  <TrainNumber>819</TrainNumber>
+                  <TrainNumber>825</TrainNumber>
                   <siri:LineRef>ojp:91008:E</siri:LineRef>
                   <siri:OperatorRef>11</siri:OperatorRef>
                   <PublicCode>InterCity</PublicCode>
@@ -375,7 +375,7 @@
                   <DestinationText>
                     <Text xml:lang="de">Romanshorn</Text>
                   </DestinationText>
-                  <JourneyRef>ch:1:sjyid:100001:819-001</JourneyRef>
+                  <JourneyRef>ch:1:sjyid:100001:825-001</JourneyRef>
                   <Attribute>
                     <UserText>
                       <Text xml:lang="de">Platzreservierung möglich</Text>
@@ -414,16 +414,16 @@
                   </Attribute>
                   <Attribute>
                     <UserText>
-                      <Text xml:lang="de">Aussteigeseite: Rechts</Text>
+                      <Text xml:lang="de">Aussteigeseite: Links</Text>
                     </UserText>
-                    <Code>ojp91008EH_InfoCall197_111055_1</Code>
+                    <Code>ojp91008EH_InfoCall196_111055_1</Code>
                   </Attribute>
                 </Service>
               </TimedLeg>
             </Leg>
             <Leg>
               <Id>2</Id>
-              <Duration>PT6M</Duration>
+              <Duration>PT5M30S</Duration>
               <TransferLeg>
                 <TransferType>guaranteedConnection</TransferType>
                 <LegStart>
@@ -438,12 +438,12 @@
                     <Text xml:lang="de">Zürich HB</Text>
                   </Name>
                 </LegEnd>
-                <Duration>PT6M</Duration>
+                <Duration>PT5M30S</Duration>
               </TransferLeg>
             </Leg>
             <Leg>
               <Id>3</Id>
-              <Duration>PT38M30S</Duration>
+              <Duration>PT38M36S</Duration>
               <TimedLeg>
                 <LegBoard>
                   <siri:StopPointRef>ch:1:sloid:3000:9:17</siri:StopPointRef>
@@ -460,8 +460,8 @@
                     <Text xml:lang="de">NO_DATA</Text>
                   </NameSuffix>
                   <ServiceDeparture>
-                    <TimetabledTime>2024-09-25T12:04:00Z</TimetabledTime>
-                    <EstimatedTime>2024-09-25T12:04:30Z</EstimatedTime>
+                    <TimetabledTime>2024-09-25T15:04:00Z</TimetabledTime>
+                    <EstimatedTime>2024-09-25T15:04:30Z</EstimatedTime>
                   </ServiceDeparture>
                   <Order>1</Order>
                 </LegBoard>
@@ -480,8 +480,8 @@
                     <Text xml:lang="de">3</Text>
                   </EstimatedQuay>
                   <ServiceArrival>
-                    <TimetabledTime>2024-09-25T12:43:00Z</TimetabledTime>
-                    <EstimatedTime>2024-09-25T12:43:00Z</EstimatedTime>
+                    <TimetabledTime>2024-09-25T15:43:00Z</TimetabledTime>
+                    <EstimatedTime>2024-09-25T15:43:06Z</EstimatedTime>
                   </ServiceArrival>
                   <Order>4</Order>
                 </LegAlight>
@@ -497,7 +497,7 @@
                     </ShortName>
                   </Mode>
                   <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
-                  <TrainNumber>4924</TrainNumber>
+                  <TrainNumber>4930</TrainNumber>
                   <siri:LineRef>ojp:91048:_x0020_</siri:LineRef>
                   <siri:OperatorRef>11</siri:OperatorRef>
                   <PublicCode>RegioExpress</PublicCode>
@@ -522,7 +522,7 @@
                   <DestinationText>
                     <Text xml:lang="de">Schaffhausen</Text>
                   </DestinationText>
-                  <JourneyRef>ch:1:sjyid:100001:4924-001</JourneyRef>
+                  <JourneyRef>ch:1:sjyid:100001:4930-001</JourneyRef>
                   <Attribute>
                     <UserText>
                       <Text xml:lang="de">Gratis-Internet mit der App SBB FreeSurf</Text>
@@ -533,7 +533,7 @@
                     <UserText>
                       <Text xml:lang="de">Aussteigeseite: Rechts</Text>
                     </UserText>
-                    <Code>ojp91048_R_InfoCall111_108594_1</Code>
+                    <Code>ojp91048_R_InfoCall119_108594_1</Code>
                   </Attribute>
                 </Service>
               </TimedLeg>
@@ -541,12 +541,12 @@
           </Trip>
         </TripResult>
         <TripResult>
-          <Id>ID-FC450792-D9DD-4EB2-9B5A-96AE0992F86F</Id>
+          <Id>ID-DA4E9571-461E-4EC2-BF6F-2784C6331086</Id>
           <Trip>
-            <Id>ID-FC450792-D9DD-4EB2-9B5A-96AE0992F86F</Id>
+            <Id>ID-DA4E9571-461E-4EC2-BF6F-2784C6331086</Id>
             <Duration>PT1H41M30S</Duration>
-            <StartTime>2024-09-25T11:31:30Z</StartTime>
-            <EndTime>2024-09-25T13:13:00Z</EndTime>
+            <StartTime>2024-09-25T14:31:30Z</StartTime>
+            <EndTime>2024-09-25T16:13:00Z</EndTime>
             <Transfers>1</Transfers>
             <Leg>
               <Id>1</Id>
@@ -558,17 +558,17 @@
                     <Text xml:lang="de">Bern</Text>
                   </StopPointName>
                   <PlannedQuay>
-                    <Text xml:lang="de">7</Text>
+                    <Text xml:lang="de">8</Text>
                   </PlannedQuay>
                   <EstimatedQuay>
-                    <Text xml:lang="de">7</Text>
+                    <Text xml:lang="de">8</Text>
                   </EstimatedQuay>
                   <NameSuffix>
                     <Text xml:lang="de">NO_DATA</Text>
                   </NameSuffix>
                   <ServiceDeparture>
-                    <TimetabledTime>2024-09-25T11:31:00Z</TimetabledTime>
-                    <EstimatedTime>2024-09-25T11:31:30Z</EstimatedTime>
+                    <TimetabledTime>2024-09-25T14:31:00Z</TimetabledTime>
+                    <EstimatedTime>2024-09-25T14:31:30Z</EstimatedTime>
                   </ServiceDeparture>
                   <Order>1</Order>
                 </LegBoard>
@@ -587,8 +587,8 @@
                     <Text xml:lang="de">34</Text>
                   </EstimatedQuay>
                   <ServiceArrival>
-                    <TimetabledTime>2024-09-25T12:28:00Z</TimetabledTime>
-                    <EstimatedTime>2024-09-25T12:27:30Z</EstimatedTime>
+                    <TimetabledTime>2024-09-25T15:28:00Z</TimetabledTime>
+                    <EstimatedTime>2024-09-25T15:27:30Z</EstimatedTime>
                   </ServiceArrival>
                   <Order>2</Order>
                 </LegAlight>
@@ -604,7 +604,7 @@
                     </ShortName>
                   </Mode>
                   <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
-                  <TrainNumber>70719</TrainNumber>
+                  <TrainNumber>70725</TrainNumber>
                   <siri:LineRef>ojp:91001:D</siri:LineRef>
                   <siri:OperatorRef>11</siri:OperatorRef>
                   <PublishedServiceName>
@@ -629,18 +629,12 @@
                   <DestinationText>
                     <Text xml:lang="de">St. Gallen</Text>
                   </DestinationText>
-                  <JourneyRef>ojp:91001:D:H:j24:65533</JourneyRef>
-                  <Attribute>
-                    <UserText>
-                      <Text xml:lang="de">Aussteigeseite: Links</Text>
-                    </UserText>
-                    <Code>ojp91001DH_InfoCall65533_111055_1</Code>
-                  </Attribute>
+                  <JourneyRef>ojp:91001:D:H:j24:65530</JourneyRef>
                   <Attribute>
                     <UserText>
                       <Text xml:lang="de">Aussteigeseite: Rechts</Text>
                     </UserText>
-                    <Code>ojp91001DH_InfoCall65533_108276_1</Code>
+                    <Code>ojp91001DH_InfoCall65530_111055_1</Code>
                   </Attribute>
                 </Service>
               </TimedLeg>
@@ -684,8 +678,8 @@
                     <Text xml:lang="de">NO_DATA</Text>
                   </NameSuffix>
                   <ServiceDeparture>
-                    <TimetabledTime>2024-09-25T12:34:00Z</TimetabledTime>
-                    <EstimatedTime>2024-09-25T12:34:30Z</EstimatedTime>
+                    <TimetabledTime>2024-09-25T15:34:00Z</TimetabledTime>
+                    <EstimatedTime>2024-09-25T15:34:30Z</EstimatedTime>
                   </ServiceDeparture>
                   <Order>1</Order>
                 </LegBoard>
@@ -704,8 +698,8 @@
                     <Text xml:lang="de">4</Text>
                   </EstimatedQuay>
                   <ServiceArrival>
-                    <TimetabledTime>2024-09-25T13:13:00Z</TimetabledTime>
-                    <EstimatedTime>2024-09-25T13:13:00Z</EstimatedTime>
+                    <TimetabledTime>2024-09-25T16:13:00Z</TimetabledTime>
+                    <EstimatedTime>2024-09-25T16:13:00Z</EstimatedTime>
                   </ServiceArrival>
                   <Order>2</Order>
                 </LegAlight>
@@ -721,7 +715,7 @@
                     </ShortName>
                   </Mode>
                   <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
-                  <TrainNumber>186</TrainNumber>
+                  <TrainNumber>482</TrainNumber>
                   <siri:LineRef>ojp:91019:Y</siri:LineRef>
                   <siri:OperatorRef>11</siri:OperatorRef>
                   <PublicCode>InterCity</PublicCode>
@@ -738,16 +732,21 @@
                     <ProductCategoryRef>23</ProductCategoryRef>
                   </ProductCategory>
                   <siri:DirectionRef>R</siri:DirectionRef>
-                  <Deviation>true</Deviation>
                   <OperatingDayRef>2024-09-25</OperatingDayRef>
                   <DestinationStopPointRef>8014558</DestinationStopPointRef>
                   <OriginText>
                     <Text xml:lang="de">n/a</Text>
                   </OriginText>
                   <DestinationText>
-                    <Text xml:lang="de">Stuttgart Hbf</Text>
+                    <Text xml:lang="de">Singen (Hohentwiel)</Text>
                   </DestinationText>
-                  <JourneyRef>ch:1:sjyid:100001:186-001</JourneyRef>
+                  <JourneyRef>ch:1:sjyid:100001:482-001</JourneyRef>
+                  <Attribute>
+                    <UserText>
+                      <Text xml:lang="de">Gratis-Internet mit der App SBB FreeSurf</Text>
+                    </UserText>
+                    <Code>A__FS</Code>
+                  </Attribute>
                   <Attribute>
                     <UserText>
                       <Text xml:lang="de">Platzreservierung möglich</Text>
@@ -762,27 +761,15 @@
                   </Attribute>
                   <Attribute>
                     <UserText>
-                      <Text xml:lang="de">Bistro</Text>
+                      <Text xml:lang="de">Familienzone ohne Spielplatz</Text>
                     </UserText>
-                    <Code>A__WS</Code>
-                  </Attribute>
-                  <Attribute>
-                    <UserText>
-                      <Text xml:lang="de">Minibar / Snack</Text>
-                    </UserText>
-                    <Code>A__MP</Code>
-                  </Attribute>
-                  <Attribute>
-                    <UserText>
-                      <Text xml:lang="de">VELOS: Beförderung nur im internationalen Verkehr</Text>
-                    </UserText>
-                    <Code>A__VI</Code>
+                    <Code>A__FZ</Code>
                   </Attribute>
                   <Attribute>
                     <UserText>
                       <Text xml:lang="de">Aussteigeseite: Links</Text>
                     </UserText>
-                    <Code>ojp91019YR_InfoCall192_108594_1</Code>
+                    <Code>ojp91019YR_InfoCall120_108594_1</Code>
                   </Attribute>
                 </Service>
               </TimedLeg>
@@ -791,12 +778,12 @@
           </Trip>
         </TripResult>
         <TripResult>
-          <Id>ID-600D6641-B647-4DA3-BE06-F0B4CBFFE479</Id>
+          <Id>ID-D70121D2-C9E3-458A-A104-BA275B2117BB</Id>
           <Trip>
-            <Id>ID-600D6641-B647-4DA3-BE06-F0B4CBFFE479</Id>
+            <Id>ID-D70121D2-C9E3-458A-A104-BA275B2117BB</Id>
             <Duration>PT1H40M30S</Duration>
-            <StartTime>2024-09-25T12:02:30Z</StartTime>
-            <EndTime>2024-09-25T13:43:00Z</EndTime>
+            <StartTime>2024-09-25T15:02:30Z</StartTime>
+            <EndTime>2024-09-25T16:43:00Z</EndTime>
             <Transfers>1</Transfers>
             <Leg>
               <Id>1</Id>
@@ -817,8 +804,8 @@
                     <Text xml:lang="de">NO_DATA</Text>
                   </NameSuffix>
                   <ServiceDeparture>
-                    <TimetabledTime>2024-09-25T12:02:00Z</TimetabledTime>
-                    <EstimatedTime>2024-09-25T12:02:30Z</EstimatedTime>
+                    <TimetabledTime>2024-09-25T15:02:00Z</TimetabledTime>
+                    <EstimatedTime>2024-09-25T15:02:30Z</EstimatedTime>
                   </ServiceDeparture>
                   <Order>1</Order>
                 </LegBoard>
@@ -837,8 +824,8 @@
                     <Text xml:lang="de">33</Text>
                   </EstimatedQuay>
                   <ServiceArrival>
-                    <TimetabledTime>2024-09-25T12:58:00Z</TimetabledTime>
-                    <EstimatedTime>2024-09-25T12:58:00Z</EstimatedTime>
+                    <TimetabledTime>2024-09-25T15:58:00Z</TimetabledTime>
+                    <EstimatedTime>2024-09-25T15:58:00Z</EstimatedTime>
                   </ServiceArrival>
                   <Order>3</Order>
                 </LegAlight>
@@ -854,12 +841,12 @@
                     </ShortName>
                   </Mode>
                   <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
-                  <TrainNumber>821</TrainNumber>
-                  <siri:LineRef>ojp:91008:E</siri:LineRef>
+                  <TrainNumber>827</TrainNumber>
+                  <siri:LineRef>ojp:91081:A</siri:LineRef>
                   <siri:OperatorRef>11</siri:OperatorRef>
                   <PublicCode>InterCity</PublicCode>
                   <PublishedServiceName>
-                    <Text xml:lang="de">IC8</Text>
+                    <Text xml:lang="de">IC81</Text>
                   </PublishedServiceName>
                   <ProductCategory>
                     <Name>
@@ -879,12 +866,18 @@
                   <DestinationText>
                     <Text xml:lang="de">Romanshorn</Text>
                   </DestinationText>
-                  <JourneyRef>ch:1:sjyid:100001:821-001</JourneyRef>
+                  <JourneyRef>ch:1:sjyid:100001:827-003</JourneyRef>
                   <Attribute>
                     <UserText>
                       <Text xml:lang="de">Platzreservierung möglich</Text>
                     </UserText>
                     <Code>A___R</Code>
+                  </Attribute>
+                  <Attribute>
+                    <UserText>
+                      <Text xml:lang="de">Businesszone in 1. Klasse</Text>
+                    </UserText>
+                    <Code>A__BZ</Code>
                   </Attribute>
                   <Attribute>
                     <UserText>
@@ -897,12 +890,6 @@
                       <Text xml:lang="de">Ruhezone in 1. Klasse</Text>
                     </UserText>
                     <Code>A__RZ</Code>
-                  </Attribute>
-                  <Attribute>
-                    <UserText>
-                      <Text xml:lang="de">Businesszone in 1. Klasse</Text>
-                    </UserText>
-                    <Code>A__BZ</Code>
                   </Attribute>
                   <Attribute>
                     <UserText>
@@ -920,7 +907,7 @@
                     <UserText>
                       <Text xml:lang="de">Aussteigeseite: Links</Text>
                     </UserText>
-                    <Code>ojp91008EH_InfoCall195_111055_1</Code>
+                    <Code>ojp91081AH_InfoCall73_111055_1</Code>
                   </Attribute>
                 </Service>
               </TimedLeg>
@@ -961,7 +948,7 @@
                     <Text xml:lang="de">NO_DATA</Text>
                   </NameSuffix>
                   <ServiceDeparture>
-                    <TimetabledTime>2024-09-25T13:04:00Z</TimetabledTime>
+                    <TimetabledTime>2024-09-25T16:04:00Z</TimetabledTime>
                   </ServiceDeparture>
                   <Order>1</Order>
                 </LegBoard>
@@ -977,7 +964,7 @@
                     <Text xml:lang="de">3</Text>
                   </PlannedQuay>
                   <ServiceArrival>
-                    <TimetabledTime>2024-09-25T13:43:00Z</TimetabledTime>
+                    <TimetabledTime>2024-09-25T16:43:00Z</TimetabledTime>
                   </ServiceArrival>
                   <Order>4</Order>
                 </LegAlight>
@@ -993,7 +980,7 @@
                     </ShortName>
                   </Mode>
                   <ConventionalModeOfOperation>scheduled</ConventionalModeOfOperation>
-                  <TrainNumber>4926</TrainNumber>
+                  <TrainNumber>4932</TrainNumber>
                   <siri:LineRef>ojp:91048:_x0020_</siri:LineRef>
                   <siri:OperatorRef>11</siri:OperatorRef>
                   <PublicCode>RegioExpress</PublicCode>
@@ -1018,7 +1005,7 @@
                   <DestinationText>
                     <Text xml:lang="de">Schaffhausen</Text>
                   </DestinationText>
-                  <JourneyRef>ch:1:sjyid:100001:4926-001</JourneyRef>
+                  <JourneyRef>ch:1:sjyid:100001:4932-001</JourneyRef>
                   <Attribute>
                     <UserText>
                       <Text xml:lang="de">Gratis-Internet mit der App SBB FreeSurf</Text>
@@ -1029,7 +1016,7 @@
                     <UserText>
                       <Text xml:lang="de">Aussteigeseite: Rechts</Text>
                     </UserText>
-                    <Code>ojp91048_R_InfoCall113_108594_1</Code>
+                    <Code>ojp91048_R_InfoCall122_108594_1</Code>
                   </Attribute>
                 </Service>
               </TimedLeg>
